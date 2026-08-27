@@ -1,0 +1,41 @@
+name: 定时抓取AI热门项目
+
+on:
+  schedule:
+    # 每6小时跑一次（UTC时间，北京时间 +8，即 6/12/18/24 点）
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # 支持在 GitHub 页面手动点"Run workflow"立即抓取
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 运行抓取脚本
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node crawler.mjs
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          if git diff --staged --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore: 自动更新热门项目数据 $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
