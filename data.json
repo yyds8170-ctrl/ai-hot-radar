@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastCrawl": "2026-08-27T09:46:19.919Z",
+  "lastCrawl": "2026-08-27T09:50:49.831Z",
   "crawlStats": {
     "hn": 11,
     "github": 40,
@@ -605,7 +605,7 @@
         "Hacker News"
       ],
       "summary": "CEO fired developers to make room for AI. Developers create open source AI CEO",
-      "description": "HN 热度 596 分 · 378 条评论",
+      "description": "HN 热度 597 分 · 382 条评论",
       "usage": "",
       "link": "https://github.com/SenteLabsAI/OpenExecutive",
       "source": "Hacker News",
@@ -621,7 +621,7 @@
         "Hacker News"
       ],
       "summary": "The turbulent AI era is here",
-      "description": "HN 热度 250 分 · 232 条评论",
+      "description": "HN 热度 250 分 · 235 条评论",
       "usage": "",
       "link": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
       "source": "Hacker News",
@@ -701,7 +701,7 @@
         "Hacker News"
       ],
       "summary": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
-      "description": "HN 热度 425 分 · 144 条评论",
+      "description": "HN 热度 426 分 · 144 条评论",
       "usage": "",
       "link": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
       "source": "Hacker News",
@@ -786,7 +786,7 @@
         "obra"
       ],
       "summary": "An agentic skills framework & software development methodology that works.",
-      "description": "⭐ 278345 stars · Shell · ai, brainstorming, coding, obra",
+      "description": "⭐ 278346 stars · Shell · ai, brainstorming, coding, obra",
       "usage": "",
       "link": "https://github.com/obra/superpowers",
       "source": "GitHub",
@@ -807,7 +807,7 @@
         "anthropic"
       ],
       "summary": "The agent that grows with you",
-      "description": "⭐ 237100 stars · Python · ai, ai-agent, ai-agents, anthropic",
+      "description": "⭐ 237104 stars · Python · ai, ai-agent, ai-agents, anthropic",
       "usage": "",
       "link": "https://github.com/NousResearch/hermes-agent",
       "source": "GitHub",
@@ -828,7 +828,7 @@
         "cli"
       ],
       "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "description": "⭐ 202572 stars · TypeScript · ai, apis, automation, cli",
+      "description": "⭐ 202573 stars · TypeScript · ai, apis, automation, cli",
       "usage": "",
       "link": "https://github.com/n8n-io/n8n",
       "source": "GitHub",
@@ -870,7 +870,7 @@
         "agentic-workflow"
       ],
       "summary": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-      "description": "⭐ 153649 stars · TypeScript · agent, agentic-ai, agentic-framework, agentic-workflow",
+      "description": "⭐ 153650 stars · TypeScript · agent, agentic-ai, agentic-framework, agentic-workflow",
       "usage": "",
       "link": "https://github.com/langgenius/dify",
       "source": "GitHub",
@@ -887,7 +887,7 @@
         "Shell"
       ],
       "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "description": "⭐ 148348 stars · Shell · 无标签",
+      "description": "⭐ 148350 stars · Shell · 无标签",
       "usage": "",
       "link": "https://github.com/msitarzewski/agency-agents",
       "source": "GitHub",
@@ -971,7 +971,7 @@
         "claude-code"
       ],
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "description": "⭐ 113261 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
+      "description": "⭐ 113266 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
       "usage": "",
       "link": "https://github.com/DietrichGebert/ponytail",
       "source": "GitHub",
@@ -992,7 +992,7 @@
         "browser-use"
       ],
       "summary": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-      "description": "⭐ 111316 stars · Python · ai-agents, ai-tools, browser-automation, browser-use",
+      "description": "⭐ 111321 stars · Python · ai-agents, ai-tools, browser-automation, browser-use",
       "usage": "",
       "link": "https://github.com/browser-use/browser-use",
       "source": "GitHub",
@@ -1051,7 +1051,7 @@
         "TypeScript"
       ],
       "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "description": "⭐ 98086 stars · TypeScript · 无标签",
+      "description": "⭐ 98089 stars · TypeScript · 无标签",
       "usage": "",
       "link": "https://github.com/earendil-works/pi",
       "source": "GitHub",
@@ -1250,7 +1250,7 @@
         "crawler"
       ],
       "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-      "description": "⭐ 76706 stars · Python · ai, ai-scraping, automation, crawler",
+      "description": "⭐ 76707 stars · Python · ai, ai-scraping, automation, crawler",
       "usage": "",
       "link": "https://github.com/D4Vinci/Scrapling",
       "source": "GitHub",
@@ -1271,7 +1271,7 @@
         "automation"
       ],
       "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "description": "⭐ 75798 stars · Python · agent-infrastructure, ai-agent, ai-search, automation",
+      "description": "⭐ 75799 stars · Python · agent-infrastructure, ai-agent, ai-search, automation",
       "usage": "",
       "link": "https://github.com/Panniantong/Agent-Reach",
       "source": "GitHub",
@@ -1313,7 +1313,7 @@
         "deepseek"
       ],
       "summary": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-      "description": "⭐ 74931 stars · Python · agent, ai, chatgpt, deepseek",
+      "description": "⭐ 74932 stars · Python · agent, ai, chatgpt, deepseek",
       "usage": "",
       "link": "https://github.com/unslothai/unsloth",
       "source": "GitHub",
@@ -1397,7 +1397,7 @@
         "agents"
       ],
       "summary": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "description": "⭐ 69512 stars · TypeScript · agentic-ai, agentic-framework, agentic-workflow, agents",
+      "description": "⭐ 69513 stars · TypeScript · agentic-ai, agentic-framework, agentic-workflow, agents",
       "usage": "",
       "link": "https://github.com/ruvnet/ruflo",
       "source": "GitHub",
@@ -1418,7 +1418,7 @@
         "ats"
       ],
       "summary": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-      "description": "⭐ 68741 stars · JavaScript · ai, ai-agent, anthropic, ats",
+      "description": "⭐ 68742 stars · JavaScript · ai, ai-agent, anthropic, ats",
       "usage": "",
       "link": "https://github.com/santifer/career-ops",
       "source": "GitHub",
@@ -1564,7 +1564,7 @@
         "claude"
       ],
       "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "description": "⭐ 51724 stars · Python · agent, agentic-ai, ai, claude",
+      "description": "⭐ 51729 stars · Python · agent, agentic-ai, ai, claude",
       "usage": "",
       "link": "https://github.com/calesthio/OpenMontage",
       "source": "GitHub",
