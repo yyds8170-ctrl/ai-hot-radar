@@ -38,4 +38,10 @@ jobs:
           else
             git commit -m "chore: 自动更新热门项目数据 $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
+            echo "PURGED=1" >> "$GITHUB_ENV"
           fi
+      - name: 清理 CDN 缓存（让新数据立即生效）
+        if: env.PURGED == '1'
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/yyds8170-ctrl/ai-hot-radar@main/data.json" | grep -o '"status": *"[a-z]*"' || true
+          echo "已清理 jsDelivr CDN 缓存"
