@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "lastCrawl": "2026-08-27T03:49:19.011Z",
+  "lastCrawl": "2026-08-27T03:51:18.137Z",
   "crawlStats": {
-    "hn": 9,
+    "hn": 10,
     "github": 40,
-    "total": 49
+    "total": 50
   },
   "curated": [
     {
@@ -598,6 +598,22 @@
   ],
   "auto": [
     {
+      "id": "hn-49458418",
+      "name": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "category": "ai-tool",
+      "tags": [
+        "Hacker News"
+      ],
+      "summary": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "description": "HN 热度 155 分 · 93 条评论",
+      "usage": "",
+      "link": "https://github.com/SenteLabsAI/OpenExecutive",
+      "source": "Hacker News",
+      "hotness": 2,
+      "date": "2026-08-27",
+      "sourceType": "auto"
+    },
+    {
       "id": "hn-49454764",
       "name": "Serve Markdown to AI Agents with Accept Headers",
       "category": "ai-tool",
@@ -733,7 +749,7 @@
         "Hacker News"
       ],
       "summary": "Show HN: How much of Hacker News is about AI?",
-      "description": "HN 热度 68 分 · 46 条评论",
+      "description": "HN 热度 69 分 · 46 条评论",
       "usage": "",
       "link": "https://hnstats.com",
       "source": "Hacker News",
@@ -775,7 +791,7 @@
         "anthropic"
       ],
       "summary": "The agent that grows with you",
-      "description": "⭐ 236952 stars · Python · ai, ai-agent, ai-agents, anthropic",
+      "description": "⭐ 236953 stars · Python · ai, ai-agent, ai-agents, anthropic",
       "usage": "",
       "link": "https://github.com/NousResearch/hermes-agent",
       "source": "GitHub",
@@ -796,7 +812,7 @@
         "cli"
       ],
       "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "description": "⭐ 202540 stars · TypeScript · ai, apis, automation, cli",
+      "description": "⭐ 202541 stars · TypeScript · ai, apis, automation, cli",
       "usage": "",
       "link": "https://github.com/n8n-io/n8n",
       "source": "GitHub",
@@ -855,7 +871,7 @@
         "Shell"
       ],
       "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "description": "⭐ 148259 stars · Shell · 无标签",
+      "description": "⭐ 148260 stars · Shell · 无标签",
       "usage": "",
       "link": "https://github.com/msitarzewski/agency-agents",
       "source": "GitHub",
@@ -897,7 +913,7 @@
         "rag"
       ],
       "summary": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "description": "⭐ 134620 stars · Python · agents, llms, python, rag",
+      "description": "⭐ 134622 stars · Python · agents, llms, python, rag",
       "usage": "",
       "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "source": "GitHub",
@@ -939,7 +955,7 @@
         "claude-code"
       ],
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "description": "⭐ 112812 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
+      "description": "⭐ 112811 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
       "usage": "",
       "link": "https://github.com/DietrichGebert/ponytail",
       "source": "GitHub",
@@ -1197,7 +1213,7 @@
         "extract-data"
       ],
       "summary": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
-      "description": "⭐ 78567 stars · Python · ai4science, document-analysis, docx, extract-data",
+      "description": "⭐ 78568 stars · Python · ai4science, document-analysis, docx, extract-data",
       "usage": "",
       "link": "https://github.com/opendatalab/MinerU",
       "source": "GitHub",
@@ -1532,7 +1548,7 @@
         "claude"
       ],
       "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "description": "⭐ 51430 stars · Python · agent, agentic-ai, ai, claude",
+      "description": "⭐ 51434 stars · Python · agent, agentic-ai, ai, claude",
       "usage": "",
       "link": "https://github.com/calesthio/OpenMontage",
       "source": "GitHub",
