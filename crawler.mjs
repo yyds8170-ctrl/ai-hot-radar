@@ -2,6 +2,7 @@
 // 数据源：Hacker News + GitHub Search API
 // 零依赖，Node 18+ 内置 fetch
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -257,7 +258,7 @@ async function crawlCNMedia() {
           // 中文媒体本身就是 AI 媒体，若标题毫无 AI 迹象则跳过
           if (!AI_HINT.test(title)) continue;
           items.push({
-            id: `cn-${Buffer.from(link).toString('base64').slice(0, 12)}`,
+            id: `cn-${createHash('sha1').update(link).digest('hex').slice(0, 16)}`,
             name: title.slice(0, 80),
             category: classify(title),
             tags: [src.name, '中文AI'],
