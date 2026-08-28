@@ -41,7 +41,7 @@ const CATEGORIES = [
 ];
 
 // 必须命中的 AI 大词（HN 标题过滤用，避免无关内容）
-const AI_HINT = /\b(ai|llm|gpt|agent|agents|agentic|mcp|model|models|diffusion|transformer|neural|machine learning|deep learning|genai|generative|chatbot|copilot|claude|gemini|openai|anthropic|deepseek|qwen|comfyui|veo|kling|sora|runway|vton|try-on|inference|embedding|rag)\b/i;
+const AI_HINT = /\b(ai|llm|gpt|agent|agents|agentic|mcp|model|models|diffusion|transformer|neural|machine learning|deep learning|genai|generative|chatbot|copilot|claude|gemini|openai|anthropic|deepseek|qwen|comfyui|veo|kling|sora|runway|vton|try-on|inference|embedding|rag)\b|人工智能|大模型|机器学习|深度学习|生成式|智能体|多模态|算力|大语言模型|开源模型/i;
 
 function classify(text) {
   const t = text.toLowerCase();
@@ -186,11 +186,97 @@ async function crawlGitHub() {
   }
 }
 
+// ---------- Hugging Face 热门模型 ----------
+async function crawlHuggingFace() {
+  const items = [];
+  try {
+    const url = 'https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=60';
+    const res = await fetch(url, { headers: { 'User-Agent': UA } });
+    if (!res.ok) throw new Error(`${res.status} for ${url}`);
+    const models = await res.json();
+    for (const m of models || []) {
+      if (!m || !m.id) continue;
+      const tags = (m.tags || []).join(' ');
+      const text = `${m.id} ${m.pipeline_tag || ''} ${tags}`;
+      const link = `https://huggingface.co/${m.id}`;
+      const downloads = m.downloads || 0;
+      items.push({
+        id: `hf-${m.id}`,
+        name: m.id,
+        category: classify(text),
+        tags: ['Hugging Face', m.pipeline_tag].filter(Boolean).concat((m.tags || []).slice(0, 4)).slice(0, 6),
+        summary: m.cardData?.short_description || m.pipeline_tag || '(HF 热门模型)',
+        description: `⬇ ${downloads.toLocaleString()} 下载 · ❤ ${(m.likes || 0).toLocaleString()} 点赞 · ${m.pipeline_tag || '多模态'}`,
+        usage: '',
+        link,
+        source: 'Hugging Face',
+        hotness: Math.min(5, Math.max(1, Math.round(Math.log10(downloads + 1) * 0.8))),
+        date: (m.lastModified || '').slice(0, 10) || today,
+        sourceType: 'auto',
+      });
+    }
+    console.log(`[HF] 抓取 ${items.length} 个热门模型`);
+  } catch (e) {
+    console.error('[HF] 抓取失败:', e.message);
+  }
+  return items;
+}
+// ---------- 中文 AI 媒体（机器之心 / 量子位）----------
+async function crawlCNMedia() {
+  const items = [];
+  const sources = [
+    { name: '新智元', url: 'https://www.aiera.com.cn/feed' },
+    { name: '量子位', url: 'https://www.qbitai.com/feed' },
+  ];
+  for (const src of sources) {
+    let count = 0;
+    try {
+      const res = await fetch(src.url, { headers: { 'User-Agent': UA } });
+      if (!res.ok) throw new Error(`${res.status} for ${src.url}`);
+      const xml = await res.text();
+      const re = /<item>([\s\S]*?)<\/item>/g;
+      let m;
+      while ((m = re.exec(xml)) !== null && count < 10) {
+        const block = m[1];
+        const get = (tag) => {
+          const hit = block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`));
+          return hit ? hit[1] : '';
+        };
+        let title = get('title').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/, '$1').replace(/<[^>]*>/g, '').trim();
+        const link = get('link').trim();
+        const pubDate = get('pubDate').trim();
+        let desc = get('description').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/, '$1').replace(/<[^>]*>/g, '').replace(/&[a-zA-Z#0-9]+;/g, ' ').trim().slice(0, 180);
+        if (!title || !link) continue;
+        // 中文媒体本身就是 AI 媒体，若标题毫无 AI 迹象则跳过
+        if (!AI_HINT.test(title)) continue;
+        items.push({
+          id: `cn-${Buffer.from(link).toString('base64').slice(0, 12)}`,
+          name: title.slice(0, 80),
+          category: classify(title),
+          tags: [src.name, '中文AI'],
+          summary: title.slice(0, 100),
+          description: desc || title.slice(0, 80),
+          usage: '',
+          link,
+          source: src.name,
+          hotness: 3,
+          date: pubDate ? new Date(pubDate).toISOString().slice(0, 10) : today,
+          sourceType: 'auto',
+        });
+        count++;
+      }
+      console.log(`[${src.name}] 抓取 ${count} 条`);
+    } catch (e) {
+      console.error(`[${src.name}] 抓取失败:`, e.message);
+    }
+  }
+  return items;
+}
 // ---------- 主流程 ----------
 async function main() {
   console.log('开始抓取...', now);
-  const [hn, gh] = await Promise.all([crawlHN(), crawlGitHub()]);
-  const fresh = [...hn, ...gh];
+  const [hn, gh, hf, cn] = await Promise.all([crawlHN(), crawlGitHub(), crawlHuggingFace(), crawlCNMedia()]);
+  const fresh = [...hn, ...gh, ...hf, ...cn];
   // 累积模式（只增不减）：先读历史 auto，再并入本次抓取，按 id 去重，新抓取覆盖同 id 旧数据
   const prevAuto = Array.isArray(data.auto) ? data.auto : [];
   const byId = new Map();
@@ -205,7 +291,7 @@ async function main() {
   const out = {
     version: 2,
     lastCrawl: now,
-    crawlStats: { hn: hn.length, github: gh.length, fresh: fresh.length, total: auto.length },
+    crawlStats: { hn: hn.length, github: gh.length, hf: hf.length, cn: cn.length, fresh: fresh.length, total: auto.length },
     curated,
     auto,
   };
