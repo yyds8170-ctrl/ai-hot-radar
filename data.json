@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "lastCrawl": "2026-08-28T11:42:29.389Z",
+  "lastCrawl": "2026-08-28T11:45:25.421Z",
   "crawlStats": {
     "hn": 20,
     "github": 40,
     "hf": 60,
     "cn": 14,
     "fresh": 134,
-    "total": 124
+    "total": 138
   },
   "curated": [
     {
@@ -624,7 +624,7 @@
         "Hacker News"
       ],
       "summary": "Gemini-3.5-Transcribe",
-      "description": "HN 热度 308 分 · 101 条评论",
+      "description": "HN 热度 309 分 · 101 条评论",
       "usage": "",
       "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
       "source": "Hacker News",
@@ -656,7 +656,7 @@
         "Hacker News"
       ],
       "summary": "Show HN: We built open OpenRouter that turns usage into a better model",
-      "description": "HN 热度 184 分 · 37 条评论",
+      "description": "HN 热度 185 分 · 37 条评论",
       "usage": "",
       "link": "https://github.com/experientiallabs/experiential",
       "source": "Hacker News",
@@ -688,7 +688,7 @@
         "Hacker News"
       ],
       "summary": "The turbulent AI era is here",
-      "description": "HN 热度 312 分 · 564 条评论",
+      "description": "HN 热度 313 分 · 564 条评论",
       "usage": "",
       "link": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
       "source": "Hacker News",
@@ -704,7 +704,7 @@
         "Hacker News"
       ],
       "summary": "Show HN: The load-bearing vocabulary of Claude",
-      "description": "HN 热度 551 分 · 263 条评论",
+      "description": "HN 热度 551 分 · 264 条评论",
       "usage": "",
       "link": "https://louisabraham.github.io/load-bearing/",
       "source": "Hacker News",
@@ -816,7 +816,7 @@
         "Hacker News"
       ],
       "summary": "CEO fired developers to make room for AI. Developers create open source AI CEO",
-      "description": "HN 热度 978 分 · 676 条评论",
+      "description": "HN 热度 979 分 · 676 条评论",
       "usage": "",
       "link": "https://github.com/SenteLabsAI/OpenExecutive",
       "source": "Hacker News",
@@ -848,7 +848,7 @@
         "Hacker News"
       ],
       "summary": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
-      "description": "HN 热度 253 分 · 119 条评论",
+      "description": "HN 热度 254 分 · 119 条评论",
       "usage": "",
       "link": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
       "source": "Hacker News",
@@ -933,7 +933,7 @@
         "obra"
       ],
       "summary": "An agentic skills framework & software development methodology that works.",
-      "description": "⭐ 278845 stars · Shell · ai, brainstorming, coding, obra",
+      "description": "⭐ 278844 stars · Shell · ai, brainstorming, coding, obra",
       "usage": "",
       "link": "https://github.com/obra/superpowers",
       "source": "GitHub",
@@ -954,7 +954,7 @@
         "anthropic"
       ],
       "summary": "The agent that grows with you",
-      "description": "⭐ 237552 stars · Python · ai, ai-agent, ai-agents, anthropic",
+      "description": "⭐ 237553 stars · Python · ai, ai-agent, ai-agents, anthropic",
       "usage": "",
       "link": "https://github.com/NousResearch/hermes-agent",
       "source": "GitHub",
@@ -1076,7 +1076,7 @@
         "rag"
       ],
       "summary": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "description": "⭐ 134802 stars · Python · agents, llms, python, rag",
+      "description": "⭐ 134803 stars · Python · agents, llms, python, rag",
       "usage": "",
       "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "source": "GitHub",
@@ -1118,7 +1118,7 @@
         "claude-code"
       ],
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "description": "⭐ 114768 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
+      "description": "⭐ 114771 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
       "usage": "",
       "link": "https://github.com/DietrichGebert/ponytail",
       "source": "GitHub",
@@ -1181,7 +1181,7 @@
         "multiagent"
       ],
       "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "description": "⭐ 101526 stars · Python · agent, finance, llm, multiagent",
+      "description": "⭐ 101527 stars · Python · agent, finance, llm, multiagent",
       "usage": "",
       "link": "https://github.com/TauricResearch/TradingAgents",
       "source": "GitHub",
@@ -1198,7 +1198,7 @@
         "TypeScript"
       ],
       "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "description": "⭐ 98597 stars · TypeScript · 无标签",
+      "description": "⭐ 98599 stars · TypeScript · 无标签",
       "usage": "",
       "link": "https://github.com/earendil-works/pi",
       "source": "GitHub",
@@ -1216,7 +1216,7 @@
         "mcp"
       ],
       "summary": "A collection of MCP servers.",
-      "description": "⭐ 92936 stars · 未知语言 · ai, mcp",
+      "description": "⭐ 92935 stars · 未知语言 · ai, mcp",
       "usage": "",
       "link": "https://github.com/punkpeye/awesome-mcp-servers",
       "source": "GitHub",
@@ -1418,7 +1418,7 @@
         "automation"
       ],
       "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "description": "⭐ 76229 stars · Python · agent-infrastructure, ai-agent, ai-search, automation",
+      "description": "⭐ 76230 stars · Python · agent-infrastructure, ai-agent, ai-search, automation",
       "usage": "",
       "link": "https://github.com/Panniantong/Agent-Reach",
       "source": "GitHub",
@@ -1439,7 +1439,7 @@
         "claude"
       ],
       "summary": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-      "description": "⭐ 75528 stars · Python · agent, agent-development, ai-agent, claude",
+      "description": "⭐ 75529 stars · Python · agent, agent-development, ai-agent, claude",
       "usage": "",
       "link": "https://github.com/shareAI-lab/learn-claude-code",
       "source": "GitHub",
@@ -1586,7 +1586,7 @@
         "claude-code"
       ],
       "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-      "description": "⭐ 67878 stars · Python · agent, ai, anthropic, claude-code",
+      "description": "⭐ 67879 stars · Python · agent, ai, anthropic, claude-code",
       "usage": "",
       "link": "https://github.com/headroomlabs-ai/headroom",
       "source": "GitHub",
@@ -1628,7 +1628,7 @@
         "vibe-coding"
       ],
       "summary": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
-      "description": "⭐ 61334 stars · TypeScript · llm, mcp, mcp-server, vibe-coding",
+      "description": "⭐ 61333 stars · TypeScript · llm, mcp, mcp-server, vibe-coding",
       "usage": "",
       "link": "https://github.com/upstash/context7",
       "source": "GitHub",
@@ -1711,7 +1711,7 @@
         "claude"
       ],
       "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "description": "⭐ 52877 stars · Python · agent, agentic-ai, ai, claude",
+      "description": "⭐ 52878 stars · Python · agent, agentic-ai, ai, claude",
       "usage": "",
       "link": "https://github.com/calesthio/OpenMontage",
       "source": "GitHub",
@@ -1732,7 +1732,7 @@
         "codex"
       ],
       "summary": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-      "description": "⭐ 51189 stars · TypeScript · agent-skills, ai-agent, claude-code, codex",
+      "description": "⭐ 51188 stars · TypeScript · agent-skills, ai-agent, claude-code, codex",
       "usage": "",
       "link": "https://github.com/CherryHQ/cherry-studio",
       "source": "GitHub",
@@ -1769,7 +1769,7 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 4,810 下载 · ❤ 4,049 点赞 · image-text-to-text",
+      "description": "⬇ 4,810 下载 · ❤ 4,050 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
       "source": "Hugging Face",
@@ -1831,7 +1831,7 @@
         "base_model:Qwen/Qwen3.8-27B"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 7,758,790 下载 · ❤ 3,100 点赞 · 多模态",
+      "description": "⬇ 7,758,790 下载 · ❤ 3,101 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
       "source": "Hugging Face",
@@ -1852,7 +1852,7 @@
         "base_model:Qwen/Qwen3.8-Flash-Next"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 4,354 下载 · ❤ 483 点赞 · image-text-to-text",
+      "description": "⬇ 4,354 下载 · ❤ 484 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
       "source": "Hugging Face",
@@ -1999,7 +1999,7 @@
         "text-to-video"
       ],
       "summary": "image-text-to-video",
-      "description": "⬇ 4,848,404 下载 · ❤ 4,550 点赞 · image-text-to-video",
+      "description": "⬇ 4,848,404 下载 · ❤ 4,551 点赞 · image-text-to-video",
       "usage": "",
       "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
       "source": "Hugging Face",
@@ -2083,7 +2083,7 @@
         "text-generation"
       ],
       "summary": "text-generation",
-      "description": "⬇ 0 下载 · ❤ 175 点赞 · text-generation",
+      "description": "⬇ 0 下载 · ❤ 176 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/tencent/Hy4-preview",
       "source": "Hugging Face",
@@ -2250,7 +2250,7 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 2,219 下载 · ❤ 137 点赞 · image-text-to-text",
+      "description": "⬇ 2,219 下载 · ❤ 138 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8",
       "source": "Hugging Face",
@@ -2501,7 +2501,7 @@
         "qwen"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 0 下载 · ❤ 263 点赞 · 多模态",
+      "description": "⬇ 0 下载 · ❤ 264 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/peculiar-ragdoll/Qwen-Sharp-Chat-Templates",
       "source": "Hugging Face",
@@ -3054,6 +3054,244 @@
       "link": "https://huggingface.co/DavidAU/Qwen3.8-27B-Cold-Fable-Fusion-GAIN-V1.1-732-Heretic-Uncensored-stage1",
       "source": "Hugging Face",
       "hotness": 1,
+      "date": "2026-08-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-eda1088d655a24a5",
+      "name": "AI自己出题自己练！两个月狂涨11%，编码自测反超Opus 4.8",
+      "category": "ai-tool",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "AI自己出题自己练！两个月狂涨11%，编码自测反超Opus 4.8",
+      "description": "训练一个能干活的模型，最贵的不是显卡，是训练题。 尤其是到了编码和智能体这一档，光有题目和答案根本不够用：还要给它准备一套跑得起来的环境，一份判得了对错的测试，还要防着模型翻旧…",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/08/28/other/admin/110995/ai%e8%87%aa%e5%b7%b1%e5%87%ba%e9%a2%98%e8%87%aa%e5%b7%b1%e7%bb%83%ef%bc%81%e4%b8%a4%e4%b8%aa%e6%9c%88%e7%8b%82%e6%b6%a811%ef%bc%8c%e7%bc%96%e7%a0%81%e8%87%aa%e6%b5%8b%e5%8f%8d%e8%b6%85opus-4-8/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-08-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-ae31e3cd69c2bc53",
+      "name": "英伟达前AI总监颠覆Transformer！5万亿上下文物理AI，推演整个宇宙",
+      "category": "ai-tool",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "英伟达前AI总监颠覆Transformer！5万亿上下文物理AI，推演整个宇宙",
+      "description": "AI开始预测全宇宙—— LLM预测世界的语言描述，视频世界模型预测（动态）图像，而这次直接预测四维的空间与时间的物理状态。",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/08/28/other/admin/110983/%e8%8b%b1%e4%bc%9f%e8%be%be%e5%89%8dai%e6%80%bb%e7%9b%91%e9%a2%a0%e8%a6%86transformer%ef%bc%815%e4%b8%87%e4%ba%bf%e4%b8%8a%e4%b8%8b%e6%96%87%e7%89%a9%e7%90%86ai%ef%bc%8c%e6%8e%a8%e6%bc%94%e6%95%b4/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-08-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-9eee4f294b708a52",
+      "name": "突发：OpenAI首次公开入侵Hugging Face完整报告",
+      "category": "ai-tool",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "突发：OpenAI首次公开入侵Hugging Face完整报告",
+      "description": "2026 年 7 月，OpenAI 约 1200 个 Agent 在内部网络安全评估中突破沙箱隔离，自发组建了一个未经授权的消息板，互发超过 7 万条消息，自称「蜂群」。",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/08/28/other/admin/110967/%e7%aa%81%e5%8f%91%ef%bc%9aopenai%e9%a6%96%e6%ac%a1%e5%85%ac%e5%bc%80%e5%85%a5%e4%be%b5hugging-face%e5%ae%8c%e6%95%b4%e6%8a%a5%e5%91%8a/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-08-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-1c0f7492f6ca5bd8",
+      "name": "129亿美元！老黄买下全球最大AI开源平台Hugging Face",
+      "category": "ai-tool",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "129亿美元！老黄买下全球最大AI开源平台Hugging Face",
+      "description": "就在刚刚，硅谷传来惊人消息。 英伟达以129亿美元的价格，达成了收购全球最大开源社区 Hugging Face（抱抱脸）的协议！",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/08/28/other/admin/110944/129%e4%ba%bf%e7%be%8e%e5%85%83%ef%bc%81%e8%80%81%e9%bb%84%e4%b9%b0%e4%b8%8b%e5%85%a8%e7%90%83%e6%9c%80%e5%a4%a7ai%e5%bc%80%e6%ba%90%e5%b9%b3%e5%8f%b0hugging-face/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-08-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-04162a7619c27512",
+      "name": "Claude自己长出浏览器！填表拉数，你的AI打工人有工位了",
+      "category": "ai-tool",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "Claude自己长出浏览器！填表拉数，你的AI打工人有工位了",
+      "description": "8月26日，Claude开了自己的浏览器。 你在Cowork交代一句「把这个月的发票从供应商门户里拉出来」，Claude判断这活得上网，侧栏就自动开出一个浏览器窗口。",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/08/28/other/admin/110909/claude%e8%87%aa%e5%b7%b1%e9%95%bf%e5%87%ba%e6%b5%8f%e8%a7%88%e5%99%a8%ef%bc%81%e5%a1%ab%e8%a1%a8%e6%8b%89%e6%95%b0%ef%bc%8c%e4%bd%a0%e7%9a%84ai%e6%89%93%e5%b7%a5%e4%ba%ba%e6%9c%89%e5%b7%a5%e4%bd%8d/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-08-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-f685a584f24a3f7d",
+      "name": "小鹏第二代VLA大模型迎来首次重大升级，AI开始理解“时间”",
+      "category": "ai-model",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "小鹏第二代VLA大模型迎来首次重大升级，AI开始理解“时间”",
+      "description": "【2026年8月27日，广州】今日，小鹏集团举办以“TIME 时间”为主题的物理AI分享暨第二代VLA全新版本体验日活动，小鹏第二代VLA大模型迎来首次重大升级，全新XOS 6…",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/08/27/other/admin/110897/%e5%b0%8f%e9%b9%8f%e7%ac%ac%e4%ba%8c%e4%bb%a3vla%e5%a4%a7%e6%a8%a1%e5%9e%8b%e8%bf%8e%e6%9d%a5%e9%a6%96%e6%ac%a1%e9%87%8d%e5%a4%a7%e5%8d%87%e7%ba%a7%ef%bc%8cai%e5%bc%80%e5%a7%8b%e7%90%86%e8%a7%a3/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-08-27",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-b3e17e1949ecf1b7",
+      "name": "突发，OpenAI首颗「辣椒」芯片压倒英伟达！GPT-6干崩CUDA",
+      "category": "ai-model",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "突发，OpenAI首颗「辣椒」芯片压倒英伟达！GPT-6干崩CUDA",
+      "description": "你敢信，OpenAI第一次做芯片，竟然把英伟达全系干趴下了？！ 就在刚刚，OpenAI首颗自研芯片Jalapeño「墨西哥辣椒」，交出了首批实测成绩单——",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/08/27/other/admin/110885/%e7%aa%81%e5%8f%91%ef%bc%8copenai%e9%a6%96%e9%a2%97%e3%80%8c%e8%be%a3%e6%a4%92%e3%80%8d%e8%8a%af%e7%89%87%e5%8e%8b%e5%80%92%e8%8b%b1%e4%bc%9f%e8%be%be%ef%bc%81gpt-6%e5%b9%b2%e5%b4%a9cuda/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-08-27",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-8f554a2721c27df0",
+      "name": "刚刚，全网最猛AI视频模型免费了！我们手搓了一段「牛来」，效果绝了",
+      "category": "ai-tool",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "刚刚，全网最猛AI视频模型免费了！我们手搓了一段「牛来」，效果绝了",
+      "description": "最近，AI短剧的风刮遍了所有平台。 各种疯狂吸金的AI短剧和漫剧，是数不胜数，更不用提最近火爆的现场级神作《云上天宫》了。",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/08/27/other/admin/110827/%e5%88%9a%e5%88%9a%ef%bc%8c%e5%85%a8%e7%bd%91%e6%9c%80%e7%8c%9bai%e8%a7%86%e9%a2%91%e6%a8%a1%e5%9e%8b%e5%85%8d%e8%b4%b9%e4%ba%86%ef%bc%81%e6%88%91%e4%bb%ac%e6%89%8b%e6%90%93%e4%ba%86%e4%b8%80%e6%ae%b5/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-08-27",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-b8e14c74eaf4ef15",
+      "name": "Claude一天3崩！API、App、Cowork全挂，打工人集体抓瞎",
+      "category": "ai-tool",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "Claude一天3崩！API、App、Cowork全挂，打工人集体抓瞎",
+      "description": "哎，这谁顶得住啊。 8月24日这一天，Claude连着崩了三次。 Anthropic的状态页当天接连亮起三次刺眼的红灯，官方也三次跳出来宣布服务已经全面恢复。",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/08/27/other/admin/110799/claude%e4%b8%80%e5%a4%a93%e5%b4%a9%ef%bc%81api%e3%80%81app%e3%80%81cowork%e5%85%a8%e6%8c%82%ef%bc%8c%e6%89%93%e5%b7%a5%e4%ba%ba%e9%9b%86%e4%bd%93%e6%8a%93%e7%9e%8e/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-08-27",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-346ca3c74f166e17",
+      "name": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入Q2暴涨500%",
+      "category": "ai-tool",
+      "tags": [
+        "量子位",
+        "中文AI"
+      ],
+      "summary": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入Q2暴涨500%",
+      "description": "企业智能化服务撑起基本盘，第二增长曲线冒头",
+      "usage": "",
+      "link": "https://www.qbitai.com/2026/08/480600.html",
+      "source": "量子位",
+      "hotness": 3,
+      "date": "2026-08-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-6291c26d3212540c",
+      "name": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
+      "category": "ai-tool",
+      "tags": [
+        "量子位",
+        "中文AI"
+      ],
+      "summary": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
+      "description": "Claude觉醒超体",
+      "usage": "",
+      "link": "https://www.qbitai.com/2026/08/480487.html",
+      "source": "量子位",
+      "hotness": 3,
+      "date": "2026-08-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-67bf4b059d275159",
+      "name": "商汤大装置助力智象未来实现视频生成业务向国产算力无感迁移",
+      "category": "ai-video",
+      "tags": [
+        "量子位",
+        "中文AI"
+      ],
+      "summary": "商汤大装置助力智象未来实现视频生成业务向国产算力无感迁移",
+      "description": "国产算力跑通视频生成规模化应用",
+      "usage": "",
+      "link": "https://www.qbitai.com/2026/08/480227.html",
+      "source": "量子位",
+      "hotness": 3,
+      "date": "2026-08-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-9da569ebb17ce518",
+      "name": "智谱 GLM-5.3-Flash上线，商汤大装置提供国产算力支持",
+      "category": "ai-tool",
+      "tags": [
+        "量子位",
+        "中文AI"
+      ],
+      "summary": "智谱 GLM-5.3-Flash上线，商汤大装置提供国产算力支持",
+      "description": "国产异构助力前沿智能进入普惠时代",
+      "usage": "",
+      "link": "https://www.qbitai.com/2026/08/480223.html",
+      "source": "量子位",
+      "hotness": 3,
+      "date": "2026-08-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-7e36b19679043668",
+      "name": "34克、全天候AI，1996元起，雷鸟iO热卖加速智能眼镜全民普及",
+      "category": "ai-tool",
+      "tags": [
+        "量子位",
+        "中文AI"
+      ],
+      "summary": "34克、全天候AI，1996元起，雷鸟iO热卖加速智能眼镜全民普及",
+      "description": "8 月 27 日，全球领先消费级 AR 品牌雷鸟创新（RayNeo）公布雷鸟 iO 首销战报",
+      "usage": "",
+      "link": "https://www.qbitai.com/2026/08/480202.html",
+      "source": "量子位",
+      "hotness": 3,
       "date": "2026-08-28",
       "sourceType": "auto"
     }
