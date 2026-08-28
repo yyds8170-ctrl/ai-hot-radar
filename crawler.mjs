@@ -228,33 +228,40 @@ async function crawlCNMedia() {
     { name: '新智元', url: 'https://www.aiera.com.cn/feed' },
     { name: '量子位', url: 'https://www.qbitai.com/feed' },
   ];
+  // 更真实的浏览器 UA，降低被反爬拦截的概率
+  const BROWSER_UA =
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36';
   for (const src of sources) {
     let count = 0;
-    try {
-      const res = await fetch(src.url, { headers: { 'User-Agent': UA } });
-      if (!res.ok) throw new Error(`${res.status} for ${src.url}`);
-      const xml = await res.text();
-      const re = /<item>([\s\S]*?)<\/item>/g;
-      let m;
-      while ((m = re.exec(xml)) !== null && count < 10) {
-        const block = m[1];
-        const get = (tag) => {
-          const hit = block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`));
-          return hit ? hit[1] : '';
-        };
-        let title = get('title').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/, '$1').replace(/<[^>]*>/g, '').trim();
-        const link = get('link').trim();
-        const pubDate = get('pubDate').trim();
-        let desc = get('description').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/, '$1').replace(/<[^>]*>/g, '').replace(/&[a-zA-Z#0-9]+;/g, ' ').trim().slice(0, 180);
-        if (!title || !link) continue;
-        // 中文媒体本身就是 AI 媒体，若标题毫无 AI 迹象则跳过
-        if (!AI_HINT.test(title)) continue;
-        items.push({
-          id: `cn-${Buffer.from(link).toString('base64').slice(0, 12)}`,
-          name: title.slice(0, 80),
-          category: classify(title),
-          tags: [src.name, '中文AI'],
-          summary: title.slice(0, 100),
+    // 失败重试一次
+    for (let attempt = 0; attempt < 2 && count === 0; attempt++) {
+      try {
+        const res = await fetch(src.url, {
+          headers: { 'User-Agent': BROWSER_UA, Accept: 'application/rss+xml, application/xml, text/xml, */*' },
+        });
+        if (!res.ok) throw new Error(`${res.status} for ${src.url}`);
+        const xml = await res.text();
+        const re = /<item>([\s\S]*?)<\/item>/g;
+        let m;
+        while ((m = re.exec(xml)) !== null && count < 15) {
+          const block = m[1];
+          const get = (tag) => {
+            const hit = block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`));
+            return hit ? hit[1] : '';
+          };
+          let title = get('title').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/, '$1').replace(/<[^>]*>/g, '').trim();
+          const link = get('link').trim();
+          const pubDate = get('pubDate').trim();
+          let desc = get('description').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/, '$1').replace(/<[^>]*>/g, '').replace(/&[a-zA-Z#0-9]+;/g, ' ').trim().slice(0, 180);
+          if (!title || !link) continue;
+          // 中文媒体本身就是 AI 媒体，若标题毫无 AI 迹象则跳过
+          if (!AI_HINT.test(title)) continue;
+          items.push({
+            id: `cn-${Buffer.from(link).toString('base64').slice(0, 12)}`,
+            name: title.slice(0, 80),
+            category: classify(title),
+            tags: [src.name, '中文AI'],
+            summary: title.slice(0, 100),
           description: desc || title.slice(0, 80),
           usage: '',
           link,
@@ -268,6 +275,7 @@ async function crawlCNMedia() {
       console.log(`[${src.name}] 抓取 ${count} 条`);
     } catch (e) {
       console.error(`[${src.name}] 抓取失败:`, e.message);
+    }
     }
   }
   return items;
