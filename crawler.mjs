@@ -190,24 +190,27 @@ async function crawlGitHub() {
 async function main() {
   console.log('开始抓取...', now);
   const [hn, gh] = await Promise.all([crawlHN(), crawlGitHub()]);
-
-  // 合并去重（按 link）
-  const byLink = new Map();
-  for (const it of [...hn, ...gh]) {
-    if (!it.link) continue;
-    if (!byLink.has(it.link)) byLink.set(it.link, it);
+  const fresh = [...hn, ...gh];
+  // 累积模式（只增不减）：先读历史 auto，再并入本次抓取，按 id 去重，新抓取覆盖同 id 旧数据
+  const prevAuto = Array.isArray(data.auto) ? data.auto : [];
+  const byId = new Map();
+  for (const it of prevAuto) {
+    if (it && it.id) byId.set(it.id, it);
   }
-  const auto = [...byLink.values()];
+  for (const it of fresh) {
+    if (it && it.id) byId.set(it.id, it);
+  }
+  const auto = [...byId.values()];
 
   const out = {
-    version: 1,
+    version: 2,
     lastCrawl: now,
-    crawlStats: { hn: hn.length, github: gh.length, total: auto.length },
+    crawlStats: { hn: hn.length, github: gh.length, fresh: fresh.length, total: auto.length },
     curated,
     auto,
   };
   writeFileSync(DATA_PATH, JSON.stringify(out, null, 2), 'utf8');
-  console.log(`完成：精选 ${curated.length} 条，自动抓取 ${auto.length} 条，已写入 data.json`);
+  console.log(`完成：精选 ${curated.length} 条，自动抓取累积 ${auto.length} 条（本次新增 ${fresh.length}），已写入 data.json`);
 }
 
 main().catch((e) => {
