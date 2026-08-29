@@ -281,6 +281,41 @@ async function crawlCNMedia() {
   }
   return items;
 }
+// ---------- 免费翻译（Google 主源 + MyMemory 备用，全降级保护，失败不影响主流程）----------
+function hasChinese(s) {
+  return /[\u4e00-\u9fff]/.test(s || '');
+}
+async function translateText(text) {
+  if (!text || !text.trim() || hasChinese(text)) return null;
+  const clean = text.trim().slice(0, 500);
+  // 主源：Google Translate 免费接口（GitHub 服务器在国外可访问）
+  try {
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=${encodeURIComponent(clean)}`;
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 8000);
+    const res = await fetch(url, { signal: ctrl.signal, headers: { 'User-Agent': UA } });
+    clearTimeout(timer);
+    if (res.ok) {
+      const data = await res.json();
+      const translated = (data[0] || []).map(seg => seg[0] || '').join('').trim();
+      if (translated && translated.length > 2 && translated !== clean) return translated;
+    }
+  } catch (e) { /* 静默失败，切备用源 */ }
+  // 备用源：MyMemory 免费 API
+  try {
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(clean)}&langpair=en|zh-CN`;
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 8000);
+    const res = await fetch(url, { signal: ctrl.signal, headers: { 'User-Agent': UA } });
+    clearTimeout(timer);
+    if (res.ok) {
+      const data = await res.json();
+      const translated = (data?.responseData?.translatedText || '').trim();
+      if (translated && translated.length > 2 && translated !== clean) return translated;
+    }
+  } catch (e) { /* 静默失败，保留原文 */ }
+  return null;
+}
 // ---------- 主流程 ----------
 async function main() {
   console.log('开始抓取...', now);
@@ -297,10 +332,27 @@ async function main() {
   }
   const auto = [...byId.values()];
 
+  // 免费翻译英文简介（全降级保护：超时/失败自动切备用源，再失败保留原文，不影响主流程）
+  let translatedCount = 0;
+  for (const p of auto) {
+    if (p.summary_zh) continue; // 已有中文，跳过
+    if (hasChinese(p.summary || '')) continue; // 已是中文
+    const zh = await translateText(p.summary || '');
+    if (zh) {
+      p.summary_zh = zh;
+      translatedCount++;
+    }
+    // 每翻译 5 条休息 0.5 秒，避免触发限流
+    if (translatedCount > 0 && translatedCount % 5 === 0) {
+      await new Promise(r => setTimeout(r, 500));
+    }
+  }
+  console.log(`[翻译] 本次翻译 ${translatedCount} 条英文简介（失败的保留原文）`);
+
   const out = {
     version: 2,
     lastCrawl: now,
-    crawlStats: { hn: hn.length, github: gh.length, hf: hf.length, cn: cn.length, fresh: fresh.length, total: auto.length },
+    crawlStats: { hn: hn.length, github: gh.length, hf: hf.length, cn: cn.length, fresh: fresh.length, translated: translatedCount, total: auto.length },
     curated,
     auto,
   };
