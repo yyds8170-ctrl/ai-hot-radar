@@ -31,3 +31,11 @@
 ```bash
 GITHUB_TOKEN=你的token node crawler.mjs
 ```
+
+## License
+
+本项目采用 **PolyForm Noncommercial License 1.0.0**（非商业源码许可，SPDX: `PolyForm-NC-1.0.0`），官方文本：<https://polyformproject.org/licenses/noncommercial/1.0.0>。© 2026 yyds8170-ctrl。
+
+- ✅ **可以**：阅读、学习、分析、修改代码；个人学习 / 研究 / 实验 / 爱好等非商业用途；非商业组织（学校、公益机构、政府机构等）使用。
+- ❌ **不可以**：任何**商业用途**——包括销售、集成进商业产品 / 服务、用于**训练商业 AI 模型**等。
+- 分发时须保留本许可文本与版权声明（`Required Notice: Copyright 2026 yyds8170-ctrl`）。
