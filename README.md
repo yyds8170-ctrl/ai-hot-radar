@@ -72,9 +72,9 @@
 
 ### 方式一：在线应用（推荐）
 
-直接打开浏览器访问，无需安装，任何设备可用：
+直接打开浏览器访问，无需安装，任何设备可用（已部署在 GitHub Pages，永久免费）：
 
-> **https://4ktx3gk83rbrw.aiforce.cloud/app/app_17cw502sb3m**
+> **https://yyds8170-ctrl.github.io/ai-hot-radar/**
 
 ### 方式二：离线版 HTML
 
