@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastCrawl": "2026-09-16T10:50:24.753Z",
+  "lastCrawl": "2026-09-16T10:54:08.617Z",
   "crawlStats": {
     "hn": 19,
     "github": 40,
@@ -954,7 +954,7 @@
         "obra"
       ],
       "summary": "An agentic skills framework & software development methodology that works.",
-      "description": "⭐ 287407 stars · Shell · ai, brainstorming, coding, obra",
+      "description": "⭐ 287406 stars · Shell · ai, brainstorming, coding, obra",
       "usage": "",
       "link": "https://github.com/obra/superpowers",
       "source": "GitHub",
@@ -976,7 +976,7 @@
         "anthropic"
       ],
       "summary": "The agent that grows with you",
-      "description": "⭐ 246022 stars · Python · ai, ai-agent, ai-agents, anthropic",
+      "description": "⭐ 246023 stars · Python · ai, ai-agent, ai-agents, anthropic",
       "usage": "",
       "link": "https://github.com/NousResearch/hermes-agent",
       "source": "GitHub",
@@ -998,7 +998,7 @@
         "cli"
       ],
       "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "description": "⭐ 204512 stars · TypeScript · ai, apis, automation, cli",
+      "description": "⭐ 204513 stars · TypeScript · ai, apis, automation, cli",
       "usage": "",
       "link": "https://github.com/n8n-io/n8n",
       "source": "GitHub",
@@ -1042,7 +1042,7 @@
         "agentic-workflow"
       ],
       "summary": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-      "description": "⭐ 155924 stars · TypeScript · agent, agentic-ai, agentic-framework, agentic-workflow",
+      "description": "⭐ 155925 stars · TypeScript · agent, agentic-ai, agentic-framework, agentic-workflow",
       "usage": "",
       "link": "https://github.com/langgenius/dify",
       "source": "GitHub",
@@ -1104,7 +1104,7 @@
         "rag"
       ],
       "summary": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "description": "⭐ 138427 stars · Python · agents, llms, python, rag",
+      "description": "⭐ 138428 stars · Python · agents, llms, python, rag",
       "usage": "",
       "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "source": "GitHub",
@@ -1126,7 +1126,7 @@
         "python"
       ],
       "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "description": "⭐ 133480 stars · Python · ai, comfy, comfyui, python",
+      "description": "⭐ 133481 stars · Python · ai, comfy, comfyui, python",
       "usage": "",
       "link": "https://github.com/Comfy-Org/ComfyUI",
       "source": "GitHub",
@@ -1148,7 +1148,7 @@
         "claude-code"
       ],
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "description": "⭐ 139862 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
+      "description": "⭐ 139867 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
       "usage": "",
       "link": "https://github.com/DietrichGebert/ponytail",
       "source": "GitHub",
@@ -1214,7 +1214,7 @@
         "multiagent"
       ],
       "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "description": "⭐ 106870 stars · Python · agent, finance, llm, multiagent",
+      "description": "⭐ 106871 stars · Python · agent, finance, llm, multiagent",
       "usage": "",
       "link": "https://github.com/TauricResearch/TradingAgents",
       "source": "GitHub",
@@ -1232,7 +1232,7 @@
         "TypeScript"
       ],
       "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "description": "⭐ 106116 stars · TypeScript · 无标签",
+      "description": "⭐ 106118 stars · TypeScript · 无标签",
       "usage": "",
       "link": "https://github.com/earendil-works/pi",
       "source": "GitHub",
@@ -1441,7 +1441,7 @@
         "crawler"
       ],
       "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ",
-      "description": "⭐ 81286 stars · Python · ai, ai-scraping, automation, crawler",
+      "description": "⭐ 81287 stars · Python · ai, ai-scraping, automation, crawler",
       "usage": "",
       "link": "https://github.com/D4Vinci/Scrapling",
       "source": "GitHub",
@@ -1463,7 +1463,7 @@
         "automation"
       ],
       "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "description": "⭐ 82263 stars · Python · agent-infrastructure, ai-agent, ai-search, automation",
+      "description": "⭐ 82264 stars · Python · agent-infrastructure, ai-agent, ai-search, automation",
       "usage": "",
       "link": "https://github.com/Panniantong/Agent-Reach",
       "source": "GitHub",
@@ -1639,7 +1639,7 @@
         "claude-code"
       ],
       "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-      "description": "⭐ 72389 stars · Python · agent, ai, anthropic, claude-code",
+      "description": "⭐ 72390 stars · Python · agent, ai, anthropic, claude-code",
       "usage": "",
       "link": "https://github.com/headroomlabs-ai/headroom",
       "source": "GitHub",
@@ -1791,7 +1791,7 @@
         "codex"
       ],
       "summary": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-      "description": "⭐ 51852 stars · TypeScript · agent-skills, ai-agent, claude-code, codex",
+      "description": "⭐ 51854 stars · TypeScript · agent-skills, ai-agent, claude-code, codex",
       "usage": "",
       "link": "https://github.com/CherryHQ/cherry-studio",
       "source": "GitHub",
@@ -2773,7 +2773,7 @@
         "base_model:finetune:MiniMaxAI/MiniMax-H3"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 19,627,030 下载 · ❤ 1,859 点赞 · 多模态",
+      "description": "⬇ 19,627,030 下载 · ❤ 1,860 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "source": "Hugging Face",
@@ -4416,7 +4416,7 @@
         "rust"
       ],
       "summary": "sentence-similarity",
-      "description": "⬇ 256,481,161 下载 · ❤ 6,010 点赞 · sentence-similarity",
+      "description": "⬇ 256,481,161 下载 · ❤ 6,012 点赞 · sentence-similarity",
       "usage": "",
       "link": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "source": "Hugging Face",
@@ -11319,7 +11319,7 @@
         "base_model:finetune:m-a-p/SheetSage2"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 24,463 下载 · ❤ 143 点赞 · 多模态",
+      "description": "⬇ 24,463 下载 · ❤ 144 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/Comfy-Org/YuE2",
       "source": "Hugging Face",
@@ -12702,7 +12702,7 @@
         "Hacker News"
       ],
       "summary": "Introducing System One Models and Jev",
-      "description": "HN 热度 1448 分 · 408 条评论",
+      "description": "HN 热度 1448 分 · 410 条评论",
       "usage": "",
       "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
       "source": "Hacker News",
@@ -12753,7 +12753,7 @@
         "Hacker News"
       ],
       "summary": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
-      "description": "HN 热度 622 分 · 212 条评论",
+      "description": "HN 热度 622 分 · 213 条评论",
       "usage": "",
       "link": "https://www.effort.news/irregular",
       "source": "Hacker News",
@@ -13254,7 +13254,7 @@
         "Hacker News"
       ],
       "summary": "Mistral X Mozilla: Private, Multilingual AI Browsing",
-      "description": "HN 热度 50 分 · 11 条评论",
+      "description": "HN 热度 51 分 · 11 条评论",
       "usage": "",
       "link": "https://mistral.ai/news/mistral-x-mozilla/",
       "source": "Hacker News",
