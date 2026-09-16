@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "lastCrawl": "2026-09-16T10:18:04.638Z",
+  "lastCrawl": "2026-09-16T10:20:47.495Z",
   "crawlStats": {
-    "hn": 18,
+    "hn": 19,
     "github": 40,
     "hf": 60,
     "cn": 16,
-    "fresh": 134,
-    "translated": 78,
-    "total": 692
+    "fresh": 135,
+    "translated": 79,
+    "total": 693
   },
   "curated": [
     {
@@ -954,7 +954,7 @@
         "obra"
       ],
       "summary": "An agentic skills framework & software development methodology that works.",
-      "description": "⭐ 287388 stars · Shell · ai, brainstorming, coding, obra",
+      "description": "⭐ 287389 stars · Shell · ai, brainstorming, coding, obra",
       "usage": "",
       "link": "https://github.com/obra/superpowers",
       "source": "GitHub",
@@ -976,7 +976,7 @@
         "anthropic"
       ],
       "summary": "The agent that grows with you",
-      "description": "⭐ 246018 stars · Python · ai, ai-agent, ai-agents, anthropic",
+      "description": "⭐ 246019 stars · Python · ai, ai-agent, ai-agents, anthropic",
       "usage": "",
       "link": "https://github.com/NousResearch/hermes-agent",
       "source": "GitHub",
@@ -998,7 +998,7 @@
         "cli"
       ],
       "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "description": "⭐ 204506 stars · TypeScript · ai, apis, automation, cli",
+      "description": "⭐ 204507 stars · TypeScript · ai, apis, automation, cli",
       "usage": "",
       "link": "https://github.com/n8n-io/n8n",
       "source": "GitHub",
@@ -1148,7 +1148,7 @@
         "claude-code"
       ],
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "description": "⭐ 139834 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
+      "description": "⭐ 139836 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
       "usage": "",
       "link": "https://github.com/DietrichGebert/ponytail",
       "source": "GitHub",
@@ -1214,7 +1214,7 @@
         "multiagent"
       ],
       "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "description": "⭐ 106863 stars · Python · agent, finance, llm, multiagent",
+      "description": "⭐ 106864 stars · Python · agent, finance, llm, multiagent",
       "usage": "",
       "link": "https://github.com/TauricResearch/TradingAgents",
       "source": "GitHub",
@@ -1232,7 +1232,7 @@
         "TypeScript"
       ],
       "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "description": "⭐ 106101 stars · TypeScript · 无标签",
+      "description": "⭐ 106104 stars · TypeScript · 无标签",
       "usage": "",
       "link": "https://github.com/earendil-works/pi",
       "source": "GitHub",
@@ -1295,7 +1295,7 @@
         "codex"
       ],
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "description": "⭐ 95088 stars · JavaScript · agent-skills, antigravity, claude-code, codex",
+      "description": "⭐ 95090 stars · JavaScript · agent-skills, antigravity, claude-code, codex",
       "usage": "",
       "link": "https://github.com/addyosmani/agent-skills",
       "source": "GitHub",
@@ -1313,7 +1313,7 @@
         "TypeScript"
       ],
       "summary": "Model Context Protocol Servers",
-      "description": "⭐ 90372 stars · TypeScript · 无标签",
+      "description": "⭐ 90373 stars · TypeScript · 无标签",
       "usage": "",
       "link": "https://github.com/modelcontextprotocol/servers",
       "source": "GitHub",
@@ -1357,7 +1357,7 @@
         "geopolitics"
       ],
       "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "description": "⭐ 86549 stars · TypeScript · agent, ai, dashboard, geopolitics",
+      "description": "⭐ 86550 stars · TypeScript · agent, ai, dashboard, geopolitics",
       "usage": "",
       "link": "https://github.com/koala73/worldmonitor",
       "source": "GitHub",
@@ -1441,7 +1441,7 @@
         "crawler"
       ],
       "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ",
-      "description": "⭐ 81281 stars · Python · ai, ai-scraping, automation, crawler",
+      "description": "⭐ 81282 stars · Python · ai, ai-scraping, automation, crawler",
       "usage": "",
       "link": "https://github.com/D4Vinci/Scrapling",
       "source": "GitHub",
@@ -1463,7 +1463,7 @@
         "automation"
       ],
       "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "description": "⭐ 82255 stars · Python · agent-infrastructure, ai-agent, ai-search, automation",
+      "description": "⭐ 82258 stars · Python · agent-infrastructure, ai-agent, ai-search, automation",
       "usage": "",
       "link": "https://github.com/Panniantong/Agent-Reach",
       "source": "GitHub",
@@ -1661,7 +1661,7 @@
         "docker"
       ],
       "summary": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
-      "description": "⭐ 62294 stars · Python · ai, bark, data-analysis, docker",
+      "description": "⭐ 62293 stars · Python · ai, bark, data-analysis, docker",
       "usage": "",
       "link": "https://github.com/sansan0/TrendRadar",
       "source": "GitHub",
@@ -1747,7 +1747,7 @@
         "mcp"
       ],
       "summary": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-      "description": "⭐ 54340 stars · Rust · acp, ai, ai-agents, mcp",
+      "description": "⭐ 54341 stars · Rust · acp, ai, ai-agents, mcp",
       "usage": "",
       "link": "https://github.com/aaif-goose/goose",
       "source": "GitHub",
@@ -1851,7 +1851,7 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,992,040 下载 · ❤ 2,378 点赞 · image-text-to-text",
+      "description": "⬇ 1,992,040 下载 · ❤ 2,379 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/zai-org/GLM-5.3-Flash",
       "source": "Hugging Face",
@@ -1872,7 +1872,7 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 7,702,543 下载 · ❤ 15,325 点赞 · image-text-to-text",
+      "description": "⬇ 7,702,543 下载 · ❤ 15,326 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "source": "Hugging Face",
@@ -7611,7 +7611,7 @@
         "crack"
       ],
       "summary": "text-generation",
-      "description": "⬇ 31,551 下载 · ❤ 470 点赞 · text-generation",
+      "description": "⬇ 31,551 下载 · ❤ 471 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8",
       "source": "Hugging Face",
@@ -8750,7 +8750,7 @@
         "ai"
       ],
       "summary": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
-      "description": "⭐ 65393 stars · Python · agentic-memory, agentic-memory-system, agents, ai",
+      "description": "⭐ 65394 stars · Python · agentic-memory, agentic-memory-system, agents, ai",
       "usage": "",
       "link": "https://github.com/mem0ai/mem0",
       "source": "GitHub",
@@ -10964,7 +10964,7 @@
         "text-generation"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 898 下载 · ❤ 191 点赞 · image-text-to-text",
+      "description": "⬇ 898 下载 · ❤ 192 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/Agnes-AI/Agnes-3.0-Flash",
       "source": "Hugging Face",
@@ -11744,7 +11744,7 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,355 下载 · ❤ 289 点赞 · image-text-to-text",
+      "description": "⬇ 1,355 下载 · ❤ 290 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
       "source": "Hugging Face",
@@ -12702,7 +12702,7 @@
         "Hacker News"
       ],
       "summary": "Introducing System One Models and Jev",
-      "description": "HN 热度 1408 分 · 402 条评论",
+      "description": "HN 热度 1410 分 · 402 条评论",
       "usage": "",
       "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
       "source": "Hacker News",
@@ -13047,7 +13047,7 @@
         "Hacker News"
       ],
       "summary": "Intelligence per Watt: Measuring Intelligence Efficiency of Local AI",
-      "description": "HN 热度 41 分 · 3 条评论",
+      "description": "HN 热度 41 分 · 4 条评论",
       "usage": "",
       "link": "https://arxiv.org/abs/2511.07885",
       "source": "Hacker News",
@@ -13245,6 +13245,23 @@
       "hotness": 3,
       "date": "2026-09-16",
       "sourceType": "auto"
+    },
+    {
+      "id": "hn-49723408",
+      "name": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "category": "ai-model",
+      "tags": [
+        "Hacker News"
+      ],
+      "summary": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "description": "HN 热度 31 分 · 5 条评论",
+      "usage": "",
+      "link": "https://mistral.ai/news/mistral-x-mozilla/",
+      "source": "Hacker News",
+      "hotness": 1,
+      "date": "2026-09-16",
+      "sourceType": "auto",
+      "summary_zh": "Mistral X Mozilla ：私人、多语言人工智能浏览"
     }
   ]
 }
