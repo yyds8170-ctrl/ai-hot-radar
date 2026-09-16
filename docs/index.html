@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 热门项目雷达 · 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0A0D10; --bg-elev:#12161C; --bg-card:#151A21; --bg-hover:#1B212B;
+  --border:#232932; --border-bright:#2E3642;
+  --text:#E8E6E1; --text-dim:#8B9099; --text-faint:#5C616A;
+  --accent:#FFB020; --accent-2:#FF6B35; --accent-dim:rgba(255,176,32,.12); --accent-glow:rgba(255,176,32,.35);
+  --info:#38BDF8; --mint:#5EEAD4; --danger:#FB7185;
+  --cat-clothing:#FF8A65; --cat-video:#B388FF; --cat-image:#5EEAD4; --cat-model:#FFD54F; --cat-tool:#81C784;
+  --radius:14px; --radius-sm:9px;
+  --shadow:0 8px 30px rgba(0,0,0,.35);
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+  --display:'Space Grotesk',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,sans-serif;
+}
+[data-theme="light"]{
+  --bg:#F4F3EF; --bg-elev:#FFFFFF; --bg-card:#FBFAF7; --bg-hover:#F0EFEA;
+  --border:#E3E1DB; --border-bright:#D1CFC8;
+  --text:#1A1D21; --text-dim:#62666D; --text-faint:#9A9EA5;
+  --accent:#E8501C; --accent-2:#D63A0A; --accent-dim:rgba(232,80,28,.09); --accent-glow:rgba(232,80,28,.22);
+  --info:#2563EB; --mint:#0D9488; --danger:#E11D48;
+  --cat-clothing:#E05A33; --cat-video:#6D3FD0; --cat-image:#0D9488; --cat-model:#B8860B; --cat-tool:#2E7D32;
+  --shadow:0 6px 24px rgba(20,20,20,.08);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--body); background:var(--bg); color:var(--text);
+  line-height:1.6; -webkit-font-smoothing:antialiased;
+  transition:background .3s,color .3s; min-height:100vh;
+}
+body::before{
+  content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
+  background:
+    radial-gradient(1200px 600px at 80% -10%, var(--accent-dim), transparent 60%),
+    radial-gradient(900px 500px at -10% 10%, rgba(56,189,248,.05), transparent 55%);
+}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+
+/* ===== Header ===== */
+header{padding:36px 0 22px;border-bottom:1px solid var(--border);margin-bottom:26px}
+.hero{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.radar{
+  width:56px;height:56px;border-radius:50%;flex-shrink:0;position:relative;
+  background:radial-gradient(circle, var(--accent-dim) 0%, transparent 70%);
+  border:1.5px solid var(--accent);
+  box-shadow:0 0 22px var(--accent-glow),inset 0 0 18px var(--accent-dim);
+}
+.radar::before,.radar::after{
+  content:'';position:absolute;border-radius:50%;border:1px solid var(--accent);opacity:.35;
+}
+.radar::before{inset:9px}
+.radar::after{inset:18px}
+.radar .sweep{
+  position:absolute;inset:0;border-radius:50%;
+  background:conic-gradient(from 0deg, transparent 0deg, transparent 300deg, var(--accent) 355deg, transparent 360deg);
+  animation:sweep 3.2s linear infinite;
+}
+.radar .blip{
+  position:absolute;width:5px;height:5px;border-radius:50%;background:var(--accent-2);
+  box-shadow:0 0 8px var(--accent-2);top:30%;left:62%;
+  animation:blip 3.2s linear infinite;
+}
+@keyframes sweep{to{transform:rotate(360deg)}}
+@keyframes blip{0%,90%{opacity:0}95%,100%{opacity:1}}
+.title-block h1{
+  font-family:var(--display);font-weight:700;font-size:28px;letter-spacing:-.02em;
+  display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+}
+.title-block h1 .ver{
+  font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);
+  border:1px solid var(--accent);padding:2px 7px;border-radius:20px;letter-spacing:.05em;
+}
+.title-block p{color:var(--text-dim);font-size:13.5px;margin-top:3px;font-family:var(--mono)}
+.header-actions{margin-left:auto;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.btn{
+  font-family:var(--body);font-size:13px;font-weight:500;cursor:pointer;
+  border:1px solid var(--border-bright);background:var(--bg-elev);color:var(--text);
+  padding:8px 14px;border-radius:var(--radius-sm);display:inline-flex;align-items:center;gap:6px;
+  transition:all .18s;white-space:nowrap;
+}
+.btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-dim)}
+.btn.primary{background:var(--accent);color:#1a1205;border-color:var(--accent);font-weight:600}
+.btn.primary:hover{background:var(--accent-2);border-color:var(--accent-2);color:#fff}
+.btn.icon{padding:8px 10px}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.spin{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.status-line{
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:16px;
+  font-family:var(--mono);font-size:11.5px;color:var(--text-dim);
+}
+.status-line .dot{width:7px;height:7px;border-radius:50%;background:var(--mint);box-shadow:0 0 8px var(--mint);display:inline-block;margin-right:5px}
+.status-line .dot.warn{background:var(--accent-2);box-shadow:0 0 8px var(--accent-2)}
+.status-line a{color:var(--info);text-decoration:none}
+.status-line a:hover{text-decoration:underline}
+
+/* ===== Stats ===== */
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+.stat{
+  background:var(--bg-elev);border:1px solid var(--border);border-radius:var(--radius);
+  padding:12px 16px;min-width:110px;flex:1;
+}
+.stat .num{font-family:var(--display);font-size:24px;font-weight:700;line-height:1}
+.stat .num .unit{font-size:13px;color:var(--text-dim);font-weight:500;margin-left:2px}
+.stat .lbl{font-size:11.5px;color:var(--text-dim);margin-top:4px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.04em}
+
+/* ===== Toolbar ===== */
+.toolbar{
+  background:var(--bg-elev);border:1px solid var(--border);border-radius:var(--radius);
+  padding:14px;margin-bottom:22px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+}
+.search{flex:1;min-width:220px;position:relative}
+.search input{
+  width:100%;padding:10px 12px 10px 36px;border-radius:var(--radius-sm);
+  border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:13.5px;font-family:var(--body);
+  transition:border-color .15s;
+}
+.search input:focus{outline:none;border-color:var(--accent)}
+.search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--text-faint)}
+select{
+  padding:10px 12px;border-radius:var(--radius-sm);border:1px solid var(--border);
+  background:var(--bg);color:var(--text);font-size:13px;font-family:var(--body);cursor:pointer;
+}
+select:focus{outline:none;border-color:var(--accent)}
+
+/* ===== Category pills ===== */
+.cats{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:22px}
+.pill{
+  padding:7px 14px;border-radius:20px;border:1px solid var(--border);background:transparent;
+  color:var(--text-dim);font-size:12.5px;cursor:pointer;transition:all .15s;font-family:var(--body);
+  display:inline-flex;align-items:center;gap:6px;
+}
+.pill:hover{border-color:var(--border-bright);color:var(--text)}
+.pill.active{background:var(--accent-dim);border-color:var(--accent);color:var(--accent);font-weight:600}
+.pill .cnt{font-family:var(--mono);font-size:11px;opacity:.7}
+
+/* ===== Grid ===== */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px;padding-bottom:60px}
+.card{
+  background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);
+  padding:18px;display:flex;flex-direction:column;position:relative;overflow:hidden;
+  transition:border-color .2s,transform .2s,box-shadow .2s;
+}
+.card:hover{border-color:var(--border-bright);transform:translateY(-2px);box-shadow:var(--shadow)}
+.card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--cat-color,var(--accent)),transparent);
+  opacity:.7;
+}
+.card-top{display:flex;align-items:flex-start;gap:8px;margin-bottom:9px}
+.card-icon{width:32px;height:32px;border-radius:6px;object-fit:cover;flex-shrink:0;background:#333;margin-top:1px}
+.card-name{
+  font-family:var(--display);font-weight:600;font-size:16px;line-height:1.3;flex:1;
+  word-break:break-word;
+}
+.card-name a{color:var(--text);text-decoration:none}
+.card-name a:hover{color:var(--accent)}
+.fav-btn{
+  background:none;border:none;cursor:pointer;font-size:18px;color:var(--text-faint);
+  padding:2px;line-height:1;transition:transform .12s;flex-shrink:0;
+}
+.fav-btn:hover{transform:scale(1.2)}
+.fav-btn.on{color:var(--accent)}
+.badges{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:9px}
+.badge{
+  font-family:var(--mono);font-size:10px;padding:2px 7px;border-radius:5px;
+  border:1px solid var(--border);color:var(--text-dim);letter-spacing:.02em;
+}
+.badge.cat{color:var(--cat-color);border-color:color-mix(in srgb,var(--cat-color) 40%,transparent);background:color-mix(in srgb,var(--cat-color) 8%,transparent)}
+.badge.hot{color:var(--accent-2);border-color:color-mix(in srgb,var(--accent-2) 40%,transparent)}
+.badge.new{color:var(--mint);border-color:color-mix(in srgb,var(--mint) 40%,transparent);background:color-mix(in srgb,var(--mint) 8%,transparent);font-weight:600;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
+.card-summary{font-size:13px;color:var(--text-dim);margin-bottom:10px;line-height:1.55}
+.card-detail{display:none;margin-bottom:10px}
+.card-detail.open{display:block}
+.card-detail .sec{margin-bottom:10px}
+.card-detail .sec-label{
+  font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--accent);margin-bottom:3px;
+}
+.card-detail p{font-size:13px;color:var(--text);line-height:1.6}
+.card-detail .usage p{color:var(--text-dim)}
+.tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px}
+.tag{
+  font-family:var(--mono);font-size:10px;color:var(--text-faint);
+  background:var(--bg-hover);padding:2px 7px;border-radius:5px;
+}
+.card-foot{margin-top:auto;display:flex;align-items:center;gap:8px;padding-top:10px;border-top:1px dashed var(--border)}
+.card-foot .src{font-family:var(--mono);font-size:10.5px;color:var(--text-faint)}
+.card-foot .date{font-family:var(--mono);font-size:10.5px;color:var(--text-faint);margin-left:auto}
+.card-foot .link-btn{
+  font-size:12px;color:var(--info);text-decoration:none;font-weight:500;display:inline-flex;align-items:center;gap:3px;
+}
+.card-foot .link-btn:hover{text-decoration:underline}
+.expand-btn{
+  background:none;border:none;color:var(--text-dim);font-size:12px;cursor:pointer;
+  font-family:var(--body);padding:0;display:inline-flex;align-items:center;gap:3px;margin-top:4px;
+}
+.expand-btn:hover{color:var(--accent)}
+.flame{color:var(--accent-2)}
+
+/* ===== Modal ===== */
+.modal-bg{
+  position:fixed;inset:0;background:rgba(0,0,0,.6);backdrop-filter:blur(4px);
+  display:none;align-items:center;justify-content:center;z-index:100;padding:20px;
+}
+.modal-bg.open{display:flex}
+.modal{
+  background:var(--bg-elev);border:1px solid var(--border-bright);border-radius:var(--radius);
+  width:100%;max-width:560px;max-height:90vh;overflow-y:auto;padding:26px;box-shadow:var(--shadow);
+}
+.modal h2{font-family:var(--display);font-size:20px;margin-bottom:18px}
+.field{margin-bottom:14px}
+.field label{display:block;font-size:12px;color:var(--text-dim);margin-bottom:5px;font-weight:500}
+.field input,.field textarea,.field select{
+  width:100%;padding:9px 11px;border-radius:var(--radius-sm);border:1px solid var(--border);
+  background:var(--bg);color:var(--text);font-size:13px;font-family:var(--body);
+}
+.field textarea{min-height:70px;resize:vertical}
+.field input:focus,.field textarea:focus,.field select:focus{outline:none;border-color:var(--accent)}
+.modal-actions{display:flex;gap:9px;justify-content:flex-end;margin-top:20px}
+
+/* ===== Toast ===== */
+.toast{
+  position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);
+  background:var(--bg-elev);border:1px solid var(--accent);color:var(--text);
+  padding:12px 20px;border-radius:var(--radius-sm);font-size:13px;z-index:200;
+  box-shadow:var(--shadow);transition:transform .3s;max-width:90vw;
+}
+.toast.show{transform:translateX(-50%) translateY(0)}
+
+.empty{text-align:center;padding:60px 20px;color:var(--text-dim)}
+.empty .big{font-size:40px;margin-bottom:10px}
+
+footer{border-top:1px solid var(--border);padding:22px 0;margin-top:20px;font-size:12px;color:var(--text-faint);font-family:var(--mono);text-align:center}
+footer a{color:var(--info);text-decoration:none}
+
+@media(max-width:640px){
+  .wrap{padding:0 14px}
+  .title-block h1{font-size:22px}
+  .grid{grid-template-columns:1fr}
+  .header-actions{width:100%}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="hero">
+      <div class="radar"><div class="sweep"></div><div class="blip"></div></div>
+      <div class="title-block">
+        <h1>AI 热门项目雷达 <span class="ver">2026·08</span></h1>
+        <p id="subtitle">聚焦 AI换装 / AI视频 / AI电商设计 · 云端每6小时自动更新</p>
+      </div>
+      <div class="header-actions">
+        <button class="btn primary" id="refreshBtn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12a9 9 0 11-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>
+          立即刷新
+        </button>
+        <button class="btn" id="addBtn">＋ 添加项目</button>
+        <button class="btn icon" id="exportBtn" title="导出JSON">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </button>
+        <label class="btn icon" title="导入JSON" style="cursor:pointer">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          <input type="file" id="importFile" accept=".json" style="display:none">
+        </label>
+        <button class="btn icon" id="favOnlyBtn" title="只看收藏">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </button>
+        <button class="btn icon" id="themeBtn" title="切换深浅色">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="status-line">
+      <span id="statusText"><span class="dot"></span>正在连接云端信号…</span>
+      <span id="lastUpdate"></span>
+      <span>·</span>
+      <a href="https://github.com/yyds8170-ctrl/ai-hot-radar" target="_blank">云端仓库</a>
+      <a href="https://github.com/yyds8170-ctrl/ai-hot-radar/actions/workflows/crawl.yml" target="_blank">手动执行抓取</a>
+    </div>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="toolbar">
+    <div class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="search" placeholder="搜索项目名、描述、标签…">
+    </div>
+    <select id="sourceFilter">
+      <option value="all">全部来源</option>
+      <option value="curated">⭐ 精选</option>
+      <option value="auto">🤖 自动抓取</option>
+      <option value="user">✏️ 我添加的</option>
+    </select>
+    <select id="sortBy">
+      <option value="recommend">推荐排序</option>
+      <option value="hot">热度最高</option>
+      <option value="new">最新发布</option>
+    </select>
+  </div>
+
+  <div class="cats" id="cats"></div>
+  <div class="grid" id="grid"></div>
+</div>
+
+<!-- Add/Edit Modal -->
+<div class="modal-bg" id="modalBg">
+  <div class="modal">
+    <h2 id="modalTitle">添加项目</h2>
+    <div class="field"><label>项目名称 *</label><input id="f_name"></div>
+    <div class="field"><label>分类</label><select id="f_category"></select></div>
+    <div class="field"><label>标签（逗号分隔）</label><input id="f_tags"></div>
+    <div class="field"><label>一句话简介 *</label><input id="f_summary"></div>
+    <div class="field"><label>详细介绍</label><textarea id="f_description"></textarea></div>
+    <div class="field"><label>对我有什么用</label><textarea id="f_usage"></textarea></div>
+    <div class="field"><label>链接 *</label><input id="f_link"></div>
+    <div class="field"><label>来源</label><input id="f_source" value="我添加的"></div>
+    <div class="field"><label>热度 1-5</label><input id="f_hotness" type="number" min="1" max="5" value="3"></div>
+    <div class="modal-actions">
+      <button class="btn" id="cancelBtn">取消</button>
+      <button class="btn primary" id="saveBtn">保存</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<footer>
+  AI 热门项目雷达 · 数据由 GitHub Actions 每6小时自动抓取 · 单文件离线版 · 收藏与自定义数据保存在本浏览器
+</footer>
+
+<script>
+const CLOUD_URL='https://cdn.jsdelivr.net/gh/yyds8170-ctrl/ai-hot-radar@main/data.json';
+const CATS=[
+  {key:'ai-clothing',name:'AI服装换装',color:'var(--cat-clothing)'},
+  {key:'ai-video',name:'AI视频生成',color:'var(--cat-video)'},
+  {key:'ai-image',name:'AI图像/电商设计',color:'var(--cat-image)'},
+  {key:'ai-model',name:'AI新模型',color:'var(--cat-model)'},
+  {key:'ai-tool',name:'效率/Agent工具',color:'var(--cat-tool)'},
+];
+const CAT_MAP=Object.fromEntries(CATS.map(c=>[c.key,c]));
+const STORE={favs:'radar_favs_v2',custom:'radar_custom_v2',edit:'radar_edit_v2',blacklist:'radar_bl_v2',theme:'radar_theme_v2',cache:'radar_cloud_cache_v2'};
+const $=s=>document.querySelector(s);
+const $$=s=>document.querySelectorAll(s);
+const load=k=>{try{return JSON.parse(localStorage.getItem(k))}catch{return null}};
+const save=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
+const toast=msg=>{const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),2800)};
+const uid=()=>'u-'+Date.now()+'-'+Math.random().toString(36).slice(2,7);
+
+// 32条精选内置兜底（离线可用）
+const FALLBACK_CURATED=[
+{n:'FASHN VTON 1.5',c:'ai-clothing',t:['开源','虚拟试衣','无需蒙版','ComfyUI'],s:'像素空间直接生成、无需分割蒙版的开源虚拟试衣模型',d:'FASHN AI 开源的试衣模型，给一张人像+一张服装图（支持模特照或平铺商品图），直接在像素空间生成逼真穿衣效果，无需手动抠蒙版、不用调参，约30秒出片。牛仔、皮衣、连衣裙等材质纹理高度还原，褶皱光影自然。已提供 ComfyUI 自定义节点。',u:'把平铺服装图一键上身到不同模特，批量生成试穿图，省拍摄费；可配合ComfyUI做批量换装流水线。',l:'https://github.com/fashn-AI/fashn-vton-1.5',src:'GitHub',h:5,dt:'2026-08-15'},
+{n:'CatVTON / CatV2TON',c:'ai-clothing',t:['开源','ICLR25','轻量','图片+视频试衣'],s:'极简高效的扩散试衣模型，新版同时支持图片和视频试衣',d:'ICLR 2025 论文，把人物图和服装图在空间维度拼接后直接送入扩散模型，网络轻量推理高效。CatV2TON 基于 DiT 架构，支持图片和视频两种试衣。',u:'本地部署门槛低、出图快；视频试衣可让服装模特图动起来做商品展示短视频。',l:'https://github.com/Zheng-Chong/CatVTON',src:'GitHub',h:4,dt:'2026-08-26'},
+{n:'CtrlVTON',c:'ai-clothing',t:['开源','可控试衣','像素级控制','arXiv'],s:'通过视觉实例提示分割实现像素级可控的虚拟试衣',d:'2026年7月arXiv新研究，把试衣重定义为图像编辑问题，通过分割掩码增加像素级空间控制，可精细控制服装大小、风格和位置。',u:'精确调整服装在模特身上的呈现，适合需要严格对齐版型的商详图。',l:'https://github.com/nxnai/CtrlVTON',src:'GitHub/arXiv',h:4,dt:'2026-08-19'},
+{n:'Lucy Virtual Try-On 3',c:'ai-clothing',t:['实时试衣','直播换装'],s:'最新实时AI换装模型，一张图即可随意试衣，支持直播',d:'2026年8月初走红的实时试衣方案，一张图片就能实现任意服装实时切换，毛衣、大衣、旗袍等均可，支持直播场景实时换装。',u:'直播间实时换装展示、买家在线试穿互动素材制作。',l:'https://www.iesdouyin.com/share/video/7670208005425696051',src:'抖音演示',h:3,dt:'2026-08-05'},
+{n:'Clad9',c:'ai-clothing',t:['AI衣橱','穿搭','Show HN'],s:'用你自己衣柜里的衣服帮你搭配的AI衣橱应用',d:'2026年8月登上 Hacker News Show HN，上传自己的衣物后AI帮你做日常搭配推荐。',u:'参考其搭配逻辑和交互，为服装客户做搭配购、整套穿搭类详情页提供灵感。',l:'https://clad9.com',src:'Hacker News',h:3,dt:'2026-08-19'},
+{n:'OOTDiffusion',c:'ai-clothing',t:['开源','隐空间扩散','高还原'],s:'基于服装融合隐空间扩散的可控试衣，实测真实感领先',d:'在 VITON-HD 和 Dress Code 数据集上表现优异，真实感和可控性优于多种同领域方法。',u:'成熟稳定的开源试衣方案，适合半身/全身模特换装，社区教程多。',l:'https://github.com/levihsu/OOTDiffusion',src:'GitHub',h:4,dt:'2026-08-23'},
+{n:'WaveSpeed AI Clothes Changer',c:'ai-clothing',t:['在线API','批量试衣'],s:'上传一张人像+最多10张服装图，秒级看每套穿搭效果',d:'WaveSpeedAI 推出的图生图试衣模型，自动按身形适配生成穿衣图，支持一次最多10套批量生成。',u:'不想本地部署时可直接调API批量出图，快速出多套穿搭对比稿。',l:'https://wavespeed.ai/blog/posts/introducing-wavespeed-ai-ai-clothes-changer-on-wavespeedai/',src:'WaveSpeedAI',h:3,dt:'2026-03-17'},
+{n:'Seedance 2.5（字节跳动）',c:'ai-video',t:['国产','音视频联合生成','30秒长片','参考生成'],s:'字节Seed视频模型，单次可生成30秒高质量音视频',d:'在 Seedance 2.0 多模态音视频联合生成架构上升级，聚焦基础生成、参考生成、长叙事和编辑控制，单次最长30秒带音频高质量视频。',u:'服装/产品广告短片、模特走秀视频、商详头图视频的强力工具，参考图可锁定模特和服装一致性。',l:'https://slashdot.org/software/p/Hedra/alternatives',src:'行业评测',h:5,dt:'2026-08-26'},
+{n:'Kling 3.0 / 3.0 Omni（快手可灵）',c:'ai-video',t:['国产','4K','多镜头故事板','原生音频'],s:'统一多模态视频模型，4K画质+自动多镜头导演+原生多语言音频',d:'支持文/图/视频/音频统一输入输出，原生4K、多镜头故事板、多角色参考、三人以上同框、原生多语言音频及方言唇形同步。Omni版支持参考视频锁定和分镜时间线。',u:'电商广告片、模特展示视频、口播种草视频一站式生成，多镜头能力省去剪辑拼接。',l:'https://kling.art',src:'可灵官网',h:5,dt:'2026-08-25'},
+{n:'MiniMax H3 / 海螺AI',c:'ai-video',t:['开源权重','全模态','2K视频+立体声'],s:'首个全开源全模态模型，可生成4-15秒2K视频并自带立体声音频',d:'MiniMax 开放 H3 权重（33B参数），理解文/图/视频并生成2K视频片段+原生立体声音频。已在海螺AI和API上线。许可证限制美欧商用。',u:'可本地/私有部署的视频生成方案，适合对数据隐私和成本敏感的商拍素材生产。',l:'https://hailuoai.video',src:'MiniMax/海螺',h:4,dt:'2026-08-26'},
+{n:'Google Veo 3.1 + Flow',c:'ai-video',t:['谷歌','电影级','原生音频','创作工作台'],s:'综合能力最强的AI视频模型，配Flow工作台做完整创作',d:'Veo 3.1 以9.1/10位列现役第一，电影级画质+原生音频；Google Flow 是配套创作工作台，支持镜头迭代和完整工作流。',u:'追求最高画质品牌广告片时首选，Flow适合从分镜到成片的完整制作。',l:'https://diyai.io/ai-tools/video-generation/best-ai-video-tools/',src:'DIY AI评测',h:5,dt:'2026-08-18'},
+{n:'Runway Gen-4.5',c:'ai-video',t:['海外','制作工作台','全能'],s:'评分8.9/10的全能AI视频制作平台',d:'Runway 现役版本，更全面的制作工作区，集生成、编辑、后期于一体。',u:'需要在一个平台里完成生成+剪辑+特效时的成熟选择。',l:'https://diyai.io/ai-tools/video-generation/best-ai-video-tools/',src:'DIY AI评测',h:4,dt:'2026-08-18'},
+{n:'Seedream 5.0 Pro（字节跳动）',c:'ai-image',t:['国产','文生图+参考编辑统一','多模态'],s:'把文生图和精准参考引导编辑统一在一个多模态模型里',d:'字节Seed图像模型，既能文生图，又能做精准参考引导编辑（换元素、改局部、保一致性）。',u:'电商主图/详情页生成、局部改色改款、模特换装修图的国产主力模型，中文理解好。',l:'https://local-ai-zone.github.io/blog/ai-updates-august-2026.html',src:'Local AI Zone',h:5,dt:'2026-08-22'},
+{n:'Nano Banana 2 / Pro（Google）',c:'ai-image',t:['谷歌','2-4秒出图','4K','角色一致','PS插件'],s:'秒级出图、4K高清、角色一致性极强，还有Photoshop插件',d:'Nano Banana 2 主打2-4秒极速出图、最高4K；Pro版支持多步纠错、角色一致性、上传最多10张图做参考编辑。Astria 已推出 Photoshop 插件。',u:'电商出图效率神器——主图、模特图、场景图快速迭代；PS插件可直接融入修图工作流做换装/换配饰。',l:'https://nanobanana.io',src:'Nano Banana',h:5,dt:'2026-08-18'},
+{n:'Microsoft MAI-Image-2.6',c:'ai-image',t:['微软','图像编辑竞技场第三'],s:'微软图像编辑模型在Arena单图像编辑类别以1420分位列第三',d:'2026年8月18日确认在 Arena.ai 单图像编辑类别得分1420，排名第三。',u:'图像编辑（改字、换元素、修图）的又一强力备选。',l:'https://www.iesdouyin.com/share/video/7675586383200750321',src:'Arena.ai',h:3,dt:'2026-08-19'},
+{n:'GPT Image 2（OpenAI）',c:'ai-image',t:['OpenAI','换装换模特','编辑竞技场第一'],s:'OpenAI图像模型，编辑竞技场第一，服装换模特效果出色',d:'GPT Image 2 以1463分排名图像编辑第一；电商美工社区已广泛用它做AI换模特、换装。',u:'换模特、换人种/年龄/体型、整套电商场景生成的第一梯队工具。',l:'https://www.iesdouyin.com/share/video/7631138078900011889',src:'抖音实测',h:4,dt:'2026-08-19'},
+{n:'Qwen3.8-Max（阿里通义）',c:'ai-model',t:['开源','2.4万亿参数','1M上下文','多模态'],s:'史上最大开源权重模型，2.4T参数、1M上下文、原生多模态',d:'8月3日发布，约95B激活参数，首次开源Qwen-Max级权重；支持文本/图像/视频/音频单窗口，官方报告可自主编码16天。',u:'顶级开源多模态大脑，可搭建私有AI助手、批量处理图文任务。',l:'https://local-ai-zone.github.io/blog/ai-updates-august-2026.html',src:'Local AI Zone',h:5,dt:'2026-08-22'},
+{n:'Qwen3.8-27B（阿里通义）',c:'ai-model',t:['开源','Apache2.0','消费级GPU','agent编码'],s:'27B稠密模型，单张消费级显卡就能跑，编码接近Opus 4.6',d:'8月14日发布，Apache 2.0，Terminal-Bench 73.0、DeepSWE 42.2，可在RTX 4090/3090等24GB显存设备运行。',u:'本地跑AI助手/脚本工具的性价比之选，不用付API费。',l:'https://local-ai-zone.github.io/blog/ai-updates-august-2026.html',src:'Local AI Zone',h:4,dt:'2026-08-22'},
+{n:'Gemini 3.7 Flash（Google）',c:'ai-model',t:['谷歌','编码agent','1M上下文','低价'],s:'谷歌最强劳模模型，编码和agent能力突出，1M上下文',d:'8月13日发布，1M token上下文、64K输出，intro价$0.75/$3.75每百万token。',u:'日常AI对话、写自动化脚本、批量处理文案/提示词的高性价比选择。',l:'https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/',src:'Google博客',h:4,dt:'2026-08-13'},
+{n:'DeepSeek V4-Pro-0813',c:'ai-model',t:['开源','正式版','agent增强','低价'],s:'DeepSeek旗舰结束预览正式GA，agent能力大升级',d:'8月12-13日正式上线，agent基准成绩家族最强，逼近顶级闭源；新定价$1.32/$3.96每百万token。',u:'低成本强推理模型，适合写ComfyUI工作流脚本、批量处理任务。',l:'https://local-ai-zone.github.io/blog/ai-updates-august-2026.html',src:'Local AI Zone',h:4,dt:'2026-08-22'},
+{n:'Meta Muse Glimmer 30B',c:'ai-model',t:['Meta开源','Apache2.0','本地常驻agent'],s:'Meta回归开源的29.6B多模态模型，定位本地常驻agent',d:'8月10日发布，27.8B语言+1.8B视觉，Apache 2.0，128K上下文，单消费级GPU可跑。',u:'本地多模态助手，可常驻后台处理图片理解和自动化任务。',l:'https://local-ai-zone.github.io/blog/ai-updates-august-2026.html',src:'Local AI Zone',h:3,dt:'2026-08-22'},
+{n:'NVIDIA Nemotron 3.5 Lightning',c:'ai-model',t:['英伟达开源','30B MoE仅3B激活','快4倍'],s:'30B MoE仅3B激活参数，比同类快4倍，笔记本GPU可跑',d:'8月11日发布，为常驻低延迟agent设计，1M上下文。',u:'低配设备本地跑AI agent的最快选择。',l:'https://local-ai-zone.github.io/blog/ai-updates-august-2026.html',src:'Local AI Zone',h:3,dt:'2026-08-22'},
+{n:'OX Alpha（匿名神秘模型）',c:'ai-model',t:['匿名','DeepSWE 80%','1M上下文'],s:'匿名现身OpenRouter的神秘前沿模型，编码能力超GPT-5.6-sol',d:'8月20日以stealth/ox-alpha身份出现，DeepSWE Pass@1达80%，1M上下文、全模态，24小时内被Zed、Hermes等生产环境集成。',u:'免费期体验其多模态理解能力，可用来分析设计稿/写脚本。',l:'https://local-ai-zone.github.io/blog/ai-updates-august-2026.html',src:'Local AI Zone',h:4,dt:'2026-08-22'},
+{n:'Ornith-1.5-35B',c:'ai-model',t:['开源','自改进训练','MoE'],s:'用自我改进策略训练的开源LLM家族，35B MoE版表现亮眼',d:'8月20日发布，包含9B稠密、35B MoE、397B MoE三个版本，采用自改进训练策略。',u:'关注开源模型迭代时的新选择。',l:'https://chats-llm.com/en/model-releases',src:'chats-llm',h:2,dt:'2026-08-25'},
+{n:'DeepSeek Harness',c:'ai-tool',t:['开源','182k stars','agent插件系统'],s:'DeepSeek官方agent harness，把agent能力拆成可组合插件',d:'GitHub 182.2k+ stars，一条命令启动WebUI本地运行，把agent能力做成可组合插件系统。',u:'搭建本地AI agent工作流的基础设施。',l:'https://github.com/deepseek-ai/deepseek-harness',src:'GitHub',h:5,dt:'2026-08-25'},
+{n:'caveman',c:'ai-tool',t:['开源','99.6k stars','省token'],s:'Claude Code技能，用压缩风格省约65% token',d:'99.6k stars，通过压缩表达方式大幅削减token开销。',u:'高频用Claude/Claude Code时省钱立竿见影。',l:'https://github.com/duanyytop/agents-radar/issues/2818',src:'GitHub Trending',h:4,dt:'2026-08-20'},
+{n:'MCP-Builder.ai',c:'ai-tool',t:['Product Hunt','MCP','数据连接'],s:'最快把你的数据和AI工具连接起来的方式',d:'2026年8月26日Product Hunt每日榜产品，快速构建MCP连接。',u:'把自己的工作数据快速接入AI工具。',l:'https://www.producthunt.com/leaderboard/daily/2026/8/26',src:'Product Hunt',h:3,dt:'2026-08-26'},
+{n:'Wispr Flow',c:'ai-tool',t:['Product Hunt','语音听写','4倍速'],s:'随处可用的语音听写，比打字快4倍',d:'Product Hunt热门，语音转文字工具，号称4倍打字速度。',u:'写文案、写提示词时动嘴不动手。',l:'https://www.producthunt.com/leaderboard/daily/2026/8/26',src:'Product Hunt',h:3,dt:'2026-08-26'},
+{n:'ego-lite',c:'ai-tool',t:['开源','浏览器自动化','agent浏览器'],s:'AI agent最快的浏览器，可把登录态共享给Codex/Claude Code',d:'专为AI agent浏览器自动化打造，可把已登录的浏览器状态共享给Codex或Claude Code，零成本零配置。',u:'让AI agent自动操作电商后台、批量上架、抓数据时保持登录态。',l:'https://github.com/citrolabs/ego-lite',src:'GitHub Trending',h:3,dt:'2026-08-16'},
+{n:'book-to-skill',c:'ai-tool',t:['开源','Claude Code','知识转技能'],s:'把任意技术书籍PDF转成Claude Code技能',d:'单日+423 stars，反映知识即技能的转化需求。',u:'把AI作图/ComfyUI/设计类电子书转成可直接调用的AI技能。',l:'https://reinness.com/posts/475',src:'AI开源日报',h:3,dt:'2026-08-24'},
+{n:'Needle2',c:'ai-tool',t:['Show HN','14MB','端侧LLM'],s:'14MB的agentic LLM，跑在手机、可穿戴、智能家居和机器人上',d:'Hacker News Show HN 537赞，极致轻量的端侧智能体模型。',u:'了解端侧AI最新进展。',l:'https://bestofshowhn.com/2026/8',src:'Hacker News',h:3,dt:'2026-08-20'},
+{n:'Shoehorn',c:'ai-tool',t:['Show HN','模型量化','本地运行'],s:'把任意模型量化压缩到能在你机器上运行',d:'Hacker News Show HN 97赞，帮助普通硬件跑大模型的量化工具。',u:'本地跑AI模型时的量化降配利器。',l:'https://bestofshowhn.com/2026/8',src:'Hacker News',h:3,dt:'2026-08-22'},
+].map(x=>({id:'cur-'+x.n.slice(0,8),name:x.n,category:x.c,tags:x.t,summary:x.s,description:x.d,usage:x.u,link:x.l,source:x.src,hotness:x.h,date:x.dt,sourceType:'curated'}));
+
+let state={projects:[],favs:new Set(load(STORE.favs)||[]),custom:load(STORE.custom)||[],edits:load(STORE.edit)||{},blacklist:new Set(load(STORE.blacklist)||[]),activeCat:'all',search:'',sourceFilter:'all',sortBy:'recommend',favOnly:false,lastCrawl:null,cloudOk:false,editId:null};
+
+function normalizeCloud(d){
+  const map=p=>({...p,sourceType:p.sourceType||'auto'});
+  return [...(d.curated||[]).map(map),...(d.auto||[]).map(map)];
+}
+
+async function fetchCloud(force){
+  const url=CLOUD_URL+(force?'?t='+Date.now():'');
+  const ctrl=new AbortController();
+  const timer=setTimeout(()=>ctrl.abort(),8000);
+  try{
+    const r=await fetch(url,{signal:ctrl.signal});
+    clearTimeout(timer);
+    if(!r.ok)throw new Error('http '+r.status);
+    const d=await r.json();
+    save(STORE.cache,d);
+    return d;
+  }catch(e){
+    clearTimeout(timer);
+    return load(STORE.cache);
+  }
+}
+
+function buildProjects(cloudData){
+  let cloud=[];
+  if(cloudData){
+    cloud=normalizeCloud(cloudData).filter(p=>!state.blacklist.has(p.link));
+    state.lastCrawl=cloudData.lastCrawl;
+    state.cloudOk=true;
+  }else{
+    state.cloudOk=false;
+  }
+  const custom=state.custom.filter(p=>!state.blacklist.has(p.link));
+  // edits override
+  const all=[...cloud,...custom].map(p=>{
+    const e=state.edits[p.id];
+    return e?{...p,...e}:p;
+  });
+  // 按项目唯一 id 去重（而非链接——同一汇总/榜单链接下可有多个不同项目）
+  const customByLink=new Map();
+  for(const p of custom){ if(p.link) customByLink.set(p.link,p); }
+  const byId=new Map();
+  for(const p of all){
+    const override=customByLink.get(p.link);
+    const eff=override?override:p;
+    const ex=byId.get(eff.id);
+    if(!ex||(ex.sourceType==='auto'&&eff.sourceType!=='auto'))byId.set(eff.id,eff);
+  }
+  state.projects=[...byId.values()];
+}
+
+function isNew(p){
+  if(p.sourceType!=='auto')return false;
+  if(!p.date)return false;
+  // 统一按 UTC 解析，避免不同时区机器对"7天内"判定不一致
+  let ts;
+  if(/^\d{4}-\d{2}-\d{2}$/.test(p.date)) ts=Date.parse(p.date+'T00:00:00Z');
+  else ts=Date.parse(p.date);
+  if(isNaN(ts))return false;
+  return (Date.now()-ts)<7*24*3600*1000;
+}
+// ---------- 项目图标（不依赖外部 favicon 服务，国内稳定可用）----------
+const ICON_DEFAULT='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' fill=\'%23333\'/%3E%3Ccircle cx=\'20\' cy=\'20\' r=\'12\' fill=\'none\' stroke=\'%23f59e0b\' stroke-width=\'2\'/%3E%3Ccircle cx=\'20\' cy=\'20\' r=\'3\' fill=\'%23f59e0b\'/%3E%3C/svg%3E';
+const ICON_HN='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' fill=\'%23ff6600\'/%3E%3Ctext x=\'20\' y=\'28\' font-size=\'22\' font-family=\'Arial\' font-weight=\'bold\' fill=\'white\' text-anchor=\'middle\'%3EY%3C/text%3E%3C/svg%3E';
+const ICON_XIN='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' fill=\'%231a73e8\'/%3E%3Ctext x=\'20\' y=\'28\' font-size=\'20\' font-family=\'sans-serif\' font-weight=\'bold\' fill=\'white\' text-anchor=\'middle\'%3E新%3C/text%3E%3C/svg%3E';
+const ICON_QBIT='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' fill=\'%237c3aed\'/%3E%3Ctext x=\'20\' y=\'28\' font-size=\'20\' font-family=\'Arial\' font-weight=\'bold\' fill=\'white\' text-anchor=\'middle\'%3EQ%3C/text%3E%3C/svg%3E';
+const ICON_PH='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' fill=\'%23da552f\'/%3E%3Ctext x=\'20\' y=\'28\' font-size=\'20\' font-family=\'Arial\' font-weight=\'bold\' fill=\'white\' text-anchor=\'middle\'%3EP%3C/text%3E%3C/svg%3E';
+const ICON_HF='https://huggingface.co/front/assets/huggingface_logo-noborder.svg';
+function getProjectIcon(p){
+  const link=p.link||'';
+  const source=p.source||'';
+  try{
+    if(source==='GitHub'||/github\.com\//.test(link)){
+      const m=link.match(/github\.com\/([^\/]+)/);
+      if(m)return 'https://github.com/'+m[1]+'.png';
+    }
+    if(source==='Hugging Face'||/huggingface\.co\//.test(link))return ICON_HF;
+    if(source==='Hacker News')return ICON_HN;
+    if(source==='新智元')return ICON_XIN;
+    if(source==='量子位')return ICON_QBIT;
+    if(/producthunt\.com/.test(link))return ICON_PH;
+  }catch(e){}
+  return ICON_DEFAULT;
+}
+
+function filtered(){
+  let list=state.projects.slice();
+  if(state.activeCat!=='all')list=list.filter(p=>p.category===state.activeCat);
+  if(state.sourceFilter!=='all')list=list.filter(p=>p.sourceType===state.sourceFilter);
+  if(state.favOnly)list=list.filter(p=>state.favs.has(p.id));
+  if(state.search){
+    const q=state.search.toLowerCase();
+    list=list.filter(p=>(p.name+' '+(p.summary||'')+' '+(p.summary_zh||'')+' '+(p.description||'')+' '+(p.tags||[]).join(' ')).toLowerCase().includes(q));
+  }
+  const rank={curated:0,user:1,auto:2};
+  if(state.sortBy==='hot')list.sort((a,b)=>(b.hotness||0)-(a.hotness||0));
+  else if(state.sortBy==='new')list.sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+  else list.sort((a,b)=>{
+    const rc=rank[a.sourceType]-rank[b.sourceType];
+    if(rc)return rc;
+    return (b.hotness||0)-(a.hotness||0);
+  });
+  return list;
+}
+
+function render(){
+  const list=filtered();
+  // stats
+  const counts={};
+  state.projects.forEach(p=>counts[p.category]=(counts[p.category]||0)+1);
+  $('#stats').innerHTML=CATS.map(c=>`<div class="stat"><div class="num">${counts[c.key]||0}</div><div class="lbl">${c.name}</div></div>`).join('')+
+    `<div class="stat"><div class="num">${state.favs.size}</div><div class="lbl">我的收藏</div></div>`;
+  // cats
+  $('#cats').innerHTML=`<button class="pill ${state.activeCat==='all'?'active':''}" data-cat="all">全部 <span class="cnt">${state.projects.length}</span></button>`+
+    CATS.map(c=>`<button class="pill ${state.activeCat===c.key?'active':''}" data-cat="${c.key}" style="--cat-color:${c.color}">${c.name} <span class="cnt">${counts[c.key]||0}</span></button>`).join('');
+  // grid
+  if(!list.length){
+    $('#grid').innerHTML='<div class="empty" style="grid-column:1/-1"><div class="big">📡</div><p>没有匹配的项目</p></div>';
+  }else{
+    $('#grid').innerHTML=list.map(p=>{
+      const cat=CAT_MAP[p.category]||CATS[4];
+      const fav=state.favs.has(p.id);
+      const srcBadge={curated:'⭐ 精选',auto:'🤖 自动抓取',user:'✏️ 我的'}[p.sourceType]||p.source;
+      return `<article class="card" style="--cat-color:${cat.color}">
+        <div class="card-top">
+          <img class="card-icon" src="${getProjectIcon(p)}" onerror="this.onerror=null;this.src=ICON_DEFAULT" alt="">
+          <div class="card-name"><a href="${p.link}" target="_blank" rel="noopener">${p.name}</a></div>
+          <button class="fav-btn ${fav?'on':''}" data-fav="${p.id}" title="收藏">${fav?'★':'☆'}</button>
+        </div>
+        <div class="badges">
+          <span class="badge cat">${cat.name}</span>
+          <span class="badge">${srcBadge}</span>
+          ${p.hotness>=4?`<span class="badge hot">${'🔥'.repeat(Math.min(p.hotness,5))}</span>`:''}
+          ${isNew(p)?'<span class="badge new">NEW</span>':''}
+        </div>
+        <div class="card-summary">${p.summary_zh||p.summary||''}</div>
+        <div class="card-detail" id="det-${p.id}">
+          ${p.description?`<div class="sec"><div class="sec-label">详细介绍</div><p>${p.description}</p></div>`:''}
+          ${p.usage?`<div class="sec usage"><div class="sec-label">对电商美工的用处</div><p>${p.usage}</p></div>`:''}
+          ${(p.tags&&p.tags.length)?`<div class="tags">${p.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`:''}
+        </div>
+        <button class="expand-btn" data-expand="${p.id}">展开详情 ▾</button>
+        <div class="card-foot">
+          <span class="src">${p.source||''}</span>
+          <a class="link-btn" href="${p.link}" target="_blank" rel="noopener">直达 ↗</a>
+          <span class="date">${p.date||''}</span>
+        </div>
+      </article>`;
+    }).join('');
+  }
+  // status
+  if(state.cloudOk){
+    $('#statusText').innerHTML='<span class="dot"></span>云端已连接';
+    $('#lastUpdate').textContent='最近更新：'+(state.lastCrawl?new Date(state.lastCrawl).toLocaleString('zh-CN',{hour12:false}):'—');
+  }else{
+    $('#statusText').innerHTML='<span class="dot warn"></span>云端未连接，使用本地数据';
+  }
+}
+
+// events
+$('#cats').addEventListener('click',e=>{const b=e.target.closest('.pill');if(b){state.activeCat=b.dataset.cat;render()}});
+$('#grid').addEventListener('click',e=>{
+  const fav=e.target.closest('[data-fav]');
+  if(fav){const id=fav.dataset.fav;state.favs.has(id)?state.favs.delete(id):state.favs.add(id);save(STORE.favs,[...state.favs]);render();return}
+  const ex=e.target.closest('[data-expand]');
+  if(ex){const d=$('#det-'+ex.dataset.expand);d.classList.toggle('open');ex.textContent=d.classList.contains('open')?'收起详情 ▴':'展开详情 ▾'}
+});
+// 搜索防抖：输入即时回显，250ms 后才重算过滤
+let _debounceT=null;
+$('#search').addEventListener('input',e=>{
+  clearTimeout(_debounceT);
+  _debounceT=setTimeout(()=>{state.search=e.target.value.trim();render()},250);
+});
+$('#sourceFilter').addEventListener('change',e=>{state.sourceFilter=e.target.value;render()});
+$('#sortBy').addEventListener('change',e=>{state.sortBy=e.target.value;render()});
+$('#favOnlyBtn').addEventListener('click',e=>{state.favOnly=!state.favOnly;e.currentTarget.style.color=state.favOnly?'var(--accent)':'';e.currentTarget.style.borderColor=state.favOnly?'var(--accent)':'';render()});
+$('#themeBtn').addEventListener('click',()=>{const cur=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',cur);save(STORE.theme,cur)});
+(function(){const t=load(STORE.theme);if(t)document.documentElement.setAttribute('data-theme',t)})();
+
+// refresh
+$('#refreshBtn').addEventListener('click',async()=>{
+  const btn=$('#refreshBtn');btn.disabled=true;btn.innerHTML='<svg class="spin" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12a9 9 0 11-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg> 同步中…';
+  const before=state.projects.length;
+  const d=await fetchCloud(true);
+  if(d){buildProjects(d);render();toast(`已从云端同步，共 ${state.projects.length} 个项目`)}
+  else{toast('云端连接失败，请稍后重试')}
+  btn.disabled=false;btn.innerHTML='<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12a9 9 0 11-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg> 立即刷新';
+});
+
+// add/edit
+function openModal(project){
+  state.editId=project?project.id:null;
+  $('#modalTitle').textContent=project?'编辑项目':'添加项目';
+  $('#f_name').value=project?.name||'';
+  $('#f_category').innerHTML=CATS.map(c=>`<option value="${c.key}" ${project?.category===c.key?'selected':''}>${c.name}</option>`).join('');
+  $('#f_tags').value=(project?.tags||[]).join(', ');
+  $('#f_summary').value=project?.summary||'';
+  $('#f_description').value=project?.description||'';
+  $('#f_usage').value=project?.usage||'';
+  $('#f_link').value=project?.link||'';
+  $('#f_source').value=project?.source||'我添加的';
+  $('#f_hotness').value=project?.hotness||3;
+  $('#modalBg').classList.add('open');
+}
+$('#addBtn').addEventListener('click',()=>openModal(null));
+$('#cancelBtn').addEventListener('click',()=>$('#modalBg').classList.remove('open'));
+$('#modalBg').addEventListener('click',e=>{if(e.target===$('#modalBg'))$('#modalBg').classList.remove('open')});
+$('#saveBtn').addEventListener('click',()=>{
+  const name=$('#f_name').value.trim(),link=$('#f_link').value.trim(),summary=$('#f_summary').value.trim();
+  if(!name||!link||!summary){toast('请填写名称、链接和简介');return}
+  const obj={name,category:$('#f_category').value,tags:$('#f_tags').value.split(/[,，]/).map(s=>s.trim()).filter(Boolean),summary,description:$('#f_description').value.trim(),usage:$('#f_usage').value.trim(),link,source:$('#f_source').value.trim()||'我添加的',hotness:parseInt($('#f_hotness').value)||3,date:new Date().toISOString().slice(0,10),sourceType:'user'};
+  if(state.editId){
+    const ex=state.projects.find(p=>p.id===state.editId);
+    if(ex&&ex.sourceType==='user'){state.custom=state.custom.map(p=>p.id===state.editId?{...p,...obj}:p);save(STORE.custom,state.custom)}
+    else{state.edits[state.editId]=obj;save(STORE.edit,state.edits)}
+    toast('已保存');
+  }else{
+    obj.id=uid();state.custom.push(obj);save(STORE.custom,state.custom);toast('已添加');
+  }
+  $('#modalBg').classList.remove('open');buildProjects(load(STORE.cache));render();
+});
+
+// export/import
+$('#exportBtn').addEventListener('click',()=>{
+  const data={exportedAt:new Date().toISOString(),favorites:[...state.favs],customProjects:state.custom,edits:state.edits,blacklist:[...state.blacklist]};
+  const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='ai-radar-backup-'+new Date().toISOString().slice(0,10)+'.json';a.click();
+  toast('已导出备份文件');
+});
+// 导入数据消毒：白名单字段、截断、去HTML标签、数值夹取、ID安全、分类校验
+const VALID_CATS=['ai-clothing','ai-video','ai-image','ai-model','ai-tool'];
+function stripHtml(v){return String(v).replace(/<[^>]*>/g,'').replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g,'')}
+function sanitizeImportItem(raw){
+  if(!raw||typeof raw!=='object')return null;
+  const s=v=>typeof v==='string'?v:'';
+  const name=stripHtml(s(raw.name)).slice(0,200);
+  const link=stripHtml(s(raw.link)).slice(0,500);
+  if(!name||!link)return null;
+  const category=VALID_CATS.includes(raw.category)?raw.category:'ai-tool';
+  let tags=[];
+  if(Array.isArray(raw.tags))tags=raw.tags.map(t=>stripHtml(s(t)).slice(0,50)).filter(Boolean).slice(0,20);
+  else if(typeof raw.tags==='string')tags=raw.tags.split(/[,，]/).map(t=>stripHtml(s(t)).slice(0,50)).filter(Boolean).slice(0,20);
+  let hotness=parseInt(raw.hotness||raw.heat,10);
+  if(isNaN(hotness))hotness=3;
+  hotness=Math.max(1,Math.min(5,hotness));
+  let id=s(raw.id);
+  if(id&&!/^[a-zA-Z0-9_\-:./]+$/.test(id))id='';
+  if(!id)id=uid();
+  return {
+    id,name,category,tags,
+    summary:stripHtml(s(raw.summary||raw.tagline)).slice(0,2000),
+    description:stripHtml(s(raw.description)).slice(0,2000),
+    usage:stripHtml(s(raw.usage||raw.useCase)).slice(0,2000),
+    link,source:stripHtml(s(raw.source)).slice(0,100)||'我添加的',
+    hotness,date:s(raw.date).slice(0,10)||new Date().toISOString().slice(0,10),
+    sourceType:'user'
+  };
+}
+function sanitizeIdList(arr){
+  if(!Array.isArray(arr))return [];
+  return arr.filter(x=>typeof x==='string'&&/^[a-zA-Z0-9_\-:./]+$/.test(x)).slice(0,500);
+}
+$('#importFile').addEventListener('change',e=>{
+  const file=e.target.files[0];if(!file)return;
+  const reader=new FileReader();
+  reader.onload=ev=>{try{const d=JSON.parse(ev.target.result);
+    const cleanFav=sanitizeIdList(d.favorites);
+    const cleanCustom=(d.customProjects||[]).map(sanitizeImportItem).filter(Boolean);
+    const cleanEdits={};
+    if(d.edits&&typeof d.edits==='object')for(const k in d.edits){const it=sanitizeImportItem(d.edits[k]);if(it&&/^[a-zA-Z0-9_\-:./]+$/.test(k))cleanEdits[k]=it}
+    const cleanBlack=sanitizeIdList(d.blacklist);
+    if(cleanFav.length)state.favs=new Set([...state.favs,...cleanFav]);
+    if(cleanCustom.length)state.custom=[...state.custom,...cleanCustom.filter(p=>!state.custom.some(x=>x.link===p.link))];
+    if(Object.keys(cleanEdits).length)state.edits={...state.edits,...cleanEdits};
+    if(cleanBlack.length)state.blacklist=new Set([...state.blacklist,...cleanBlack]);
+    save(STORE.favs,[...state.favs]);save(STORE.custom,state.custom);save(STORE.edit,state.edits);save(STORE.blacklist,[...state.blacklist]);
+    buildProjects(load(STORE.cache));render();
+    const disc=(d.customProjects||[]).length-cleanCustom.length;
+    toast(disc>0?`导入成功（已过滤 ${disc} 条不安全数据）`:'导入成功');
+  }catch{toast('文件格式错误')}};
+  reader.readAsText(file);e.target.value='';
+});
+
+// init: 先用内置精选立即渲染，再用云端数据覆盖
+state.projects=FALLBACK_CURATED;
+render();
+(async()=>{
+  const cached=load(STORE.cache);
+  if(cached){buildProjects(cached);render()}
+  const d=await fetchCloud(false);
+  if(d){buildProjects(d);render()}
+  else if(!cached){toast('云端未连接，显示内置精选数据（联网后自动同步）')}
+})();
+</script>
+</body>
+</html>
