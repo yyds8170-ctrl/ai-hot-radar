@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>下载中心 · AI 热门项目雷达</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230b0f1a' stroke='%235eead4' stroke-width='2'/%3E%3Cpath d='M16 6v14M9 13l7 7 7-7' stroke='%23ffb74d' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+:root{
+  --bg:#0b0f1a; --bg2:#0e1524; --card:#111a2e; --card2:#16203a;
+  --line:rgba(148,163,184,.14); --line2:rgba(148,163,184,.28);
+  --txt:#e2e8f0; --dim:#8b96ab; --faint:#5b6478;
+  --cyan:#5eead4; --amber:#ffb74d; --blue:#3b82f6; --violet:#8b5cf6;
+  --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);font-family:'Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;line-height:1.6;min-height:100vh}
+body::before{content:'';position:fixed;inset:0;z-index:-1;background:
+  radial-gradient(900px 500px at 85% -10%,rgba(94,234,212,.09),transparent 60%),
+  radial-gradient(700px 420px at -10% 20%,rgba(139,92,246,.08),transparent 60%),
+  radial-gradient(600px 400px at 50% 110%,rgba(59,130,246,.06),transparent 60%)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+
+/* ===== 顶部导航 ===== */
+header{position:sticky;top:0;z-index:50;background:rgba(11,15,26,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:16px;letter-spacing:.5px}
+.brand .logo{width:30px;height:30px;flex:none}
+.brand em{font-style:normal;color:var(--cyan)}
+.nav-links{display:flex;gap:6px;align-items:center}
+.nav-links a{padding:8px 14px;border-radius:9px;font-size:13px;color:var(--dim);transition:all .2s}
+.nav-links a:hover{color:var(--txt);background:rgba(148,163,184,.09)}
+.nav-links a.cta{background:linear-gradient(135deg,var(--cyan),#38bdf8);color:#06232b;font-weight:700}
+
+/* ===== Hero ===== */
+.hero{padding:72px 0 46px;text-align:center;position:relative}
+.hero .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 16px;border:1px solid rgba(94,234,212,.35);border-radius:999px;font-size:12px;color:var(--cyan);background:rgba(94,234,212,.07);margin-bottom:22px}
+.hero .badge .dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 10px var(--cyan);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.hero h1{font-size:46px;font-weight:900;letter-spacing:1px;line-height:1.2}
+.hero h1 .grad{background:linear-gradient(120deg,#5eead4,#38bdf8 55%,#8b5cf6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.sub{margin-top:14px;color:var(--dim);font-size:15px;max-width:560px;margin-left:auto;margin-right:auto}
+.hero .stats{display:flex;justify-content:center;gap:0;margin-top:34px;flex-wrap:wrap}
+.hero .stat{padding:14px 34px;border-right:1px solid var(--line)}
+.hero .stat:last-child{border-right:none}
+.hero .stat b{display:block;font-size:26px;font-weight:900;color:var(--txt)}
+.hero .stat b i{font-style:normal;color:var(--cyan)}
+.hero .stat span{font-size:12px;color:var(--faint)}
+
+/* ===== 区块 ===== */
+section{padding:34px 0}
+.sec-head{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.sec-head .ico{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:rgba(94,234,212,.1);border:1px solid rgba(94,234,212,.25);color:var(--cyan)}
+.sec-head h2{font-size:21px;font-weight:800;letter-spacing:.3px}
+.sec-head p{font-size:13px;color:var(--faint);margin-top:2px}
+
+/* ===== 卡片网格 ===== */
+.grid{display:grid;gap:16px}
+.grid-3{grid-template-columns:repeat(3,1fr)}
+.grid-2{grid-template-columns:repeat(2,1fr)}
+.card{position:relative;background:linear-gradient(160deg,var(--card),var(--bg2));border:1px solid var(--line);border-radius:16px;padding:26px;display:flex;flex-direction:column;transition:transform .25s,border-color .25s,box-shadow .25s;overflow:hidden}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--cyan),transparent);opacity:.7}
+.card:hover{transform:translateY(-4px);border-color:var(--line2);box-shadow:0 16px 40px rgba(0,0,0,.35)}
+.card .ico{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;margin-bottom:16px;flex:none}
+.card h3{font-size:17px;font-weight:800;margin-bottom:6px}
+.card .desc{font-size:13px;color:var(--dim);flex:1;margin-bottom:16px}
+.card .meta{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.card .meta span{font-size:11px;color:var(--dim);background:rgba(148,163,184,.09);border:1px solid var(--line);padding:3px 9px;border-radius:6px;font-family:var(--mono)}
+.card .btn{margin-top:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 18px;border-radius:11px;font-size:14px;font-weight:700;transition:all .2s;border:1px solid transparent}
+.btn svg{width:16px;height:16px}
+.btn-primary{background:linear-gradient(135deg,var(--cyan),#38bdf8);color:#06232b;box-shadow:0 6px 20px rgba(56,189,248,.25)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(56,189,248,.4)}
+.btn-ghost{border-color:var(--line2);color:var(--txt);background:rgba(148,163,184,.06)}
+.btn-ghost:hover{border-color:var(--cyan);color:var(--cyan)}
+.btn-amber{background:linear-gradient(135deg,var(--amber),#f97316);color:#2b1503;box-shadow:0 6px 20px rgba(251,146,60,.22)}
+.btn-amber:hover{transform:translateY(-2px)}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap}
+
+/* 在线版卡片特殊底色 */
+.card.online::before{background:linear-gradient(90deg,var(--violet),transparent)}
+.card.online .ico{background:rgba(139,92,246,.12);border:1px solid rgba(139,92,246,.3);color:#c4b5fd}
+.card.data::before{background:linear-gradient(90deg,var(--amber),transparent)}
+.card.data .ico{background:rgba(255,183,77,.12);border:1px solid rgba(255,183,77,.3);color:var(--amber)}
+.card.doc .ico{background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.3);color:#93c5fd}
+
+/* ===== 时间轴 ===== */
+.timeline{display:grid;grid-template-columns:110px 34px 1fr;gap:0;position:relative}
+.tl-item{display:contents}
+.tl-time{text-align:right;padding:14px 14px 14px 0;font-family:var(--mono);font-size:12px;color:var(--faint);line-height:1.9}
+.tl-axis{display:grid;justify-items:center;grid-template-rows:auto 1fr}
+.tl-dot{width:15px;height:15px;border-radius:50%;margin-top:20px;background:var(--bg);border:3px solid var(--cyan);box-shadow:0 0 0 4px rgba(94,234,212,.12);z-index:1;justify-self:center}
+.tl-line{width:2px;background:linear-gradient(180deg,var(--cyan),rgba(94,234,212,.12));flex:1}
+.tl-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:10px 0 10px 14px}
+.tl-card h4{font-size:15px;font-weight:800;margin-bottom:3px}
+.tl-card h4 .ver{color:var(--cyan);font-family:var(--mono);font-size:13px;margin-right:8px}
+.tl-card p{font-size:13px;color:var(--dim)}
+
+/* ===== FAQ ===== */
+.faq{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;cursor:pointer}
+.faq summary{font-size:14px;font-weight:700;list-style:none;display:flex;align-items:center;gap:10px}
+.faq summary::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--cyan);flex:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq p{margin-top:10px;font-size:13px;color:var(--dim);padding-left:16px}
+
+/* ===== 页脚 ===== */
+footer{border-top:1px solid var(--line);margin-top:30px;padding:34px 0 40px;text-align:center}
+.foot-brand{font-weight:900;font-size:15px;letter-spacing:.5px}
+.foot-brand em{font-style:normal;color:var(--cyan)}
+.foot-links{display:flex;justify-content:center;gap:18px;margin-top:12px;flex-wrap:wrap}
+.foot-links a{font-size:12px;color:var(--dim);transition:color .2s}
+.foot-links a:hover{color:var(--cyan)}
+.foot-credit{margin-top:18px;font-size:13px;color:var(--faint)}
+.foot-credit .heart{color:var(--cyan);display:inline-block;vertical-align:-2px;animation:beat 1.6s infinite}
+@keyframes beat{0%,100%{transform:scale(1)}12%{transform:scale(1.25)}24%{transform:scale(1)}}
+.foot-credit b{color:var(--cyan);font-weight:700}
+
+/* ===== 响应式 ===== */
+@media(max-width:860px){
+  .grid-3{grid-template-columns:1fr}
+  .grid-2{grid-template-columns:1fr}
+  .faq{grid-template-columns:1fr}
+  .hero h1{font-size:32px}
+  .hero .stat{padding:10px 20px}
+  .timeline{grid-template-columns:76px 26px 1fr}
+  .nav-links a{display:none}
+  .nav-links a.cta{display:inline-flex}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <svg class="logo" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="13" stroke="#5eead4" stroke-width="2"/><circle cx="16" cy="16" r="8" stroke="#5eead4" stroke-width="1" opacity=".5"/><path d="M16 4v4M16 24v4M4 16h4M24 16h4" stroke="#5eead4" stroke-width="1.5" stroke-linecap="round"/><circle cx="16" cy="16" r="3" fill="#ffb74d"/></svg>
+      AI 热门项目雷达<em>·下载中心</em>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">雷达应用</a>
+      <a href="使用说明.html">使用说明</a>
+      <a href="https://github.com/yyds8170-ctrl/ai-hot-radar" target="_blank" rel="noopener">开源仓库</a>
+      <a class="cta" href="离线版.html">立即下载</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ===== Hero ===== -->
+  <div class="hero">
+    <span class="badge"><span class="dot"></span>云端每 6 小时自动更新 · 数据持续累积中</span>
+    <h1>AI 热门项目雷达 <span class="grad">下载中心</span></h1>
+    <p class="sub">全球 AI 热门项目自动追踪——AI 换装 / AI 视频 / AI 电商设计 / AI 新模型 / Agent 工具。单文件离线版、图文使用说明、云端数据，全部在这里免费下载。</p>
+    <div class="stats">
+      <div class="stat"><b>700<i>+</i></b><span>累积收录项目</span></div>
+      <div class="stat"><b>6</b><span>全球数据源</span></div>
+      <div class="stat"><b>6<i>h</i></b><span>自动更新周期</span></div>
+      <div class="stat"><b>0<i>¥</i></b><span>完全免费</span></div>
+    </div>
+  </div>
+
+  <!-- ===== 下载区 ===== -->
+  <section>
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div><h2>选择你的版本</h2><p>所有文件免费 · 无需注册 · 即下即用</p></div>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke-linejoin="round"/><path d="M14 2v6h6M9 13h6M9 17h6" stroke-linecap="round"/></svg></div>
+        <h3>离线版 · 完整版</h3>
+        <p class="desc">单文件 HTML，双击即用，无需安装任何东西。可拷贝到 U 盘 / 微信 / 网盘，在任何电脑上运行。包含：项目图标、中文简介、搜索、筛选、收藏、导入导出、夜间模式。</p>
+        <div class="meta"><span>v3.0</span><span>49 KB</span><span>单文件</span><span>含署名</span></div>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="离线版.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16" stroke-linecap="round" stroke-linejoin="round"/></svg>下载离线版</a>
+        </div>
+      </div>
+      <div class="card doc">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15z" stroke-linejoin="round"/><path d="M8 7h8M8 11h8M8 15h4" stroke-linecap="round"/></svg></div>
+        <h3>图文使用说明</h3>
+        <p class="desc">完整的使用手册：从打开应用到收藏、添加、导入导出、夜间模式、跨设备同步，每一步都有图文演示，小白也能 5 分钟上手。</p>
+        <div class="meta"><span>HTML</span><span>24 KB</span><span>9 章节</span><span>图文并茂</span></div>
+        <div class="btn-row">
+          <a class="btn btn-ghost" href="使用说明.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16" stroke-linecap="round" stroke-linejoin="round"/></svg>下载使用说明</a>
+        </div>
+      </div>
+      <div class="card data">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3" stroke-linecap="round"/></svg></div>
+        <h3>云端数据 · data.json</h3>
+        <p class="desc">雷达的全部实时数据（700+ 条项目），结构化 JSON 格式。开发者可直接引用，或导入自己的系统做二次开发。</p>
+        <div class="meta"><span>JSON</span><span>~480 KB</span><span>实时更新</span><span>CDN 分发</span></div>
+        <div class="btn-row">
+          <a class="btn btn-amber" href="https://cdn.jsdelivr.net/gh/yyds8170-ctrl/ai-hot-radar@main/data.json" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16" stroke-linecap="round" stroke-linejoin="round"/></svg>获取数据</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 在线使用 ===== -->
+  <section>
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M3 12h18M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18z" stroke-linecap="round"/></svg></div>
+      <div><h2>不想下载？在线直接用</h2><p>打开即用，自动更新，无需维护</p></div>
+    </div>
+    <div class="grid grid-2">
+      <div class="card online">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3" stroke-linecap="round"/></svg></div>
+        <h3>网页版 · 在线应用</h3>
+        <p class="desc">功能最完整的云端版本，数据自动同步、打开即最新，任何设备（电脑 / 平板 / 手机）浏览器直接访问，无需安装。</p>
+        <div class="meta"><span>免安装</span><span>自动更新</span><span>全设备</span></div>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" stroke-linecap="round" stroke-linejoin="round"/></svg>打开在线应用</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>开源仓库 · GitHub</h3>
+        <p class="desc">全部源码公开：抓取脚本、定时任务、数据文件、项目文档。想研究实现原理、二次开发或参与改进，来这里。</p>
+        <div class="meta"><span>MIT 友好</span><span>PolyForm 非商用</span><span>源码公开</span></div>
+        <div class="btn-row">
+          <a class="btn btn-ghost" href="https://github.com/yyds8170-ctrl/ai-hot-radar" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" stroke-linecap="round" stroke-linejoin="round"/></svg>访问仓库</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 版本历史 ===== -->
+  <section>
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2" stroke-linecap="round"/></svg></div>
+      <div><h2>版本历史</h2><p>每次迭代都在让雷达更聪明、更好看</p></div>
+    </div>
+    <div class="timeline">
+      <div class="tl-item"><div class="tl-time">2026-09</div><div class="tl-axis"><span class="tl-dot"></span><span class="tl-line"></span></div><div class="tl-card"><h4><span class="ver">v3.0</span>项目图标 + 全面美化</h4><p>项目卡片图标（GitHub 头像 / HF Logo / 信源专属图标）、界面视觉全面升级、下载中心上线、洋洋制作署名。</p></div></div>
+      <div class="tl-item"><div class="tl-time">2026-08-29</div><div class="tl-axis"><span class="tl-dot"></span><span class="tl-line"></span></div><div class="tl-card"><h4><span class="ver">v2.1</span>免费中文翻译</h4><p>英文简介自动翻译为中文（Google + MyMemory 双通道，失败自动降级保留原文，永不卡死）。</p></div></div>
+      <div class="tl-item"><div class="tl-time">2026-08-28</div><div class="tl-axis"><span class="tl-dot"></span><span class="tl-line"></span></div><div class="tl-card"><h4><span class="ver">v2.0</span>修复 CDN 缓存 + 按 id 去重</h4><p>解决数据更新后各端不同步问题，去重逻辑升级为按项目唯一 id，数据恢复完整。</p></div></div>
+      <div class="tl-item"><div class="tl-time">2026-08-27</div><div class="tl-axis"><span class="tl-dot"></span><span class="tl-line"></span></div><div class="tl-card"><h4><span class="ver">v1.5</span>云端累积 + 本月热门</h4><p>只增不减累积模式（项目永远不会变少）、本月热门筛选、本周新增高亮。</p></div></div>
+      <div class="tl-item"><div class="tl-time">2026-08-26</div><div class="tl-axis"><span class="tl-dot"></span><span class="tl-line"></span></div><div class="tl-card"><h4><span class="ver">v1.0</span>多数据源上线</h4><p>首个完整版本：GitHub / Hacker News / Hugging Face / 新智元 / 量子位 五大信源，定时自动抓取。</p></div></div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section>
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.7 2.2c-.8.4-1.2 1-1.2 1.8v.5M12 17h.01" stroke-linecap="round"/></svg></div>
+      <div><h2>常见问题</h2><p>关于下载和使用，你可能想问的</p></div>
+    </div>
+    <div class="faq">
+      <details open><summary>离线版需要联网吗？</summary><p>首次打开需要联网（自动从云端同步最新数据，约 2-3 秒）。之后会缓存最近一次数据，断网也能浏览已缓存内容。</p></details>
+      <details><summary>离线版能在别的电脑上用吗？</summary><p>能。把 离线版.html 这一个文件拷到 U 盘 / 微信 / 网盘，在任意 Windows / Mac 电脑上双击即可打开，无需安装任何东西。</p></details>
+      <details><summary>数据是从哪里来的？</summary><p>GitHub Actions 每 6 小时自动抓取 GitHub / Hacker News / Hugging Face / 新智元 / 量子位 等信源的热门 AI 项目，云端累积、只增不减。</p></details>
+      <details><summary>我电脑关机了，数据还会更新吗？</summary><p>会。抓取跑在 GitHub 云端服务器上，与你电脑完全无关。任何时候打开应用，看到的一定是最新数据。</p></details>
+      <details><summary>英文简介看不懂怎么办？</summary><p>不需要担心。云端已经自动把英文简介翻译成中文（免费机器翻译），只有极少数翻译失败的才会显示英文原文。</p></details>
+      <details><summary>项目会越来越多还是越来越少？</summary><p>只增不减。历史项目永久保留，应用内可开启"本月热门"筛选只看当月热点。</p></details>
+    </div>
+  </section>
+
+</div>
+
+<!-- ===== 页脚 ===== -->
+<footer>
+  <div class="foot-brand">AI 热门项目雷达<em> · 下载中心</em></div>
+  <div class="foot-links">
+    <a href="index.html">雷达应用</a>
+    <a href="使用说明.html">使用说明</a>
+    <a href="https://github.com/yyds8170-ctrl/ai-hot-radar" target="_blank" rel="noopener">GitHub 仓库</a>
+    <a href="https://yyds8170-ctrl.github.io/ai-hot-radar/" target="_blank" rel="noopener">在线访问</a>
+  </div>
+  <div class="foot-credit">Made with <svg class="heart" viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> by <b>洋洋制作</b> · 免费开源 · 持续迭代中</div>
+</footer>
+
+</body>
+</html>

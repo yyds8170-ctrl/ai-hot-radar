@@ -242,7 +242,12 @@ select:focus{outline:none;border-color:var(--accent)}
 .empty{text-align:center;padding:60px 20px;color:var(--text-dim)}
 .empty .big{font-size:40px;margin-bottom:10px}
 
-footer{border-top:1px solid var(--border);padding:22px 0;margin-top:20px;font-size:12px;color:var(--text-faint);font-family:var(--mono);text-align:center}
+footer{border-top:1px solid var(--border);padding:26px 0 30px;margin-top:24px;font-size:12px;color:var(--text-faint);text-align:center;line-height:2.1}
+footer .f-main{font-family:var(--mono);letter-spacing:.4px}
+footer .f-credit{color:var(--info);font-weight:700}
+footer a{color:var(--info);text-decoration:none;border-bottom:1px dashed rgba(56,139,253,.4);transition:color .2s}
+footer a:hover{color:#7dd3fc}
+footer .f-sep{margin:0 10px;opacity:.45}
 footer a{color:var(--info);text-decoration:none}
 
 @media(max-width:640px){
@@ -339,7 +344,8 @@ footer a{color:var(--info);text-decoration:none}
 <div class="toast" id="toast"></div>
 
 <footer>
-  AI 热门项目雷达 · 数据由 GitHub Actions 每6小时自动抓取 · 单文件离线版 · 收藏与自定义数据保存在本浏览器
+  <div class="f-main">AI 热门项目雷达 · 数据由 GitHub Actions 每6小时自动抓取 · 单文件离线版</div>
+  <div>Made with ❤️ by <span class="f-credit">洋洋制作</span><span class="f-sep">·</span><a href="download.html">下载中心</a><span class="f-sep">·</span><a href="https://github.com/yyds8170-ctrl/ai-hot-radar" target="_blank" rel="noopener">GitHub 开源仓库</a></div>
 </footer>
 
 <script>
