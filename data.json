@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "lastCrawl": "2026-10-16T20:24:29.351Z",
+  "lastCrawl": "2026-10-17T02:39:23.617Z",
   "crawlStats": {
     "hn": 12,
     "github": 40,
     "hf": 60,
-    "cn": 17,
-    "fresh": 129,
+    "cn": 14,
+    "fresh": 126,
     "translated": 108,
-    "total": 1598
+    "total": 1601
   },
   "curated": [
     {
@@ -954,7 +954,7 @@
         "obra"
       ],
       "summary": "An agentic skills framework & software development methodology that works.",
-      "description": "⭐ 300589 stars · Shell · ai, brainstorming, coding, obra",
+      "description": "⭐ 300716 stars · Shell · ai, brainstorming, coding, obra",
       "usage": "",
       "link": "https://github.com/obra/superpowers",
       "source": "GitHub",
@@ -976,12 +976,12 @@
         "anthropic"
       ],
       "summary": "The agent that grows with you",
-      "description": "⭐ 254391 stars · Python · ai, ai-agent, ai-agents, anthropic",
+      "description": "⭐ 254454 stars · Python · ai, ai-agent, ai-agents, anthropic",
       "usage": "",
       "link": "https://github.com/NousResearch/hermes-agent",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "与您共同成长的代理商"
     },
@@ -998,12 +998,12 @@
         "cli"
       ],
       "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "description": "⭐ 207688 stars · TypeScript · ai, apis, automation, cli",
+      "description": "⭐ 207717 stars · TypeScript · ai, apis, automation, cli",
       "usage": "",
       "link": "https://github.com/n8n-io/n8n",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "具有原生 AI 功能的公平代码工作流程自动化平台。将可视化构建与自定义代码、自托管或云、400 多个集成相结合。"
     },
@@ -1020,14 +1020,14 @@
         "large-language-models"
       ],
       "summary": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "description": "⭐ 155755 stars · Python · agents, chatgpt, generative-ai, large-language-models",
+      "description": "⭐ 155760 stars · Python · agents, chatgpt, generative-ai, large-language-models",
       "usage": "",
       "link": "https://github.com/langflow-ai/langflow",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
-      "summary_zh": "Langflow 是用于构建和部署人工智能驱动的代理和工作流程的强大工具。"
+      "summary_zh": "Langflow 是一个强大的工具，用于构建和部署人工智能驱动的代理和工作流程。"
     },
     {
       "id": "gh-langgenius/dify",
@@ -1042,12 +1042,12 @@
         "agentic-workflow"
       ],
       "summary": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-      "description": "⭐ 158661 stars · Python · agent, agentic-ai, agentic-framework, agentic-workflow",
+      "description": "⭐ 158673 stars · Python · agent, agentic-ai, agentic-framework, agentic-workflow",
       "usage": "",
       "link": "https://github.com/langgenius/dify",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "在一个协作工作空间上构建 Agentic 工作流程、RAG 管道，并提供丰富的 AI 模型和工具支持。在云、VPC 或自托管上部署，因此团队无需重建堆栈即可从原型转向生产。"
     },
@@ -1060,7 +1060,7 @@
         "Shell"
       ],
       "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "description": "⭐ 160547 stars · Shell · 无标签",
+      "description": "⭐ 160620 stars · Shell · 无标签",
       "usage": "",
       "link": "https://github.com/msitarzewski/agency-agents",
       "source": "GitHub",
@@ -1082,7 +1082,7 @@
         "cursor"
       ],
       "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-      "description": "⭐ 144046 stars · 未知语言 · ai, bolt, cluely, copilot",
+      "description": "⭐ 144055 stars · 未知语言 · ai, bolt, cluely, copilot",
       "usage": "",
       "link": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
       "source": "GitHub",
@@ -1104,7 +1104,7 @@
         "rag"
       ],
       "summary": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "description": "⭐ 142019 stars · Python · agents, llms, python, rag",
+      "description": "⭐ 142033 stars · Python · agents, llms, python, rag",
       "usage": "",
       "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "source": "GitHub",
@@ -1126,12 +1126,12 @@
         "python"
       ],
       "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "description": "⭐ 137908 stars · Python · ai, comfy, comfyui, python",
+      "description": "⭐ 137936 stars · Python · ai, comfy, comfyui, python",
       "usage": "",
       "link": "https://github.com/Comfy-Org/ComfyUI",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "最强大的模块化扩散模型 GUI、API 和带有图形/节点接口的后端。世界上最快的本地推理引擎。"
     },
@@ -1148,7 +1148,7 @@
         "claude-code"
       ],
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "description": "⭐ 165138 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
+      "description": "⭐ 165258 stars · JavaScript · agent-skills, ai-agents, claude, claude-code",
       "usage": "",
       "link": "https://github.com/DietrichGebert/ponytail",
       "source": "GitHub",
@@ -1170,7 +1170,7 @@
         "browser-automation"
       ],
       "summary": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
-      "description": "⭐ 118198 stars · Python · ai-agents, ai-tools, browser-agent, browser-automation",
+      "description": "⭐ 118222 stars · Python · ai-agents, ai-tools, browser-agent, browser-automation",
       "usage": "",
       "link": "https://github.com/browser-use/browser-use",
       "source": "GitHub",
@@ -1197,7 +1197,7 @@
       "link": "https://github.com/google-gemini/gemini-cli",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "一款开源 AI 代理，可将 Gemini 的强大功能直接带入您的终端。"
     },
@@ -1214,12 +1214,12 @@
         "multiagent"
       ],
       "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "description": "⭐ 111506 stars · Python · agent, finance, llm, multiagent",
+      "description": "⭐ 111539 stars · Python · agent, finance, llm, multiagent",
       "usage": "",
       "link": "https://github.com/TauricResearch/TradingAgents",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-03",
+      "date": "2026-10-16",
       "sourceType": "auto",
       "summary_zh": "TradingAgents：多代理LLM金融交易框架"
     },
@@ -1232,7 +1232,7 @@
         "TypeScript"
       ],
       "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "description": "⭐ 115718 stars · TypeScript · 无标签",
+      "description": "⭐ 115750 stars · TypeScript · 无标签",
       "usage": "",
       "link": "https://github.com/earendil-works/pi",
       "source": "GitHub",
@@ -1251,7 +1251,7 @@
         "mcp"
       ],
       "summary": "A collection of MCP servers.",
-      "description": "⭐ 96477 stars · 未知语言 · ai, mcp",
+      "description": "⭐ 96488 stars · 未知语言 · ai, mcp",
       "usage": "",
       "link": "https://github.com/punkpeye/awesome-mcp-servers",
       "source": "GitHub",
@@ -1273,12 +1273,12 @@
         "anthropic"
       ],
       "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "description": "⭐ 101221 stars · TypeScript · ai, ai-agents, ai-memory, anthropic",
+      "description": "⭐ 101250 stars · TypeScript · ai, ai-agents, ai-memory, anthropic",
       "usage": "",
       "link": "https://github.com/thedotmack/claude-mem",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等"
     },
@@ -1295,7 +1295,7 @@
         "codex"
       ],
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "description": "⭐ 107347 stars · JavaScript · agent-skills, antigravity, claude-code, codex",
+      "description": "⭐ 107425 stars · JavaScript · agent-skills, antigravity, claude-code, codex",
       "usage": "",
       "link": "https://github.com/addyosmani/agent-skills",
       "source": "GitHub",
@@ -1313,7 +1313,7 @@
         "JavaScript"
       ],
       "summary": "Model Context Protocol Servers",
-      "description": "⭐ 91311 stars · JavaScript · 无标签",
+      "description": "⭐ 91317 stars · JavaScript · 无标签",
       "usage": "",
       "link": "https://github.com/modelcontextprotocol/servers",
       "source": "GitHub",
@@ -1335,12 +1335,12 @@
         "agentic-retrieval"
       ],
       "summary": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "description": "⭐ 92332 stars · Go · agent-harness, agentic-ai, agentic-nagive, agentic-retrieval",
+      "description": "⭐ 92344 stars · Go · agent-harness, agentic-ai, agentic-nagive, agentic-retrieval",
       "usage": "",
       "link": "https://github.com/infiniflow/ragflow",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "RAGFlow 是一款领先的开源检索增强生成 (RAG) 引擎，它将尖端的 RAG 与代理功能相融合，为法学硕士创建卓越的上下文层"
     },
@@ -1357,12 +1357,12 @@
         "geopolitics"
       ],
       "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "description": "⭐ 88566 stars · TypeScript · agent, ai, dashboard, geopolitics",
+      "description": "⭐ 88572 stars · TypeScript · agent, ai, dashboard, geopolitics",
       "usage": "",
       "link": "https://github.com/koala73/worldmonitor",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "实时全球情报仪表板。在统一的态势感知界面中进行人工智能驱动的新闻聚合、地缘政治监控和基础设施跟踪"
     },
@@ -1384,7 +1384,7 @@
       "link": "https://github.com/lobehub/lobehub",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "🤯 LobeHub 是您的首席代理运营商，通过招聘、调度和报告整个 AI 团队，将您的代理组织为 7×24 小时运营。"
     },
@@ -1401,7 +1401,7 @@
         "data-extraction"
       ],
       "summary": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.",
-      "description": "⭐ 85665 stars · Python · ai, ai-agents, crawler, data-extraction",
+      "description": "⭐ 85674 stars · Python · ai, ai-agents, crawler, data-extraction",
       "usage": "",
       "link": "https://github.com/unclecode/crawl4ai",
       "source": "GitHub",
@@ -1423,7 +1423,7 @@
         "extract-data"
       ],
       "summary": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
-      "description": "⭐ 81872 stars · Python · ai4science, document-analysis, docx, extract-data",
+      "description": "⭐ 81877 stars · Python · ai4science, document-analysis, docx, extract-data",
       "usage": "",
       "link": "https://github.com/opendatalab/MinerU",
       "source": "GitHub",
@@ -1445,7 +1445,7 @@
         "crawler"
       ],
       "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
-      "description": "⭐ 88093 stars · Python · ai, ai-scraping, automation, crawler",
+      "description": "⭐ 88137 stars · Python · ai, ai-scraping, automation, crawler",
       "usage": "",
       "link": "https://github.com/D4Vinci/Scrapling",
       "source": "GitHub",
@@ -1467,7 +1467,7 @@
         "automation"
       ],
       "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "description": "⭐ 98140 stars · Python · agent-infrastructure, ai-agent, ai-search, automation",
+      "description": "⭐ 98261 stars · Python · agent-infrastructure, ai-agent, ai-search, automation",
       "usage": "",
       "link": "https://github.com/Panniantong/Agent-Reach",
       "source": "GitHub",
@@ -1489,7 +1489,7 @@
         "claude"
       ],
       "summary": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-      "description": "⭐ 78712 stars · Python · agent, agent-development, ai-agent, claude",
+      "description": "⭐ 78719 stars · Python · agent, agent-development, ai-agent, claude",
       "usage": "",
       "link": "https://github.com/shareAI-lab/learn-claude-code",
       "source": "GitHub",
@@ -1511,12 +1511,12 @@
         "deepseek"
       ],
       "summary": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
-      "description": "⭐ 78123 stars · Python · agent, ai, chatgpt, deepseek",
+      "description": "⭐ 78139 stars · Python · agent, ai, chatgpt, deepseek",
       "usage": "",
       "link": "https://github.com/unslothai/unsloth",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "用于运行和训练法学硕士和扩散模型的本地 UI。支持 GGUF、MLX、Qwen3.8、DeepSeek-V4、MiniMax-H3、Gemma 4、FLUX 等。"
     },
@@ -1555,12 +1555,12 @@
         "ai-agents"
       ],
       "summary": "18 Lessons to Get Started Building AI Agents",
-      "description": "⭐ 77290 stars · Jupyter Notebook · agentic-ai, agentic-framework, agentic-rag, ai-agents",
+      "description": "⭐ 77299 stars · Jupyter Notebook · agentic-ai, agentic-framework, agentic-rag, ai-agents",
       "usage": "",
       "link": "https://github.com/microsoft/ai-agents-for-beginners",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "开始构建 AI 代理的 18 课"
     },
@@ -1599,14 +1599,14 @@
         "agents"
       ],
       "summary": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "description": "⭐ 75555 stars · TypeScript · agentic-ai, agentic-framework, agentic-workflow, agents",
+      "description": "⭐ 75662 stars · TypeScript · agentic-ai, agentic-framework, agentic-workflow, agents",
       "usage": "",
       "link": "https://github.com/ruvnet/ruflo",
       "source": "GitHub",
       "hotness": 5,
       "date": "2026-10-16",
       "sourceType": "auto",
-      "summary_zh": "🌊 原始特工背带。部署智能多人群体、协调自主工作流程并构建对话式人工智能系统。具有自适应记忆、自学习智能、联邦、矢量 RAG 集成以及原生 Claude Code / Codex / Hermes 等集成功能"
+      "summary_zh": "🌊 原始特工安全带。部署智能多人群体、协调自主工作流程并构建对话式人工智能系统。具有自适应记忆、自学习智能、联邦、矢量 RAG 集成以及原生 Claude Code / Codex / Hermes 等集成功能"
     },
     {
       "id": "gh-santifer/career-ops",
@@ -1643,12 +1643,12 @@
         "claude-code"
       ],
       "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-      "description": "⭐ 75514 stars · Python · agent, ai, anthropic, claude-code",
+      "description": "⭐ 75533 stars · Python · agent, ai, anthropic, claude-code",
       "usage": "",
       "link": "https://github.com/headroomlabs-ai/headroom",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "在工具输出、日志、文件和 RAG 块到达 LLM 之前对其进行压缩。编码代理的标记减少了 20%，JSON 的标记减少了 60-95%，答案相同。库、代理、MCP 服务器。"
     },
@@ -1665,7 +1665,7 @@
         "docker"
       ],
       "summary": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
-      "description": "⭐ 62957 stars · Python · ai, bark, data-analysis, docker",
+      "description": "⭐ 62960 stars · Python · ai, bark, data-analysis, docker",
       "usage": "",
       "link": "https://github.com/sansan0/TrendRadar",
       "source": "GitHub",
@@ -1686,12 +1686,12 @@
         "vibe-coding"
       ],
       "summary": "Context7 Platform -- Up-to-date docs for AI agents",
-      "description": "⭐ 63151 stars · TypeScript · llm, mcp, mcp-server, vibe-coding",
+      "description": "⭐ 63163 stars · TypeScript · llm, mcp, mcp-server, vibe-coding",
       "usage": "",
       "link": "https://github.com/upstash/context7",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "Context7 Platform——人工智能代理的最新文档"
     },
@@ -1708,12 +1708,12 @@
         "aiagentframework"
       ],
       "summary": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "description": "⭐ 59773 stars · Python · agents, ai, ai-agents, aiagentframework",
+      "description": "⭐ 59777 stars · Python · agents, ai, ai-agents, aiagentframework",
       "usage": "",
       "link": "https://github.com/crewAIInc/crewAI",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "用于编排角色扮演、自主人工智能代理的框架。通过促进协作智能，CrewAI 使代理能够无缝协作，处理复杂的任务。"
     },
@@ -1729,7 +1729,7 @@
         "on-premise"
       ],
       "summary": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
-      "description": "⭐ 57589 stars · Python · ai, ai-tools, on-premise",
+      "description": "⭐ 57590 stars · Python · ai, ai-tools, on-premise",
       "usage": "",
       "link": "https://github.com/zylon-ai/private-gpt",
       "source": "GitHub",
@@ -1773,7 +1773,7 @@
         "claude"
       ],
       "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "description": "⭐ 68884 stars · Python · agent, agentic-ai, ai, claude",
+      "description": "⭐ 68924 stars · Python · agent, agentic-ai, ai, claude",
       "usage": "",
       "link": "https://github.com/calesthio/OpenMontage",
       "source": "GitHub",
@@ -1834,12 +1834,12 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 2,379,596 下载 · ❤ 6,280 点赞 · image-text-to-text",
+      "description": "⬇ 2,379,596 下载 · ❤ 6,289 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -1878,12 +1878,12 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 7,516,626 下载 · ❤ 17,844 点赞 · image-text-to-text",
+      "description": "⬇ 7,516,626 下载 · ❤ 17,857 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -1899,12 +1899,12 @@
         "base_model:Qwen/Qwen3.8-27B"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 6,663,225 下载 · ❤ 5,137 点赞 · 多模态",
+      "description": "⬇ 6,663,225 下载 · ❤ 5,142 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto"
     },
     {
@@ -2008,12 +2008,12 @@
         "video-to-video"
       ],
       "summary": "image-to-video",
-      "description": "⬇ 1,920,611 下载 · ❤ 8,066 点赞 · image-to-video",
+      "description": "⬇ 1,920,611 下载 · ❤ 8,097 点赞 · image-to-video",
       "usage": "",
       "link": "https://huggingface.co/Lightricks/LTX-2.5",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像到视频"
     },
@@ -2030,12 +2030,12 @@
         "multimodal"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 2,320,921 下载 · ❤ 1,863 点赞 · image-text-to-text",
+      "description": "⬇ 2,320,921 下载 · ❤ 1,870 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -2074,12 +2074,12 @@
         "text-to-video"
       ],
       "summary": "image-text-to-video",
-      "description": "⬇ 4,014,459 下载 · ❤ 6,172 点赞 · image-text-to-video",
+      "description": "⬇ 4,014,459 下载 · ❤ 6,174 点赞 · image-text-to-video",
       "usage": "",
       "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图片文本转视频"
     },
@@ -3511,12 +3511,12 @@
         "qwen"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 753,032 下载 · ❤ 908 点赞 · image-text-to-text",
+      "description": "⬇ 753,032 下载 · ❤ 912 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -4453,12 +4453,12 @@
         "quantization"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,396,724 下载 · ❤ 2,228 点赞 · image-text-to-text",
+      "description": "⬇ 1,396,724 下载 · ❤ 2,232 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -5230,12 +5230,12 @@
         "feature-extraction"
       ],
       "summary": "mask-generation",
-      "description": "⬇ 2,033,919 下载 · ❤ 4,501 点赞 · mask-generation",
+      "description": "⬇ 2,033,919 下载 · ❤ 4,512 点赞 · mask-generation",
       "usage": "",
       "link": "https://huggingface.co/facebook/sam3",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "掩模生成"
     },
@@ -5659,12 +5659,12 @@
         "heretic"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,833,225 下载 · ❤ 1,827 点赞 · image-text-to-text",
+      "description": "⬇ 1,833,225 下载 · ❤ 1,830 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -6428,12 +6428,12 @@
         "audio"
       ],
       "summary": "automatic-speech-recognition",
-      "description": "⬇ 5,385,743 下载 · ❤ 3,009 点赞 · automatic-speech-recognition",
+      "description": "⬇ 5,385,743 下载 · ❤ 3,017 点赞 · automatic-speech-recognition",
       "usage": "",
       "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "自动语音识别"
     },
@@ -9578,12 +9578,12 @@
         "text-generation"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,276,459 下载 · ❤ 4,564 点赞 · image-text-to-text",
+      "description": "⬇ 1,276,459 下载 · ❤ 4,566 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -11330,12 +11330,12 @@
         "text-generation"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 57,191 下载 · ❤ 677 点赞 · image-text-to-text",
+      "description": "⬇ 57,191 下载 · ❤ 678 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -13687,12 +13687,12 @@
         "quantization"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 5,349,998 下载 · ❤ 911 点赞 · image-text-to-text",
+      "description": "⬇ 5,349,998 下载 · ❤ 915 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -14392,12 +14392,12 @@
         "2-bit"
       ],
       "summary": "text-generation",
-      "description": "⬇ 4,908,985 下载 · ❤ 2,716 点赞 · text-generation",
+      "description": "⬇ 4,908,985 下载 · ❤ 2,722 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本生成"
     },
@@ -14781,12 +14781,12 @@
         "system-one"
       ],
       "summary": "text-classification",
-      "description": "⬇ 49,816 下载 · ❤ 5,654 点赞 · text-classification",
+      "description": "⬇ 49,816 下载 · ❤ 5,661 点赞 · text-classification",
       "usage": "",
       "link": "https://huggingface.co/convaiinnovations/laya",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本分类"
     },
@@ -15791,12 +15791,12 @@
         "image-generation"
       ],
       "summary": "text-to-image",
-      "description": "⬇ 165,326 下载 · ❤ 3,338 点赞 · text-to-image",
+      "description": "⬇ 165,326 下载 · ❤ 3,339 点赞 · text-to-image",
       "usage": "",
       "link": "https://huggingface.co/Qwen/Qwen-Image-2.1",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本到图像"
     },
@@ -15817,7 +15817,7 @@
       "link": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto"
     },
     {
@@ -19936,12 +19936,12 @@
         "character-swap"
       ],
       "summary": "video-to-video",
-      "description": "⬇ 62,628 下载 · ❤ 496 点赞 · video-to-video",
+      "description": "⬇ 62,628 下载 · ❤ 502 点赞 · video-to-video",
       "usage": "",
       "link": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "视频到视频"
     },
@@ -21016,7 +21016,7 @@
         "ai-scraping"
       ],
       "summary": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
-      "description": "⭐ 192174 stars · TypeScript · ai, ai-agents, ai-crawler, ai-scraping",
+      "description": "⭐ 192232 stars · TypeScript · ai, ai-agents, ai-crawler, ai-scraping",
       "usage": "",
       "link": "https://github.com/firecrawl/firecrawl",
       "source": "GitHub",
@@ -21345,7 +21345,7 @@
       "link": "https://huggingface.co/pablodawson/MiniMax-H3-360-Orbit-LoRA",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图片文本转视频"
     },
@@ -21970,12 +21970,12 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 20,160 下载 · ❤ 2,190 点赞 · image-text-to-text",
+      "description": "⬇ 20,160 下载 · ❤ 2,192 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/Cloudflare/clef",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -23250,12 +23250,12 @@
         "speech-to-text"
       ],
       "summary": "automatic-speech-recognition",
-      "description": "⬇ 40,130 下载 · ❤ 425 点赞 · automatic-speech-recognition",
+      "description": "⬇ 40,130 下载 · ❤ 427 点赞 · automatic-speech-recognition",
       "usage": "",
       "link": "https://huggingface.co/Cactus-Compute/whistle",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "自动语音识别"
     },
@@ -23464,12 +23464,12 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,645,809 下载 · ❤ 5,801 点赞 · image-text-to-text",
+      "description": "⬇ 1,645,809 下载 · ❤ 5,943 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/autotrust/JEV-27B-VL",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -23486,12 +23486,12 @@
         "image-text-to-text"
       ],
       "summary": "text-generation",
-      "description": "⬇ 85,612 下载 · ❤ 1,819 点赞 · text-generation",
+      "description": "⬇ 85,612 下载 · ❤ 1,832 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/jialinyyzz/humanizer",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本生成"
     },
@@ -23552,12 +23552,12 @@
         "uncensored"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,532,981 下载 · ❤ 283 点赞 · image-text-to-text",
+      "description": "⬇ 1,532,981 下载 · ❤ 285 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -24018,12 +24018,12 @@
         "feature-extraction"
       ],
       "summary": "feature-extraction",
-      "description": "⬇ 151,258 下载 · ❤ 2,501 点赞 · feature-extraction",
+      "description": "⬇ 151,258 下载 · ❤ 2,516 点赞 · feature-extraction",
       "usage": "",
       "link": "https://huggingface.co/google/embeddinggemma-2",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "特征提取"
     },
@@ -24531,12 +24531,12 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 17,820 下载 · ❤ 433 点赞 · image-text-to-text",
+      "description": "⬇ 17,820 下载 · ❤ 439 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/LiquidAI/d1-3B",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -24993,12 +24993,12 @@
         "tool-calling"
       ],
       "summary": "text-generation",
-      "description": "⬇ 370,955 下载 · ❤ 510 点赞 · text-generation",
+      "description": "⬇ 370,955 下载 · ❤ 513 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本生成"
     },
@@ -25574,12 +25574,12 @@
         "image-generation"
       ],
       "summary": "text-to-image",
-      "description": "⬇ 17,421 下载 · ❤ 935 点赞 · text-to-image",
+      "description": "⬇ 17,421 下载 · ❤ 946 点赞 · text-to-image",
       "usage": "",
       "link": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本到图像"
     },
@@ -25596,12 +25596,12 @@
         "efficient-thinking"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 182,130 下载 · ❤ 389 点赞 · image-text-to-text",
+      "description": "⬇ 182,130 下载 · ❤ 391 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -25752,12 +25752,12 @@
         "diffusion"
       ],
       "summary": "text-to-image",
-      "description": "⬇ 1,320 下载 · ❤ 298 点赞 · text-to-image",
+      "description": "⬇ 1,320 下载 · ❤ 300 点赞 · text-to-image",
       "usage": "",
       "link": "https://huggingface.co/speridlabs/iris-3b",
       "source": "Hugging Face",
       "hotness": 2,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本到图像"
     },
@@ -25893,12 +25893,12 @@
         "claude-code"
       ],
       "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "description": "⭐ 289049 stars · TypeScript · agent-skills, ai-agents, binary-analysis, claude-code",
+      "description": "⭐ 292182 stars · TypeScript · agent-skills, ai-agents, binary-analysis, claude-code",
       "usage": "",
       "link": "https://github.com/morluto/rea",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "使用代理对任何内容进行逆向工程，从应用程序行为到本机二进制文件。"
     },
@@ -26022,12 +26022,12 @@
         "qwen-image"
       ],
       "summary": "text-to-image",
-      "description": "⬇ 327,786 下载 · ❤ 511 点赞 · text-to-image",
+      "description": "⬇ 327,786 下载 · ❤ 517 点赞 · text-to-image",
       "usage": "",
       "link": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本到图像"
     },
@@ -26168,7 +26168,7 @@
       "link": "https://huggingface.co/Cloudflare/clef-omni",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -26508,12 +26508,12 @@
         "image-feature-extraction"
       ],
       "summary": "image-feature-extraction",
-      "description": "⬇ 777,825 下载 · ❤ 1,312 点赞 · image-feature-extraction",
+      "description": "⬇ 777,825 下载 · ❤ 1,315 点赞 · image-feature-extraction",
       "usage": "",
       "link": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像特征提取"
     },
@@ -26569,12 +26569,12 @@
         "feature-extraction"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,262,307 下载 · ❤ 4,744 点赞 · image-text-to-text",
+      "description": "⬇ 1,262,307 下载 · ❤ 4,751 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/baidu/Unlimited-OCR",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -26761,12 +26761,12 @@
         "comfyui"
       ],
       "summary": "text-to-image",
-      "description": "⬇ 2,477,554 下载 · ❤ 4,426 点赞 · text-to-image",
+      "description": "⬇ 2,477,554 下载 · ❤ 4,439 点赞 · text-to-image",
       "usage": "",
       "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本到图像"
     },
@@ -26783,12 +26783,12 @@
         "image-text-to-text"
       ],
       "summary": "text-classification",
-      "description": "⬇ 41,837 下载 · ❤ 942 点赞 · text-classification",
+      "description": "⬇ 88,859 下载 · ❤ 1,595 点赞 · text-classification",
       "usage": "",
       "link": "https://huggingface.co/autotrust/JEV-35B",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-15",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本分类"
     },
@@ -26810,7 +26810,7 @@
       "link": "https://huggingface.co/autotrust/GLM5.3-Flash-E192-DGX-Spark",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -26980,12 +26980,12 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 17,553 下载 · ❤ 841 点赞 · image-text-to-text",
+      "description": "⬇ 17,553 下载 · ❤ 849 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -27002,12 +27002,12 @@
         "feature-extraction"
       ],
       "summary": "zero-shot-classification",
-      "description": "⬇ 3,565 下载 · ❤ 218 点赞 · zero-shot-classification",
+      "description": "⬇ 3,565 下载 · ❤ 219 点赞 · zero-shot-classification",
       "usage": "",
       "link": "https://huggingface.co/vllm-sr/d3",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "零样本分类"
     },
@@ -27058,7 +27058,7 @@
         "Hacker News"
       ],
       "summary": "Show HN: Use your OpenAI subscription to create audiobooks",
-      "description": "HN 热度 173 分 · 90 条评论",
+      "description": "HN 热度 174 分 · 90 条评论",
       "usage": "",
       "link": "https://pdftomp3.com/connect-ai/",
       "source": "Hacker News",
@@ -27221,7 +27221,7 @@
       "link": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -27588,12 +27588,12 @@
         "claude-code-for-design"
       ],
       "summary": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
-      "description": "⭐ 101589 stars · TypeScript · agent-skills, ai-design, byok, claude-code-for-design",
+      "description": "⭐ 101657 stars · TypeScript · agent-skills, ai-design, byok, claude-code-for-design",
       "usage": "",
       "link": "https://github.com/nexu-io/open-design",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "第一个协作式人工智能设计代理工作区。本地优先和开源。与您的团队和 AI 代理一起创建原型、网站、应用程序、仪表板、演示文稿、图像和视频。在一个工作区中共享工作、交换反馈并进行迭代。"
     },
@@ -27610,7 +27610,7 @@
         "claude-code"
       ],
       "summary": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "description": "⭐ 97978 stars · JavaScript · agent-skills, ai-agents, anti-slop, claude-code",
+      "description": "⭐ 98058 stars · JavaScript · agent-skills, ai-agents, anti-slop, claude-code",
       "usage": "",
       "link": "https://github.com/Leonxlnx/taste-skill",
       "source": "GitHub",
@@ -27632,12 +27632,12 @@
         "text-generation"
       ],
       "summary": "text-generation",
-      "description": "⬇ 9,356 下载 · ❤ 424 点赞 · text-generation",
+      "description": "⬇ 9,356 下载 · ❤ 432 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本生成"
     },
@@ -27654,12 +27654,12 @@
         "multimodal"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 125,004 下载 · ❤ 147 点赞 · image-text-to-text",
+      "description": "⬇ 125,004 下载 · ❤ 150 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -27783,12 +27783,12 @@
         "text-to-speech"
       ],
       "summary": "text-to-speech",
-      "description": "⬇ 6,158 下载 · ❤ 549 点赞 · text-to-speech",
+      "description": "⬇ 6,158 下载 · ❤ 558 点赞 · text-to-speech",
       "usage": "",
       "link": "https://huggingface.co/fishaudio/drama-3",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本转语音"
     },
@@ -27941,12 +27941,12 @@
         "llama.cpp"
       ],
       "summary": "text-generation",
-      "description": "⬇ 60,927 下载 · ❤ 180 点赞 · text-generation",
+      "description": "⬇ 60,927 下载 · ❤ 183 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本生成"
     },
@@ -28585,12 +28585,12 @@
         "conversational"
       ],
       "summary": "text-generation",
-      "description": "⬇ 1,276 下载 · ❤ 111 点赞 · text-generation",
+      "description": "⬇ 1,276 下载 · ❤ 113 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
       "source": "Hugging Face",
       "hotness": 2,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本生成"
     },
@@ -28641,12 +28641,12 @@
         "ocr"
       ],
       "summary": "image-to-text",
-      "description": "⬇ 442 下载 · ❤ 124 点赞 · image-to-text",
+      "description": "⬇ 442 下载 · ❤ 133 点赞 · image-to-text",
       "usage": "",
       "link": "https://huggingface.co/datalab-to/indra-ocr",
       "source": "Hugging Face",
       "hotness": 2,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像到文本"
     },
@@ -28658,7 +28658,7 @@
         "Hacker News"
       ],
       "summary": "Neural networks are clean",
-      "description": "HN 热度 792 分 · 318 条评论",
+      "description": "HN 热度 801 分 · 324 条评论",
       "usage": "",
       "link": "https://already-clean.goodfire.com/",
       "source": "Hacker News",
@@ -28748,12 +28748,12 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 815 下载 · ❤ 428 点赞 · image-text-to-text",
+      "description": "⬇ 815 下载 · ❤ 445 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
       "source": "Hugging Face",
       "hotness": 2,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -28770,12 +28770,12 @@
         "image-editing"
       ],
       "summary": "image-to-image",
-      "description": "⬇ 22,790 下载 · ❤ 388 点赞 · image-to-image",
+      "description": "⬇ 22,790 下载 · ❤ 405 点赞 · image-to-image",
       "usage": "",
       "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像到图像"
     },
@@ -28792,12 +28792,12 @@
         "image-editing"
       ],
       "summary": "image-to-image",
-      "description": "⬇ 73,767 下载 · ❤ 420 点赞 · image-to-image",
+      "description": "⬇ 73,767 下载 · ❤ 456 点赞 · image-to-image",
       "usage": "",
       "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像到图像"
     },
@@ -28831,12 +28831,12 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 814 下载 · ❤ 147 点赞 · image-text-to-text",
+      "description": "⬇ 814 下载 · ❤ 150 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
       "source": "Hugging Face",
       "hotness": 2,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -29091,12 +29091,12 @@
         "nvidia"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 771 下载 · ❤ 138 点赞 · image-text-to-text",
+      "description": "⬇ 771 下载 · ❤ 151 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
       "source": "Hugging Face",
       "hotness": 2,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -29113,12 +29113,12 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 2,676 下载 · ❤ 114 点赞 · image-text-to-text",
+      "description": "⬇ 2,676 下载 · ❤ 121 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
       "source": "Hugging Face",
       "hotness": 3,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -29135,12 +29135,12 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,137 下载 · ❤ 105 点赞 · image-text-to-text",
+      "description": "⬇ 1,137 下载 · ❤ 111 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "source": "Hugging Face",
       "hotness": 2,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -29157,12 +29157,12 @@
         "image-editing"
       ],
       "summary": "image-to-image",
-      "description": "⬇ 25,414 下载 · ❤ 100 点赞 · image-to-image",
+      "description": "⬇ 25,414 下载 · ❤ 113 点赞 · image-to-image",
       "usage": "",
       "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein-base",
       "source": "Hugging Face",
       "hotness": 4,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "图像到图像"
     },
@@ -29191,7 +29191,7 @@
         "Hacker News"
       ],
       "summary": "Show HN: Gemini 4 Argon plays StarCraft",
-      "description": "HN 热度 153 分 · 70 条评论",
+      "description": "HN 热度 190 分 · 87 条评论",
       "usage": "",
       "link": "https://starskirmish.com/bench/v0-2/",
       "source": "Hacker News",
@@ -29208,7 +29208,7 @@
         "Hacker News"
       ],
       "summary": "AI-assisted PCB design for KiCad 10",
-      "description": "HN 热度 123 分 · 46 条评论",
+      "description": "HN 热度 128 分 · 48 条评论",
       "usage": "",
       "link": "https://github.com/mixelpixx/Konnect",
       "source": "Hacker News",
@@ -29229,12 +29229,12 @@
         "eval-results"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 572 下载 · ❤ 87 点赞 · 多模态",
+      "description": "⬇ 572 下载 · ❤ 90 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/stepfun-ai/Step-5-Preview",
       "source": "Hugging Face",
       "hotness": 2,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto"
     },
     {
@@ -29250,12 +29250,12 @@
         "text-generation"
       ],
       "summary": "text-generation",
-      "description": "⬇ 0 下载 · ❤ 112 点赞 · text-generation",
+      "description": "⬇ 0 下载 · ❤ 124 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
       "source": "Hugging Face",
       "hotness": 1,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本生成"
     },
@@ -29267,11 +29267,11 @@
         "Hacker News"
       ],
       "summary": "Claude reveals ECDSA curve origins",
-      "description": "HN 热度 290 分 · 117 条评论",
+      "description": "HN 热度 706 分 · 274 条评论",
       "usage": "",
       "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
       "source": "Hacker News",
-      "hotness": 3,
+      "hotness": 5,
       "date": "2026-10-16",
       "sourceType": "auto",
       "summary_zh": "Claude 揭示 ECDSA 曲线起源"
@@ -29284,11 +29284,11 @@
         "Hacker News"
       ],
       "summary": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "description": "HN 热度 70 分 · 16 条评论",
+      "description": "HN 热度 213 分 · 56 条评论",
       "usage": "",
       "link": "https://github.com/cobanov/PS5LM",
       "source": "Hacker News",
-      "hotness": 1,
+      "hotness": 2,
       "date": "2026-10-16",
       "sourceType": "auto",
       "summary_zh": "越狱 PS5 上的 Llama.cpp：在控制台上本地运行任何 GGUF 模型"
@@ -29301,7 +29301,7 @@
         "Hacker News"
       ],
       "summary": "Designing more efficient quantum circuits with Claude",
-      "description": "HN 热度 46 分 · 7 条评论",
+      "description": "HN 热度 105 分 · 20 条评论",
       "usage": "",
       "link": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
       "source": "Hacker News",
@@ -29318,11 +29318,11 @@
         "Hacker News"
       ],
       "summary": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "description": "HN 热度 264 分 · 233 条评论",
+      "description": "HN 热度 414 分 · 350 条评论",
       "usage": "",
       "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
       "source": "Hacker News",
-      "hotness": 3,
+      "hotness": 4,
       "date": "2026-10-16",
       "sourceType": "auto",
       "summary_zh": "美国 90% 的工作时间都花在了人工智能基准未涵盖的任务上"
@@ -29335,11 +29335,11 @@
         "Hacker News"
       ],
       "summary": "Anthropic assigned highest junk credit rating in June",
-      "description": "HN 热度 104 分 · 28 条评论",
+      "description": "HN 热度 221 分 · 70 条评论",
       "usage": "",
       "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
       "source": "Hacker News",
-      "hotness": 1,
+      "hotness": 2,
       "date": "2026-10-16",
       "sourceType": "auto",
       "summary_zh": "Anthropic 授予 6 月​​份最高垃圾信用评级"
@@ -29352,11 +29352,11 @@
         "Hacker News"
       ],
       "summary": "How the Claude Code team does code review",
-      "description": "HN 热度 58 分 · 50 条评论",
+      "description": "HN 热度 251 分 · 234 条评论",
       "usage": "",
       "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
       "source": "Hacker News",
-      "hotness": 1,
+      "hotness": 3,
       "date": "2026-10-16",
       "sourceType": "auto",
       "summary_zh": "Claude Code 团队如何进行代码审查"
@@ -29369,7 +29369,7 @@
         "Hacker News"
       ],
       "summary": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
-      "description": "HN 热度 151 分 · 59 条评论",
+      "description": "HN 热度 181 分 · 70 条评论",
       "usage": "",
       "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
       "source": "Hacker News",
@@ -29386,7 +29386,7 @@
         "Hacker News"
       ],
       "summary": "Show HN: rStation – A shared research lab for your AI agents",
-      "description": "HN 热度 42 分 · 18 条评论",
+      "description": "HN 热度 50 分 · 19 条评论",
       "usage": "",
       "link": "https://rstation.ai/",
       "source": "Hacker News",
@@ -29425,7 +29425,7 @@
         "ai"
       ],
       "summary": "A programming framework for agentic AI",
-      "description": "⭐ 61443 stars · Python · agentic, agentic-agi, agents, ai",
+      "description": "⭐ 61441 stars · Python · agentic, agentic-agi, agents, ai",
       "usage": "",
       "link": "https://github.com/microsoft/autogen",
       "source": "GitHub",
@@ -29447,12 +29447,12 @@
         "text-to-image"
       ],
       "summary": "text-to-image",
-      "description": "⬇ 54 下载 · ❤ 108 点赞 · text-to-image",
+      "description": "⬇ 54 下载 · ❤ 142 点赞 · text-to-image",
       "usage": "",
       "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
       "source": "Hugging Face",
       "hotness": 1,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本到图像"
     },
@@ -29469,12 +29469,12 @@
         "text-to-image"
       ],
       "summary": "text-to-image",
-      "description": "⬇ 73 下载 · ❤ 104 点赞 · text-to-image",
+      "description": "⬇ 73 下载 · ❤ 143 点赞 · text-to-image",
       "usage": "",
       "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
       "source": "Hugging Face",
       "hotness": 1,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本到图像"
     },
@@ -29491,14 +29491,65 @@
         "reasoning"
       ],
       "summary": "text-generation",
-      "description": "⬇ 440 下载 · ❤ 92 点赞 · text-generation",
+      "description": "⬇ 440 下载 · ❤ 112 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
       "source": "Hugging Face",
       "hotness": 2,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "sourceType": "auto",
       "summary_zh": "文本生成"
+    },
+    {
+      "id": "cn-28d1c1bf0c9d7f56",
+      "name": "硬刚OpenAI dots！这家中国公司狂卷Work Agent",
+      "category": "ai-tool",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "硬刚OpenAI dots！这家中国公司狂卷Work Agent",
+      "description": "最近半个月，硅谷和国内大厂在Agent赛道上彻底杀疯了！ 刚刚过去的旧金山开发者大会上，奥特曼突然祭出OpenAI王炸新物种「dots」。这是OpenAI首个自带独立云端电脑…",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/10/17/other/admin/119043/%e7%a1%ac%e5%88%9aopenai-dots%ef%bc%81%e8%bf%99%e5%ae%b6%e4%b8%ad%e5%9b%bd%e5%85%ac%e5%8f%b8%e7%8b%82%e5%8d%b7work-agent/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-10-17",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-32ced0a24f13779f",
+      "name": "OpenAI前大牛认错！误判AI近十年，90%神经元只干一件事",
+      "category": "ai-tool",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "OpenAI前大牛认错！误判AI近十年，90%神经元只干一件事",
+      "description": "人类，或许真能读懂超级智能！ 我们正在造出越来越强大的AI，却迟迟看不清它内部究竟发生了什么。",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/10/17/other/admin/119010/openai%e5%89%8d%e5%a4%a7%e7%89%9b%e8%ae%a4%e9%94%99%ef%bc%81%e8%af%af%e5%88%a4ai%e8%bf%91%e5%8d%81%e5%b9%b4%ef%bc%8c90%e7%a5%9e%e7%bb%8f%e5%85%83%e5%8f%aa%e5%b9%b2%e4%b8%80%e4%bb%b6%e4%ba%8b/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-10-17",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-a5f94180df608fcd",
+      "name": "OpenAI突袭Chrome！ChatGPT长出「双手」，自动打工了",
+      "category": "ai-tool",
+      "tags": [
+        "新智元",
+        "中文AI"
+      ],
+      "summary": "OpenAI突袭Chrome！ChatGPT长出「双手」，自动打工了",
+      "description": "ChatGPT终于可以接管Chrome了！ 就在今天，OpenAI正式官宣ChatGPT重大升级，把计算机使用能力全面引入Chrome中。",
+      "usage": "",
+      "link": "https://aiera.com.cn/2026/10/17/other/admin/118981/openai%e7%aa%81%e8%a2%adchrome%ef%bc%81chatgpt%e9%95%bf%e5%87%ba%e3%80%8c%e5%8f%8c%e6%89%8b%e3%80%8d%ef%bc%8c%e8%87%aa%e5%8a%a8%e6%89%93%e5%b7%a5%e4%ba%86/",
+      "source": "新智元",
+      "hotness": 3,
+      "date": "2026-10-17",
+      "sourceType": "auto"
     }
   ]
 }
