@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "lastCrawl": "2026-10-29T03:59:03.409Z",
+  "lastCrawl": "2026-10-29T12:08:49.568Z",
   "crawlStats": {
-    "hn": 20,
+    "hn": 17,
     "github": 40,
     "hf": 60,
-    "cn": 17,
-    "fresh": 137,
-    "translated": 115,
-    "total": 1945
+    "cn": 15,
+    "fresh": 132,
+    "translated": 104,
+    "total": 1987
   },
   "curated": [
     {
@@ -1126,7 +1126,7 @@
         "python"
       ],
       "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "description": "⭐ 143819 stars · Python · ai, comfy, comfyui, python",
+      "description": "⭐ 143896 stars · Python · ai, comfy, comfyui, python",
       "usage": "",
       "link": "https://github.com/Comfy-Org/ComfyUI",
       "source": "GitHub",
@@ -1511,7 +1511,7 @@
         "deepseek"
       ],
       "summary": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
-      "description": "⭐ 78728 stars · Python · agent, ai, chatgpt, deepseek",
+      "description": "⭐ 78743 stars · Python · agent, ai, chatgpt, deepseek",
       "usage": "",
       "link": "https://github.com/unslothai/unsloth",
       "source": "GitHub",
@@ -1773,7 +1773,7 @@
         "claude"
       ],
       "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "description": "⭐ 72771 stars · Python · agent, agentic-ai, ai, claude",
+      "description": "⭐ 72874 stars · Python · agent, agentic-ai, ai, claude",
       "usage": "",
       "link": "https://github.com/calesthio/OpenMontage",
       "source": "GitHub",
@@ -1834,7 +1834,7 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 3,637,182 下载 · ❤ 6,630 点赞 · image-text-to-text",
+      "description": "⬇ 3,853,710 下载 · ❤ 6,632 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
       "source": "Hugging Face",
@@ -1878,7 +1878,7 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 7,515,620 下载 · ❤ 18,629 点赞 · image-text-to-text",
+      "description": "⬇ 7,509,924 下载 · ❤ 18,656 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "source": "Hugging Face",
@@ -1899,7 +1899,7 @@
         "base_model:Qwen/Qwen3.8-27B"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 6,042,413 下载 · ❤ 5,398 点赞 · 多模态",
+      "description": "⬇ 6,078,631 下载 · ❤ 5,403 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
       "source": "Hugging Face",
@@ -2008,7 +2008,7 @@
         "video-to-video"
       ],
       "summary": "image-to-video",
-      "description": "⬇ 2,234,788 下载 · ❤ 9,745 点赞 · image-to-video",
+      "description": "⬇ 2,269,999 下载 · ❤ 9,782 点赞 · image-to-video",
       "usage": "",
       "link": "https://huggingface.co/Lightricks/LTX-2.5",
       "source": "Hugging Face",
@@ -2030,7 +2030,7 @@
         "multimodal"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 2,365,172 下载 · ❤ 2,146 点赞 · image-text-to-text",
+      "description": "⬇ 2,362,653 下载 · ❤ 2,149 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
       "source": "Hugging Face",
@@ -2074,7 +2074,7 @@
         "text-to-video"
       ],
       "summary": "image-text-to-video",
-      "description": "⬇ 5,441,738 下载 · ❤ 6,428 点赞 · image-text-to-video",
+      "description": "⬇ 5,575,683 下载 · ❤ 6,430 点赞 · image-text-to-video",
       "usage": "",
       "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
       "source": "Hugging Face",
@@ -2184,7 +2184,7 @@
         "uncensored"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 2,798,323 下载 · ❤ 1,570 点赞 · image-text-to-text",
+      "description": "⬇ 2,882,645 下载 · ❤ 1,575 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "source": "Hugging Face",
@@ -3511,12 +3511,12 @@
         "qwen"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,107,633 下载 · ❤ 1,177 点赞 · image-text-to-text",
+      "description": "⬇ 1,127,315 下载 · ❤ 1,189 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
       "source": "Hugging Face",
       "hotness": 5,
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
     },
@@ -4453,7 +4453,7 @@
         "quantization"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,269,109 下载 · ❤ 2,441 点赞 · image-text-to-text",
+      "description": "⬇ 1,279,313 下载 · ❤ 2,445 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "source": "Hugging Face",
@@ -5230,7 +5230,7 @@
         "feature-extraction"
       ],
       "summary": "mask-generation",
-      "description": "⬇ 1,891,392 下载 · ❤ 5,364 点赞 · mask-generation",
+      "description": "⬇ 1,884,719 下载 · ❤ 5,386 点赞 · mask-generation",
       "usage": "",
       "link": "https://huggingface.co/facebook/sam3",
       "source": "Hugging Face",
@@ -5659,7 +5659,7 @@
         "heretic"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,725,108 下载 · ❤ 2,207 点赞 · image-text-to-text",
+      "description": "⬇ 1,726,051 下载 · ❤ 2,214 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "source": "Hugging Face",
@@ -6428,7 +6428,7 @@
         "audio"
       ],
       "summary": "automatic-speech-recognition",
-      "description": "⬇ 5,192,929 下载 · ❤ 3,523 点赞 · automatic-speech-recognition",
+      "description": "⬇ 5,204,400 下载 · ❤ 3,542 点赞 · automatic-speech-recognition",
       "usage": "",
       "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
       "source": "Hugging Face",
@@ -7744,7 +7744,7 @@
         "image-to-video"
       ],
       "summary": "image-to-video",
-      "description": "⬇ 897,506 下载 · ❤ 931 点赞 · image-to-video",
+      "description": "⬇ 943,414 下载 · ❤ 936 点赞 · image-to-video",
       "usage": "",
       "link": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
       "source": "Hugging Face",
@@ -13687,7 +13687,7 @@
         "quantization"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 7,440,394 下载 · ❤ 1,081 点赞 · image-text-to-text",
+      "description": "⬇ 7,604,113 下载 · ❤ 1,086 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
       "source": "Hugging Face",
@@ -23486,7 +23486,7 @@
         "image-text-to-text"
       ],
       "summary": "text-generation",
-      "description": "⬇ 195,233 下载 · ❤ 2,195 点赞 · text-generation",
+      "description": "⬇ 209,872 下载 · ❤ 2,197 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/jialinyyzz/humanizer",
       "source": "Hugging Face",
@@ -23552,7 +23552,7 @@
         "uncensored"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 2,921,615 下载 · ❤ 498 点赞 · image-text-to-text",
+      "description": "⬇ 3,046,274 下载 · ❤ 501 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "source": "Hugging Face",
@@ -24018,7 +24018,7 @@
         "feature-extraction"
       ],
       "summary": "feature-extraction",
-      "description": "⬇ 282,912 下载 · ❤ 2,994 点赞 · feature-extraction",
+      "description": "⬇ 308,608 下载 · ❤ 3,003 点赞 · feature-extraction",
       "usage": "",
       "link": "https://huggingface.co/google/embeddinggemma-2",
       "source": "Hugging Face",
@@ -26761,7 +26761,7 @@
         "comfyui"
       ],
       "summary": "text-to-image",
-      "description": "⬇ 2,182,980 下载 · ❤ 5,269 点赞 · text-to-image",
+      "description": "⬇ 2,172,670 下载 · ❤ 5,288 点赞 · text-to-image",
       "usage": "",
       "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "source": "Hugging Face",
@@ -27783,7 +27783,7 @@
         "text-to-speech"
       ],
       "summary": "text-to-speech",
-      "description": "⬇ 26,740 下载 · ❤ 1,094 点赞 · text-to-speech",
+      "description": "⬇ 28,162 下载 · ❤ 1,096 点赞 · text-to-speech",
       "usage": "",
       "link": "https://huggingface.co/fishaudio/drama-3",
       "source": "Hugging Face",
@@ -28641,7 +28641,7 @@
         "ocr"
       ],
       "summary": "image-to-text",
-      "description": "⬇ 5,757 下载 · ❤ 478 点赞 · image-to-text",
+      "description": "⬇ 6,015 下载 · ❤ 480 点赞 · image-to-text",
       "usage": "",
       "link": "https://huggingface.co/datalab-to/indra-ocr",
       "source": "Hugging Face",
@@ -28770,7 +28770,7 @@
         "image-editing"
       ],
       "summary": "image-to-image",
-      "description": "⬇ 128,481 下载 · ❤ 755 点赞 · image-to-image",
+      "description": "⬇ 135,609 下载 · ❤ 758 点赞 · image-to-image",
       "usage": "",
       "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
       "source": "Hugging Face",
@@ -28792,7 +28792,7 @@
         "image-editing"
       ],
       "summary": "image-to-image",
-      "description": "⬇ 798,943 下载 · ❤ 1,970 点赞 · image-to-image",
+      "description": "⬇ 832,197 下载 · ❤ 2,002 点赞 · image-to-image",
       "usage": "",
       "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
       "source": "Hugging Face",
@@ -29447,7 +29447,7 @@
         "text-to-image"
       ],
       "summary": "text-to-image",
-      "description": "⬇ 14,282 下载 · ❤ 818 点赞 · text-to-image",
+      "description": "⬇ 14,950 下载 · ❤ 820 点赞 · text-to-image",
       "usage": "",
       "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
       "source": "Hugging Face",
@@ -29469,7 +29469,7 @@
         "text-to-image"
       ],
       "summary": "text-to-image",
-      "description": "⬇ 9,340 下载 · ❤ 589 点赞 · text-to-image",
+      "description": "⬇ 9,725 下载 · ❤ 591 点赞 · text-to-image",
       "usage": "",
       "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
       "source": "Hugging Face",
@@ -29614,7 +29614,7 @@
         "text-generation"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 116,770 下载 · ❤ 3,581 点赞 · image-text-to-text",
+      "description": "⬇ 131,062 下载 · ❤ 3,681 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "source": "Hugging Face",
@@ -29720,7 +29720,7 @@
         "base_model:finetune:OpenMOSS-Team/MOSS-Image-Base"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 3,095,436 下载 · ❤ 534 点赞 · 多模态",
+      "description": "⬇ 3,401,045 下载 · ❤ 538 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/Comfy-Org/MOSS-Image",
       "source": "Hugging Face",
@@ -30094,7 +30094,7 @@
         "forecasting"
       ],
       "summary": "time-series-forecasting",
-      "description": "⬇ 13,828 下载 · ❤ 441 点赞 · time-series-forecasting",
+      "description": "⬇ 14,988 下载 · ❤ 442 点赞 · time-series-forecasting",
       "usage": "",
       "link": "https://huggingface.co/mistralai/Timestral-209M",
       "source": "Hugging Face",
@@ -30585,7 +30585,7 @@
         "text-generation"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 9,150 下载 · ❤ 463 点赞 · image-text-to-text",
+      "description": "⬇ 9,787 下载 · ❤ 470 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
       "source": "Hugging Face",
@@ -31553,7 +31553,7 @@
         "text-generation"
       ],
       "summary": "text-generation",
-      "description": "⬇ 8,222 下载 · ❤ 871 点赞 · text-generation",
+      "description": "⬇ 10,163 下载 · ❤ 887 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/XHToken/Spark-X2.6-4B",
       "source": "Hugging Face",
@@ -31806,7 +31806,7 @@
         "image-text-to-text"
       ],
       "summary": "text-generation",
-      "description": "⬇ 8,218 下载 · ❤ 366 点赞 · text-generation",
+      "description": "⬇ 9,830 下载 · ❤ 370 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/InternScience/Sage-A1.5",
       "source": "Hugging Face",
@@ -31913,7 +31913,7 @@
         "text-generation"
       ],
       "summary": "text-generation",
-      "description": "⬇ 14,047 下载 · ❤ 1,198 点赞 · text-generation",
+      "description": "⬇ 16,598 下载 · ❤ 1,222 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/RecursiveSI/flint",
       "source": "Hugging Face",
@@ -32248,7 +32248,7 @@
         "text-generation"
       ],
       "summary": "text-generation",
-      "description": "⬇ 178,000 下载 · ❤ 327 点赞 · text-generation",
+      "description": "⬇ 201,035 下载 · ❤ 330 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/unsloth/flint-GGUF",
       "source": "Hugging Face",
@@ -32338,12 +32338,12 @@
         "audio-generation"
       ],
       "summary": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
-      "description": "⭐ 49849 stars · Go · agents, ai, api, audio-generation",
+      "description": "⭐ 50046 stars · Go · agents, ai, api, audio-generation",
       "usage": "",
       "link": "https://github.com/mudler/LocalAI",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-22",
+      "date": "2026-10-29",
       "sourceType": "auto",
       "summary_zh": "LocalAI 是开源人工智能引擎。在任何硬件上运行任何模型 - 法学硕士、视觉、语音、图像、视频。无需 GPU。"
     },
@@ -32469,12 +32469,12 @@
         "csharp"
       ],
       "summary": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
-      "description": "⭐ 40315 stars · C# · avalonia, capture, color-picker, csharp",
+      "description": "⭐ 40502 stars · C# · avalonia, capture, color-picker, csharp",
       "usage": "",
       "link": "https://github.com/ShareX/ShareX",
       "source": "GitHub",
       "hotness": 5,
-      "date": "2026-10-22",
+      "date": "2026-10-29",
       "sourceType": "auto",
       "summary_zh": "ShareX 是一款免费的开源应用程序，用户只需按一下键即可捕获或记录屏幕的任何区域。它还支持将图像、文本和各种文件类型上传到各种目的地。"
     },
@@ -32880,7 +32880,7 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 13,247 下载 · ❤ 466 点赞 · image-text-to-text",
+      "description": "⬇ 15,738 下载 · ❤ 477 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
       "source": "Hugging Face",
@@ -32922,7 +32922,7 @@
         "text-generation"
       ],
       "summary": "text-generation",
-      "description": "⬇ 2,305 下载 · ❤ 258 点赞 · text-generation",
+      "description": "⬇ 2,808 下载 · ❤ 263 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/HuggingFaceBio/Carbon-X",
       "source": "Hugging Face",
@@ -32944,7 +32944,7 @@
         "sparkx2_5"
       ],
       "summary": "text-generation",
-      "description": "⬇ 147,273 下载 · ❤ 230 点赞 · text-generation",
+      "description": "⬇ 179,258 下载 · ❤ 234 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
       "source": "Hugging Face",
@@ -33287,7 +33287,7 @@
         "quantization"
       ],
       "summary": "text-generation",
-      "description": "⬇ 1,377,570 下载 · ❤ 449 点赞 · text-generation",
+      "description": "⬇ 1,578,937 下载 · ❤ 461 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
       "source": "Hugging Face",
@@ -33360,7 +33360,7 @@
         "dense"
       ],
       "summary": "text-to-speech",
-      "description": "⬇ 6,316 下载 · ❤ 164 点赞 · text-to-speech",
+      "description": "⬇ 7,013 下载 · ❤ 166 点赞 · text-to-speech",
       "usage": "",
       "link": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
       "source": "Hugging Face",
@@ -33416,7 +33416,7 @@
         "deepseek"
       ],
       "summary": "text-generation",
-      "description": "⬇ 27,056 下载 · ❤ 316 点赞 · text-generation",
+      "description": "⬇ 28,763 下载 · ❤ 329 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
       "source": "Hugging Face",
@@ -33438,7 +33438,7 @@
         "pytorch"
       ],
       "summary": "text-generation",
-      "description": "⬇ 51,721 下载 · ❤ 232 点赞 · text-generation",
+      "description": "⬇ 57,228 下载 · ❤ 238 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "source": "Hugging Face",
@@ -33703,7 +33703,7 @@
         "nemotron-3.5"
       ],
       "summary": "text-generation",
-      "description": "⬇ 71,929 下载 · ❤ 141 点赞 · text-generation",
+      "description": "⬇ 90,640 下载 · ❤ 145 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
       "source": "Hugging Face",
@@ -33759,7 +33759,7 @@
         "text-generation"
       ],
       "summary": "text-generation",
-      "description": "⬇ 7,412 下载 · ❤ 734 点赞 · text-generation",
+      "description": "⬇ 9,655 下载 · ❤ 749 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
       "source": "Hugging Face",
@@ -34103,7 +34103,7 @@
         "base_model:finetune:MiniMaxAI/MiniMax-H3"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 5,508 下载 · ❤ 133 点赞 · 多模态",
+      "description": "⬇ 6,189 下载 · ❤ 136 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/LiconStudio/Minimax-H3-VBVR",
       "source": "Hugging Face",
@@ -34146,7 +34146,7 @@
         "moss-image"
       ],
       "summary": "image-to-image",
-      "description": "⬇ 0 下载 · ❤ 109 点赞 · image-to-image",
+      "description": "⬇ 0 下载 · ❤ 112 点赞 · image-to-image",
       "usage": "",
       "link": "https://huggingface.co/chinoll/Moss-Image-Edit",
       "source": "Hugging Face",
@@ -34197,7 +34197,7 @@
         "Hacker News"
       ],
       "summary": "Sebastian Raschka's from-scratch video course on building reasoning models",
-      "description": "HN 热度 843 分 · 115 条评论",
+      "description": "HN 热度 849 分 · 116 条评论",
       "usage": "",
       "link": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
       "source": "Hacker News",
@@ -34248,7 +34248,7 @@
         "Hacker News"
       ],
       "summary": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
-      "description": "HN 热度 172 分 · 42 条评论",
+      "description": "HN 热度 172 分 · 43 条评论",
       "usage": "",
       "link": "https://github.com/FrigadeHQ/hob",
       "source": "Hacker News",
@@ -34303,7 +34303,7 @@
         "code"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 6,944 下载 · ❤ 239 点赞 · 多模态",
+      "description": "⬇ 12,237 下载 · ❤ 258 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
       "source": "Hugging Face",
@@ -34489,7 +34489,7 @@
         "Hacker News"
       ],
       "summary": "The Mythical Man-Month in the Age of AI",
-      "description": "HN 热度 476 分 · 353 条评论",
+      "description": "HN 热度 481 分 · 354 条评论",
       "usage": "",
       "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
       "source": "Hacker News",
@@ -34545,7 +34545,7 @@
         "feature-extraction"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 8,357 下载 · ❤ 341 点赞 · image-text-to-text",
+      "description": "⬇ 18,141 下载 · ❤ 356 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/baidu/Unlimited-OCR-2",
       "source": "Hugging Face",
@@ -34715,7 +34715,7 @@
         "Hacker News"
       ],
       "summary": "Wikipedia's Cleanup of AI-Generated Content",
-      "description": "HN 热度 499 分 · 237 条评论",
+      "description": "HN 热度 509 分 · 237 条评论",
       "usage": "",
       "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
       "source": "Hacker News",
@@ -34732,7 +34732,7 @@
         "Hacker News"
       ],
       "summary": "Here be monsters: What do you still need to know when agents do the work?",
-      "description": "HN 热度 198 分 · 102 条评论",
+      "description": "HN 热度 202 分 · 106 条评论",
       "usage": "",
       "link": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
       "source": "Hacker News",
@@ -34749,7 +34749,7 @@
         "Hacker News"
       ],
       "summary": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-      "description": "HN 热度 573 分 · 292 条评论",
+      "description": "HN 热度 583 分 · 294 条评论",
       "usage": "",
       "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
       "source": "Hacker News",
@@ -34805,7 +34805,7 @@
         "sparc3d"
       ],
       "summary": "image-to-3d",
-      "description": "⬇ 0 下载 · ❤ 123 点赞 · image-to-3d",
+      "description": "⬇ 0 下载 · ❤ 126 点赞 · image-to-3d",
       "usage": "",
       "link": "https://huggingface.co/hi3d-official/Hi3Dv1.0",
       "source": "Hugging Face",
@@ -34907,7 +34907,7 @@
         "Hacker News"
       ],
       "summary": "Early progress on accelerating drug development with Claude",
-      "description": "HN 热度 322 分 · 336 条评论",
+      "description": "HN 热度 325 分 · 337 条评论",
       "usage": "",
       "link": "https://www.anthropic.com/research/early-progress-drug-development",
       "source": "Hacker News",
@@ -34924,7 +34924,7 @@
         "Hacker News"
       ],
       "summary": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "description": "HN 热度 523 分 · 194 条评论",
+      "description": "HN 热度 528 分 · 196 条评论",
       "usage": "",
       "link": "https://www.brangus.io/survival-llm",
       "source": "Hacker News",
@@ -34941,7 +34941,7 @@
         "Hacker News"
       ],
       "summary": "Amazon Is Gutting Its AI Division After Sustained Failure",
-      "description": "HN 热度 372 分 · 284 条评论",
+      "description": "HN 热度 377 分 · 286 条评论",
       "usage": "",
       "link": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
       "source": "Hacker News",
@@ -34963,7 +34963,7 @@
         "text-generation"
       ],
       "summary": "text-generation",
-      "description": "⬇ 8,892 下载 · ❤ 408 点赞 · text-generation",
+      "description": "⬇ 15,885 下载 · ❤ 438 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/LiquidAI/LFM3-1.7B",
       "source": "Hugging Face",
@@ -34985,7 +34985,7 @@
         "text-generation"
       ],
       "summary": "translation",
-      "description": "⬇ 165 下载 · ❤ 394 点赞 · translation",
+      "description": "⬇ 396 下载 · ❤ 454 点赞 · translation",
       "usage": "",
       "link": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8",
       "source": "Hugging Face",
@@ -35001,7 +35001,7 @@
         "Hacker News"
       ],
       "summary": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
-      "description": "HN 热度 216 分 · 141 条评论",
+      "description": "HN 热度 222 分 · 149 条评论",
       "usage": "",
       "link": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
       "source": "Hacker News",
@@ -35078,7 +35078,7 @@
         "hy-nomas"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 38,105 下载 · ❤ 109 点赞 · 多模态",
+      "description": "⬇ 44,124 下载 · ❤ 111 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/tencent/Hy-Nomas",
       "source": "Hugging Face",
@@ -35213,7 +35213,7 @@
         "Hacker News"
       ],
       "summary": "Show HN: Specification First Agentic Development Plugin and Prove",
-      "description": "HN 热度 34 分 · 31 条评论",
+      "description": "HN 热度 34 分 · 32 条评论",
       "usage": "",
       "link": "https://spec-first.dev/",
       "source": "Hacker News",
@@ -35235,11 +35235,11 @@
         "ocr"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 791 下载 · ❤ 281 点赞 · image-text-to-text",
+      "description": "⬇ 1,597 下载 · ❤ 306 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
       "source": "Hugging Face",
-      "hotness": 2,
+      "hotness": 3,
       "date": "2026-10-29",
       "sourceType": "auto",
       "summary_zh": "图像-文本-文本"
@@ -35257,11 +35257,11 @@
         "image-text-to-text"
       ],
       "summary": "any-to-any",
-      "description": "⬇ 714 下载 · ❤ 158 点赞 · any-to-any",
+      "description": "⬇ 1,814 下载 · ❤ 177 点赞 · any-to-any",
       "usage": "",
       "link": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
       "source": "Hugging Face",
-      "hotness": 2,
+      "hotness": 3,
       "date": "2026-10-29",
       "sourceType": "auto",
       "summary_zh": "任意对任意"
@@ -35279,7 +35279,7 @@
         "image-text-to-text"
       ],
       "summary": "image-text-to-text",
-      "description": "⬇ 1,596 下载 · ❤ 138 点赞 · image-text-to-text",
+      "description": "⬇ 4,193 下载 · ❤ 150 点赞 · image-text-to-text",
       "usage": "",
       "link": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
       "source": "Hugging Face",
@@ -35300,7 +35300,7 @@
         "base_model:TenStrip/10Eros-Max"
       ],
       "summary": "(HF 热门模型)",
-      "description": "⬇ 24,719 下载 · ❤ 124 点赞 · 多模态",
+      "description": "⬇ 80,848 下载 · ❤ 127 点赞 · 多模态",
       "usage": "",
       "link": "https://huggingface.co/OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
       "source": "Hugging Face",
@@ -35321,11 +35321,11 @@
         "automatic-speech-recognition"
       ],
       "summary": "any-to-any",
-      "description": "⬇ 702 下载 · ❤ 111 点赞 · any-to-any",
+      "description": "⬇ 1,794 下载 · ❤ 121 点赞 · any-to-any",
       "usage": "",
       "link": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
       "source": "Hugging Face",
-      "hotness": 2,
+      "hotness": 3,
       "date": "2026-10-29",
       "sourceType": "auto",
       "summary_zh": "任意对任意"
@@ -35355,7 +35355,7 @@
         "Hacker News"
       ],
       "summary": "Gemini 4 Carbon",
-      "description": "HN 热度 840 分 · 699 条评论",
+      "description": "HN 热度 955 分 · 764 条评论",
       "usage": "",
       "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
       "source": "Hacker News",
@@ -35372,7 +35372,7 @@
         "Hacker News"
       ],
       "summary": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "description": "HN 热度 215 分 · 139 条评论",
+      "description": "HN 热度 244 分 · 154 条评论",
       "usage": "",
       "link": "https://surgehq.ai/blog/dayjob-tax",
       "source": "Hacker News",
@@ -35389,7 +35389,7 @@
         "Hacker News"
       ],
       "summary": "The Agent SDK",
-      "description": "HN 热度 105 分 · 115 条评论",
+      "description": "HN 热度 132 分 · 128 条评论",
       "usage": "",
       "link": "https://cursor.com/blog/agent-sdk",
       "source": "Hacker News",
@@ -35406,11 +35406,11 @@
         "Hacker News"
       ],
       "summary": "Kentucky man becomes the first humanist granted religious exemption from AI",
-      "description": "HN 热度 445 分 · 491 条评论",
+      "description": "HN 热度 468 分 · 504 条评论",
       "usage": "",
       "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
       "source": "Hacker News",
-      "hotness": 4,
+      "hotness": 5,
       "date": "2026-10-28",
       "sourceType": "auto",
       "summary_zh": "肯塔基州男子成为第一位获得人工智能宗教豁免的人文主义者"
@@ -35445,7 +35445,7 @@
         "tts"
       ],
       "summary": "text-to-speech",
-      "description": "⬇ 344 下载 · ❤ 103 点赞 · text-to-speech",
+      "description": "⬇ 938 下载 · ❤ 112 点赞 · text-to-speech",
       "usage": "",
       "link": "https://huggingface.co/maya-research/maya2-native",
       "source": "Hugging Face",
@@ -35535,11 +35535,11 @@
         "text2text-generation"
       ],
       "summary": "automatic-speech-recognition",
-      "description": "⬇ 338 下载 · ❤ 220 点赞 · automatic-speech-recognition",
+      "description": "⬇ 4,276 下载 · ❤ 325 点赞 · automatic-speech-recognition",
       "usage": "",
       "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "source": "Hugging Face",
-      "hotness": 2,
+      "hotness": 3,
       "date": "2026-10-29",
       "sourceType": "auto",
       "summary_zh": "自动语音识别"
@@ -35557,7 +35557,7 @@
         "text-generation"
       ],
       "summary": "text-generation",
-      "description": "⬇ 2,317 下载 · ❤ 111 点赞 · text-generation",
+      "description": "⬇ 16,687 下载 · ❤ 117 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/AtomicChat/LFM3-1.7B-Uncensored-GGUF",
       "source": "Hugging Face",
@@ -35579,11 +35579,11 @@
         "llama.cpp"
       ],
       "summary": "text-generation",
-      "description": "⬇ 18,165 下载 · ❤ 106 点赞 · text-generation",
+      "description": "⬇ 61,499 下载 · ❤ 115 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
       "source": "Hugging Face",
-      "hotness": 3,
+      "hotness": 4,
       "date": "2026-10-29",
       "sourceType": "auto",
       "summary_zh": "文本生成"
@@ -35601,7 +35601,7 @@
         "text-generation"
       ],
       "summary": "text-generation",
-      "description": "⬇ 105 下载 · ❤ 104 点赞 · text-generation",
+      "description": "⬇ 1,030 下载 · ❤ 122 点赞 · text-generation",
       "usage": "",
       "link": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
       "source": "Hugging Face",
@@ -35727,6 +35727,883 @@
       "source": "新智元",
       "hotness": 3,
       "date": "2026-10-29",
+      "sourceType": "auto"
+    },
+    {
+      "id": "hn-50251200",
+      "name": "OpenAI's agents talked to each other through the CPU Cache",
+      "category": "ai-tool",
+      "tags": [
+        "Hacker News"
+      ],
+      "summary": "OpenAI's agents talked to each other through the CPU Cache",
+      "description": "HN 热度 219 分 · 123 条评论",
+      "usage": "",
+      "link": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "source": "Hacker News",
+      "hotness": 2,
+      "date": "2026-10-26",
+      "sourceType": "auto",
+      "summary_zh": "OpenAI 的代理通过 CPU 缓存相互通信"
+    },
+    {
+      "id": "hn-50284255",
+      "name": "Claude Code regularly sends each background agent’s transcript to its model",
+      "category": "ai-tool",
+      "tags": [
+        "Hacker News"
+      ],
+      "summary": "Claude Code regularly sends each background agent’s transcript to its model",
+      "description": "HN 热度 431 分 · 163 条评论",
+      "usage": "",
+      "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "source": "Hacker News",
+      "hotness": 4,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "Claude Code 定期将每个后台特工的成绩单发送给其模型"
+    },
+    {
+      "id": "gh-huggingface/diffusers",
+      "name": "huggingface/diffusers",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "Python",
+        "deep-learning",
+        "diffusion",
+        "flux",
+        "image-generation"
+      ],
+      "summary": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "description": "⭐ 34831 stars · Python · deep-learning, diffusion, flux, image-generation",
+      "usage": "",
+      "link": "https://github.com/huggingface/diffusers",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "🤗 扩散器：PyTorch 中用于生成图像、视频和音频的最先进的扩散模型。"
+    },
+    {
+      "id": "gh-Anil-matcha/Open-Generative-AI",
+      "name": "Anil-matcha/Open-Generative-AI",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "JavaScript",
+        "ai-art-generator",
+        "ai-image-generation",
+        "ai-video-generation",
+        "fal-ai-alternative"
+      ],
+      "summary": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "description": "⭐ 31773 stars · JavaScript · ai-art-generator, ai-image-generation, ai-video-generation, fal-ai-alternative",
+      "usage": "",
+      "link": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-24",
+      "sourceType": "auto",
+      "summary_zh": "AI 视频平台的无限制开源替代方案 — 免费 AI 图像和视频生成工作室，拥有 600 多个模型（Flux、Midjourney、Kling、Sora、Veo）。没有内容过滤器。自托管，麻省理工学院许可。"
+    },
+    {
+      "id": "gh-invoke-ai/InvokeAI",
+      "name": "invoke-ai/InvokeAI",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "ai-art",
+        "artificial-intelligence",
+        "generative-art",
+        "image-generation"
+      ],
+      "summary": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+      "description": "⭐ 28914 stars · TypeScript · ai-art, artificial-intelligence, generative-art, image-generation",
+      "usage": "",
+      "link": "https://github.com/invoke-ai/InvokeAI",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "Invoke 是稳定扩散模型的领先创意引擎，使专业人士、艺术家和爱好者能够使用最新的人工智能驱动技术生成和创建视觉媒体。该解决方案提供了业界领先的WebUI，并作为多个商业产品的基础。"
+    },
+    {
+      "id": "gh-hypit-ai/hypit",
+      "name": "hypit-ai/hypit",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "agentic-ai",
+        "ai",
+        "ai-agents",
+        "ai-video"
+      ],
+      "summary": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
+      "description": "⭐ 26400 stars · TypeScript · agentic-ai, ai, ai-agents, ai-video",
+      "usage": "",
+      "link": "https://github.com/hypit-ai/hypit",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "使用人工智能代理克隆任何病毒视频。不仅仅是一个脚本，而是整个工作流程：交换面孔、文字、幕后花絮，在一个命令中发送 100 个变体，并获得 1 亿次观看。"
+    },
+    {
+      "id": "gh-PicoTrex/Awesome-Nano-Banana-images",
+      "name": "PicoTrex/Awesome-Nano-Banana-images",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "awesome",
+        "gemini-2-5-flash-image",
+        "nano-banana"
+      ],
+      "summary": "A curated collection of fun and creative examples generated with Nano Banana & Nano Banana Pro🍌, Gemini-2.5-flash-image based model. We also release Nano-consistent-150K openly to support the community's development of image generation and unified models(click to website to see our blog)",
+      "description": "⭐ 23960 stars · 未知语言 · awesome, gemini-2-5-flash-image, nano-banana",
+      "usage": "",
+      "link": "https://github.com/PicoTrex/Awesome-Nano-Banana-images",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-09-03",
+      "sourceType": "auto",
+      "summary_zh": "使用 Nano Banana 和 Nano Banana Pro🍌（基于 Gemini-2.5-flash 图像的模型）生成的一系列有趣且富有创意的示例。我们还公开发布Nano-conscient-150K来支持社区图像生成和统一模型的开发（点击网站查看我们的博客）"
+    },
+    {
+      "id": "gh-pydantic/pydantic-ai",
+      "name": "pydantic/pydantic-ai",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "Python",
+        "agent-framework",
+        "genai",
+        "harness",
+        "harness-engineering"
+      ],
+      "summary": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
+      "description": "⭐ 20941 stars · Python · agent-framework, genai, harness, harness-engineering",
+      "usage": "",
+      "link": "https://github.com/pydantic/pydantic-ai",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "Python 如何实现人工智能。代理、实时语音、图像生成、嵌入。每个模型，每个界面，都是端到端键入的。"
+    },
+    {
+      "id": "gh-HBAI-Ltd/Toonflow-app",
+      "name": "HBAI-Ltd/Toonflow-app",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "ai-agents",
+        "ai-comic",
+        "ai-content-creation",
+        "ai-filmmaking"
+      ],
+      "summary": "短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.",
+      "description": "⭐ 19855 stars · TypeScript · ai-agents, ai-comic, ai-content-creation, ai-filmmaking",
+      "usage": "",
+      "link": "https://github.com/HBAI-Ltd/Toonflow-app",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-27",
+      "sourceType": "auto"
+    },
+    {
+      "id": "gh-latent-spaces/brag",
+      "name": "latent-spaces/brag",
+      "category": "ai-model",
+      "tags": [
+        "GitHub",
+        "Python",
+        "agent-skills",
+        "claude-code",
+        "claude-skills",
+        "hyperframes"
+      ],
+      "summary": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.",
+      "description": "⭐ 19389 stars · Python · agent-skills, claude-code, claude-skills, hyperframes",
+      "usage": "",
+      "link": "https://github.com/latent-spaces/brag",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-23",
+      "sourceType": "auto",
+      "summary_zh": "你建造了它。现在吹牛。使用一个命令将您刚刚创建的项目变成一个简短的、可共享的启动视频。"
+    },
+    {
+      "id": "gh-Wan-Video/Wan2.2",
+      "name": "Wan-Video/Wan2.2",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "Python",
+        "aigc",
+        "video-generation"
+      ],
+      "summary": "Wan: Open and Advanced Large-Scale Video Generative Models",
+      "description": "⭐ 18256 stars · Python · aigc, video-generation",
+      "usage": "",
+      "link": "https://github.com/Wan-Video/Wan2.2",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-09-21",
+      "sourceType": "auto",
+      "summary_zh": "Wan：开放且先进的大规模视频生成模型"
+    },
+    {
+      "id": "gh-Comfy-Org/ComfyUI-Manager",
+      "name": "Comfy-Org/ComfyUI-Manager",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "Python"
+      ],
+      "summary": "ComfyUI-Manager is an extension designed to enhance the usability of ComfyUI. It offers management functions to install, remove, disable, and enable various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.",
+      "description": "⭐ 16632 stars · Python · 无标签",
+      "usage": "",
+      "link": "https://github.com/Comfy-Org/ComfyUI-Manager",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-28",
+      "sourceType": "auto",
+      "summary_zh": "ComfyUI-Manager 是一个旨在增强 ComfyUI 可用性的扩展。它提供了安装、删除、禁用和启用 ComfyUI 各种自定义节点的管理功能。此外，此扩展提供了集线器功能和便利功能，可以访问 ComfyUI 中的各种信息。"
+    },
+    {
+      "id": "gh-waooAI/waoowaoo",
+      "name": "waooAI/waoowaoo",
+      "category": "ai-tool",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "ai-agent",
+        "ai-agents",
+        "automation",
+        "film-production"
+      ],
+      "summary": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
+      "description": "⭐ 14707 stars · TypeScript · ai-agent, ai-agents, automation, film-production",
+      "usage": "",
+      "link": "https://github.com/waooAI/waoowaoo",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-09-21",
+      "sourceType": "auto"
+    },
+    {
+      "id": "gh-Vincentwei1021/video-shotcraft",
+      "name": "Vincentwei1021/video-shotcraft",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "agent-skills",
+        "ai-agents",
+        "ai-video",
+        "claude-code"
+      ],
+      "summary": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+      "description": "⭐ 14499 stars · TypeScript · agent-skills, ai-agents, ai-video, claude-code",
+      "usage": "",
+      "link": "https://github.com/Vincentwei1021/video-shotcraft",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-28",
+      "sourceType": "auto",
+      "summary_zh": "Claude Code & Codex 的 AI 视频技能 — 使用 Remotion 进行电影化、可编辑的产品宣传片：124 个镜头配方卡、150 个动作预览、节拍同步、声音设计、Motion Workbench 和JianYing (CapCut CN) 导出。"
+    },
+    {
+      "id": "gh-vercel/satori",
+      "name": "vercel/satori",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "css",
+        "image",
+        "image-generation",
+        "image-generator"
+      ],
+      "summary": "Enlightened library to convert HTML and CSS to SVG",
+      "description": "⭐ 14144 stars · TypeScript · css, image, image-generation, image-generator",
+      "usage": "",
+      "link": "https://github.com/vercel/satori",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-23",
+      "sourceType": "auto",
+      "summary_zh": "将 HTML 和 CSS 转换为 SVG 的 Enlightened 库"
+    },
+    {
+      "id": "gh-krillinai/OpenCreator",
+      "name": "krillinai/OpenCreator",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "agent-skills",
+        "codex-cli",
+        "deskop-app",
+        "dubbing"
+      ],
+      "summary": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.",
+      "description": "⭐ 14003 stars · TypeScript · agent-skills, codex-cli, deskop-app, dubbing",
+      "usage": "",
+      "link": "https://github.com/krillinai/OpenCreator",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "前身为 KrillinAI，视频翻译和配音工具。由 Codex 提供支持的面向创作者的开源 AI 工作区。视频下载、视频翻译、创建视频、图像、语音、头像以及使用代理进行编辑在一处。适合您的社交媒体，如 YouTube、TikTok、Instagram 等。"
+    },
+    {
+      "id": "gh-YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "name": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "ai-image-generation",
+        "ai-prompts",
+        "awesome",
+        "awesome-list"
+      ],
+      "summary": "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source.",
+      "description": "⭐ 13706 stars · TypeScript · ai-image-generation, ai-prompts, awesome, awesome-list",
+      "usage": "",
+      "link": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "🍌 世界上最大的 Nano Banana Pro 提示库 — 10,000 多个带有预览图像的精选提示，16 种语言。谷歌 Gemini AI 图像生成。免费且开源。"
+    },
+    {
+      "id": "gh-ConardLi/garden-skills",
+      "name": "ConardLi/garden-skills",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "JavaScript",
+        "agent",
+        "claude",
+        "gpt-image-2",
+        "rag"
+      ],
+      "summary": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "description": "⭐ 13382 stars · JavaScript · agent, claude, gpt-image-2, rag",
+      "usage": "",
+      "link": "https://github.com/ConardLi/garden-skills",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-25",
+      "sourceType": "auto",
+      "summary_zh": "ConardLi 的开源技能集合，包括网页设计、知识检索、图像生成等。"
+    },
+    {
+      "id": "gh-helloianneo/ian-xiaohei-illustrations",
+      "name": "helloianneo/ian-xiaohei-illustrations",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "ai-agent",
+        "chinese",
+        "codex-skill",
+        "handdrawn",
+        "illustration"
+      ],
+      "summary": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
+      "description": "⭐ 12950 stars · 未知语言 · ai-agent, chinese, codex-skill, handdrawn",
+      "usage": "",
+      "link": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-27",
+      "sourceType": "auto"
+    },
+    {
+      "id": "gh-HKUDS/ViMax",
+      "name": "HKUDS/ViMax",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "Python",
+        "agentic-aigc",
+        "video-generation"
+      ],
+      "summary": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "description": "⭐ 12793 stars · Python · agentic-aigc, video-generation",
+      "usage": "",
+      "link": "https://github.com/HKUDS/ViMax",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-09-30",
+      "sourceType": "auto",
+      "summary_zh": "“ViMax：代理视频生成（导演、编剧、制片人和视频生成器一体化）”"
+    },
+    {
+      "id": "gh-Tencent-Hunyuan/HunyuanVideo",
+      "name": "Tencent-Hunyuan/HunyuanVideo",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "Python",
+        "diffusion-models",
+        "diffusion-transformer",
+        "video-generation"
+      ],
+      "summary": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+      "description": "⭐ 12685 stars · Python · diffusion-models, diffusion-transformer, video-generation",
+      "usage": "",
+      "link": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-08",
+      "sourceType": "auto",
+      "summary_zh": "混源视频：大视频生成模型的系统框架"
+    },
+    {
+      "id": "gh-easydiffusion/easydiffusion",
+      "name": "easydiffusion/easydiffusion",
+      "category": "ai-tool",
+      "tags": [
+        "GitHub",
+        "JavaScript",
+        "art",
+        "diffusion",
+        "generative-art",
+        "gui"
+      ],
+      "summary": "An easy 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.",
+      "description": "⭐ 10475 stars · JavaScript · art, diffusion, generative-art, gui",
+      "usage": "",
+      "link": "https://github.com/easydiffusion/easydiffusion",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-28",
+      "sourceType": "auto",
+      "summary_zh": "一种简单的一键点击方式，使用人工智能在您的电脑上创建精美的艺术作品，无需任何技术知识。提供浏览器 UI，用于从文本提示和图像生成图像。只需输入文本提示，即可查看生成的图像。"
+    },
+    {
+      "id": "gh-YouMind-OpenLab/awesome-gpt-image-2",
+      "name": "YouMind-OpenLab/awesome-gpt-image-2",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "ai-image-generation",
+        "ai-prompts",
+        "awesome",
+        "awesome-list"
+      ],
+      "summary": "🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source.",
+      "description": "⭐ 10191 stars · TypeScript · ai-image-generation, ai-prompts, awesome, awesome-list",
+      "usage": "",
+      "link": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "🚀 世界上最大的 GPT Image 2 提示库，每天更新 — 2000 多个带有预览图像的精选提示，16 种语言。 OpenAI 的下一代图像模型具有像素完美的文本渲染、跨图像一致性和商业级插图。免费且开源。"
+    },
+    {
+      "id": "gh-NVlabs/Sana",
+      "name": "NVlabs/Sana",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "Python",
+        "diffusion",
+        "dit",
+        "linear-transformer",
+        "nvfp4"
+      ],
+      "summary": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
+      "description": "⭐ 9711 stars · Python · diffusion, dit, linear-transformer, nvfp4",
+      "usage": "",
+      "link": "https://github.com/NVlabs/Sana",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "SANA：使用线性扩散变压器进行高效高分辨率图像合成"
+    },
+    {
+      "id": "gh-LykosAI/StabilityMatrix",
+      "name": "LykosAI/StabilityMatrix",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "C#",
+        "ai",
+        "automatic1111",
+        "avalonia",
+        "comfyui"
+      ],
+      "summary": "Multi-Platform Package Manager for Stable Diffusion",
+      "description": "⭐ 8967 stars · C# · ai, automatic1111, avalonia, comfyui",
+      "usage": "",
+      "link": "https://github.com/LykosAI/StabilityMatrix",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-21",
+      "sourceType": "auto",
+      "summary_zh": "用于稳定扩散的多平台包管理器"
+    },
+    {
+      "id": "gh-carson-katri/dream-textures",
+      "name": "carson-katri/dream-textures",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "Python",
+        "ai",
+        "blender",
+        "blender-addon",
+        "image-generation"
+      ],
+      "summary": "Stable Diffusion built-in to Blender",
+      "description": "⭐ 8232 stars · Python · ai, blender, blender-addon, image-generation",
+      "usage": "",
+      "link": "https://github.com/carson-katri/dream-textures",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-09-17",
+      "sourceType": "auto",
+      "summary_zh": "Blender 内置稳定扩散"
+    },
+    {
+      "id": "gh-leejet/stable-diffusion.cpp",
+      "name": "leejet/stable-diffusion.cpp",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "C++",
+        "ai",
+        "cplusplus",
+        "diffusion",
+        "flux"
+      ],
+      "summary": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
+      "description": "⭐ 7819 stars · C++ · ai, cplusplus, diffusion, flux",
+      "usage": "",
+      "link": "https://github.com/leejet/stable-diffusion.cpp",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-28",
+      "sourceType": "auto",
+      "summary_zh": "纯 C/C++ 中的扩散模型（SD、Flux、Wan、Qwen Image、Z-Image、...）推理"
+    },
+    {
+      "id": "gh-Osmantic/ODS",
+      "name": "Osmantic/ODS",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "Python",
+        "ai-agents",
+        "amd",
+        "comfyui",
+        "docker"
+      ],
+      "summary": "ODS V3 Pre-Release: Public testing and refinement ahead of the official V3 launch. Turn your PC, Mac, or Linux box into a private AI server.",
+      "description": "⭐ 7712 stars · Python · ai-agents, amd, comfyui, docker",
+      "usage": "",
+      "link": "https://github.com/Osmantic/ODS",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "ODS V3 预发布：在 V3 正式发布之前进行公开测试和完善。将您的 PC、Mac 或 Linux 机器变成私人 AI 服务器。"
+    },
+    {
+      "id": "gh-vllm-project/vllm-omni",
+      "name": "vllm-project/vllm-omni",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "Python",
+        "audio-generation",
+        "diffusion",
+        "image-generation",
+        "inference"
+      ],
+      "summary": "A framework for efficient model inference with omni-modality models",
+      "description": "⭐ 7408 stars · Python · audio-generation, diffusion, image-generation, inference",
+      "usage": "",
+      "link": "https://github.com/vllm-project/vllm-omni",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "全模态模型的高效模型推理框架"
+    },
+    {
+      "id": "gh-enricoros/big-AGI",
+      "name": "enricoros/big-AGI",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "agi",
+        "ai-agents",
+        "ai-suite",
+        "ai-workspace"
+      ],
+      "summary": "AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions, world-class Beam multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud.",
+      "description": "⭐ 7159 stars · TypeScript · agi, ai-agents, ai-suite, ai-workspace",
+      "usage": "",
+      "link": "https://github.com/enricoros/big-AGI",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "AI 套件由最先进的模型提供支持，并提供先进的 AI/AGI 功能。包括 AI 角色、AGI 功能、世界一流的 Beam 多模型聊天、文本到图像、语音、响应流、代码突出显示和执行、PDF 导入、开发人员预设等等。在本地或云端部署。"
+    },
+    {
+      "id": "gh-dramaclaw/dramaclaw",
+      "name": "dramaclaw/dramaclaw",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "Python",
+        "ai-agent",
+        "ai-filmmaking",
+        "ai-video",
+        "aigc"
+      ],
+      "summary": "A general-purpose AIGC video engine: script to finished film in one pipeline — dramas, ads, product videos, otome games, and more. | 通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可",
+      "description": "⭐ 6570 stars · Python · ai-agent, ai-filmmaking, ai-video, aigc",
+      "usage": "",
+      "link": "https://github.com/dramaclaw/dramaclaw",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto"
+    },
+    {
+      "id": "gh-modelscope/FunClip",
+      "name": "modelscope/FunClip",
+      "category": "ai-tool",
+      "tags": [
+        "GitHub",
+        "Python",
+        "ai-tools",
+        "ai-video-editing",
+        "asr",
+        "auto-subtitles"
+      ],
+      "summary": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.",
+      "description": "⭐ 6471 stars · Python · ai-tools, ai-video-editing, asr, auto-subtitles",
+      "usage": "",
+      "link": "https://github.com/modelscope/FunClip",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-08",
+      "sourceType": "auto",
+      "summary_zh": "FunASR 支持的视频转录、字幕生成和 LLM 辅助剪辑工具以及本地 Gradio UI。"
+    },
+    {
+      "id": "gh-promptslab/Awesome-Prompt-Engineering",
+      "name": "promptslab/Awesome-Prompt-Engineering",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "chatgpt",
+        "chatgpt-api",
+        "deep-learning",
+        "few-shot-learning"
+      ],
+      "summary": "This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc ",
+      "description": "⭐ 6420 stars · TypeScript · chatgpt, chatgpt-api, deep-learning, few-shot-learning",
+      "usage": "",
+      "link": "https://github.com/promptslab/Awesome-Prompt-Engineering",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-28",
+      "sourceType": "auto",
+      "summary_zh": "该存储库包含针对 Prompt Engineering 的手工策划资源，重点关注生成式预训练 Transformer (GPT)、ChatGPT、PaLM 等"
+    },
+    {
+      "id": "gh-wiltodelta/remove-ai-watermarks",
+      "name": "wiltodelta/remove-ai-watermarks",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "Python",
+        "agent-skill",
+        "ai-watermark",
+        "c2pa",
+        "cli"
+      ],
+      "summary": "Remove visible and invisible AI watermarks from images and video, and AI provenance metadata from images, video, and audio. Python library, CLI, and agent skill for SynthID, C2PA, EXIF, IPTC, XMP, and common generative-AI marks.",
+      "description": "⭐ 6176 stars · Python · agent-skill, ai-watermark, c2pa, cli",
+      "usage": "",
+      "link": "https://github.com/wiltodelta/remove-ai-watermarks",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-28",
+      "sourceType": "auto",
+      "summary_zh": "从图像和视频中删除可见和不可见的 AI 水印，以及从图像、视频和音频中删除 AI 来源元数据。适用于 SynthID、C2PA、EXIF、IPTC、XMP 和常见生成 AI 标记的 Python 库、CLI 和代理技能。"
+    },
+    {
+      "id": "gh-YILS-LIN/short-video-factory",
+      "name": "YILS-LIN/short-video-factory",
+      "category": "ai-tool",
+      "tags": [
+        "GitHub",
+        "TypeScript",
+        "ai",
+        "automatic",
+        "automation",
+        "clipping"
+      ],
+      "summary": "一键生成产品营销与泛内容短视频，AI批量自动剪辑，高颜值跨平台桌面端工具 One click generation of product marketing and general content short videos, AI batch automatic cliping, beautiful cross platform desktop tool",
+      "description": "⭐ 5957 stars · TypeScript · ai, automatic, automation, clipping",
+      "usage": "",
+      "link": "https://github.com/YILS-LIN/short-video-factory",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "gh-wuyoscar/GPT-Image2-Skill",
+      "name": "wuyoscar/GPT-Image2-Skill",
+      "category": "ai-image",
+      "tags": [
+        "GitHub",
+        "Python",
+        "agent-skills",
+        "ai-image-prompts",
+        "claude-code-skill",
+        "cli"
+      ],
+      "summary": "GPT Image 2/2.5 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing",
+      "description": "⭐ 5928 stars · Python · agent-skills, ai-image-prompts, claude-code-skill, cli",
+      "usage": "",
+      "link": "https://github.com/wuyoscar/GPT-Image2-Skill",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-09-30",
+      "sourceType": "auto",
+      "summary_zh": "GPT Image 2/2.5 提示库、图像提示库、代理技能和用于 OpenAI 图像生成/编辑的 CLI"
+    },
+    {
+      "id": "gh-ArcReel/ArcReel",
+      "name": "ArcReel/ArcReel",
+      "category": "ai-video",
+      "tags": [
+        "GitHub",
+        "Python",
+        "agentic-workflow",
+        "ai-agent",
+        "ai-animation",
+        "ai-video-generator"
+      ],
+      "summary": "AI Agent 驱动的开源可自部署视频工作台：将小说与剧本转为角色、场景、道具资产、分镜、视频和剪映草稿，支持跨镜头一致性、多供应商与费用追踪 | Self-hosted AI video workspace for stories, storyboards and short-form video production",
+      "description": "⭐ 5875 stars · Python · agentic-workflow, ai-agent, ai-animation, ai-video-generator",
+      "usage": "",
+      "link": "https://github.com/ArcReel/ArcReel",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-10-29",
+      "sourceType": "auto"
+    },
+    {
+      "id": "hf-Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "name": "Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "category": "ai-tool",
+      "tags": [
+        "Hugging Face",
+        "video-to-video",
+        "diffusers",
+        "safetensors",
+        "minimax-h3",
+        "lora"
+      ],
+      "summary": "video-to-video",
+      "description": "⬇ 0 下载 · ❤ 108 点赞 · video-to-video",
+      "usage": "",
+      "link": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "source": "Hugging Face",
+      "hotness": 1,
+      "date": "2026-10-29",
+      "sourceType": "auto",
+      "summary_zh": "视频到视频"
+    },
+    {
+      "id": "cn-66607358e02b273d",
+      "name": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+      "category": "ai-tool",
+      "tags": [
+        "量子位",
+        "中文AI"
+      ],
+      "summary": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+      "description": "用扩散模型怎么做做Agent？",
+      "usage": "",
+      "link": "https://www.qbitai.com/2026/10/505934.html",
+      "source": "量子位",
+      "hotness": 3,
+      "date": "2026-10-29",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-2a3824a8bb57b020",
+      "name": "刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价",
+      "category": "ai-tool",
+      "tags": [
+        "量子位",
+        "中文AI"
+      ],
+      "summary": "刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价",
+      "description": "能连肝数日修Bug，免疫提示词注入",
+      "usage": "",
+      "link": "https://www.qbitai.com/2026/10/506227.html",
+      "source": "量子位",
+      "hotness": 3,
+      "date": "2026-10-29",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-f03a8850b36c0e2d",
+      "name": "19个项目18个成功，6个GPCR靶点全获命中！国产AI制药再破技术天花板",
+      "category": "ai-tool",
+      "tags": [
+        "量子位",
+        "中文AI"
+      ],
+      "summary": "19个项目18个成功，6个GPCR靶点全获命中！国产AI制药再破技术天花板",
+      "description": "精度达AlphaFold 3两倍，分子之心拿下高难度抗体设计",
+      "usage": "",
+      "link": "https://www.qbitai.com/2026/10/506055.html",
+      "source": "量子位",
+      "hotness": 3,
+      "date": "2026-10-28",
+      "sourceType": "auto"
+    },
+    {
+      "id": "cn-f8ba7008ee05866e",
+      "name": "0营收估值200亿美元，具身版OpenAI又融10亿美元",
+      "category": "ai-tool",
+      "tags": [
+        "量子位",
+        "中文AI"
+      ],
+      "summary": "0营收估值200亿美元，具身版OpenAI又融10亿美元",
+      "description": "斯坦福伯克利宗师组团，贝索斯红杉抢着送钱",
+      "usage": "",
+      "link": "https://www.qbitai.com/2026/10/506042.html",
+      "source": "量子位",
+      "hotness": 3,
+      "date": "2026-10-28",
       "sourceType": "auto"
     }
   ]
