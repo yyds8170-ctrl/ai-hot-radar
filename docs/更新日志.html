@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>更新日志 · AI 热门项目雷达</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0A0D10; --bg-elev:#12161C; --bg-card:#151A21;
+  --border:#232932; --border-bright:#2E3642;
+  --text:#E8E6E1; --text-dim:#8B9099; --text-faint:#5C616A;
+  --accent:#FFB020; --accent-2:#FF6B35; --accent-dim:rgba(255,176,32,.12); --accent-glow:rgba(255,176,32,.35);
+  --info:#38BDF8; --mint:#5EEAD4; --danger:#FB7185;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+  --display:'Space Grotesk',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background:
+  radial-gradient(1000px 500px at 85% -5%,var(--accent-dim),transparent 60%),
+  radial-gradient(800px 400px at -5% 15%,rgba(56,189,248,.05),transparent 55%);}
+.wrap{max-width:860px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+
+/* ===== Hero ===== */
+.hero{padding:70px 0 40px;position:relative}
+.hero-eyebrow{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.18em;text-transform:uppercase;margin-bottom:22px;display:flex;align-items:center;gap:10px}
+.hero-eyebrow::before{content:'';width:28px;height:1px;background:var(--accent)}
+.hero h1{font-family:var(--display);font-size:clamp(32px,5.5vw,48px);font-weight:700;letter-spacing:-.025em;line-height:1.1;margin-bottom:16px}
+.hero h1 .accent{color:var(--accent)}
+.hero p.lead{font-size:16px;color:var(--text-dim);max-width:560px}
+
+/* ===== Timeline ===== */
+.timeline{position:relative;margin:30px 0 50px;padding-left:0}
+.timeline::before{content:'';position:absolute;left:110px;top:0;bottom:0;width:1px;background:var(--border)}
+@media(max-width:600px){.timeline::before{left:80px}}
+
+.entry{position:relative;padding:0 0 36px 150px}
+@media(max-width:600px){.entry{padding-left:120px}}
+.entry .date{position:absolute;left:0;top:6px;width:100px;text-align:right;font-family:var(--mono);font-size:12.5px;color:var(--text-faint);letter-spacing:.02em}
+@media(max-width:600px){.entry .date{width:70px;font-size:11px}}
+.entry .dot{position:absolute;left:104px;top:11px;width:13px;height:13px;border-radius:50%;background:var(--bg);border:2px solid var(--accent);box-shadow:0 0 0 4px var(--bg)}
+@media(max-width:600px){.entry .dot{left:74px}}
+.entry.latest .dot{background:var(--accent);box-shadow:0 0 0 4px var(--bg),0 0 14px var(--accent-glow)}
+
+.entry-card{background:var(--bg-elev);border:1px solid var(--border);border-radius:14px;padding:22px 26px;transition:border-color .15s}
+.entry-card:hover{border-color:var(--border-bright)}
+.entry-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.entry-head h2{font-family:var(--display);font-size:20px;font-weight:600;letter-spacing:-.01em}
+.version-tag{font-family:var(--mono);font-size:11px;padding:2px 9px;border-radius:999px;background:var(--accent-dim);color:var(--accent);border:1px solid rgba(255,176,32,.3)}
+.entry.latest .version-tag{background:var(--accent);color:#1a1a1a;border-color:var(--accent);font-weight:600}
+.entry p{color:var(--text-dim);font-size:14.5px;margin-bottom:10px}
+.entry ul{margin:8px 0 4px 22px;color:var(--text-dim);font-size:14px}
+.entry li{margin-bottom:6px;line-height:1.65}
+.entry li strong{color:var(--text)}
+.entry li .ico{margin-right:6px}
+
+.entry.older .entry-card{background:transparent;border-style:dashed}
+.entry.older h2{font-size:16px;color:var(--text-dim)}
+.entry.older .entry li{font-size:13.5px}
+
+/* callout */
+.callout{border-radius:12px;padding:15px 18px;margin:18px 0;border:1px solid;font-size:13.5px;display:flex;gap:12px}
+.callout .ico{font-size:17px;line-height:1.5;flex-shrink:0}
+.callout.key{background:var(--accent-dim);border-color:rgba(255,176,32,.3);color:var(--text-dim)}
+.callout.key strong{color:var(--accent)}
+
+footer{border-top:1px solid var(--border);padding:30px 0 50px;margin-top:30px;font-family:var(--mono);font-size:11.5px;color:var(--text-faint);text-align:center;line-height:2}
+footer a{color:var(--info);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="hero-eyebrow">Changelog · 版本时间线</div>
+    <h1>更新日志<span class="accent">.</span></h1>
+    <p class="lead">这个雷达从 2026-08 开始写，每一次改动都记在这里。最近一次是 2026-11-05 的大版本升级。</p>
+  </div>
+
+  <div class="timeline">
+
+    <!-- 2026-11-05 -->
+    <div class="entry latest">
+      <div class="date">2026-11-05</div>
+      <div class="dot"></div>
+      <div class="entry-card">
+        <div class="entry-head">
+          <h2>大版本升级：数据源翻倍 + 前端体验补齐</h2>
+          <span class="version-tag">v4.0</span>
+        </div>
+        <p>这是上线以来改动最大的一次——数据源从 6 个扩到 10+ 个，前端把之前缺的「分享、筛选、手机适配」一起补上。</p>
+        <ul>
+          <li><span class="ico">✨</span><strong>新增 4 个数据源</strong>：Reddit r/LocalLLaMA（本地大模型社区）、arXiv（cs.CV / cs.CL / cs.AI 最新论文）、Hugging Face Spaces（在线 Demo）、机器之心（中文 AI 媒体）。</li>
+          <li><span class="ico">✨</span><strong>一键复制项目链接</strong>：卡片上点 🔗 直接复制，方便发给同事 / 客户 / 朋友圈。</li>
+          <li><span class="ico">✨</span><strong>时间筛选</strong>：新增「本周新增」「本月新增」一键过滤，热点节奏一目了然。</li>
+          <li><span class="ico">✨</span><strong>标签云 + 标签点击直达</strong>：点任意标签就能看到所有同类项目。</li>
+          <li><span class="ico">✨</span><strong>SEO 分享卡片</strong>：链接分享到微信 / 微博自动带标题、简介、配图预览。</li>
+          <li><span class="ico">✨</span><strong>精选项目扩容</strong>：人工精挑从 32 条扩到 55+ 条，覆盖更多电商美工 / AI 创作者常用工具。</li>
+          <li><span class="ico">🐛</span><strong>移动端适配优化</strong>：小屏自动重排，手机浏览器打开不再挤成一团。</li>
+          <li><span class="ico">🐛</span><strong>回到顶部按钮</strong>：长列表滚到底也能一键回顶。</li>
+        </ul>
+        <div class="callout key" style="margin-top:14px"><span class="ico">🎯</span><div><strong>这次升级想解决的问题：</strong>之前刷到好项目想分享给同事，得手动复制一长串链接；手机上看字太小；新数据源只盯英文圈，中文 AI 媒体和论文圈漏了。这版都补上了。</div></div>
+      </div>
+    </div>
+
+    <!-- 2026-09 -->
+    <div class="entry older">
+      <div class="date">2026-09</div>
+      <div class="dot"></div>
+      <div class="entry-card">
+        <div class="entry-head">
+          <h2>项目图标 + README 美化</h2>
+          <span class="version-tag">v3.0</span>
+        </div>
+        <ul>
+          <li>GitHub 项目显示官方头像，Hugging Face 模型显示官方 Logo，各信源加专属彩色图标。</li>
+          <li>README 全面美化，加 banner、badges、功能表、界面截图。</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 2026-08-29 -->
+    <div class="entry older">
+      <div class="date">2026-08-29</div>
+      <div class="dot"></div>
+      <div class="entry-card">
+        <div class="entry-head">
+          <h2>免费机器翻译</h2>
+          <span class="version-tag">v2.1</span>
+        </div>
+        <ul>
+          <li>英文简介自动翻译成中文，Google Translate + MyMemory 双通道，失败自动降级保留原文。</li>
+          <li>加 8 秒超时、失败换源、跳过不阻塞主流程共 6 层保护。</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 2026-08-28 -->
+    <div class="entry older">
+      <div class="date">2026-08-28</div>
+      <div class="dot"></div>
+      <div class="entry-card">
+        <div class="entry-head">
+          <h2>去重 + CDN 修复</h2>
+          <span class="version-tag">v2.0</span>
+        </div>
+        <ul>
+          <li>按项目唯一 id 去重，避免同一个项目被多个信源重复收录。</li>
+          <li>修复 jsDelivr CDN 缓存导致数据不更新的问题，抓取后自动 Purge。</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 2026-08-27 -->
+    <div class="entry older">
+      <div class="date">2026-08-27</div>
+      <div class="dot"></div>
+      <div class="entry-card">
+        <div class="entry-head">
+          <h2>云端累积模式</h2>
+          <span class="version-tag">v1.5</span>
+        </div>
+        <ul>
+          <li>改成「只增不减」累积模式，历史项目永久保留，越用数据越丰富。</li>
+          <li>加「本月热门」筛选、本周新增 NEW 徽章。</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 2026-08-26 -->
+    <div class="entry older">
+      <div class="date">2026-08-26</div>
+      <div class="dot"></div>
+      <div class="entry-card">
+        <div class="entry-head">
+          <h2>第一个能用的版本</h2>
+          <span class="version-tag">v1.0</span>
+        </div>
+        <ul>
+          <li>多数据源扩展到 Hugging Face + 新智元 + 量子位。</li>
+          <li>修复中文源 id 冲突问题，GitHub Actions 定时跑通。</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    AI 热门项目雷达 · 更新日志 · 2026-11-05<br>
+    云端仓库：<a href="https://github.com/yyds8170-ctrl/ai-hot-radar" target="_blank">github.com/yyds8170-ctrl/ai-hot-radar</a> ·
+    <a href="使用说明.html" target="_blank">使用说明书</a> ·
+    <a href="download.html" target="_blank">下载中心</a><br>
+    Made with <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" style="color:var(--info);display:inline-block;vertical-align:-1px"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> by <strong style="color:var(--info)">洋洋制作</strong> · 免费开源 · 持续迭代中
+  </footer>
+</div>
+</body>
+</html>

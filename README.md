@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/yyds8170-ctrl/ai-hot-radar/actions"><img src="https://img.shields.io/github/actions/workflow/status/yyds8170-ctrl/ai-hot-radar/crawl.yml?label=自动抓取&logo=github&color=5eead4" alt="GitHub Actions"></a>
-  <img src="https://img.shields.io/badge/数据源-6个-56d364" alt="数据源">
+  <img src="https://img.shields.io/badge/数据源-10+-56d364" alt="数据源">
   <img src="https://img.shields.io/badge/更新频率-每6小时-3b82f6" alt="更新频率">
   <img src="https://img.shields.io/badge/成本-零成本-ffb74d" alt="零成本">
   <img src="https://img.shields.io/badge/许可证-PolyForm%20Noncommercial-8b5cf6" alt="许可证">
@@ -27,14 +27,17 @@
 
 | 能力 | 说明 |
 |---|---|
-| 🌍 **全球多源抓取** | 同时监控 GitHub、Hacker News、Hugging Face、新智元、量子位等 6 大信源 |
+| 🌍 **全球多源抓取** | 同时监控 GitHub、Hacker News、Hugging Face Models/Spaces、新智元、量子位、机器之心、Reddit r/LocalLLaMA、arXiv、RSS 等 10+ 信源 |
 | 🗣️ **免费中文翻译** | 英文简介自动翻译成中文（Google + MyMemory 双通道，失败自动降级保留原文） |
 | ⏰ **云端定时更新** | GitHub Actions 每 6 小时自动抓取一次，**你关机它也在跑** |
 | 📈 **只增不减累积** | 历史项目永久保留，越用数据越丰富，永远不会变少 |
-| 🏷️ **自动分类** | AI服装换装 / AI视频生成 / AI图像电商设计 / AI新模型 / 效率Agent工具 |
-| 🆕 **本周新增高亮** | 新抓取的项目自动打上 NEW 徽章，一眼看到最新热点 |
+| 🏷️ **自动分类 + 标签云** | AI服装换装 / AI视频生成 / AI图像电商设计 / AI新模型 / 效率Agent工具；点击标签直达相关项目 |
+| 🆕 **时间筛选** | 一键看「本周新增」「本月新增」，热点节奏一目了然 |
 | 🎨 **项目图标** | GitHub 项目显示官方头像、HF 模型显示官方 Logo、各信源专属彩色图标 |
-| 📱 **多端可用** | 在线应用（浏览器直接打开）+ 离线版 HTML（双击即用，可在任何电脑运行） |
+| 🔗 **一键复制链接** | 卡片上点 🔗 即复制项目地址，方便发给同事 / 客户 / 朋友圈 |
+| 📱 **移动端适配** | 手机浏览器打开自动重排，地铁上也能刷 |
+| 🔍 **SEO 分享卡片** | 分享到微信 / 微博自动带标题、描述、配图预览 |
+| 📦 **多端可用** | 在线应用（浏览器直接打开）+ 离线版 HTML（双击即用，可在任何电脑运行） |
 
 ---
 
@@ -46,7 +49,7 @@
   <img src="docs/screenshots/hero.png" width="85%" alt="主界面预览">
 </p>
 
-顶部实时统计各分类项目数（当前已累积 **700+ 条**），支持搜索、分类筛选、来源筛选、热度排序，云端连接状态一目了然。
+顶部实时统计各分类项目数（当前已累积 **800+ 条**），支持搜索、分类筛选、来源筛选、时间筛选、热度排序，云端连接状态一目了然。
 
 ### 精选项目 —— 人工精挑 + 详细中文介绍
 
@@ -54,7 +57,7 @@
   <img src="docs/screenshots/cards.png" width="85%" alt="精选项目卡片预览">
 </p>
 
-⭐ **精选 32 个重磅项目**：AI 换装 / AI 视频 / AI 电商设计 / AI 新模型 / Agent 工具全覆盖，每个项目带详细中文介绍、热度评分、直达链接，点"展开详情"看完整分析。
+⭐ **精选 55+ 个重磅项目**：AI 换装 / AI 视频 / AI 电商设计 / AI 新模型 / Agent 工具全覆盖，每个项目带详细中文介绍、热度评分、直达链接，点"展开详情"看完整分析。
 
 ### 自动抓取 —— NEW 徽章 + 免费中文翻译
 
@@ -86,16 +89,46 @@
 
 ---
 
+## 🌟 最近更新
+
+| 日期 | 变化 |
+|---|---|
+| **2026-11-05** | **大版本升级**：新增 Reddit r/LocalLLaMA、arXiv、Hugging Face Spaces、机器之心 4 个数据源；前端加上一键复制链接、时间筛选（本周/本月）、标签云直达、回到顶部、移动端适配、SEO 分享卡片；精选项目从 32 扩到 55+ |
+| 2026-09 | 项目图标（GitHub 头像 / HF Logo / 信源专属图标）、README 全面美化 |
+| 2026-08-29 | 免费机器翻译（Google+MyMemory 双通道，全降级保护） |
+
+> 📜 完整时间线见 [`docs/更新日志.html`](docs/更新日志.html)。
+
+---
+
+## 💡 它适合谁
+
+这不是一个面向所有人的大而全产品，更像是一份「私人 AI 工具备忘录」，如果你属于下面这类人，应该会觉得顺手：
+
+- 🎨 **电商美工 / 设计师**：每天想刷到能直接用在详情页、主图、模特图上的 AI 换装 / 扩图 / 生图工具；
+- 🎬 **AI 创作者 / 自媒体**：追新模型、新视频生成玩法，找下一条视频的选题；
+- 🛠️ **独立开发者 / 程序员**：关注开源仓库、本地大模型（r/LocalLLaMA）、arXiv 新论文；
+- 📋 **产品经理 / 运营**：想看全球最近在火什么 AI 产品，给团队找灵感。
+
+如果你只是想找一个「打开就能看到一堆 AI 工具」的页面，它也成立。
+
+---
+
 ## 🗂️ 数据来源
 
 | 信源 | 抓取内容 | 数量上限 |
 |---|---|---|
-| 🌟 GitHub | 16 组关键词搜索（AI换装/视频/图像/Agent/MCP/开源模型等）近两月活跃仓库，按 star 排序 | 40 |
+| 🌟 GitHub | 16+ 组关键词深度搜索（AI换装/视频/图像/Agent/MCP/开源模型等）近两月活跃仓库，按 star 排序 | 40 |
 | 📰 Hacker News | topstories + showstories 中 AI 相关热门帖（30 分以上） | 30 |
-| 🤗 Hugging Face | 趋势榜（trendingScore）最热模型 | 60 |
+| 🤗 Hugging Face Models | 趋势榜（trendingScore）最热模型 | 60 |
+| 🧪 Hugging Face Spaces | 热门在线 Demo / 应用空间 | 30 |
 | 🔬 新智元 | 中文 AI 媒体最新文章 | 15 |
 | 💬 量子位 | 中文 AI 媒体最新文章 | 15 |
+| 📰 机器之心 | 中文 AI 媒体最新文章 | 15 |
+| 💬 Reddit r/LocalLLaMA | 本地大模型社区热门讨论 | 20 |
+| 📄 arXiv | cs.CV / cs.CL / cs.AI 最新相关论文 | 20 |
 | 🚀 Product Hunt | 当日热门 AI 产品 | 10 |
+| 📡 RSS | 其他可订阅的 AI 博客 / 周报 | 按配置 |
 
 所有数据抓取后经过去重（按项目唯一 id）合并，再经过免费机器翻译，最后写入 `data.json`。
 
@@ -108,20 +141,21 @@ flowchart LR
     A["GitHub Actions<br/>每 6 小时定时触发"] --> B["crawler.mjs<br/>零依赖抓取脚本"]
     B --> C["GitHub<br/>热门 AI 仓库"]
     B --> D["Hacker News<br/>AI 相关热帖"]
-    B --> E["Hugging Face<br/>趋势模型"]
-    B --> F["中文 AI 媒体<br/>新智元 · 量子位"]
-    C & D & E & F --> G["免费机器翻译<br/>Google + MyMemory 备用"]
-    G --> H["data.json<br/>云端累积 · 只增不减"]
-    H --> I["jsDelivr CDN<br/>自动清除缓存"]
-    I --> J["在线应用"]
-    I --> K["离线版 HTML"]
+    B --> E["Hugging Face<br/>Models + Spaces"]
+    B --> F["中文 AI 媒体<br/>新智元 · 量子位 · 机器之心"]
+    B --> G["Reddit / arXiv / RSS<br/>社区 + 论文 + 博客"]
+    C & D & E & F & G --> H["免费机器翻译<br/>Google + MyMemory 备用"]
+    H --> I["data.json<br/>云端累积 · 只增不减"]
+    I --> J["jsDelivr CDN<br/>自动清除缓存"]
+    J --> K["在线应用"]
+    J --> L["离线版 HTML"]
 ```
 
 **全链路自动化，你只需要做一件事：打开应用看结果。**
 
 - `.github/workflows/crawl.yml` — GitHub Actions 定时任务（每 6 小时 + 手动触发 + 代码推送触发）
 - `crawler.mjs` — 零依赖 Node 抓取脚本（Node 18+ 即可运行，无需安装任何依赖）
-- `data.json` — 输出数据：`curated`（精选 32 条）+ `auto`（自动累积，只增不减）
+- `data.json` — 输出数据：`curated`（精选 55+ 条）+ `auto`（自动累积，只增不减）
 - 抓取完成后自动调用 jsDelivr Purge API 清除 CDN 缓存，保证各端数据实时一致
 
 ---
@@ -185,6 +219,7 @@ flowchart LR
 
 | 日期 | 版本 | 更新内容 |
 |---|---|---|
+| 2026-11-05 | v4.0 | 新数据源（Reddit r/LocalLLaMA / arXiv / HF Spaces / 机器之心）、SEO 分享卡片、一键复制链接、时间筛选、标签云、移动端适配、精选扩容到 55+ |
 | 2026-09 | v3.0 | 项目图标（GitHub 头像 / HF Logo / 信源专属图标）、README 全面美化 |
 | 2026-08-29 | v2.1 | 免费机器翻译（Google+MyMemory 双通道，全降级保护），英文简介自动转中文 |
 | 2026-08-28 | v2.0 | 修复 CDN 缓存问题、按唯一 id 去重、数据恢复完整 |

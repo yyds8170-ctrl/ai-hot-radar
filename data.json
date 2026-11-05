@@ -598,6 +598,519 @@
       "hotness": 3,
       "date": "2026-08-22",
       "sourceType": "curated"
+    },
+    {
+      "id": "cur-idm-vton",
+      "name": "IDM-VTON",
+      "category": "ai-clothing",
+      "tags": [
+        "开源",
+        "虚拟试衣",
+        "ECCV",
+        "上装换装"
+      ],
+      "summary": "ECCV2024 经典开源虚拟试衣模型",
+      "description": "韩国学者开源的虚拟试衣模型，给一张人像素材+一张服装平铺图，直接生成模特穿上衣服的效果。引入密集匹配模块对齐服装特征，褶皱和图案还原度高，是目前 GitHub 上 star 数最高的开源试衣项目之一（5k+）。提供 Gradio 在线 Demo，也有 ComfyUI 节点可接入工作流。",
+      "usage": "电商美工可以用它把 Jepp 男装平铺图一键上身到不同模特，批量生成试穿主图，省掉摄影棚和模特费用；适合上装、外套、衬衫类产品。",
+      "link": "https://github.com/yisol/IDM-VTON",
+      "source": "GitHub",
+      "hotness": 4,
+      "date": "2026-10-27",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-leffa",
+      "name": "Leffa",
+      "category": "ai-clothing",
+      "tags": [
+        "开源",
+        "姿态迁移",
+        "虚拟试衣",
+        "CVPR"
+      ],
+      "summary": "CVPR2025 姿态可控的人物换装生成",
+      "description": "商汤开源的人物图像生成框架，不仅能换装，还能控制人物姿势、表情和视角。在注意力流场中学习人体姿态与服装的对应关系，给一张模特照+一张目标服装，能生成保持指定姿势的穿新品效果图。支持半身和全身模式，人物身份保持度高。",
+      "usage": "Jeep 男装需要不同姿势的模特图（站姿、坐姿、侧身），用 Leffa 可以固定一个模特模板，批量换姿势+换衣服，比单张拍摄效率高很多。",
+      "link": "https://github.com/franciszzj/Leffa",
+      "source": "GitHub",
+      "hotness": 4,
+      "date": "2025-09-12",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-outfitanyone",
+      "name": "OutfitAnyone",
+      "category": "ai-clothing",
+      "tags": [
+        "开源",
+        "全身换装",
+        "任意服装",
+        "高保真"
+      ],
+      "summary": "阿里开源的任意服装任意人全身换装",
+      "description": "阿里巴巴国际团队开源的全身虚拟试衣框架，号称「给任何人穿任何衣服」。支持上装、下装、连衣裙、外套等多类别，人物和服装解耦生成，不会把人脸或背景穿变形。生成分辨率高，适合做全身商品图。GitHub star 接近 6k，社区活跃，有 ComfyUI 节点。",
+      "usage": "Jeep 男装经常需要全身穿搭展示（外套+裤子+鞋），用 OutfitAnyone 可以一次生成整套搭配的上身效果图，不用分别处理上衣和裤子。",
+      "link": "https://github.com/HumanAIGC/OutfitAnyone",
+      "source": "GitHub",
+      "hotness": 4,
+      "date": "2024-07-26",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-imagdressing",
+      "name": "IMAGDressing",
+      "category": "ai-clothing",
+      "tags": [
+        "开源",
+        "模块化换装",
+        "姿势控制",
+        "AAAI"
+      ],
+      "summary": "AAAI2025 模块化交互换装框架",
+      "description": "上海 AI Lab 开源的交互式服装生成框架，把换装拆成多个独立模块：人物身份、服装图案、姿势、背景可以分别控制。支持参考多张服装图拼接搭配，也能在试穿后局部修改某个区域。对夹克、卫衣等有版型结构的男装还原较好。",
+      "usage": "Jeep 山系外套常有多个口袋、拉链、刺绣标等结构，IMAGDressing 的模块化设计能更好保留这些细节，适合做细节丰富的男装试穿图。",
+      "link": "https://github.com/muzishen/IMAGDressing",
+      "source": "GitHub",
+      "hotness": 3,
+      "date": "2025-09-30",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-stableviton",
+      "name": "StableVITON",
+      "category": "ai-clothing",
+      "tags": [
+        "开源",
+        "试衣",
+        "语义对应",
+        "CVPR"
+      ],
+      "summary": "CVPR2024 基于语义对应的稳定试衣",
+      "description": "高丽大学开源的虚拟试衣模型，主打「稳定」——不会因为服装图案复杂就生成乱码或错位。用 latent diffusion 学习服装与人的语义对应关系，生成结果在细节一致性上比早期模型好很多，尤其适合有条纹、印花、Logo 的服装。",
+      "usage": "Jeep 男装常有品牌刺绣标、迷彩图案、条纹细节，StableVITON 在这类复杂图案上的还原比老模型稳，不容易出现图案糊掉或变形。",
+      "link": "https://github.com/rlawjdghek/StableVITON",
+      "source": "GitHub",
+      "hotness": 3,
+      "date": "2025-10-12",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-vitonhd",
+      "name": "VITON-HD",
+      "category": "ai-clothing",
+      "tags": [
+        "开源",
+        "高分辨率",
+        "经典基准",
+        "上装"
+      ],
+      "summary": "虚拟试衣领域经典高分辨率基准模型",
+      "description": "试衣领域的奠基性开源项目之一，把传统 GAN 试衣提升到 1024 高分辨率。虽然现在有了更多新模型，但它是很多新论文的对比基准，数据预处理流程和评测方法被广泛引用。适合学习试衣原理或搭建对比实验。",
+      "usage": "适合想深入理解虚拟试衣原理的美工作为学习参考；生产环境建议直接用 IDM-VTON 或 OutfitAnyone，但可以用 VITON-HD 的预处理流程做人像分割。",
+      "link": "https://github.com/shadow2496/VITON-HD",
+      "source": "GitHub",
+      "hotness": 3,
+      "date": "2026-11-02",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-fitdit",
+      "name": "FitDiT",
+      "category": "ai-clothing",
+      "tags": [
+        "开源",
+        "DiT架构",
+        "高保真",
+        "服装细节"
+      ],
+      "summary": "用扩散Transformer提升服装细节还原",
+      "description": "2024 年底开源的试衣模型，把 Diffusion Transformer 架构引入虚拟试衣，专门解决服装细节还原问题——布料纹理、缝线、纽扣、拉链头这些容易糊掉的小部件，FitDiT 保留得更清楚。对夹克、工装裤这类有结构的男装表现好。",
+      "usage": "Jeep 工装外套有金属拉链、多口袋、走线细节，用 FitDiT 生成的试穿图能更清楚地展示这些工艺细节，比老模型更接近实拍质感。",
+      "link": "https://github.com/BoyuanJiang/FitDiT",
+      "source": "GitHub",
+      "hotness": 3,
+      "date": "2025-02-08",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-tryoffdiff",
+      "name": "TryOffDiff",
+      "category": "ai-clothing",
+      "tags": [
+        "开源",
+        "虚拟脱衣",
+        "标准化商品图",
+        "服装提取"
+      ],
+      "summary": "从模特照反向提取标准化服装白底图",
+      "description": "和虚拟试衣反过来的项目：给一张穿着衣服的模特照，自动把人去掉、把衣服提取出来，生成干净的白底商品图。能保留褶皱、图案、Logo 等细节，适合把实拍模特图批量转成电商主图风格的服装平铺图。",
+      "usage": "拍了一堆模特上身照，需要转成白底商品图时，用 TryOffDiff 自动抠出衣服，省掉 PS 手动抠图的时间；也能把旧素材重新利用做详情页。",
+      "link": "https://github.com/rizavelioglu/tryoffdiff",
+      "source": "GitHub",
+      "hotness": 2,
+      "date": "2026-06-03",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-wan22",
+      "name": "Wan2.2（阿里万相）",
+      "category": "ai-video",
+      "tags": [
+        "开源",
+        "文生视频",
+        "图生视频",
+        "Apache2.0"
+      ],
+      "summary": "阿里万相开源视频大模型，可商用",
+      "description": "阿里云开源的视频生成基座模型，Apache 2.0 协议可商用。提供 14B 大图生视频和 5B 文生视频两种规格，支持 720p 分辨率和最长 16 秒视频。动作自然、镜头运动流畅，ComfyUI 已接入，是目前开源视频模型里生态最完善的之一。",
+      "usage": "Jeep 男装短视频带货可以用它把商品图变成动态展示视频——外套飘动、模特转身，不用实拍；Apache 协议可商用，做电商内容没版权风险。",
+      "link": "https://github.com/Wan-Video/Wan2.2",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-09-21",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-hunyuanvideo",
+      "name": "HunyuanVideo（腾讯混元）",
+      "category": "ai-video",
+      "tags": [
+        "开源",
+        "视频生成",
+        "腾讯",
+        "13B"
+      ],
+      "summary": "腾讯开源的 13B 视频生成大模型",
+      "description": "腾讯混元团队开源的视频生成模型，130 亿参数，支持文生视频和图生视频。生成的视频在人物动作、物理规律、镜头语言上表现接近闭源模型，最长可生成 720p 5 秒视频。社区有 ComfyUI 节点和加速版本。",
+      "usage": "做男装穿搭短视频时，HunyuanVideo 生成的人物动作更自然，不容易出现肢体扭曲；适合做产品展示、穿搭变装类短视频素材。",
+      "link": "https://github.com/Tencent/HunyuanVideo",
+      "source": "GitHub",
+      "hotness": 4,
+      "date": "2026-11-04",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-vidu",
+      "name": "Vidu（生数科技）",
+      "category": "ai-video",
+      "tags": [
+        "国产",
+        "AI视频",
+        "多主体参考",
+        "商用"
+      ],
+      "summary": "生数科技出品的国产文生视频工具",
+      "description": "清华系团队生数科技推出的 AI 视频生成产品，主打「多主体参考」——可以上传多张参考图，让不同角色或物体保持一致外观出现在视频里。支持文生视频、图生视频、视频延长，生成质量在国产第一梯队，有免费额度可试用。",
+      "usage": "Jeep 男装想做「同一件外套在不同场景」的系列视频，用 Vidu 的多主体参考能保持衣服款式颜色一致，适合做穿搭合集类内容。",
+      "link": "https://www.vidu.cn",
+      "source": "官网",
+      "hotness": 4,
+      "date": "2026-08-20",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-dreamina",
+      "name": "即梦 Dreamina（字节跳动）",
+      "category": "ai-video",
+      "tags": [
+        "国产",
+        "文生视频",
+        "图生视频",
+        "免费额度"
+      ],
+      "summary": "字节跳动旗下 AI 创作平台，免费额度大方",
+      "description": "字节跳动推出的一站式 AI 创作平台，整合了文生图、图生图、文生视频、图生视频、智能擦除等功能。视频生成底层是字节 Seedance 模型，人物动作和物体运动自然度高，每天登录送积分，国内访问速度快，支持中文提示词。",
+      "usage": "电商美工做短视频带货素材首选之一：上传 Jeep 商品图，用即梦生成动态展示视频，中文提示词直接写「模特穿着外套走在山路上」就能出片，免费额度够日常用。",
+      "link": "https://jimeng.jianying.com",
+      "source": "官网",
+      "hotness": 5,
+      "date": "2026-09-15",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-musetalk",
+      "name": "MuseTalk",
+      "category": "ai-video",
+      "tags": [
+        "开源",
+        "数字人",
+        "对口型",
+        "实时"
+      ],
+      "summary": "腾讯音乐开源的实时对口型数字人",
+      "description": "腾讯音乐开源的实时唇形同步模型，给一段人像视频+一段音频，让视频里的人物嘴巴动起来对上音频。延迟低到可实时驱动，口型自然，支持中文英文。不需要高精度 3D 建模，一张正面照就能生成说话视频。",
+      "usage": "Jeep 男装直播间或短视频需要数字人口播介绍产品时，用 MuseTalk 让模特图开口说话，省掉真人出镜和反复录制；适合做产品讲解类短视频。",
+      "link": "https://github.com/TMElyralab/MuseTalk",
+      "source": "GitHub",
+      "hotness": 4,
+      "date": "2025-09-26",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-echomimic",
+      "name": "EchoMimic",
+      "category": "ai-video",
+      "tags": [
+        "开源",
+        "音频驱动人像",
+        "半身动画",
+        "蚂蚁"
+      ],
+      "summary": "蚂蚁集团开源的音频驱动人像半身动画",
+      "description": "蚂蚁集团开源的音频驱动人像生成项目，给一张人像图+一段音频，生成人物跟着音频说话、做手势的半身视频。不仅对口型，还会生成头部晃动、手部动作等肢体语言，表情比简单对口型更丰富。有 ComfyUI 节点。",
+      "usage": "做 Jepp 男装产品口播视频时，EchoMimic 能让模特不仅动嘴，还会配合手势讲解衣服细节，比静态图片配音生动很多，适合做详情页视频介绍。",
+      "link": "https://github.com/antgroup/echomimic",
+      "source": "GitHub",
+      "hotness": 4,
+      "date": "2026-04-07",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-heygen",
+      "name": "HeyGen",
+      "category": "ai-video",
+      "tags": [
+        "数字人",
+        "口播视频",
+        "多语言",
+        "商用"
+      ],
+      "summary": "商用级 AI 数字人口播视频生成平台",
+      "description": "海外最主流的 AI 数字人视频平台，上传一张照片+一段文案，几分钟生成逼真的数字人讲解视频。支持 40+ 语言和口音，可定制专属数字人形象，口型和表情自然度接近真人。适合批量做产品口播、培训、营销视频。",
+      "usage": "Jeep 男装想做多语言版本的产品介绍视频（东南亚、欧美市场），用 HeyGen 一次生成多语言口播，不用请外籍模特；也适合做品牌宣传片的配音数字人。",
+      "link": "https://www.heygen.com",
+      "source": "官网",
+      "hotness": 4,
+      "date": "2026-07-10",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-comfyui",
+      "name": "ComfyUI",
+      "category": "ai-image",
+      "tags": [
+        "开源",
+        "节点式",
+        "工作流",
+        "生态"
+      ],
+      "summary": "节点式 AI 图像生成工作流，电商美工必备",
+      "description": "目前最流行的开源 AI 图像生成前端，用节点连线的方式组织生图流程，支持 Stable Diffusion、Flux、视频模型等几乎所有主流开源模型。海量社区插件和工作流可直接复用，能搭出批量换装、批量改色、批量出图的流水线。",
+      "usage": "电商美工的核心生产力工具：搭好一个 Jeep 男装出图工作流后，换图就出图，批量生成主图、详情图、场景图；配合换装模型节点，能做到平铺图→模特上身图全自动。",
+      "link": "https://github.com/comfyanonymous/ComfyUI",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-11-05",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-flux",
+      "name": "FLUX.1（Black Forest Labs）",
+      "category": "ai-image",
+      "tags": [
+        "开源",
+        "图像生成",
+        "新基座",
+        "商用"
+      ],
+      "summary": "Black Forest Labs 出品的新一代开源生图模型",
+      "description": "Stable Diffusion 原班人马创业公司 Black Forest Labs 推出的生图模型，分 schnell（快速）和 dev（高质量）两个版本。画面质感、文字渲染、细节丰富度全面超越 SDXL，是目前开源生图的第一梯队。dev 版可非商用，API 可商用。",
+      "usage": "做 Jepp 男装电商图时，Flux 生成的服装面料质感、光影层次比老 SD 模型真实很多，能直接当主图用；配合 ComfyUI 节点，批量生成场景图和模特图。",
+      "link": "https://github.com/black-forest-labs/flux",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2025-07-31",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-flux-kontext",
+      "name": "FLUX.1 Kontext",
+      "category": "ai-image",
+      "tags": [
+        "开源",
+        "图像编辑",
+        "指令修改",
+        "电商修图"
+      ],
+      "summary": "Flux 系列的指令式图像编辑模型",
+      "description": "Black Forest Labs 专门做图像编辑的 Flux 变体，给一张图+一句自然语言指令，直接修改图里的内容——比如「把外套颜色换成卡其色」「把背景换成雪山」「去掉图里的Logo」。不需要重新生成整张图，局部编辑保持原图构图和质感。",
+      "usage": "电商美工改图神器：Jeep 男装主图想换颜色、换背景、加文字，用 Kontext 一句话搞定，不用 PS 重新做；特别适合批量改色和换场景。",
+      "link": "https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev",
+      "source": "Hugging Face",
+      "hotness": 4,
+      "date": "2025-11-15",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-birefnet",
+      "name": "BiRefNet",
+      "category": "ai-image",
+      "tags": [
+        "开源",
+        "抠图",
+        "背景移除",
+        "高分辨率"
+      ],
+      "summary": "新一代开源高精度抠图模型，发丝级",
+      "description": "目前开源最好的通用抠图模型之一，能做到发丝级边缘精度，人物、商品、动物、物体都能抠。比 remove.bg 免费版精度高，本地可跑，支持批量处理。很多 ComfyUI 抠图节点底层就是它。",
+      "usage": "电商美工每天要抠无数张商品图，BiRefNet 能本地批量抠图，发丝和透明边缘处理得比在线工具干净；抠完直接换背景做白底图或场景图。",
+      "link": "https://github.com/ZhengPeng7/BiRefNet",
+      "source": "GitHub",
+      "hotness": 4,
+      "date": "2026-10-25",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-rmbg2",
+      "name": "BRIA RMBG-2.0",
+      "category": "ai-image",
+      "tags": [
+        "开源",
+        "抠图",
+        "商用免费",
+        "电商"
+      ],
+      "summary": "可商用的开源背景移除模型",
+      "description": "以色列 BRIA AI 开源的抠图模型，最大优势是权重可商用——很多开源抠图模型只能研究用，RMBG-2.0 明确允许商业使用。边缘质量接近付费工具，适合做电商商品图的批量背景移除。",
+      "usage": "Jeep 男装批量处理商品图时，用 RMBG-2.0 做白底图或透明底，没有版权风险；比 remove.bg 便宜，比 BiRefNet 授权清晰，商用首选。",
+      "link": "https://huggingface.co/briaai/RMBG-2.0",
+      "source": "Hugging Face",
+      "hotness": 3,
+      "date": "2025-06-20",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-iclight",
+      "name": "IC-Light",
+      "category": "ai-image",
+      "tags": [
+        "开源",
+        "光影重打",
+        "背景融合",
+        "lllyasviel"
+      ],
+      "summary": "重新打光让商品图自然融入新背景",
+      "description": "ControlNet 作者 lllyasviel 的又一力作，专门解决「P 图光影不统一」的问题。给一张前景商品图+一张背景图，IC-Light 会自动算光影方向，重新打光让商品看起来真的在那个场景里，而不是贴上去的。",
+      "usage": "Jeep 男装想把白底商品图放到雪山、街道、咖啡馆等场景里，IC-Light 自动匹配光影，不用手动调明暗和投影，场景融合感真实很多。",
+      "link": "https://github.com/lllyasviel/IC-Light",
+      "source": "GitHub",
+      "hotness": 4,
+      "date": "2025-08-10",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-pulid",
+      "name": "PuLID",
+      "category": "ai-image",
+      "tags": [
+        "开源",
+        "人脸一致性",
+        "模特生成",
+        "InstantID改进"
+      ],
+      "summary": "保持模特人脸一致的开源人像生成",
+      "description": "InstantID 的改进版，给一张模特人脸参考图，生成的新图能保持同一个人的五官特征，同时允许改变姿势、服装、背景。解决了 AI 生图「每张脸都不一样」的痛点，适合需要固定模特形象的电商场景。",
+      "usage": "Jeep 男装要做一个固定男模形象的系列图（同一张脸、不同穿搭），用 PuLID 保持人脸一致，比每次重新生成再抽卡效率高很多。",
+      "link": "https://github.com/ToTheBeginning/PuLID",
+      "source": "GitHub",
+      "hotness": 4,
+      "date": "2025-07-31",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-upscayl",
+      "name": "Upscayl",
+      "category": "ai-image",
+      "tags": [
+        "开源",
+        "图片放大",
+        "本地",
+        "免费"
+      ],
+      "summary": "本地运行的 AI 图片无损放大工具",
+      "description": "开源免费的图片放大工具，本地跑不花钱、不联网、不限制张数。用 AI 模型把低分辨率图片放大 2-4 倍，同时补细节，比 PS 双三次插值清晰很多。有 Windows/Mac/Linux 桌面版，一键拖拽使用。",
+      "usage": "Jeep 男装旧图、供应商图分辨率不够时，用 Upscayl 本地放大到电商主图尺寸，不用找原图；比在线放大工具免费且不限量。",
+      "link": "https://github.com/upscayl/upscayl",
+      "source": "GitHub",
+      "hotness": 4,
+      "date": "2026-09-20",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-janus-pro",
+      "name": "Janus-Pro（DeepSeek）",
+      "category": "ai-model",
+      "tags": [
+        "开源",
+        "多模态",
+        "DeepSeek",
+        "统一理解生成"
+      ],
+      "summary": "DeepSeek 开源的统一多模态理解生成模型",
+      "description": "DeepSeek 开源的统一多模态模型，一个模型同时支持图像理解（看图问答）和图像生成。Janus-Pro 7B 版本在多项基准上超过同尺寸模型，生成的图片质量接近 Flux 小模型。可本地部署，适合做图像理解+生成一体化工作流。",
+      "usage": "电商美工可以用 Janus-Pro 做「看商品图自动写文案」的 pipeline：上传 Jeep 产品图，模型自动识别款式颜色，生成详情页文案初稿，再配合生图模型改图。",
+      "link": "https://huggingface.co/deepseek-ai/Janus-Pro-7B",
+      "source": "Hugging Face",
+      "hotness": 4,
+      "date": "2025-06-15",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-glm4v",
+      "name": "GLM-4V（智谱）",
+      "category": "ai-model",
+      "tags": [
+        "开源",
+        "视觉理解",
+        "智谱",
+        "中文"
+      ],
+      "summary": "智谱开源的中文视觉理解大模型",
+      "description": "智谱 AI 开源的视觉语言模型，中文图文理解能力强，能看懂复杂的商品图、设计稿、截图。支持 OCR、图表理解、细节描述，API 有免费额度。适合做电商素材的自动标注、分类、文案生成。",
+      "usage": "Jeep 男装素材库有几千张图要打标签时，用 GLM-4V 自动识别每张图里的服装款式、颜色、拍摄角度，批量生成标签，省掉人工整理。",
+      "link": "https://huggingface.co/THUDM/GLM-4V-9B",
+      "source": "Hugging Face",
+      "hotness": 3,
+      "date": "2025-04-25",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-dify",
+      "name": "Dify",
+      "category": "ai-tool",
+      "tags": [
+        "开源",
+        "LLM应用开发",
+        "工作流",
+        "Agent"
+      ],
+      "summary": "开源 LLM 应用开发平台，搭 AI 工作流",
+      "description": "国产开源的 LLM 应用开发平台，拖拽式搭建 AI 工作流和 Agent。可以串联多个模型：调用视觉模型识别商品图→调用大模型写文案→调用生图模型改图，做成一条自动化流水线。支持私有化部署，国内访问快。",
+      "usage": "Jeep 男装可以用 Dify 搭一条自动化流水线：输入一个服装链接，自动抓图→抠图→生成模特图→写文案→输出详情页素材，把美工重复劳动自动化。",
+      "link": "https://github.com/langgenius/dify",
+      "source": "GitHub",
+      "hotness": 5,
+      "date": "2026-11-05",
+      "sourceType": "curated"
+    },
+    {
+      "id": "cur-cherry-studio",
+      "name": "Cherry Studio",
+      "category": "ai-tool",
+      "tags": [
+        "开源",
+        "桌面客户端",
+        "多模型聚合",
+        "免费"
+      ],
+      "summary": "免费开源的多模型 AI 桌面聊天客户端",
+      "description": "国产开源的桌面端 AI 聊天工具，一个界面接入 DeepSeek、通义、智谱、Gemini、Claude 等几十家模型，不用切换网页。支持知识库、画图、文件解读、MCP 插件，Windows/Mac 都有。本地数据，隐私可控。",
+      "usage": "电商美工可以在一个窗口里同时用多个 AI：用视觉模型看参考图、用文案模型写详情页、用生图模型出草图，比来回切网页效率高；免费无广告。",
+      "link": "https://github.com/CherryHQ/cherry-studio",
+      "source": "GitHub",
+      "hotness": 4,
+      "date": "2026-11-05",
+      "sourceType": "curated"
     }
   ],
   "auto": [

@@ -127,14 +127,14 @@ footer a{color:var(--info);text-decoration:none}
 
   <!-- ===== HERO ===== -->
   <div class="hero">
-    <div class="hero-eyebrow">User Manual · v1.0 · 2026-08</div>
+    <div class="hero-eyebrow">User Manual · v2.0 · 2026-11</div>
     <div class="hero-radar"><div class="cross"></div><div class="sweep"></div><div class="blip b1"></div><div class="blip b2"></div><div class="blip b3"></div></div>
     <h1>AI 热门项目雷达<br><span class="accent">使用说明书</span></h1>
     <p class="lead">一个自动追踪全球 AI 热门项目的私人雷达——重点盯 AI 换装、AI 视频、AI 电商设计和新模型。云端每 6 小时自动扫描，关机也在更新。这份说明书讲清它怎么用、怎么搬到任意电脑、以及背后的运作方式。</p>
     <div class="hero-meta">
       <span><span class="dot"></span>云端在线</span>
       <span>更新频率 / 每 6 小时</span>
-      <span>数据源 / HN + GitHub</span>
+      <span>数据源 / 10+ 信源</span>
       <span>单文件 / 双击即用</span>
     </div>
     <div class="scroll-hint">↓ 向下滚动开始阅读</div>
@@ -146,6 +146,11 @@ footer a{color:var(--info);text-decoration:none}
     <ol>
       <li><a href="#s1">这是什么</a></li>
       <li><a href="#s2">30 秒快速开始</a></li>
+      <li><a href="#s10">怎么用这个雷达（三步）</a></li>
+      <li><a href="#s11">怎么收藏项目</a></li>
+      <li><a href="#s12">怎么分享项目</a></li>
+      <li><a href="#s13">离线版怎么用</a></li>
+      <li><a href="#s14">遇到问题怎么办</a></li>
       <li><a href="#s3">界面导览</a></li>
       <li><a href="#s4">自动更新的原理</a></li>
       <li><a href="#s5">在其他电脑上使用</a></li>
@@ -158,12 +163,12 @@ footer a{color:var(--info);text-decoration:none}
 
   <!-- ===== 01 ===== -->
   <section id="s1">
-    <div class="sec-head"><span class="sec-num">01 / 09</span><h2>这是什么</h2></div>
+    <div class="sec-head"><span class="sec-num">01 / 14</span><h2>这是什么</h2></div>
     <p>「AI 热门项目雷达」是一个为你（电商美工）定制的 AI 工具发现站。它做三件事：</p>
     <ul>
       <li><strong>扫描</strong>——定时从 Hacker News 和 GitHub 抓取最近热门的 AI 项目、开源仓库、新模型；</li>
       <li><strong>筛选</strong>——自动按「AI服装换装 / AI视频生成 / AI图像/电商设计 / AI新模型 / 效率工具」五类归档，优先展示对你工作最有用的；</li>
-      <li><strong>沉淀</strong>——内置 32 条人工精选项目，加上每天自动新增的条目，你可以收藏、添加自己的、随时一键直达官网。</li>
+      <li><strong>沉淀</strong>——内置 55+ 条人工精选项目，加上每天自动新增的条目，你可以收藏、添加自己的、随时一键直达官网。</li>
     </ul>
     <p>它由两部分组成：<strong>云端仓库</strong>（GitHub 上的定时任务，负责自动抓取）和<strong>本地应用</strong>（一个 HTML 文件，负责展示和你的私人数据）。</p>
     <div class="callout key"><span class="ico">⚡</span><div><strong>一句话：</strong>你什么都不用做，每隔 6 小时全球的新 AI 项目会自动出现在你的雷达里。</div></div>
@@ -171,7 +176,7 @@ footer a{color:var(--info);text-decoration:none}
 
   <!-- ===== 02 ===== -->
   <section id="s2">
-    <div class="sec-head"><span class="sec-num">02 / 09</span><h2>30 秒快速开始</h2></div>
+    <div class="sec-head"><span class="sec-num">02 / 14</span><h2>30 秒快速开始</h2></div>
     <ol class="steps">
       <li><strong>双击打开</strong> <code>离线版.html</code>——任何系统（Windows / Mac）的任意现代浏览器都行，不需要安装任何东西。</li>
       <li>等待顶部状态显示<strong>「云端已连接」</strong>，项目卡片会自动加载出来（首次约 2-3 秒）。</li>
@@ -181,9 +186,67 @@ footer a{color:var(--info);text-decoration:none}
     <div class="callout tip"><span class="ico">💡</span><div><strong>建议：</strong>把这个 HTML 文件固定到浏览器书签栏，或在桌面创建快捷方式，每天早上点开扫一眼有没有新工具。</div></div>
   </section>
 
+  <!-- ===== 10 怎么用这个雷达（三步） ===== -->
+  <section id="s10">
+    <div class="sec-head"><span class="sec-num">10 / 14</span><h2>怎么用这个雷达（三步上手）</h2></div>
+    <p>如果你是第一次打开，只需要记住这三步，30 秒就会用：</p>
+    <ol class="steps">
+      <li><strong>打开链接</strong>——在线版直接访问 <a class="inline" href="https://yyds8170-ctrl.github.io/ai-hot-radar/" target="_blank">yyds8170-ctrl.github.io/ai-hot-radar</a>，手机、电脑浏览器都行，不需要登录、不需要装东西。</li>
+      <li><strong>搜索或点分类</strong>——顶部搜索框输入关键词（比如 <code>换装</code>、<code>comfyui</code>、<code>视频</code>），或直接点下面的分类标签（AI服装换装 / AI视频生成 / AI图像电商设计 / AI新模型 / 效率Agent工具），也可以点卡片上的标签看同类项目。</li>
+      <li><strong>点卡片直达官网</strong>——看到感兴趣的项目，点卡片上的「直达 ↗」按钮，就会跳到项目的 GitHub / 官网 / Demo 页面，再决定要不要试用。</li>
+    </ol>
+    <div class="callout key"><span class="ico">🎯</span><div><strong>一句话记忆：</strong>打开 → 搜/点 → 跳转。雷达只是帮你发现，真正试用在对方网站上。</div></div>
+  </section>
+
+  <!-- ===== 11 怎么收藏项目 ===== -->
+  <section id="s11">
+    <div class="sec-head"><span class="sec-num">11 / 14</span><h2>怎么收藏项目</h2></div>
+    <p>看到想以后再试的项目，点一下项目卡片右下角的 <span class="kbd">☆</span> 星标，它就会变成实心黄色，表示已收藏。再点一次取消。</p>
+    <p>想看自己收藏了哪些，点顶部工具栏的 <span class="kbd">☆</span> 按钮，就会切换成「只看收藏」模式，再点一次回到全部。</p>
+    <div class="callout warn"><span class="ico">⚠️</span><div><strong>注意：</strong>收藏只存在你当前这台设备、这个浏览器的本地存储里，<strong>不会同步到云端，也不会跟着离线版.html 文件走</strong>。换电脑、换浏览器、清理缓存后，收藏会丢，需要重新点。想跨设备保留，记得定期用「导出」备份（见第 11 节）。</div></div>
+  </section>
+
+  <!-- ===== 12 怎么分享项目 ===== -->
+  <section id="s12">
+    <div class="sec-head"><span class="sec-num">12 / 14</span><h2>怎么分享项目</h2></div>
+    <p>看到一个好项目想发给同事、客户或朋友圈，不用截图：</p>
+    <ul>
+      <li>点项目卡片上的 <span class="kbd">🔗</span> 按钮，会自动把项目链接复制到剪贴板；</li>
+      <li>直接粘贴到微信 / 钉钉 / 飞书 / 微博对话框发送即可；</li>
+      <li>分享出去的链接自带标题、简介和配图预览（SEO 卡片），对方不点也能看到大概是个什么项目。</li>
+    </ul>
+    <div class="callout tip"><span class="ico">💡</span><div><strong>小技巧：</strong>如果你想分享的是「整个雷达」而不是单个项目，直接把 <a class="inline" href="https://yyds8170-ctrl.github.io/ai-hot-radar/" target="_blank">雷达主页链接</a> 发给对方就行，对方打开看到的就是最新数据。</div></div>
+  </section>
+
+  <!-- ===== 13 离线版怎么用 ===== -->
+  <section id="s13">
+    <div class="sec-head"><span class="sec-num">13 / 14</span><h2>离线版怎么用</h2></div>
+    <p>出门在外没网、或者公司网络屏蔽了 CDN，可以用离线版：</p>
+    <ol class="steps">
+      <li><strong>下载</strong>——打开 <a class="inline" href="download.html" target="_blank">下载中心</a>，点「离线版.html」下载到电脑（就一个 HTML 文件，几十 KB）。</li>
+      <li><strong>双击打开</strong>——用 Chrome / Edge / Safari 任意浏览器打开即可，不需要安装任何东西，也不联网。</li>
+      <li><strong>浏览</strong>——离线时能看所有精选项目和上次联网时缓存的数据，收藏、搜索、分类、添加项目都正常。</li>
+    </ol>
+    <div class="callout warn"><span class="ico">📌</span><div><strong>重要：</strong>离线版的数据是<strong>你下载那天的快照</strong>，不会自动更新。想看到最新抓取的项目，请回到在线版 <a class="inline" href="https://yyds8170-ctrl.github.io/ai-hot-radar/" target="_blank">yyds8170-ctrl.github.io/ai-hot-radar</a>，或联网后刷新离线版让它重新拉取。</div></div>
+  </section>
+
+  <!-- ===== 14 遇到问题怎么办 ===== -->
+  <section id="s14">
+    <div class="sec-head"><span class="sec-num">14 / 14</span><h2>遇到问题怎么办</h2></div>
+    <p>最常见的几种情况，照着下面做基本能解决：</p>
+    <table>
+      <tr><td>页面数据好像没更新</td><td>数据每 6 小时自动抓一次。如果刚过 6 小时还没看到新东西，按 <span class="kbd">Ctrl</span>+<span class="kbd">Shift</span>+<span class="kbd">R</span>（Mac 是 <span class="kbd">Cmd</span>+<span class="kbd">Shift</span>+<span class="kbd">R</span>）强制刷新，绕过浏览器缓存</td></tr>
+      <tr><td>显示「云端未连接」</td><td>当前网络访问 jsDelivr CDN 不畅。应用会自动降级用本地缓存和内置精选数据，不影响浏览；换个网络或稍后再试即可</td></tr>
+      <tr><td>图片 / 图标加载不出来</td><td>同上，CDN 问题。强刷一次，或切个网络</td></tr>
+      <tr><td>想立刻看到新抓取</td><td>去 <a class="inline" href="https://github.com/yyds8170-ctrl/ai-hot-radar/actions" target="_blank">Actions 页面</a> 手动跑一次定时任务，等 1-2 分钟后强刷应用</td></tr>
+      <tr><td>收藏 / 自己加的项目不见了</td><td>大概率是浏览器清理了缓存。如果之前导出过备份，用「导入」恢复；没导出过就只能重新加</td></tr>
+    </table>
+    <div class="callout tip"><span class="ico">🤝</span><div><strong>还是没解决？</strong>去 GitHub 仓库提一个 Issue，截图 + 简单描述你看到的情况，我看到会回。</div></div>
+  </section>
+
   <!-- ===== 03 ===== -->
   <section id="s3">
-    <div class="sec-head"><span class="sec-num">03 / 09</span><h2>界面导览</h2></div>
+    <div class="sec-head"><span class="sec-num">03 / 14</span><h2>界面导览</h2></div>
 
     <h3 class="sub">顶部</h3>
     <table>
@@ -212,7 +275,7 @@ footer a{color:var(--info);text-decoration:none}
 
   <!-- ===== 04 ===== -->
   <section id="s4">
-    <div class="sec-head"><span class="sec-num">04 / 09</span><h2>自动更新的原理</h2></div>
+    <div class="sec-head"><span class="sec-num">04 / 14</span><h2>自动更新的原理</h2></div>
     <p>这是整个雷达最核心的机制，理解它你就知道为什么「关机也能更新」。</p>
 
     <h3 class="sub">数据流</h3>
@@ -253,12 +316,12 @@ footer a{color:var(--info);text-decoration:none}
 
   <!-- ===== 05 ===== -->
   <section id="s5">
-    <div class="sec-head"><span class="sec-num">05 / 09</span><h2>在其他电脑上使用</h2></div>
+    <div class="sec-head"><span class="sec-num">05 / 14</span><h2>在其他电脑上使用</h2></div>
     <p>这是单文件应用，迁移极其简单：</p>
     <ol class="steps">
       <li><strong>复制文件</strong>——把 <code>离线版.html</code> 这一个文件拷到 U 盘、微信文件传输助手、网盘、或发给自己。</li>
       <li><strong>在任意电脑上双击打开</strong>——Windows、Mac 都行，只要有 Chrome / Edge / Safari 等现代浏览器，无需安装、无需联网即可打开界面。</li>
-      <li><strong>联网即自动同步</strong>——有网络时会自动从云端读取最新项目数据；没网时显示上次缓存 + 32 条精选。</li>
+      <li><strong>联网即自动同步</strong>——有网络时会自动从云端读取最新项目数据；没网时显示上次缓存 + 55+ 条精选。</li>
     </ol>
 
     <div class="callout warn"><span class="ico">⚠️</span><div><strong>注意：</strong>收藏夹和你手动添加的项目保存在<strong>各自浏览器的本地存储</strong>里，不会跟着文件走。换电脑前请先用<strong>「导出」</strong>按钮备份，到新电脑后用<strong>「导入」</strong>恢复（见第 7 节）。</div></div>
@@ -269,7 +332,7 @@ footer a{color:var(--info);text-decoration:none}
 
   <!-- ===== 06 ===== -->
   <section id="s6">
-    <div class="sec-head"><span class="sec-num">06 / 09</span><h2>添加与管理项目</h2></div>
+    <div class="sec-head"><span class="sec-num">06 / 14</span><h2>添加与管理项目</h2></div>
 
     <h3 class="sub">手动添加</h3>
     <p>点顶部<strong>「＋ 添加项目」</strong>，填表即可：</p>
@@ -291,7 +354,7 @@ footer a{color:var(--info);text-decoration:none}
 
   <!-- ===== 07 ===== -->
   <section id="s7">
-    <div class="sec-head"><span class="sec-num">07 / 09</span><h2>备份与迁移</h2></div>
+    <div class="sec-head"><span class="sec-num">07 / 14</span><h2>备份与迁移</h2></div>
     <p>顶部工具栏有两个按钮：</p>
     <table>
       <tr><td>⬆ 导出</td><td>把你的收藏、自定义项目、编辑记录、黑名单打包成一个 JSON 文件下载，文件名带日期</td></tr>
@@ -302,9 +365,9 @@ footer a{color:var(--info);text-decoration:none}
 
   <!-- ===== 08 ===== -->
   <section id="s8">
-    <div class="sec-head"><span class="sec-num">08 / 09</span><h2>离线使用</h2></div>
+    <div class="sec-head"><span class="sec-num">08 / 14</span><h2>离线使用</h2></div>
     <ul>
-      <li><strong>完全断网</strong>也能打开应用——会显示内置的 32 条精选项目 + 上次联网时缓存的自动抓取数据；</li>
+      <li><strong>完全断网</strong>也能打开应用——会显示内置的 55+ 条精选项目 + 上次联网时缓存的自动抓取数据；</li>
       <li>离线时不能获取最新数据、不能打开外部链接，但收藏、搜索、筛选、添加项目都正常；</li>
       <li>重新联网后会自动同步云端最新数据，无需手动操作。</li>
     </ul>
@@ -312,7 +375,7 @@ footer a{color:var(--info);text-decoration:none}
 
   <!-- ===== 09 ===== -->
   <section id="s9">
-    <div class="sec-head"><span class="sec-num">09 / 09</span><h2>常见问题</h2></div>
+    <div class="sec-head"><span class="sec-num">09 / 14</span><h2>常见问题</h2></div>
 
     <details>
       <summary>电脑关机时真的会更新吗？</summary>
@@ -361,7 +424,7 @@ footer a{color:var(--info);text-decoration:none}
   </section>
 
   <footer>
-    AI 热门项目雷达 · 使用说明书 · 2026-09 更新<br>
+    AI 热门项目雷达 · 使用说明书 · 2026-11 更新<br>
     云端仓库：<a href="https://github.com/yyds8170-ctrl/ai-hot-radar" target="_blank">github.com/yyds8170-ctrl/ai-hot-radar</a><br>
     Made with <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" style="color:var(--info);display:inline-block;vertical-align:-1px"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> by <strong style="color:var(--info)">洋洋制作</strong> · 免费开源 · 持续迭代中
   </footer>

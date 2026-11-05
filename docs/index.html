@@ -4,6 +4,50 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI 热门项目雷达 · 2026</title>
+<!-- ===== SEO / 社交分享 ===== -->
+<meta name="description" content="AI 热门项目雷达：聚焦 AI 换装、AI 视频、AI 电商设计、AI 新模型与效率工具，由 GitHub Actions 每 6 小时自动抓取更新，单文件离线可用，洋洋制作。">
+<meta name="theme-color" content="#0A0D10">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="AI 热门项目雷达 · 2026">
+<meta property="og:description" content="聚焦 AI 换装 / AI 视频 / AI 电商设计 · 云端每 6 小时自动更新，单文件离线可用。">
+<meta property="og:url" content="https://yyds8170-ctrl.github.io/ai-hot-radar/">
+<meta property="og:image" content="https://yyds8170-ctrl.github.io/ai-hot-radar/screenshots/banner.png">
+<meta property="og:image:alt" content="AI 热门项目雷达 Banner">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI 热门项目雷达 · 2026">
+<meta name="twitter:description" content="聚焦 AI 换装 / AI 视频 / AI 电商设计 · 云端每 6 小时自动更新。">
+<meta name="twitter:image" content="https://yyds8170-ctrl.github.io/ai-hot-radar/screenshots/banner.png">
+<!-- Favicon：emoji 雷达 SVG data URI，零外部请求 -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%B0%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<!-- JSON-LD 结构化数据 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "AI 热门项目雷达",
+      "url": "https://yyds8170-ctrl.github.io/ai-hot-radar/",
+      "description": "聚焦 AI 换装、AI 视频、AI 电商设计、AI 新模型与效率工具的热门项目雷达，云端每 6 小时自动更新。",
+      "inLanguage": "zh-CN",
+      "author": { "@type": "Person", "name": "洋洋" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "AI 热门项目雷达",
+      "operatingSystem": "Web",
+      "applicationCategory": "DeveloperApplication",
+      "url": "https://yyds8170-ctrl.github.io/ai-hot-radar/",
+      "description": "单文件 HTML 的 AI 热门项目追踪面板，支持搜索、筛选、收藏、导入导出，离线可用。",
+      "author": { "@type": "Person", "name": "洋洋" },
+      "license": "https://github.com/yyds8170-ctrl/ai-hot-radar/blob/main/LICENSE"
+    }
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -194,7 +238,9 @@ select:focus{outline:none;border-color:var(--accent)}
 .tag{
   font-family:var(--mono);font-size:10px;color:var(--text-faint);
   background:var(--bg-hover);padding:2px 7px;border-radius:5px;
+  cursor:pointer;border:1px solid transparent;transition:all .15s;
 }
+.tag:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-dim)}
 .card-foot{margin-top:auto;display:flex;align-items:center;gap:8px;padding-top:10px;border-top:1px dashed var(--border)}
 .card-foot .src{font-family:var(--mono);font-size:10.5px;color:var(--text-faint)}
 .card-foot .date{font-family:var(--mono);font-size:10.5px;color:var(--text-faint);margin-left:auto}
@@ -202,6 +248,29 @@ select:focus{outline:none;border-color:var(--accent)}
   font-size:12px;color:var(--info);text-decoration:none;font-weight:500;display:inline-flex;align-items:center;gap:3px;
 }
 .card-foot .link-btn:hover{text-decoration:underline}
+/* 复制链接小按钮 */
+.copy-btn{
+  background:transparent;border:1px solid var(--border);color:var(--text-dim);
+  width:28px;height:28px;border-radius:6px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;
+  transition:all .15s;padding:0;flex-shrink:0;
+}
+.copy-btn:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-dim)}
+.copy-btn.copied{color:var(--mint);border-color:var(--mint)}
+
+/* 回到顶部按钮 */
+#backTop{
+  position:fixed;right:22px;bottom:28px;width:44px;height:44px;border-radius:50%;
+  background:var(--bg-elev);border:1px solid var(--border-bright);color:var(--text);
+  font-size:18px;cursor:pointer;z-index:90;display:none;align-items:center;justify-content:center;
+  box-shadow:var(--shadow);transition:all .2s;
+}
+#backTop:hover{color:var(--accent);border-color:var(--accent);transform:translateY(-2px)}
+#backTop.show{display:flex}
+
+/* 空状态优化 */
+.empty .big{font-size:56px;line-height:1;margin-bottom:14px;filter:grayscale(.2)}
+.empty p{font-size:14px;color:var(--text-dim)}
+.empty .hint{font-size:12px;color:var(--text-faint);margin-top:6px;font-family:var(--mono)}
 .expand-btn{
   background:none;border:none;color:var(--text-dim);font-size:12px;cursor:pointer;
   font-family:var(--body);padding:0;display:inline-flex;align-items:center;gap:3px;margin-top:4px;
@@ -255,6 +324,26 @@ footer a{color:var(--info);text-decoration:none}
   .title-block h1{font-size:22px}
   .grid{grid-template-columns:1fr}
   .header-actions{width:100%}
+  /* 触摸友好：按钮最小 40px 高 */
+  .btn{min-height:40px;padding:8px 12px}
+  .btn.icon{min-width:40px;min-height:40px;padding:8px}
+  select{min-height:40px;font-size:14px}
+  .search input{min-height:40px;font-size:14px}
+  /* toolbar 不再强制换行，让搜索框占满一行，筛选器一行 */
+  .toolbar{padding:10px;gap:8px}
+  .search{min-width:100%;flex-basis:100%}
+  .toolbar select{flex:1;min-width:0}
+  /* 分类 chips 横向滚动，不换行 */
+  .cats{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+    padding-bottom:8px;scrollbar-width:thin}
+  .cats::-webkit-scrollbar{height:4px}
+  .cats::-webkit-scrollbar-thumb{background:var(--border-bright);border-radius:2px}
+  .pill{flex-shrink:0}
+  /* hero 在小屏不要太高 */
+  header{padding:22px 0 18px;margin-bottom:18px}
+  .radar{width:44px;height:44px}
+  /* 回到顶部按钮贴边一点 */
+  #backTop{right:14px;bottom:20px;width:42px;height:42px}
 }
 </style>
 </head>
@@ -310,6 +399,11 @@ footer a{color:var(--info);text-decoration:none}
       <option value="auto">🤖 自动抓取</option>
       <option value="user">✏️ 我添加的</option>
     </select>
+    <select id="timeFilter">
+      <option value="all">全部时间</option>
+      <option value="week">本周新增</option>
+      <option value="month">本月新增</option>
+    </select>
     <select id="sortBy">
       <option value="recommend">推荐排序</option>
       <option value="hot">热度最高</option>
@@ -342,6 +436,9 @@ footer a{color:var(--info);text-decoration:none}
 </div>
 
 <div class="toast" id="toast"></div>
+
+<!-- 回到顶部按钮 -->
+<button id="backTop" title="回到顶部" aria-label="回到顶部">↑</button>
 
 <footer>
   <div class="f-main">AI 热门项目雷达 · 数据由 GitHub Actions 每6小时自动抓取 · 单文件离线版</div>
@@ -402,7 +499,7 @@ const FALLBACK_CURATED=[
 {n:'Shoehorn',c:'ai-tool',t:['Show HN','模型量化','本地运行'],s:'把任意模型量化压缩到能在你机器上运行',d:'Hacker News Show HN 97赞，帮助普通硬件跑大模型的量化工具。',u:'本地跑AI模型时的量化降配利器。',l:'https://bestofshowhn.com/2026/8',src:'Hacker News',h:3,dt:'2026-08-22'},
 ].map(x=>({id:'cur-'+x.n.slice(0,8),name:x.n,category:x.c,tags:x.t,summary:x.s,description:x.d,usage:x.u,link:x.l,source:x.src,hotness:x.h,date:x.dt,sourceType:'curated'}));
 
-let state={projects:[],favs:new Set(load(STORE.favs)||[]),custom:load(STORE.custom)||[],edits:load(STORE.edit)||{},blacklist:new Set(load(STORE.blacklist)||[]),activeCat:'all',search:'',sourceFilter:'all',sortBy:'recommend',favOnly:false,lastCrawl:null,cloudOk:false,editId:null};
+let state={projects:[],favs:new Set(load(STORE.favs)||[]),custom:load(STORE.custom)||[],edits:load(STORE.edit)||{},blacklist:new Set(load(STORE.blacklist)||[]),activeCat:'all',search:'',sourceFilter:'all',timeFilter:'all',sortBy:'recommend',favOnly:false,lastCrawl:null,cloudOk:false,editId:null};
 
 function normalizeCloud(d){
   const map=p=>({...p,sourceType:p.sourceType||'auto'});
@@ -454,15 +551,28 @@ function buildProjects(cloudData){
   state.projects=[...byId.values()];
 }
 
+// 解析项目日期为时间戳（UTC 日期串按当天 0 点 UTC 解析，避免时区偏差）
+function parseDateTs(d){
+  if(!d)return NaN;
+  if(/^\d{4}-\d{2}-\d{2}$/.test(d))return Date.parse(d+'T00:00:00Z');
+  return Date.parse(d);
+}
 function isNew(p){
   if(p.sourceType!=='auto')return false;
   if(!p.date)return false;
   // 统一按 UTC 解析，避免不同时区机器对"7天内"判定不一致
-  let ts;
-  if(/^\d{4}-\d{2}-\d{2}$/.test(p.date)) ts=Date.parse(p.date+'T00:00:00Z');
-  else ts=Date.parse(p.date);
+  const ts=parseDateTs(p.date);
   if(isNaN(ts))return false;
   return (Date.now()-ts)<7*24*3600*1000;
+}
+// 时间筛选：week=近7天，month=近30天；无日期或日期无法解析的项目在筛选时视为不匹配
+function inTimeWindow(p,mode){
+  if(mode==='all')return true;
+  if(!p.date)return false;
+  const ts=parseDateTs(p.date);
+  if(isNaN(ts))return false;
+  const days=mode==='week'?7:30;
+  return (Date.now()-ts)<days*24*3600*1000;
 }
 // ---------- 项目图标（不依赖外部 favicon 服务，国内稳定可用）----------
 const ICON_DEFAULT='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' fill=\'%23333\'/%3E%3Ccircle cx=\'20\' cy=\'20\' r=\'12\' fill=\'none\' stroke=\'%23f59e0b\' stroke-width=\'2\'/%3E%3Ccircle cx=\'20\' cy=\'20\' r=\'3\' fill=\'%23f59e0b\'/%3E%3C/svg%3E';
@@ -493,6 +603,7 @@ function filtered(){
   if(state.activeCat!=='all')list=list.filter(p=>p.category===state.activeCat);
   if(state.sourceFilter!=='all')list=list.filter(p=>p.sourceType===state.sourceFilter);
   if(state.favOnly)list=list.filter(p=>state.favs.has(p.id));
+  if(state.timeFilter&&state.timeFilter!=='all')list=list.filter(p=>inTimeWindow(p,state.timeFilter));
   if(state.search){
     const q=state.search.toLowerCase();
     list=list.filter(p=>(p.name+' '+(p.summary||'')+' '+(p.summary_zh||'')+' '+(p.description||'')+' '+(p.tags||[]).join(' ')).toLowerCase().includes(q));
@@ -520,7 +631,7 @@ function render(){
     CATS.map(c=>`<button class="pill ${state.activeCat===c.key?'active':''}" data-cat="${c.key}" style="--cat-color:${c.color}">${c.name} <span class="cnt">${counts[c.key]||0}</span></button>`).join('');
   // grid
   if(!list.length){
-    $('#grid').innerHTML='<div class="empty" style="grid-column:1/-1"><div class="big">📡</div><p>没有匹配的项目</p></div>';
+    $('#grid').innerHTML='<div class="empty" style="grid-column:1/-1"><div class="big">🔭</div><p>没有匹配的项目</p><div class="hint">试试清空搜索、切换分类，或选「全部时间」</div></div>';
   }else{
     $('#grid').innerHTML=list.map(p=>{
       const cat=CAT_MAP[p.category]||CATS[4];
@@ -542,12 +653,15 @@ function render(){
         <div class="card-detail" id="det-${p.id}">
           ${p.description?`<div class="sec"><div class="sec-label">详细介绍</div><p>${p.description}</p></div>`:''}
           ${p.usage?`<div class="sec usage"><div class="sec-label">对电商美工的用处</div><p>${p.usage}</p></div>`:''}
-          ${(p.tags&&p.tags.length)?`<div class="tags">${p.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`:''}
+          ${(p.tags&&p.tags.length)?`<div class="tags">${p.tags.map(t=>`<button type="button" class="tag" data-tag="${t}">${t}</button>`).join('')}</div>`:''}
         </div>
         <button class="expand-btn" data-expand="${p.id}">展开详情 ▾</button>
         <div class="card-foot">
           <span class="src">${p.source||''}</span>
           <a class="link-btn" href="${p.link}" target="_blank" rel="noopener">直达 ↗</a>
+          <button class="copy-btn" data-copy="${p.link}" title="复制项目链接" aria-label="复制项目链接">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+          </button>
           <span class="date">${p.date||''}</span>
         </div>
       </article>`;
@@ -556,7 +670,18 @@ function render(){
   // status
   if(state.cloudOk){
     $('#statusText').innerHTML='<span class="dot"></span>云端已连接';
-    $('#lastUpdate').textContent='最近更新：'+(state.lastCrawl?new Date(state.lastCrawl).toLocaleString('zh-CN',{hour12:false}):'—');
+    // 把 lastCrawl 格式化成 yyyy-MM-dd HH:mm
+    let upd='—';
+    try{
+      if(state.lastCrawl){
+        const d=new Date(state.lastCrawl);
+        if(!isNaN(d.getTime())){
+          const pad=n=>String(n).padStart(2,'0');
+          upd=`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+        }
+      }
+    }catch(e){upd='—'}
+    $('#lastUpdate').textContent='最近更新：'+upd;
   }else{
     $('#statusText').innerHTML='<span class="dot warn"></span>云端未连接，使用本地数据';
   }
@@ -567,9 +692,43 @@ $('#cats').addEventListener('click',e=>{const b=e.target.closest('.pill');if(b){
 $('#grid').addEventListener('click',e=>{
   const fav=e.target.closest('[data-fav]');
   if(fav){const id=fav.dataset.fav;state.favs.has(id)?state.favs.delete(id):state.favs.add(id);save(STORE.favs,[...state.favs]);render();return}
+  // 复制项目链接
+  const cp=e.target.closest('[data-copy]');
+  if(cp){copyLink(cp.dataset.copy,cp);return}
+  // 点击 tag → 填进搜索框并触发筛选
+  const tg=e.target.closest('[data-tag]');
+  if(tg){
+    const tag=tg.dataset.tag||'';
+    $('#search').value=tag;
+    state.search=tag;
+    render();
+    // 滚动到顶部方便看到结果
+    try{window.scrollTo({top:0,behavior:'smooth'})}catch(e){window.scrollTo(0,0)}
+    return;
+  }
   const ex=e.target.closest('[data-expand]');
   if(ex){const d=$('#det-'+ex.dataset.expand);d.classList.toggle('open');ex.textContent=d.classList.contains('open')?'收起详情 ▴':'展开详情 ▾'}
 });
+
+// 复制链接：优先用 navigator.clipboard，降级到 execCommand('copy')
+async function copyLink(url,btn){
+  if(!url)return;
+  try{
+    if(navigator.clipboard&&window.isSecureContext){
+      await navigator.clipboard.writeText(url);
+    }else{
+      // fallback：创建临时 textarea
+      const ta=document.createElement('textarea');
+      ta.value=url;ta.style.position='fixed';ta.style.opacity='0';
+      document.body.appendChild(ta);ta.select();
+      document.execCommand('copy');document.body.removeChild(ta);
+    }
+    toast('链接已复制');
+    if(btn){btn.classList.add('copied');setTimeout(()=>btn.classList.remove('copied'),1200)}
+  }catch(err){
+    toast('复制失败，请手动复制：'+url);
+  }
+}
 // 搜索防抖：输入即时回显，250ms 后才重算过滤
 let _debounceT=null;
 $('#search').addEventListener('input',e=>{
@@ -577,10 +736,27 @@ $('#search').addEventListener('input',e=>{
   _debounceT=setTimeout(()=>{state.search=e.target.value.trim();render()},250);
 });
 $('#sourceFilter').addEventListener('change',e=>{state.sourceFilter=e.target.value;render()});
+$('#timeFilter').addEventListener('change',e=>{state.timeFilter=e.target.value;render()});
 $('#sortBy').addEventListener('change',e=>{state.sortBy=e.target.value;render()});
 $('#favOnlyBtn').addEventListener('click',e=>{state.favOnly=!state.favOnly;e.currentTarget.style.color=state.favOnly?'var(--accent)':'';e.currentTarget.style.borderColor=state.favOnly?'var(--accent)':'';render()});
 $('#themeBtn').addEventListener('click',()=>{const cur=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',cur);save(STORE.theme,cur)});
 (function(){const t=load(STORE.theme);if(t)document.documentElement.setAttribute('data-theme',t)})();
+
+// 回到顶部：滚动超过 600px 显示，点击平滑回顶；try/catch 包一层避免老浏览器报错
+(function(){
+  const btn=document.getElementById('backTop');
+  if(!btn)return;
+  try{
+    window.addEventListener('scroll',()=>{
+      if(window.scrollY>600)btn.classList.add('show');
+      else btn.classList.remove('show');
+    },{passive:true});
+    btn.addEventListener('click',()=>{
+      try{window.scrollTo({top:0,behavior:'smooth'})}
+      catch(e){window.scrollTo(0,0)}
+    });
+  }catch(e){/* 静默降级 */}
+})();
 
 // refresh
 $('#refreshBtn').addEventListener('click',async()=>{
