@@ -55,7 +55,7 @@
 :root{
   --bg:#0A0D10; --bg-elev:#12161C; --bg-card:#151A21; --bg-hover:#1B212B;
   --border:#232932; --border-bright:#2E3642;
-  --text:#E8E6E1; --text-dim:#8B9099; --text-faint:#5C616A;
+  --text:#E8E6E1; --text-dim:#8B9099; --text-faint:#7A7F89;
   --accent:#FFB020; --accent-2:#FF6B35; --accent-dim:rgba(255,176,32,.12); --accent-glow:rgba(255,176,32,.35);
   --info:#38BDF8; --mint:#5EEAD4; --danger:#FB7185;
   --cat-clothing:#FF8A65; --cat-video:#B388FF; --cat-image:#5EEAD4; --cat-model:#FFD54F; --cat-tool:#81C784;
@@ -68,13 +68,14 @@
 [data-theme="light"]{
   --bg:#F4F3EF; --bg-elev:#FFFFFF; --bg-card:#FBFAF7; --bg-hover:#F0EFEA;
   --border:#E3E1DB; --border-bright:#D1CFC8;
-  --text:#1A1D21; --text-dim:#62666D; --text-faint:#9A9EA5;
+  --text:#1A1D21; --text-dim:#55595F; --text-faint:#6B7078;
   --accent:#E8501C; --accent-2:#D63A0A; --accent-dim:rgba(232,80,28,.09); --accent-glow:rgba(232,80,28,.22);
   --info:#2563EB; --mint:#0D9488; --danger:#E11D48;
   --cat-clothing:#E05A33; --cat-video:#6D3FD0; --cat-image:#0D9488; --cat-model:#B8860B; --cat-tool:#2E7D32;
   --shadow:0 6px 24px rgba(20,20,20,.08);
 }
 *{margin:0;padding:0;box-sizing:border-box}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
 html{scroll-behavior:smooth}
 body{
   font-family:var(--body); background:var(--bg); color:var(--text);
@@ -124,6 +125,27 @@ header{padding:36px 0 22px;border-bottom:1px solid var(--border);margin-bottom:2
   border:1px solid var(--accent);padding:2px 7px;border-radius:20px;letter-spacing:.05em;
 }
 .title-block p{color:var(--text-dim);font-size:13.5px;margin-top:3px;font-family:var(--mono)}
+/* ===== Hero 品牌徽章 lockup ===== */
+.brand-chip{
+  display:inline-flex;align-items:center;gap:9px;margin-top:11px;width:fit-content;
+  font-family:var(--mono);font-size:12px;
+  border:1px solid color-mix(in srgb,var(--accent) 38%,transparent);
+  background:var(--accent-dim);
+  padding:5px 14px 5px 6px;border-radius:999px;
+  box-shadow:0 0 16px rgba(255,176,32,.10),inset 0 1px 0 rgba(255,255,255,.04);
+  transition:box-shadow .2s,border-color .2s;
+}
+.brand-chip:hover{box-shadow:0 0 22px rgba(255,176,32,.18);border-color:color-mix(in srgb,var(--accent) 60%,transparent)}
+.brand-chip .mono{
+  width:23px;height:23px;border-radius:50%;flex-shrink:0;
+  display:inline-flex;align-items:center;justify-content:center;
+  background:var(--accent);color:#1a1205;
+  font-family:var(--display);font-weight:700;font-size:12.5px;
+  box-shadow:0 0 10px var(--accent-glow);
+}
+.brand-chip .b-name{color:var(--accent);font-weight:700;letter-spacing:.22em;padding-left:1px}
+.brand-chip .b-sep{opacity:.35}
+.brand-chip .b-by{color:var(--text-dim);letter-spacing:.06em}
 .header-actions{margin-left:auto;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .btn{
   font-family:var(--body);font-size:13px;font-weight:500;cursor:pointer;
@@ -177,6 +199,64 @@ select{
 }
 select:focus{outline:none;border-color:var(--accent)}
 
+/* ===== 中/原文切换小开关 ===== */
+.lang-btn{
+  font-family:var(--mono);font-size:12px;cursor:pointer;
+  border:1px solid var(--border);background:var(--bg);color:var(--text-faint);
+  padding:10px 12px;border-radius:var(--radius-sm);display:inline-flex;align-items:center;gap:3px;
+  transition:all .15s;white-space:nowrap;
+}
+.lang-btn .lng-sep{opacity:.45}
+.lang-btn.zh .lng-z{color:var(--accent);font-weight:700}
+.lang-btn.en .lng-e{color:var(--accent);font-weight:700}
+.lang-btn:hover{border-color:var(--border-bright);color:var(--text)}
+
+/* ===== 结果计数 ===== */
+.result-count{
+  font-family:var(--mono);font-size:12px;color:var(--text-dim);
+  margin:0 2px 14px;
+}
+/* 中文模式下无翻译条目的「原文」小灰字 */
+.orig-note{color:var(--text-faint);font-size:11px;font-family:var(--mono);margin-left:4px;white-space:nowrap}
+
+/* ===== Skip link / 视觉隐藏 ===== */
+.skip-link{
+  position:fixed;top:10px;left:10px;z-index:300;
+  background:var(--accent);color:#1a1205;font-weight:700;font-size:13px;
+  padding:10px 16px;border-radius:8px;text-decoration:none;
+  transform:translateY(-300%);transition:transform .2s;
+}
+.skip-link:focus{transform:translateY(0);outline:2px solid var(--text)}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+main{outline:none}
+
+/* ===== 本周热门 Top10 + 来源分布 ===== */
+.t10-wrap{display:flex;gap:16px;margin-bottom:22px;align-items:stretch}
+.top10{flex:1;min-width:0;background:var(--bg-elev);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px}
+.top10-head{
+  width:100%;display:flex;align-items:center;gap:10px;background:none;border:none;cursor:pointer;
+  font-family:var(--body);font-size:13.5px;font-weight:600;color:var(--text);padding:2px 0;
+}
+.top10-head .t10-meta{font-family:var(--mono);font-size:11px;color:var(--text-faint);font-weight:400}
+.top10-head .t10-caret{margin-left:auto;color:var(--text-faint);transition:transform .2s;font-size:12px}
+.top10-head[aria-expanded="true"] .t10-caret{transform:rotate(180deg)}
+.top10-list{list-style:none;margin:10px 0 0;padding:0;display:none;flex-direction:column;gap:2px}
+.top10-list.open{display:flex}
+.t10-row{display:flex;align-items:center;gap:10px;padding:6px 8px;border-radius:8px;transition:background .15s}
+.t10-row:hover{background:var(--bg-hover)}
+.t10-rank{font-family:var(--display);font-weight:700;font-size:12px;color:var(--accent);width:20px;flex-shrink:0;text-align:right}
+.t10-name{flex:1;min-width:0;font-size:13px;color:var(--text);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.t10-name:hover{color:var(--accent)}
+.t10-cat{font-family:var(--mono);font-size:10px;color:var(--text-faint);flex-shrink:0}
+.src-dist{width:270px;flex-shrink:0;background:var(--bg-elev);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px}
+.src-dist h4{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--text-dim);margin-bottom:10px;font-weight:600}
+.bar-row{display:flex;align-items:center;gap:8px;margin-bottom:6px;font-size:11px}
+.bar-lbl{width:74px;flex-shrink:0;color:var(--text-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:var(--mono);font-size:10.5px}
+.bar-track{flex:1;height:6px;background:var(--bg-hover);border-radius:3px;overflow:hidden}
+.bar-fill{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--info));border-radius:3px}
+.bar-num{width:32px;flex-shrink:0;text-align:right;font-family:var(--mono);color:var(--text-faint)}
+#sentinel{height:10px;padding-bottom:40px}
+
 /* ===== Category pills ===== */
 .cats{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:22px}
 .pill{
@@ -224,7 +304,7 @@ select:focus{outline:none;border-color:var(--accent)}
 .badge.hot{color:var(--accent-2);border-color:color-mix(in srgb,var(--accent-2) 40%,transparent)}
 .badge.new{color:var(--mint);border-color:color-mix(in srgb,var(--mint) 40%,transparent);background:color-mix(in srgb,var(--mint) 8%,transparent);font-weight:600;animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
-.card-summary{font-size:13px;color:var(--text-dim);margin-bottom:10px;line-height:1.55}
+.card-summary{font-size:13px;color:var(--text-dim);margin-bottom:10px;line-height:1.6}
 .card-detail{display:none;margin-bottom:10px}
 .card-detail.open{display:block}
 .card-detail .sec{margin-bottom:10px}
@@ -342,12 +422,16 @@ footer a{color:var(--info);text-decoration:none}
   /* hero 在小屏不要太高 */
   header{padding:22px 0 18px;margin-bottom:18px}
   .radar{width:44px;height:44px}
+  /* Top10 + 来源分布手机上上下堆叠 */
+  .t10-wrap{flex-direction:column}
+  .src-dist{width:100%}
   /* 回到顶部按钮贴边一点 */
   #backTop{right:14px;bottom:20px;width:42px;height:42px}
 }
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main">跳到主要内容</a>
 <div class="wrap">
   <header>
     <div class="hero">
@@ -355,24 +439,30 @@ footer a{color:var(--info);text-decoration:none}
       <div class="title-block">
         <h1>AI 热门项目雷达 <span class="ver">2026·08</span></h1>
         <p id="subtitle">聚焦 AI换装 / AI视频 / AI电商设计 · 云端每6小时自动更新</p>
+        <div class="brand-chip" title="洋洋制作">
+          <span class="mono">Y</span>
+          <span class="b-name">YANG</span>
+          <span class="b-sep">·</span>
+          <span class="b-by">洋洋制作</span>
+        </div>
       </div>
       <div class="header-actions">
-        <button class="btn primary" id="refreshBtn">
+        <button class="btn primary" id="refreshBtn" aria-label="立即从云端刷新数据">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12a9 9 0 11-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>
           立即刷新
         </button>
-        <button class="btn" id="addBtn">＋ 添加项目</button>
-        <button class="btn icon" id="exportBtn" title="导出JSON">
+        <button class="btn" id="addBtn" aria-label="添加项目">＋ 添加项目</button>
+        <button class="btn icon" id="exportBtn" title="导出JSON" aria-label="导出备份JSON">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
         </button>
-        <label class="btn icon" title="导入JSON" style="cursor:pointer">
+        <label class="btn icon" title="导入JSON" aria-label="导入备份JSON" style="cursor:pointer">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
           <input type="file" id="importFile" accept=".json" style="display:none">
         </label>
-        <button class="btn icon" id="favOnlyBtn" title="只看收藏">
+        <button class="btn icon" id="favOnlyBtn" title="只看收藏" aria-label="只看收藏">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
         </button>
-        <button class="btn icon" id="themeBtn" title="切换深浅色">
+        <button class="btn icon" id="themeBtn" title="切换深浅色" aria-label="切换深浅色模式">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
         </button>
       </div>
@@ -388,36 +478,58 @@ footer a{color:var(--info);text-decoration:none}
 
   <div class="stats" id="stats"></div>
 
+  <main id="main" tabindex="-1">
+  <div class="t10-wrap">
+    <section class="top10" aria-label="本周热门 Top10">
+      <button class="top10-head" id="top10Toggle" aria-expanded="true">
+        <span>🔥 本周热门 Top10</span><span class="t10-meta" id="top10Meta"></span><span class="t10-caret" aria-hidden="true">▾</span>
+      </button>
+      <ol class="top10-list open" id="top10List"></ol>
+    </section>
+    <aside class="src-dist" aria-label="数据来源分布">
+      <h4>数据来源分布</h4>
+      <div id="srcDistBars"></div>
+    </aside>
+  </div>
+
   <div class="toolbar">
     <div class="search">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input type="text" id="search" placeholder="搜索项目名、描述、标签…">
+      <input type="text" id="search" placeholder="搜索项目名、描述、标签…" aria-label="搜索项目名、描述、标签">
     </div>
+    <label class="visually-hidden" for="sourceFilter">按来源筛选</label>
     <select id="sourceFilter">
       <option value="all">全部来源</option>
       <option value="curated">⭐ 精选</option>
       <option value="auto">🤖 自动抓取</option>
       <option value="user">✏️ 我添加的</option>
     </select>
+    <label class="visually-hidden" for="timeFilter">按时间筛选</label>
     <select id="timeFilter">
       <option value="all">全部时间</option>
       <option value="week">本周新增</option>
       <option value="month">本月新增</option>
     </select>
+    <label class="visually-hidden" for="sortBy">排序方式</label>
     <select id="sortBy">
       <option value="recommend">推荐排序</option>
       <option value="hot">热度最高</option>
       <option value="new">最新发布</option>
+      <option value="date">按日期最新</option>
     </select>
+    <button class="lang-btn zh" id="langBtn" title="中文摘要 / 英文原文切换" aria-label="切换中英文摘要"><span class="lng-z">中</span><span class="lng-sep">↔</span><span class="lng-e">EN</span></button>
   </div>
 
   <div class="cats" id="cats"></div>
+  <div class="result-count" id="resultCount"></div>
   <div class="grid" id="grid"></div>
+  <div id="sentinel" aria-hidden="true"></div>
+  </main>
 </div>
 
 <!-- Add/Edit Modal -->
 <div class="modal-bg" id="modalBg">
-  <div class="modal">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <h2 id="modalTitle">添加项目</h2>
     <div class="field"><label>项目名称 *</label><input id="f_name"></div>
     <div class="field"><label>分类</label><select id="f_category"></select></div>
@@ -455,13 +567,17 @@ const CATS=[
   {key:'ai-tool',name:'效率/Agent工具',color:'var(--cat-tool)'},
 ];
 const CAT_MAP=Object.fromEntries(CATS.map(c=>[c.key,c]));
-const STORE={favs:'radar_favs_v2',custom:'radar_custom_v2',edit:'radar_edit_v2',blacklist:'radar_bl_v2',theme:'radar_theme_v2',cache:'radar_cloud_cache_v2'};
+const STORE={favs:'radar_favs_v2',custom:'radar_custom_v2',edit:'radar_edit_v2',blacklist:'radar_bl_v2',theme:'radar_theme_v2',cache:'radar_cloud_cache_v2',lang:'radar_lang_v2'};
 const $=s=>document.querySelector(s);
 const $$=s=>document.querySelectorAll(s);
 const load=k=>{try{return JSON.parse(localStorage.getItem(k))}catch{return null}};
 const save=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
 const toast=msg=>{const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),2800)};
 const uid=()=>'u-'+Date.now()+'-'+Math.random().toString(36).slice(2,7);
+// 分页懒加载：每页 60 条，滚动接近底部 400px 追加
+const PAGE_SIZE=60;
+// 判断文本是否含中文（用于决定是否标注「原文」）
+const hasChinese=s=>/[一-鿿]/.test(s||'');
 
 // 32条精选内置兜底（离线可用）
 const FALLBACK_CURATED=[
@@ -499,7 +615,7 @@ const FALLBACK_CURATED=[
 {n:'Shoehorn',c:'ai-tool',t:['Show HN','模型量化','本地运行'],s:'把任意模型量化压缩到能在你机器上运行',d:'Hacker News Show HN 97赞，帮助普通硬件跑大模型的量化工具。',u:'本地跑AI模型时的量化降配利器。',l:'https://bestofshowhn.com/2026/8',src:'Hacker News',h:3,dt:'2026-08-22'},
 ].map(x=>({id:'cur-'+x.n.slice(0,8),name:x.n,category:x.c,tags:x.t,summary:x.s,description:x.d,usage:x.u,link:x.l,source:x.src,hotness:x.h,date:x.dt,sourceType:'curated'}));
 
-let state={projects:[],favs:new Set(load(STORE.favs)||[]),custom:load(STORE.custom)||[],edits:load(STORE.edit)||{},blacklist:new Set(load(STORE.blacklist)||[]),activeCat:'all',search:'',sourceFilter:'all',timeFilter:'all',sortBy:'recommend',favOnly:false,lastCrawl:null,cloudOk:false,editId:null};
+let state={projects:[],favs:new Set(load(STORE.favs)||[]),custom:load(STORE.custom)||[],edits:load(STORE.edit)||{},blacklist:new Set(load(STORE.blacklist)||[]),activeCat:'all',search:'',sourceFilter:'all',timeFilter:'all',sortBy:'recommend',favOnly:false,lastCrawl:null,cloudOk:false,editId:null,langMode:load(STORE.lang)==='en'?'en':'zh',visibleCount:PAGE_SIZE};
 
 function normalizeCloud(d){
   const map=p=>({...p,sourceType:p.sourceType||'auto'});
@@ -581,6 +697,12 @@ const ICON_XIN='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' v
 const ICON_QBIT='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' fill=\'%237c3aed\'/%3E%3Ctext x=\'20\' y=\'28\' font-size=\'20\' font-family=\'Arial\' font-weight=\'bold\' fill=\'white\' text-anchor=\'middle\'%3EQ%3C/text%3E%3C/svg%3E';
 const ICON_PH='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' fill=\'%23da552f\'/%3E%3Ctext x=\'20\' y=\'28\' font-size=\'20\' font-family=\'Arial\' font-weight=\'bold\' fill=\'white\' text-anchor=\'middle\'%3EP%3C/text%3E%3C/svg%3E';
 const ICON_HF='https://huggingface.co/front/assets/huggingface_logo-noborder.svg';
+// arXiv：红色调 α 论文风图标
+const ICON_ARXIV='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' rx=\'8\' fill=\'%23B31B1B\'/%3E%3Ctext x=\'20\' y=\'29\' font-size=\'23\' font-family=\'Georgia,serif\' font-style=\'italic\' font-weight=\'bold\' fill=\'white\' text-anchor=\'middle\'%3E%CE%B1%3C/text%3E%3C/svg%3E';
+// Reddit：橙色对话气泡
+const ICON_REDDIT='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' rx=\'8\' fill=\'%23FF4500\'/%3E%3Cpath d=\'M11 13.5h18a3 3 0 0 1 3 3V24a3 3 0 0 1-3 3h-7.5L14 32v-5h-3a3 3 0 0 1-3-3v-7.5a3 3 0 0 1 3-3z\' fill=\'white\'/%3E%3Ccircle cx=\'15\' cy=\'20.5\' r=\'1.9\' fill=\'%23FF4500\'/%3E%3Ccircle cx=\'20\' cy=\'20.5\' r=\'1.9\' fill=\'%23FF4500\'/%3E%3Ccircle cx=\'25\' cy=\'20.5\' r=\'1.9\' fill=\'%23FF4500\'/%3E%3C/svg%3E';
+// Hugging Face Spaces：HF 笑脸 + 播放三角
+const ICON_HF_SPACES='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'%3E%3Crect width=\'40\' height=\'40\' rx=\'8\' fill=\'%23FFD21E\'/%3E%3Ccircle cx=\'14.5\' cy=\'16.5\' r=\'2\' fill=\'%23141414\'/%3E%3Ccircle cx=\'23.5\' cy=\'16.5\' r=\'2\' fill=\'%23141414\'/%3E%3Cpath d=\'M13 22.5q7 5.5 15 0\' stroke=\'%23141414\' stroke-width=\'2\' fill=\'none\' stroke-linecap=\'round\'/%3E%3Ccircle cx=\'29\' cy=\'29\' r=\'7.5\' fill=\'%23FB7185\' stroke=\'white\' stroke-width=\'1.5\'/%3E%3Cpath d=\'M26.6 25.8v6.4L32.5 29z\' fill=\'white\'/%3E%3C/svg%3E';
 function getProjectIcon(p){
   const link=p.link||'';
   const source=p.source||'';
@@ -589,7 +711,10 @@ function getProjectIcon(p){
       const m=link.match(/github\.com\/([^\/]+)/);
       if(m)return 'https://github.com/'+m[1]+'.png';
     }
+    if(source==='Hugging Face Spaces'||/huggingface\.co\/spaces\//.test(link))return ICON_HF_SPACES;
     if(source==='Hugging Face'||/huggingface\.co\//.test(link))return ICON_HF;
+    if(/reddit\.com\//.test(link))return ICON_REDDIT;
+    if(source.indexOf('arXiv')>=0||/arxiv\.org\//.test(link))return ICON_ARXIV;
     if(source==='Hacker News')return ICON_HN;
     if(source==='新智元')return ICON_XIN;
     if(source==='量子位')return ICON_QBIT;
@@ -610,7 +735,7 @@ function filtered(){
   }
   const rank={curated:0,user:1,auto:2};
   if(state.sortBy==='hot')list.sort((a,b)=>(b.hotness||0)-(a.hotness||0));
-  else if(state.sortBy==='new')list.sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+  else if(state.sortBy==='new'||state.sortBy==='date')list.sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')));
   else list.sort((a,b)=>{
     const rc=rank[a.sourceType]-rank[b.sourceType];
     if(rc)return rc;
@@ -621,52 +746,24 @@ function filtered(){
 
 function render(){
   const list=filtered();
+  // 结果计数（随筛选实时变化）：共 N 个 · 已显示 X 条
+  const rc=$('#resultCount');
+  if(rc){const shown=Math.min(state.visibleCount,list.length);rc.textContent='共找到 '+list.length+' 个项目 · 已显示 '+shown+' 条'}
   // stats
   const counts={};
   state.projects.forEach(p=>counts[p.category]=(counts[p.category]||0)+1);
   $('#stats').innerHTML=CATS.map(c=>`<div class="stat"><div class="num">${counts[c.key]||0}</div><div class="lbl">${c.name}</div></div>`).join('')+
     `<div class="stat"><div class="num">${state.favs.size}</div><div class="lbl">我的收藏</div></div>`;
   // cats
-  $('#cats').innerHTML=`<button class="pill ${state.activeCat==='all'?'active':''}" data-cat="all">全部 <span class="cnt">${state.projects.length}</span></button>`+
-    CATS.map(c=>`<button class="pill ${state.activeCat===c.key?'active':''}" data-cat="${c.key}" style="--cat-color:${c.color}">${c.name} <span class="cnt">${counts[c.key]||0}</span></button>`).join('');
-  // grid
+  $('#cats').innerHTML=`<button class="pill ${state.activeCat==='all'?'active':''}" data-cat="all" ${state.activeCat==='all'?'aria-current="true"':''}>全部 <span class="cnt">${state.projects.length}</span></button>`+
+    CATS.map(c=>`<button class="pill ${state.activeCat===c.key?'active':''}" data-cat="${c.key}" ${state.activeCat===c.key?'aria-current="true"':''} style="--cat-color:${c.color}">${c.name} <span class="cnt">${counts[c.key]||0}</span></button>`).join('');
+  // grid：只渲染前 visibleCount 条，滚动到哨兵时追加下一批
   if(!list.length){
     $('#grid').innerHTML='<div class="empty" style="grid-column:1/-1"><div class="big">🔭</div><p>没有匹配的项目</p><div class="hint">试试清空搜索、切换分类，或选「全部时间」</div></div>';
   }else{
-    $('#grid').innerHTML=list.map(p=>{
-      const cat=CAT_MAP[p.category]||CATS[4];
-      const fav=state.favs.has(p.id);
-      const srcBadge={curated:'⭐ 精选',auto:'🤖 自动抓取',user:'✏️ 我的'}[p.sourceType]||p.source;
-      return `<article class="card" style="--cat-color:${cat.color}">
-        <div class="card-top">
-          <img class="card-icon" src="${getProjectIcon(p)}" onerror="this.onerror=null;this.src=ICON_DEFAULT" alt="">
-          <div class="card-name"><a href="${p.link}" target="_blank" rel="noopener">${p.name}</a></div>
-          <button class="fav-btn ${fav?'on':''}" data-fav="${p.id}" title="收藏">${fav?'★':'☆'}</button>
-        </div>
-        <div class="badges">
-          <span class="badge cat">${cat.name}</span>
-          <span class="badge">${srcBadge}</span>
-          ${p.hotness>=4?`<span class="badge hot">${'🔥'.repeat(Math.min(p.hotness,5))}</span>`:''}
-          ${isNew(p)?'<span class="badge new">NEW</span>':''}
-        </div>
-        <div class="card-summary">${p.summary_zh||p.summary||''}</div>
-        <div class="card-detail" id="det-${p.id}">
-          ${p.description?`<div class="sec"><div class="sec-label">详细介绍</div><p>${p.description}</p></div>`:''}
-          ${p.usage?`<div class="sec usage"><div class="sec-label">对电商美工的用处</div><p>${p.usage}</p></div>`:''}
-          ${(p.tags&&p.tags.length)?`<div class="tags">${p.tags.map(t=>`<button type="button" class="tag" data-tag="${t}">${t}</button>`).join('')}</div>`:''}
-        </div>
-        <button class="expand-btn" data-expand="${p.id}">展开详情 ▾</button>
-        <div class="card-foot">
-          <span class="src">${p.source||''}</span>
-          <a class="link-btn" href="${p.link}" target="_blank" rel="noopener">直达 ↗</a>
-          <button class="copy-btn" data-copy="${p.link}" title="复制项目链接" aria-label="复制项目链接">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
-          </button>
-          <span class="date">${p.date||''}</span>
-        </div>
-      </article>`;
-    }).join('');
+    $('#grid').innerHTML=list.slice(0,state.visibleCount).map(cardHtml).join('');
   }
+  try{renderTop10();renderSrcDist()}catch(e){}
   // status
   if(state.cloudOk){
     $('#statusText').innerHTML='<span class="dot"></span>云端已连接';
@@ -687,8 +784,118 @@ function render(){
   }
 }
 
+// 单张卡片 HTML（render 全量重建与懒加载追加共用）
+function cardHtml(p){
+  const cat=CAT_MAP[p.category]||CATS[4];
+  const fav=state.favs.has(p.id);
+  const srcBadge={curated:'⭐ 精选',auto:'🤖 自动抓取',user:'✏️ 我的'}[p.sourceType]||p.source;
+  // 摘要语言：原文模式直接显示 summary；中文模式优先 summary_zh；
+  // 无翻译但 summary 本身是中文时直接显示，只有纯英文原文才标注「（原文）」
+  let sumHtml;
+  if(state.langMode==='en')sumHtml=p.summary||'';
+  else if(p.summary_zh)sumHtml=p.summary_zh;
+  else if(hasChinese(p.summary))sumHtml=p.summary||'';
+  else sumHtml=(p.summary||'')+'<span class="orig-note">（原文）</span>';
+  return `<article class="card" style="--cat-color:${cat.color}">
+        <div class="card-top">
+          <img class="card-icon" src="${getProjectIcon(p)}" onerror="this.onerror=null;this.src=ICON_DEFAULT" alt="">
+          <h3 class="card-name"><a href="${p.link}" target="_blank" rel="noopener">${p.name}</a></h3>
+          <button class="fav-btn ${fav?'on':''}" data-fav="${p.id}" title="收藏" aria-label="收藏 ${p.name}" aria-pressed="${fav}">${fav?'★':'☆'}</button>
+        </div>
+        <div class="badges">
+          <span class="badge cat">${cat.name}</span>
+          <span class="badge">${srcBadge}</span>
+          ${p.hotness>=4?`<span class="badge hot">${'🔥'.repeat(Math.min(p.hotness,5))}</span>`:''}
+          ${isNew(p)?'<span class="badge new">NEW</span>':''}
+        </div>
+        <div class="card-summary">${sumHtml}</div>
+        <div class="card-detail" id="det-${p.id}">
+          ${p.description?`<div class="sec"><div class="sec-label">详细介绍</div><p>${p.description}</p></div>`:''}
+          ${p.usage?`<div class="sec usage"><div class="sec-label">对电商美工的用处</div><p>${p.usage}</p></div>`:''}
+          ${(p.tags&&p.tags.length)?`<div class="tags">${p.tags.map(t=>`<button type="button" class="tag" data-tag="${t}">${t}</button>`).join('')}</div>`:''}
+        </div>
+        <button class="expand-btn" data-expand="${p.id}">展开详情 ▾</button>
+        <div class="card-foot">
+          <span class="src">${p.source||''}</span>
+          <a class="link-btn" href="${p.link}" target="_blank" rel="noopener">直达 ↗</a>
+          <button class="copy-btn" data-copy="${p.link}" title="复制项目链接" aria-label="复制项目链接">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+          </button>
+          <span class="date">${p.date||''}</span>
+        </div>
+      </article>`;
+}
+
+// 懒加载追加下一批（DocumentFragment 批量插入，避免反复重排）
+function appendNext(){
+  try{
+    const list=filtered();
+    const start=state.visibleCount;
+    if(start>=list.length)return;
+    const end=Math.min(start+PAGE_SIZE,list.length);
+    const tpl=document.createElement('div');
+    tpl.innerHTML=list.slice(start,end).map(cardHtml).join('');
+    const frag=document.createDocumentFragment();
+    while(tpl.firstChild)frag.appendChild(tpl.firstChild);
+    $('#grid').appendChild(frag);
+    state.visibleCount=end;
+    const rc=$('#resultCount');
+    if(rc)rc.textContent='共找到 '+list.length+' 个项目 · 已显示 '+end+' 条';
+  }catch(e){}
+}
+
+// 本周热门 Top10：date 近 7 天、按热度降序取前 10
+function renderTop10(){
+  const now=Date.now();
+  const recent=state.projects.filter(p=>{const ts=parseDateTs(p.date);return !isNaN(ts)&&(now-ts)<7*864e5});
+  const top=recent.slice().sort((a,b)=>(b.hotness||0)-(a.hotness||0)).slice(0,10);
+  const meta=$('#top10Meta');if(meta)meta.textContent=`近7天 ${recent.length} 条`;
+  const ol=$('#top10List');if(!ol)return;
+  if(!top.length){ol.innerHTML='<li class="t10-row"><span class="t10-name" style="color:var(--text-faint)">近 7 天暂无带日期的新项目</span></li>';return}
+  ol.innerHTML=top.map((p,i)=>{
+    const cat=CAT_MAP[p.category]||CATS[4];
+    return `<li class="t10-row">
+      <span class="t10-rank">${i+1}</span>
+      <a class="t10-name" href="${p.link}" target="_blank" rel="noopener">${p.name}</a>
+      <span class="t10-cat">${cat.name}</span>
+      <a class="t10-name" style="flex:0 0 auto;width:auto" href="${p.link}" target="_blank" rel="noopener" aria-label="打开 ${p.name}">↗</a>
+    </li>`;
+  }).join('');
+}
+
+// 数据来源分布：纯 CSS 横条（Top8 来源）
+function renderSrcDist(){
+  const box=$('#srcDistBars');if(!box)return;
+  const c={};
+  state.projects.forEach(p=>{const s=(p.source||'未知').slice(0,14);c[s]=(c[s]||0)+1});
+  const top=Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,8);
+  if(!top.length){box.innerHTML='';return}
+  const max=top[0][1]||1;
+  box.innerHTML=top.map(([s,n])=>
+    `<div class="bar-row"><span class="bar-lbl" title="${s}">${s}</span><span class="bar-track"><span class="bar-fill" style="width:${Math.round(n/max*100)}%"></span></span><span class="bar-num">${n}</span></div>`
+  ).join('');
+}
+
+// 哨兵 IntersectionObserver：距底部 400px 预加载下一批；无 IO 时降级为 passive scroll
+(function(){
+  try{
+    const sentinel=$('#sentinel');
+    if(!sentinel)return;
+    if('IntersectionObserver' in window){
+      const io=new IntersectionObserver(es=>{
+        es.forEach(en=>{if(en.isIntersecting)appendNext()});
+      },{rootMargin:'0px 0px 400px 0px'});
+      io.observe(sentinel);
+    }else{
+      window.addEventListener('scroll',()=>{
+        if(window.innerHeight+window.scrollY>document.body.scrollHeight-500)appendNext();
+      },{passive:true});
+    }
+  }catch(e){}
+})();
+
 // events
-$('#cats').addEventListener('click',e=>{const b=e.target.closest('.pill');if(b){state.activeCat=b.dataset.cat;render()}});
+$('#cats').addEventListener('click',e=>{const b=e.target.closest('.pill');if(b){state.activeCat=b.dataset.cat;state.visibleCount=PAGE_SIZE;render()}});
 $('#grid').addEventListener('click',e=>{
   const fav=e.target.closest('[data-fav]');
   if(fav){const id=fav.dataset.fav;state.favs.has(id)?state.favs.delete(id):state.favs.add(id);save(STORE.favs,[...state.favs]);render();return}
@@ -729,16 +936,41 @@ async function copyLink(url,btn){
     toast('复制失败，请手动复制：'+url);
   }
 }
-// 搜索防抖：输入即时回显，250ms 后才重算过滤
+// 搜索防抖：200ms 后才重算筛选（INP 友好），筛选变化时回到第 1 页
 let _debounceT=null;
 $('#search').addEventListener('input',e=>{
   clearTimeout(_debounceT);
-  _debounceT=setTimeout(()=>{state.search=e.target.value.trim();render()},250);
+  _debounceT=setTimeout(()=>{state.search=e.target.value.trim();state.visibleCount=PAGE_SIZE;render()},200);
 });
-$('#sourceFilter').addEventListener('change',e=>{state.sourceFilter=e.target.value;render()});
-$('#timeFilter').addEventListener('change',e=>{state.timeFilter=e.target.value;render()});
-$('#sortBy').addEventListener('change',e=>{state.sortBy=e.target.value;render()});
-$('#favOnlyBtn').addEventListener('click',e=>{state.favOnly=!state.favOnly;e.currentTarget.style.color=state.favOnly?'var(--accent)':'';e.currentTarget.style.borderColor=state.favOnly?'var(--accent)':'';render()});
+$('#sourceFilter').addEventListener('change',e=>{state.sourceFilter=e.target.value;state.visibleCount=PAGE_SIZE;render()});
+$('#timeFilter').addEventListener('change',e=>{state.timeFilter=e.target.value;state.visibleCount=PAGE_SIZE;render()});
+$('#sortBy').addEventListener('change',e=>{state.sortBy=e.target.value;state.visibleCount=PAGE_SIZE;render()});
+// Top10 折叠/展开
+$('#top10Toggle').addEventListener('click',()=>{
+  const list=$('#top10List');
+  const open=list.classList.toggle('open');
+  $('#top10Toggle').setAttribute('aria-expanded',String(open));
+});
+// 中/原文切换：状态持久化到 localStorage
+$('#langBtn').addEventListener('click',()=>{
+  state.langMode=state.langMode==='zh'?'en':'zh';
+  save(STORE.lang,state.langMode);
+  $('#langBtn').classList.toggle('zh',state.langMode==='zh');
+  $('#langBtn').classList.toggle('en',state.langMode==='en');
+  render();
+});
+// 快捷键：/ 聚焦搜索框（输入中不触发），Esc 清空搜索并失焦
+document.addEventListener('keydown',e=>{
+  const ae=document.activeElement;
+  const tag=ae?ae.tagName:'';
+  const typing=tag==='INPUT'||tag==='TEXTAREA'||tag==='SELECT'||(ae&&ae.isContentEditable);
+  if(e.key==='/'&&!typing){e.preventDefault();const s=$('#search');s.focus();s.select()}
+  else if(e.key==='Escape'&&ae===$('#search')){
+    $('#search').value='';state.search='';render();$('#search').blur();
+  }
+});
+(function(){if(state.langMode==='en'){$('#langBtn').classList.remove('zh');$('#langBtn').classList.add('en')}})();
+$('#favOnlyBtn').addEventListener('click',e=>{state.favOnly=!state.favOnly;e.currentTarget.style.color=state.favOnly?'var(--accent)':'';e.currentTarget.style.borderColor=state.favOnly?'var(--accent)':'';state.visibleCount=PAGE_SIZE;render()});
 $('#themeBtn').addEventListener('click',()=>{const cur=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',cur);save(STORE.theme,cur)});
 (function(){const t=load(STORE.theme);if(t)document.documentElement.setAttribute('data-theme',t)})();
 
@@ -769,6 +1001,7 @@ $('#refreshBtn').addEventListener('click',async()=>{
 });
 
 // add/edit
+let modalTrigger=null;
 function openModal(project){
   state.editId=project?project.id:null;
   $('#modalTitle').textContent=project?'编辑项目':'添加项目';
@@ -781,11 +1014,18 @@ function openModal(project){
   $('#f_link').value=project?.link||'';
   $('#f_source').value=project?.source||'我添加的';
   $('#f_hotness').value=project?.hotness||3;
+  modalTrigger=document.activeElement;
   $('#modalBg').classList.add('open');
+  try{setTimeout(()=>$('#f_name').focus(),30)}catch(e){}
+}
+// 关闭模态框并把焦点还给触发按钮
+function closeModal(){
+  $('#modalBg').classList.remove('open');
+  try{if(modalTrigger&&modalTrigger.focus)modalTrigger.focus()}catch(e){}
 }
 $('#addBtn').addEventListener('click',()=>openModal(null));
-$('#cancelBtn').addEventListener('click',()=>$('#modalBg').classList.remove('open'));
-$('#modalBg').addEventListener('click',e=>{if(e.target===$('#modalBg'))$('#modalBg').classList.remove('open')});
+$('#cancelBtn').addEventListener('click',closeModal);
+$('#modalBg').addEventListener('click',e=>{if(e.target===$('#modalBg'))closeModal()});
 $('#saveBtn').addEventListener('click',()=>{
   const name=$('#f_name').value.trim(),link=$('#f_link').value.trim(),summary=$('#f_summary').value.trim();
   if(!name||!link||!summary){toast('请填写名称、链接和简介');return}
@@ -799,6 +1039,7 @@ $('#saveBtn').addEventListener('click',()=>{
     obj.id=uid();state.custom.push(obj);save(STORE.custom,state.custom);toast('已添加');
   }
   $('#modalBg').classList.remove('open');buildProjects(load(STORE.cache));render();
+  try{if(modalTrigger&&modalTrigger.focus)modalTrigger.focus()}catch(e){}
 });
 
 // export/import

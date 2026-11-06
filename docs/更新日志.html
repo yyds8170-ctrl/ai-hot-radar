@@ -79,13 +79,36 @@ footer a{color:var(--info);text-decoration:none}
   <div class="hero">
     <div class="hero-eyebrow">Changelog · 版本时间线</div>
     <h1>更新日志<span class="accent">.</span></h1>
-    <p class="lead">这个雷达从 2026-08 开始写，每一次改动都记在这里。最近一次是 2026-11-05 的大版本升级。</p>
+    <p class="lead">这个雷达从 2026-08 开始写，每一次改动都记在这里。最近一次是 2026-11-06 的 v4.1 性能与无障碍升级。</p>
   </div>
 
   <div class="timeline">
 
-    <!-- 2026-11-05 -->
+    <!-- 2026-11-06 -->
     <div class="entry latest">
+      <div class="date">2026-11-06</div>
+      <div class="dot"></div>
+      <div class="entry-card">
+        <div class="entry-head">
+          <h2>性能 + 无障碍 + 订阅：2300+ 条也不卡</h2>
+          <span class="version-tag">v4.1</span>
+        </div>
+        <p>数据累积到 2300+ 条之后，老版本一次性渲染全量卡片开始卡顿。这版重点做性能和体验，同时把「让机器和搜索引擎也能读懂」补齐。</p>
+        <ul>
+          <li><span class="ico">⚡</span><strong>分页懒加载</strong>：往下滚自动加载下一批卡片，2300+ 条首屏秒开；搜索框加防抖，边打字边筛选不卡。</li>
+          <li><span class="ico">♿</span><strong>完整无障碍（A11y）</strong>：跳到主内容链接、aria 语义标签、全键盘导航（<code>/</code> 搜索、<code>Esc</code> 清空、<code>Tab</code> 切换、<code>Enter</code> 确认）、WCAG 高对比度。</li>
+          <li><span class="ico">📡</span><strong>RSS 订阅 feed.xml</strong>：爬虫自动生成 feed，新项目推送到任意 RSS 阅读器；同时输出 <code>llms.txt</code>、<code>robots.txt</code>、<code>sitemap.xml</code>。</li>
+          <li><span class="ico">🔥</span><strong>本周热门 Top10</strong>：列表顶部按本周热度排出前 10，一眼抓本周重点。</li>
+          <li><span class="ico">📊</span><strong>数据来源分布条 + 结果计数</strong>：彩色横条显示各信源占比，工具栏实时显示命中条数。</li>
+          <li><span class="ico">🌐</span><strong>中 / 英文切换</strong>：界面一键中英切换，分享给海外同事无障碍。</li>
+          <li><span class="ico">✨</span><strong>金色品牌徽章</strong>：首屏加上「YANG·洋洋制作」金色徽章视觉。</li>
+        </ul>
+        <div class="callout key" style="margin-top:14px"><span class="ico">🎯</span><div><strong>这次升级想解决的问题：</strong>数据涨到 2000+ 后低端手机开始卡；盲人 / 只用键盘的用户没法用；想让别人订阅更新还得自己刷页面；海外同事看不懂中文。这版一起补上了。</div></div>
+      </div>
+    </div>
+
+    <!-- 2026-11-05 -->
+    <div class="entry">
       <div class="date">2026-11-05</div>
       <div class="dot"></div>
       <div class="entry-card">
@@ -191,7 +214,7 @@ footer a{color:var(--info);text-decoration:none}
   </div>
 
   <footer>
-    AI 热门项目雷达 · 更新日志 · 2026-11-05<br>
+    AI 热门项目雷达 · 更新日志 · 2026-11-06<br>
     云端仓库：<a href="https://github.com/yyds8170-ctrl/ai-hot-radar" target="_blank">github.com/yyds8170-ctrl/ai-hot-radar</a> ·
     <a href="使用说明.html" target="_blank">使用说明书</a> ·
     <a href="download.html" target="_blank">下载中心</a><br>

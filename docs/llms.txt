@@ -1,0 +1,24 @@
+# AI 热门项目雷达
+
+> 洋洋制作的 AI 项目自动追踪雷达，每 6 小时从 Hacker News、GitHub、Hugging Face、arXiv、中文 AI 媒体、Reddit r/LocalLLaMA 自动抓取，聚合最新 AI 模型、工具、论文与开源项目。
+
+## 站点
+- 主页：https://yyds8170-ctrl.github.io/ai-hot-radar/
+- 源码：https://github.com/yyds8170-ctrl/ai-hot-radar
+
+## 主要页面
+- [雷达主页](https://yyds8170-ctrl.github.io/ai-hot-radar/) — 实时热门 AI 项目流（精选 + 自动抓取）
+- [使用说明](https://yyds8170-ctrl.github.io/ai-hot-radar/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html) — 订阅、数据源、分类规则说明
+- [更新日志](https://yyds8170-ctrl.github.io/ai-hot-radar/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html) — 版本迭代记录
+- [下载中心](https://yyds8170-ctrl.github.io/ai-hot-radar/download.html) — 离线版 / 桌面版
+- [RSS 订阅](https://yyds8170-ctrl.github.io/ai-hot-radar/feed.xml) — RSS 2.0 feed，最新 50 条
+
+## 聚焦方向
+- **AI 服装换装**：virtual try-on、虚拟试衣、换装、人姿迁移
+- **AI 视频生成**：text-to-video、lip-sync、数字人、口型驱动
+- **AI 图像/电商设计**：文生图、抠图、白底图、商品图、inpainting
+- **AI 新模型**：开源大模型、LLM 发布、多模态权重
+- **效率/Agent 工具**：MCP、coding agent、智能体框架
+
+---
+由 crawler.mjs 每 6 小时自动更新数据。

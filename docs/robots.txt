@@ -1,0 +1,6 @@
+# AI 热门项目雷达 - robots.txt
+# 洋洋制作
+User-agent: *
+Allow: /
+
+Sitemap: https://yyds8170-ctrl.github.io/ai-hot-radar/sitemap.xml

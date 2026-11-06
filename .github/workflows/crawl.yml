@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json
+          git add data.json docs/feed.xml
           if git diff --staged --quiet; then
             echo "数据无变化，跳过提交"
           else

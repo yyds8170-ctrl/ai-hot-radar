@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yyds8170-ctrl.github.io/ai-hot-radar/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://yyds8170-ctrl.github.io/ai-hot-radar/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yyds8170-ctrl.github.io/ai-hot-radar/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yyds8170-ctrl.github.io/ai-hot-radar/download.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

@@ -1,0 +1,24 @@
+# 依赖与构建
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+dist/
+build/
+
+# 环境变量与密钥（严禁提交）
+.env
+.env.*
+*.local
+credentials.json
+.credentials.yaml
+*.pem
+*.key
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+tmp/
+scratch/
