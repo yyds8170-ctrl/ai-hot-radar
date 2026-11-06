@@ -5,7 +5,7 @@
     <link>https://yyds8170-ctrl.github.io/ai-hot-radar/</link>
     <description>洋洋制作的 AI 项目自动追踪订阅源，每 6 小时自动抓取 Hacker News / GitHub / Hugging Face / arXiv / 中文 AI 媒体 / Reddit 热帖，第一时间发现新模型、新工具、新论文。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Nov 2026 02:17:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 04:46:16 GMT</lastBuildDate>
     <generator>ai-hot-radar crawler.mjs</generator>
     <item>
       <title>Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation</title>
@@ -17,11 +17,29 @@
       <author>Hacker News</author>
     </item>
     <item>
+      <title>Investors wipe $2.5T off Nasdaq as blue tsunami prompts AI fears</title>
+      <link>https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/</link>
+      <guid isPermaLink="false">hn-50386909</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>由于蓝色海啸引发人工智能担忧，投资者从纳斯达克下跌 2.5 吨</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
       <title>NousResearch/hermes-agent</title>
       <link>https://github.com/NousResearch/hermes-agent</link>
       <guid isPermaLink="false">gh-NousResearch/hermes-agent</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
       <description>与您共同成长的代理商</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>n8n-io/n8n</title>
+      <link>https://github.com/n8n-io/n8n</link>
+      <guid isPermaLink="false">gh-n8n-io/n8n</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>具有原生 AI 功能的公平代码工作流程自动化平台。将可视化构建与自定义代码、自托管或云、400 多个集成相结合。</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -98,6 +116,15 @@
       <author>GitHub</author>
     </item>
     <item>
+      <title>browser-use/browser-use</title>
+      <link>https://github.com/browser-use/browser-use</link>
+      <guid isPermaLink="false">gh-browser-use/browser-use</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>用于 AI 浏览器代理的开源 Python 库，以及浏览器使用云：隐形浏览器和托管代理 API。</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
       <title>jaywcjlove/awesome-mac</title>
       <link>https://github.com/jaywcjlove/awesome-mac</link>
       <guid isPermaLink="false">gh-jaywcjlove/awesome-mac</guid>
@@ -130,6 +157,15 @@
       <guid isPermaLink="false">gh-nexu-io/open-design</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
       <description>第一个协作式人工智能设计代理工作区。本地优先和开源。与您的团队和 AI 代理一起创建动作、原型、网站、应用程序、仪表板、演示文稿、图像和视频。在一个工作区中共享工作、交换反馈并进行迭代。</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>koala73/worldmonitor</title>
+      <link>https://github.com/koala73/worldmonitor</link>
+      <guid isPermaLink="false">gh-koala73/worldmonitor</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>实时全球情报仪表板。在统一的态势感知界面中进行人工智能驱动的新闻聚合、地缘政治监控和基础设施跟踪</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -206,6 +242,15 @@
       <author>Hugging Face</author>
     </item>
     <item>
+      <title>ccore/Qwen3.5-4B-3D-Coder</title>
+      <link>https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder</link>
+      <guid isPermaLink="false">hf-ccore/Qwen3.5-4B-3D-Coder</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>HF 热门模型 · 下载 157,157</description>
+      <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
       <title>Lightricks/LTX-2.5</title>
       <link>https://huggingface.co/Lightricks/LTX-2.5</link>
       <guid isPermaLink="false">hf-Lightricks/LTX-2.5</guid>
@@ -215,11 +260,20 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>ccore/Qwen3.5-4B-3D-Coder</title>
-      <link>https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder</link>
-      <guid isPermaLink="false">hf-ccore/Qwen3.5-4B-3D-Coder</guid>
+      <title>nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</title>
+      <link>https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</link>
+      <guid isPermaLink="false">hf-nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 157,157</description>
+      <description>自动语音识别</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>mistralai/Mistral-Large-4-1T-A52B</title>
+      <link>https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B</link>
+      <guid isPermaLink="false">hf-mistralai/Mistral-Large-4-1T-A52B</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像-文本-文本</description>
       <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
@@ -233,20 +287,11 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>mistralai/Mistral-Large-4-1T-A52B</title>
-      <link>https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B</link>
-      <guid isPermaLink="false">hf-mistralai/Mistral-Large-4-1T-A52B</guid>
+      <title>burner22/numbat</title>
+      <link>https://huggingface.co/burner22/numbat</link>
+      <guid isPermaLink="false">hf-burner22/numbat</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</title>
-      <link>https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</link>
-      <guid isPermaLink="false">hf-nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <description>自动语音识别</description>
+      <description>HF 热门模型 · 下载 8,789</description>
       <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
@@ -256,15 +301,6 @@
       <guid isPermaLink="false">hf-FusionCow/Sulphur-3</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
       <description>HF 热门模型 · 下载 607</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>burner22/numbat</title>
-      <link>https://huggingface.co/burner22/numbat</link>
-      <guid isPermaLink="false">hf-burner22/numbat</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 8,789</description>
       <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
@@ -323,21 +359,21 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>abenzerps/Qwen-Image-2.1-Turbo-Quantized</title>
-      <link>https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized</link>
-      <guid isPermaLink="false">hf-abenzerps/Qwen-Image-2.1-Turbo-Quantized</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本到图像</description>
-      <category>ai-image</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>sensenova/SenseNova-Loop-9B-Preview</title>
       <link>https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview</link>
       <guid isPermaLink="false">hf-sensenova/SenseNova-Loop-9B-Preview</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>abenzerps/Qwen-Image-2.1-Turbo-Quantized</title>
+      <link>https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized</link>
+      <guid isPermaLink="false">hf-abenzerps/Qwen-Image-2.1-Turbo-Quantized</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本到图像</description>
+      <category>ai-image</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -404,15 +440,6 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>unsloth/DeepSeek-V4.1-Flash-1017-GGUF</title>
-      <link>https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF</link>
-      <guid isPermaLink="false">hf-unsloth/DeepSeek-V4.1-Flash-1017-GGUF</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>ccore/Qwen3.5-4B-GLB-3D-Coder</title>
       <link>https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder</link>
       <guid isPermaLink="false">hf-ccore/Qwen3.5-4B-GLB-3D-Coder</guid>
@@ -422,39 +449,12 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF</title>
-      <link>https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF</link>
-      <guid isPermaLink="false">hf-SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF</guid>
+      <title>unsloth/DeepSeek-V4.1-Flash-1017-GGUF</title>
+      <link>https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF</link>
+      <guid isPermaLink="false">hf-unsloth/DeepSeek-V4.1-Flash-1017-GGUF</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF</title>
-      <link>https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF</link>
-      <guid isPermaLink="false">hf-ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>nvidia/DeepSeek-V4.1-Flash-1017-NVFP4</title>
-      <link>https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-1017-NVFP4</link>
-      <guid isPermaLink="false">hf-nvidia/DeepSeek-V4.1-Flash-1017-NVFP4</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>LiquidAI/LFM3-Omni-2B</title>
-      <link>https://huggingface.co/LiquidAI/LFM3-Omni-2B</link>
-      <guid isPermaLink="false">hf-LiquidAI/LFM3-Omni-2B</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <description>任意对任意</description>
-      <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
   </channel>
