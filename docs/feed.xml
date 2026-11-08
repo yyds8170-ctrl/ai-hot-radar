@@ -5,10 +5,46 @@
     <link>https://yyds8170-ctrl.github.io/ai-hot-radar/</link>
     <description>洋洋制作的 AI 项目自动追踪订阅源，每 6 小时自动抓取 Hacker News / GitHub / Hugging Face / arXiv / 中文 AI 媒体 / Reddit 热帖，第一时间发现新模型、新工具、新论文。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 08 Nov 2026 12:38:29 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 21:35:45 GMT</lastBuildDate>
     <generator>ai-hot-radar crawler.mjs</generator>
     <item>
-      <title>Goodbye Claude, Hello Pi</title>
+      <title>Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders</title>
+      <link>https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers</link>
+      <guid isPermaLink="false">hn-50415628</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>高盛正在从其银行家和交易员那里撤回克劳德代码</description>
+      <category>ai-tool</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>How I Fight AI Brain Fry</title>
+      <link>https://sergeykuhne.com/blog/fighting-ai-brain-fry</link>
+      <guid isPermaLink="false">hn-50416363</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>我如何对抗人工智能脑残</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU</title>
+      <link>https://github.com/synchopate/llama-modchip</link>
+      <guid isPermaLink="false">hn-50411961</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Llama-modchip：64GB RAM 上的 284B DeepSeek，无 GPU</description>
+      <category>ai-model</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>I&apos;m not a fan of Deno&apos;s security model (2024)</title>
+      <link>https://goldstein.lol/posts/deno-security/</link>
+      <guid isPermaLink="false">hn-50413769</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>我不喜欢 Deno 的安全模型 (2024)</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Goodbye Claude, hello Pi</title>
       <link>https://caleb.software/posts/claude-to-pi.html</link>
       <guid isPermaLink="false">hn-50410107</guid>
       <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
@@ -22,6 +58,33 @@
       <guid isPermaLink="false">hn-50411467</guid>
       <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
       <description>代理内存需要 OpenTelemetry 时刻</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren&apos;t Buying It</title>
+      <link>https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c</link>
+      <guid isPermaLink="false">hn-50415817</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>硅谷承诺人工智能将治愈疾病。制药商首席执行官并不买账</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>OpenAI raises $11B at a $1.25T valuation</title>
+      <link>https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/</link>
+      <guid isPermaLink="false">hn-50413822</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI 以 1.25T 估值筹集 11B 美元</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Anthropic strikes $3.4B deal to generate gas-fired power for data centres</title>
+      <link>https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0</link>
+      <guid isPermaLink="false">hn-50412760</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Anthropic 达成 3.4B 美元协议，为数据中心提供燃气发电</description>
       <category>ai-other</category>
       <author>Hacker News</author>
     </item>
@@ -77,6 +140,24 @@
       <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
       <description>最强大的模块化扩散模型 GUI、API 和带有图形/节点接口的后端。世界上最快的本地推理引擎。</description>
       <category>ai-image</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>Shubhamsaboo/awesome-llm-apps</title>
+      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
+      <guid isPermaLink="false">gh-Shubhamsaboo/awesome-llm-apps</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>100 多个 AI 代理、代理技能和 RAG 应用程序 - 免费且开源。</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>ripienaar/free-for-dev</title>
+      <link>https://github.com/ripienaar/free-for-dev</link>
+      <guid isPermaLink="false">gh-ripienaar/free-for-dev</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>具有 devops 和 infradev 感兴趣的免费级别的 SaaS、PaaS 和 IaaS 产品列表</description>
+      <category>ai-other</category>
       <author>GitHub</author>
     </item>
     <item>
@@ -157,6 +238,15 @@
       <guid isPermaLink="false">gh-pbakaus/impeccable</guid>
       <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
       <description>编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>D4Vinci/Scrapling</title>
+      <link>https://github.com/D4Vinci/Scrapling</link>
+      <guid isPermaLink="false">gh-D4Vinci/Scrapling</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>🕷️ 最好的网页抓取框架，可以处理从单个请求到全面抓取的所有内容！不要害羞，加入这里：https://discord.gg/EMgGbDceNQ 并按照此处获取日常提示和技巧：https://x.com/Scrapling_dev</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -296,24 +386,6 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>burner22/numbat</title>
-      <link>https://huggingface.co/burner22/numbat</link>
-      <guid isPermaLink="false">hf-burner22/numbat</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 10,197</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>FusionCow/Sulphur-3</title>
-      <link>https://huggingface.co/FusionCow/Sulphur-3</link>
-      <guid isPermaLink="false">hf-FusionCow/Sulphur-3</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 1,003</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>Qwen/Qwen3.8-27B</title>
       <link>https://huggingface.co/Qwen/Qwen3.8-27B</link>
       <guid isPermaLink="false">hf-Qwen/Qwen3.8-27B</guid>
@@ -332,21 +404,21 @@
       <author>Hugging Face</author>
     </item>
     <item>
+      <title>FusionCow/Sulphur-3</title>
+      <link>https://huggingface.co/FusionCow/Sulphur-3</link>
+      <guid isPermaLink="false">hf-FusionCow/Sulphur-3</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>HF 热门模型 · 下载 1,003</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
       <title>nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</title>
       <link>https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</link>
       <guid isPermaLink="false">hf-nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</guid>
       <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
       <description>自动语音识别</description>
       <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>black-forest-labs/flux-3-image-klein-comfy</title>
-      <link>https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy</link>
-      <guid isPermaLink="false">hf-black-forest-labs/flux-3-image-klein-comfy</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像到图像</description>
-      <category>ai-image</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -359,6 +431,15 @@
       <author>Hugging Face</author>
     </item>
     <item>
+      <title>black-forest-labs/flux-3-image-klein-comfy</title>
+      <link>https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy</link>
+      <guid isPermaLink="false">hf-black-forest-labs/flux-3-image-klein-comfy</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像到图像</description>
+      <category>ai-image</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
       <title>ccore/Qwen3.5-4B-GLB-3D-Coder</title>
       <link>https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder</link>
       <guid isPermaLink="false">hf-ccore/Qwen3.5-4B-GLB-3D-Coder</guid>
@@ -368,92 +449,11 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF</title>
-      <link>https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF</link>
-      <guid isPermaLink="false">hf-AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>unsloth/Qwen3.8-Flash-Next-GGUF</title>
-      <link>https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF</link>
-      <guid isPermaLink="false">hf-unsloth/Qwen3.8-Flash-Next-GGUF</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>webAI-Official/TwIL-8B</title>
       <link>https://huggingface.co/webAI-Official/TwIL-8B</link>
       <guid isPermaLink="false">hf-webAI-Official/TwIL-8B</guid>
       <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
       <description>文本生成</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>PrunaAI/P-H3-Image-Comfy</title>
-      <link>https://huggingface.co/PrunaAI/P-H3-Image-Comfy</link>
-      <guid isPermaLink="false">hf-PrunaAI/P-H3-Image-Comfy</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本到图像</description>
-      <category>ai-image</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>LiquidAI/LFM3-1.7B</title>
-      <link>https://huggingface.co/LiquidAI/LFM3-1.7B</link>
-      <guid isPermaLink="false">hf-LiquidAI/LFM3-1.7B</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Pika-Labs/Pika-H3-Flex</title>
-      <link>https://huggingface.co/Pika-Labs/Pika-H3-Flex</link>
-      <guid isPermaLink="false">hf-Pika-Labs/Pika-H3-Flex</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像到视频</description>
-      <category>ai-video</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>abenzerps/Qwen-Image-2.1-Turbo-Quantized</title>
-      <link>https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized</link>
-      <guid isPermaLink="false">hf-abenzerps/Qwen-Image-2.1-Turbo-Quantized</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本到图像</description>
-      <category>ai-image</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>facebook/sam3</title>
-      <link>https://huggingface.co/facebook/sam3</link>
-      <guid isPermaLink="false">hf-facebook/sam3</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>掩模生成</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF</title>
-      <link>https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF</link>
-      <guid isPermaLink="false">hf-ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Viggle/Viggle-Remake</title>
-      <link>https://huggingface.co/Viggle/Viggle-Remake</link>
-      <guid isPermaLink="false">hf-Viggle/Viggle-Remake</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <description>视频到视频</description>
       <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
