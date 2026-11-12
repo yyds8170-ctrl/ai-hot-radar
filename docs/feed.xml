@@ -5,14 +5,86 @@
     <link>https://yyds8170-ctrl.github.io/ai-hot-radar/</link>
     <description>洋洋制作的 AI 项目自动追踪订阅源，每 6 小时自动抓取 Hacker News / GitHub / Hugging Face / arXiv / 中文 AI 媒体 / Reddit 热帖，第一时间发现新模型、新工具、新论文。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 12 Nov 2026 15:00:10 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 23:06:46 GMT</lastBuildDate>
     <generator>ai-hot-radar crawler.mjs</generator>
+    <item>
+      <title>Gemini 4 Hydrogen and Orchestrator</title>
+      <link>https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/</link>
+      <guid isPermaLink="false">hn-50472260</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Gemini 4 Hydrogen 和 Orchestrator</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Foundation Models framework</title>
+      <link>https://developer.apple.com/foundation-models-framework/</link>
+      <guid isPermaLink="false">hn-50474361</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>基础模型框架</description>
+      <category>ai-model</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>AI is turning Apple&apos;s app review process into a nightmare for synth developers</title>
+      <link>https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html</link>
+      <guid isPermaLink="false">hn-50474311</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>人工智能正在将苹果的应用程序审核流程变成合成开发人员的噩梦</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Gemini 4 Hydrogen</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/</link>
+      <guid isPermaLink="false">hn-50471431</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>双子座 4 氢</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Show HN: AgentRun – open-source, Self-improving Managed Agents</title>
+      <link>https://github.com/Parcha-ai/agentrun/blob/main/README.md</link>
+      <guid isPermaLink="false">hn-50471650</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Show HN：AgentRun – 开源、自我改进的托管代理</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
     <item>
       <title>Anthropic IPO</title>
       <link>https://ipo.anthropic.com/us/</link>
       <guid isPermaLink="false">hn-50465829</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <description>人为首次公开募股</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Chinese frontier AI models carry the fingerprint of export-controlled GPUs</title>
+      <link>https://unemploymentlabs.com/checkpoint-forensics</link>
+      <guid isPermaLink="false">hn-50474883</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>中国前沿人工智能模型带有出口管制GPU的指纹</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Libreagi – Save OSS Models</title>
+      <link>https://libreagi.com/</link>
+      <guid isPermaLink="false">hn-50467439</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Libreagi – 保存 OSS 模型</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Show HN: AI Red Lines – write down what would make you act on AI</title>
+      <link>https://yourairedlines.com</link>
+      <guid isPermaLink="false">hn-50467880</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>显示 HN：人工智能红线——写下什么会让你对人工智能采取行动</description>
       <category>ai-other</category>
       <author>Hacker News</author>
     </item>
@@ -134,20 +206,20 @@
       <author>GitHub</author>
     </item>
     <item>
-      <title>google-gemini/gemini-cli</title>
-      <link>https://github.com/google-gemini/gemini-cli</link>
-      <guid isPermaLink="false">gh-google-gemini/gemini-cli</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>一款开源 AI 代理，可将 Gemini 的强大功能直接带入您的终端。</description>
-      <category>ai-tool</category>
-      <author>GitHub</author>
-    </item>
-    <item>
       <title>pbakaus/impeccable</title>
       <link>https://github.com/pbakaus/impeccable</link>
       <guid isPermaLink="false">gh-pbakaus/impeccable</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <description>编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>google-gemini/gemini-cli</title>
+      <link>https://github.com/google-gemini/gemini-cli</link>
+      <guid isPermaLink="false">gh-google-gemini/gemini-cli</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>一款开源 AI 代理，可将 Gemini 的强大功能直接带入您的终端。</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -314,21 +386,21 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>speridlabs/idol</title>
-      <link>https://huggingface.co/speridlabs/idol</link>
-      <guid isPermaLink="false">hf-speridlabs/idol</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像转 3D</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>NousResearch/Arete-27B</title>
       <link>https://huggingface.co/NousResearch/Arete-27B</link>
       <guid isPermaLink="false">hf-NousResearch/Arete-27B</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <description>文本生成</description>
       <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>speridlabs/idol</title>
+      <link>https://huggingface.co/speridlabs/idol</link>
+      <guid isPermaLink="false">hf-speridlabs/idol</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像转 3D</description>
+      <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -341,18 +413,18 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</title>
-      <link>https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</link>
-      <guid isPermaLink="false">hf-DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</guid>
+      <title>Qwen/Qwen3.8-27B</title>
+      <link>https://huggingface.co/Qwen/Qwen3.8-27B</link>
+      <guid isPermaLink="false">hf-Qwen/Qwen3.8-27B</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>Qwen/Qwen3.8-27B</title>
-      <link>https://huggingface.co/Qwen/Qwen3.8-27B</link>
-      <guid isPermaLink="false">hf-Qwen/Qwen3.8-27B</guid>
+      <title>DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</title>
+      <link>https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</link>
+      <guid isPermaLink="false">hf-DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-model</category>
@@ -368,15 +440,6 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>ricursiveAI/Ripple-65B-Preview</title>
-      <link>https://huggingface.co/ricursiveAI/Ripple-65B-Preview</link>
-      <guid isPermaLink="false">hf-ricursiveAI/Ripple-65B-Preview</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 7,667</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>Comfy-Org/MiniMax-H3-Image</title>
       <link>https://huggingface.co/Comfy-Org/MiniMax-H3-Image</link>
       <guid isPermaLink="false">hf-Comfy-Org/MiniMax-H3-Image</guid>
@@ -386,75 +449,12 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>black-forest-labs/flux-3-image-klein-comfy</title>
-      <link>https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy</link>
-      <guid isPermaLink="false">hf-black-forest-labs/flux-3-image-klein-comfy</guid>
+      <title>ricursiveAI/Ripple-65B-Preview</title>
+      <link>https://huggingface.co/ricursiveAI/Ripple-65B-Preview</link>
+      <guid isPermaLink="false">hf-ricursiveAI/Ripple-65B-Preview</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像到图像</description>
-      <category>ai-image</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Viggle/Viggle-Remake</title>
-      <link>https://huggingface.co/Viggle/Viggle-Remake</link>
-      <guid isPermaLink="false">hf-Viggle/Viggle-Remake</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>视频到视频</description>
+      <description>HF 热门模型 · 下载 7,667</description>
       <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>VideoRebirthAI/hyperflow-h3-flash</title>
-      <link>https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash</link>
-      <guid isPermaLink="false">hf-VideoRebirthAI/hyperflow-h3-flash</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图片文本转视频</description>
-      <category>ai-video</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>unsloth/Qwen3.8-Flash-Next-GGUF</title>
-      <link>https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF</link>
-      <guid isPermaLink="false">hf-unsloth/Qwen3.8-Flash-Next-GGUF</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>webAI-Official/TwIL-8B</title>
-      <link>https://huggingface.co/webAI-Official/TwIL-8B</link>
-      <guid isPermaLink="false">hf-webAI-Official/TwIL-8B</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</title>
-      <link>https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</link>
-      <guid isPermaLink="false">hf-mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 96,342</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>facebook/sam3</title>
-      <link>https://huggingface.co/facebook/sam3</link>
-      <guid isPermaLink="false">hf-facebook/sam3</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>掩模生成</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF</title>
-      <link>https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF</link>
-      <guid isPermaLink="false">hf-mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 314,842</description>
-      <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
   </channel>
