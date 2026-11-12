@@ -5,8 +5,17 @@
     <link>https://yyds8170-ctrl.github.io/ai-hot-radar/</link>
     <description>洋洋制作的 AI 项目自动追踪订阅源，每 6 小时自动抓取 Hacker News / GitHub / Hugging Face / arXiv / 中文 AI 媒体 / Reddit 热帖，第一时间发现新模型、新工具、新论文。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 12 Nov 2026 06:00:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 15:00:10 GMT</lastBuildDate>
     <generator>ai-hot-radar crawler.mjs</generator>
+    <item>
+      <title>Anthropic IPO</title>
+      <link>https://ipo.anthropic.com/us/</link>
+      <guid isPermaLink="false">hn-50465829</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>人为首次公开募股</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
     <item>
       <title>NousResearch/hermes-agent</title>
       <link>https://github.com/NousResearch/hermes-agent</link>
@@ -35,6 +44,15 @@
       <author>GitHub</author>
     </item>
     <item>
+      <title>avelino/awesome-go</title>
+      <link>https://github.com/avelino/awesome-go</link>
+      <guid isPermaLink="false">gh-avelino/awesome-go</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>精选的精彩 Go 框架、库和软件列表</description>
+      <category>ai-other</category>
+      <author>GitHub</author>
+    </item>
+    <item>
       <title>langgenius/dify</title>
       <link>https://github.com/langgenius/dify</link>
       <guid isPermaLink="false">gh-langgenius/dify</guid>
@@ -59,6 +77,15 @@
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <description>最强大的模块化扩散模型 GUI、API 和带有图形/节点接口的后端。世界上最快的本地推理引擎。</description>
       <category>ai-image</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>ripienaar/free-for-dev</title>
+      <link>https://github.com/ripienaar/free-for-dev</link>
+      <guid isPermaLink="false">gh-ripienaar/free-for-dev</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>具有 devops 和 infradev 感兴趣的免费级别的 SaaS、PaaS 和 IaaS 产品列表</description>
+      <category>ai-other</category>
       <author>GitHub</author>
     </item>
     <item>
@@ -148,6 +175,24 @@
       <guid isPermaLink="false">gh-koala73/worldmonitor</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <description>实时全球情报仪表板。在统一的态势感知界面中进行人工智能驱动的新闻聚合、地缘政治监控和基础设施跟踪</description>
+      <category>ai-model</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>unclecode/crawl4ai</title>
+      <link>https://github.com/unclecode/crawl4ai</link>
+      <guid isPermaLink="false">gh-unclecode/crawl4ai</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>官方 Crawl4AI Cloud：用于 AI 代理的托管网络抓取、提取和搜索 API。免费 API 密钥，每月 1,000 个积分，无需卡。完全开源：这个存储库是为其提供支持的 Apache-2.0 爬虫，您可以自行托管它。</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>opendatalab/MinerU</title>
+      <link>https://github.com/opendatalab/MinerU</link>
+      <guid isPermaLink="false">gh-opendatalab/MinerU</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>将 PDF 和 Office 文档等复杂文档转换为适合您的 Agentic 工作流程的 LLM 就绪 Markdown/JSON。</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -157,6 +202,15 @@
       <guid isPermaLink="false">gh-career-ops-hq/career-ops</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <description>开源人工智能求职代理和求职者：扫描求职板，在申请前根据您的简历对每份工作打分 1-5 分，定制适合 ATS 的简历和求职信，进行面试准备和工作申请跟踪器。它可以帮助您填写每份申请表；您按“提交”。在 AI 编码 CLI（Claude Code、Codex、OpenCode 等）中本地运行。</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>ruvnet/ruflo</title>
+      <link>https://github.com/ruvnet/ruflo</link>
+      <guid isPermaLink="false">gh-ruvnet/ruflo</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>🌊 原始特工安全带。部署智能多人群体、协调自主工作流程并构建对话式人工智能系统。具有自适应记忆、自学习智能、联邦、矢量 RAG 集成以及原生 Claude Code / Codex / Hermes 等集成功能</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -193,6 +247,15 @@
       <guid isPermaLink="false">gh-upstash/context7</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <description>Context7 Platform——人工智能代理的最新文档</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>microsoft/autogen</title>
+      <link>https://github.com/microsoft/autogen</link>
+      <guid isPermaLink="false">gh-microsoft/autogen</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>代理人工智能的编程框架</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -278,15 +341,6 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>ricursiveAI/Ripple-65B-Preview</title>
-      <link>https://huggingface.co/ricursiveAI/Ripple-65B-Preview</link>
-      <guid isPermaLink="false">hf-ricursiveAI/Ripple-65B-Preview</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 7,112</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</title>
       <link>https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</link>
       <guid isPermaLink="false">hf-DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</guid>
@@ -309,8 +363,17 @@
       <link>https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder</link>
       <guid isPermaLink="false">hf-ccore/Qwen3.5-4B-3D-Coder</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 344,727</description>
+      <description>HF 热门模型 · 下载 368,236</description>
       <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>ricursiveAI/Ripple-65B-Preview</title>
+      <link>https://huggingface.co/ricursiveAI/Ripple-65B-Preview</link>
+      <guid isPermaLink="false">hf-ricursiveAI/Ripple-65B-Preview</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>HF 热门模型 · 下载 7,667</description>
+      <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -341,12 +404,12 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>webAI-Official/TwIL-8B</title>
-      <link>https://huggingface.co/webAI-Official/TwIL-8B</link>
-      <guid isPermaLink="false">hf-webAI-Official/TwIL-8B</guid>
+      <title>VideoRebirthAI/hyperflow-h3-flash</title>
+      <link>https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash</link>
+      <guid isPermaLink="false">hf-VideoRebirthAI/hyperflow-h3-flash</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
-      <category>ai-other</category>
+      <description>图片文本转视频</description>
+      <category>ai-video</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -359,21 +422,12 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>baidu/ERNIE-5.5-Flash-Base</title>
-      <link>https://huggingface.co/baidu/ERNIE-5.5-Flash-Base</link>
-      <guid isPermaLink="false">hf-baidu/ERNIE-5.5-Flash-Base</guid>
+      <title>webAI-Official/TwIL-8B</title>
+      <link>https://huggingface.co/webAI-Official/TwIL-8B</link>
+      <guid isPermaLink="false">hf-webAI-Official/TwIL-8B</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <description>文本生成</description>
       <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>VideoRebirthAI/hyperflow-h3-flash</title>
-      <link>https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash</link>
-      <guid isPermaLink="false">hf-VideoRebirthAI/hyperflow-h3-flash</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图片文本转视频</description>
-      <category>ai-video</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -381,17 +435,8 @@
       <link>https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</link>
       <guid isPermaLink="false">hf-mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 78,183</description>
+      <description>HF 热门模型 · 下载 96,342</description>
       <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF</title>
-      <link>https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF</link>
-      <guid isPermaLink="false">hf-mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 290,001</description>
-      <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -404,57 +449,12 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>tencent/Qwen3.8-27B-DSpine-b16</title>
-      <link>https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16</link>
-      <guid isPermaLink="false">hf-tencent/Qwen3.8-27B-DSpine-b16</guid>
+      <title>mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF</title>
+      <link>https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF</link>
+      <guid isPermaLink="false">hf-mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
+      <description>HF 热门模型 · 下载 314,842</description>
       <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>unsloth/Qwen3.8-27B-GGUF</title>
-      <link>https://huggingface.co/unsloth/Qwen3.8-27B-GGUF</link>
-      <guid isPermaLink="false">hf-unsloth/Qwen3.8-27B-GGUF</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 5,924,720</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>ConwayResearch/Underdog-Woof</title>
-      <link>https://huggingface.co/ConwayResearch/Underdog-Woof</link>
-      <guid isPermaLink="false">hf-ConwayResearch/Underdog-Woof</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本转语音</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>ccore/Qwen3.5-4B-GLB-3D-Coder</title>
-      <link>https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder</link>
-      <guid isPermaLink="false">hf-ccore/Qwen3.5-4B-GLB-3D-Coder</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Cactus-Compute/mirage</title>
-      <link>https://huggingface.co/Cactus-Compute/mirage</link>
-      <guid isPermaLink="false">hf-Cactus-Compute/mirage</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>facebook/dinov3-vitl16-pretrain-lvd1689m</title>
-      <link>https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m</link>
-      <guid isPermaLink="false">hf-facebook/dinov3-vitl16-pretrain-lvd1689m</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像特征提取</description>
-      <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
   </channel>
