@@ -5,8 +5,71 @@
     <link>https://yyds8170-ctrl.github.io/ai-hot-radar/</link>
     <description>洋洋制作的 AI 项目自动追踪订阅源，每 6 小时自动抓取 Hacker News / GitHub / Hugging Face / arXiv / 中文 AI 媒体 / Reddit 热帖，第一时间发现新模型、新工具、新论文。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 13 Nov 2026 13:48:44 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 23:10:00 GMT</lastBuildDate>
     <generator>ai-hot-radar crawler.mjs</generator>
+    <item>
+      <title>Claude Meetings</title>
+      <link>https://claude.com/resources/articles/claude-meetings</link>
+      <guid isPermaLink="false">hn-50491097</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>克劳德会议</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>After 600 experiments, here&apos;s what I discovered about JEPA world models</title>
+      <link>https://haddyalchaer.com/jepa</link>
+      <guid isPermaLink="false">hn-50487185</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>经过 600 次实验，以下是我对 JEPA 世界模型的发现</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>A technical vision for the Haskell ecosystem</title>
+      <link>https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</link>
+      <guid isPermaLink="false">hn-50484235</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Haskell 生态系统的技术愿景</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Models can now transmit viruses in weight-space</title>
+      <link>https://www.alphaxiv.org/abs/2611.weight-space-misfolding</link>
+      <guid isPermaLink="false">hn-50487762</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>模型现在可以在重量空间中传播病毒</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>AI unlocks Gödel&apos;s notebooks, said to contain hundreds of proved theorems</title>
+      <link>https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</link>
+      <guid isPermaLink="false">hn-50486748</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>人工智能解锁哥德尔笔记本，据说其中包含数百个已证明的定理</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>No AI Slop: A Manifesto</title>
+      <link>https://www.slopmanifesto.com/</link>
+      <guid isPermaLink="false">hn-50488769</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>没有人工智能障碍：宣言</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>OpenAI disbands its robotics team as its general models start running robots</title>
+      <link>https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/</link>
+      <guid isPermaLink="false">hn-50487184</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>随着通用模型开始运行机器人，OpenAI 解散了机器人团队</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
     <item>
       <title>Elevated errors on claude.ai, Claude Code, and platform.claude.com</title>
       <link>https://status.claude.com/incidents/nn11wk485zfn</link>
@@ -14,6 +77,24 @@
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
       <description>claude.ai、Claude Code 和 platform.claude.com 上的错误增加</description>
       <category>ai-tool</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Why is Google cutting off Search from AI-free schools? Here are some theories</title>
+      <link>https://text.npr.org/nx-s1-6029408</link>
+      <guid isPermaLink="false">hn-50484960</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>为什么谷歌要切断没有人工智能的学校的搜索服务？这是一些理论</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>AI is destroying the trust between writers and readers</title>
+      <link>https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/</link>
+      <guid isPermaLink="false">hn-50481870</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>人工智能正在摧毁作家和读者之间的信任</description>
+      <category>ai-other</category>
       <author>Hacker News</author>
     </item>
     <item>
@@ -26,11 +107,11 @@
       <author>Hacker News</author>
     </item>
     <item>
-      <title>Claude Is Down</title>
-      <link>https://status.claude.com/history</link>
-      <guid isPermaLink="false">hn-50481220</guid>
+      <title>Are we just going to ignore that books are destroyed for AI?</title>
+      <link>https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/</link>
+      <guid isPermaLink="false">hn-50487469</guid>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>克劳德倒下了</description>
+      <description>我们是否会忽视书籍因人工智能而被销毁的情况？</description>
       <category>ai-other</category>
       <author>Hacker News</author>
     </item>
@@ -269,6 +350,15 @@
       <author>GitHub</author>
     </item>
     <item>
+      <title>zylon-ai/private-gpt</title>
+      <link>https://github.com/zylon-ai/private-gpt</link>
+      <guid isPermaLink="false">gh-zylon-ai/private-gpt</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>本地模型上的私有 AI 应用程序的完整 API 层：RAG、技能、工具、MCP、文本到 SQL 等。可与任何兼容 OpenAI 的推理服务器配合使用。</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
       <title>aaif-goose/goose</title>
       <link>https://github.com/aaif-goose/goose</link>
       <guid isPermaLink="false">gh-aaif-goose/goose</guid>
@@ -323,21 +413,21 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>speridlabs/idol</title>
-      <link>https://huggingface.co/speridlabs/idol</link>
-      <guid isPermaLink="false">hf-speridlabs/idol</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像转 3D</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>Qwen/Qwen3.8-27B</title>
       <link>https://huggingface.co/Qwen/Qwen3.8-27B</link>
       <guid isPermaLink="false">hf-Qwen/Qwen3.8-27B</guid>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>speridlabs/idol</title>
+      <link>https://huggingface.co/speridlabs/idol</link>
+      <guid isPermaLink="false">hf-speridlabs/idol</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像转 3D</description>
+      <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -359,102 +449,12 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>ccore/Qwen3.5-4B-3D-Coder</title>
-      <link>https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder</link>
-      <guid isPermaLink="false">hf-ccore/Qwen3.5-4B-3D-Coder</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 392,582</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>black-forest-labs/flux-3-image-klein-comfy</title>
-      <link>https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy</link>
-      <guid isPermaLink="false">hf-black-forest-labs/flux-3-image-klein-comfy</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像到图像</description>
-      <category>ai-image</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>VideoRebirthAI/hyperflow-h3-flash</title>
-      <link>https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash</link>
-      <guid isPermaLink="false">hf-VideoRebirthAI/hyperflow-h3-flash</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图片文本转视频</description>
-      <category>ai-video</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>Zyphra/ZONOS3-Mini</title>
       <link>https://huggingface.co/Zyphra/ZONOS3-Mini</link>
       <guid isPermaLink="false">hf-Zyphra/ZONOS3-Mini</guid>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
       <description>文本转语音</description>
       <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>ricursiveAI/Ripple-65B-Preview</title>
-      <link>https://huggingface.co/ricursiveAI/Ripple-65B-Preview</link>
-      <guid isPermaLink="false">hf-ricursiveAI/Ripple-65B-Preview</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 8,500</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>unsloth/Qwen3.8-27B-GGUF</title>
-      <link>https://huggingface.co/unsloth/Qwen3.8-27B-GGUF</link>
-      <guid isPermaLink="false">hf-unsloth/Qwen3.8-27B-GGUF</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 6,253,865</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Viggle/Viggle-Remake</title>
-      <link>https://huggingface.co/Viggle/Viggle-Remake</link>
-      <guid isPermaLink="false">hf-Viggle/Viggle-Remake</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>视频到视频</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</title>
-      <link>https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</link>
-      <guid isPermaLink="false">hf-mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 105,256</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Cactus-Compute/mirage</title>
-      <link>https://huggingface.co/Cactus-Compute/mirage</link>
-      <guid isPermaLink="false">hf-Cactus-Compute/mirage</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>facebook/sam3</title>
-      <link>https://huggingface.co/facebook/sam3</link>
-      <guid isPermaLink="false">hf-facebook/sam3</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>掩模生成</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>tencent/Qwen3.8-27B-DSpine-b16</title>
-      <link>https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16</link>
-      <guid isPermaLink="false">hf-tencent/Qwen3.8-27B-DSpine-b16</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
-      <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
   </channel>
