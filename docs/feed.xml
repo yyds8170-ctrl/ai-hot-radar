@@ -5,8 +5,17 @@
     <link>https://yyds8170-ctrl.github.io/ai-hot-radar/</link>
     <description>洋洋制作的 AI 项目自动追踪订阅源，每 6 小时自动抓取 Hacker News / GitHub / Hugging Face / arXiv / 中文 AI 媒体 / Reddit 热帖，第一时间发现新模型、新工具、新论文。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 15 Nov 2026 04:27:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 13:19:41 GMT</lastBuildDate>
     <generator>ai-hot-radar crawler.mjs</generator>
+    <item>
+      <title>Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP</title>
+      <link>https://github.com/Tthanh2k6/turbo-browser-mcp</link>
+      <guid isPermaLink="false">hn-50503930</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>显示 HN：Turbo-Browser-MCP – 批量表单、DOM 增量和 MCP 提交防护</description>
+      <category>ai-tool</category>
+      <author>Hacker News</author>
+    </item>
     <item>
       <title>NousResearch/hermes-agent</title>
       <link>https://github.com/NousResearch/hermes-agent</link>
@@ -62,6 +71,24 @@
       <author>GitHub</author>
     </item>
     <item>
+      <title>Shubhamsaboo/awesome-llm-apps</title>
+      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
+      <guid isPermaLink="false">gh-Shubhamsaboo/awesome-llm-apps</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>100 多个 AI 代理、代理技能和 RAG 应用程序 - 免费且开源。</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>ripienaar/free-for-dev</title>
+      <link>https://github.com/ripienaar/free-for-dev</link>
+      <guid isPermaLink="false">gh-ripienaar/free-for-dev</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>具有 devops 和 infradev 感兴趣的免费级别的 SaaS、PaaS 和 IaaS 产品列表</description>
+      <category>ai-other</category>
+      <author>GitHub</author>
+    </item>
+    <item>
       <title>garrytan/gstack</title>
       <link>https://github.com/garrytan/gstack</link>
       <guid isPermaLink="false">gh-garrytan/gstack</guid>
@@ -95,6 +122,15 @@
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
       <description> 本项目致力于收集优质 macOS 软件，并按不同类别进行系统整理，方便查找和使用。</description>
       <category>ai-other</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>thedotmack/claude-mem</title>
+      <link>https://github.com/thedotmack/claude-mem</link>
+      <guid isPermaLink="false">gh-thedotmack/claude-mem</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等</description>
+      <category>ai-tool</category>
       <author>GitHub</author>
     </item>
     <item>
@@ -170,6 +206,15 @@
       <author>GitHub</author>
     </item>
     <item>
+      <title>crewAIInc/crewAI</title>
+      <link>https://github.com/crewAIInc/crewAI</link>
+      <guid isPermaLink="false">gh-crewAIInc/crewAI</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>用于编排角色扮演、自主人工智能代理的框架。通过促进协作智能，CrewAI 使代理能够无缝协作，处理复杂的任务。</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
       <title>ChromeDevTools/chrome-devtools-mcp</title>
       <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
       <guid isPermaLink="false">gh-ChromeDevTools/chrome-devtools-mcp</guid>
@@ -215,15 +260,6 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</title>
-      <link>https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</link>
-      <guid isPermaLink="false">hf-DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>Comfy-Org/MiniMax-H3-Image</title>
       <link>https://huggingface.co/Comfy-Org/MiniMax-H3-Image</link>
       <guid isPermaLink="false">hf-Comfy-Org/MiniMax-H3-Image</guid>
@@ -233,20 +269,11 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>speridlabs/idol</title>
-      <link>https://huggingface.co/speridlabs/idol</link>
-      <guid isPermaLink="false">hf-speridlabs/idol</guid>
+      <title>DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</title>
+      <link>https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</link>
+      <guid isPermaLink="false">hf-DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像转 3D</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>NousResearch/Arete-27B</title>
-      <link>https://huggingface.co/NousResearch/Arete-27B</link>
-      <guid isPermaLink="false">hf-NousResearch/Arete-27B</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
+      <description>图像-文本-文本</description>
       <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
@@ -260,6 +287,15 @@
       <author>Hugging Face</author>
     </item>
     <item>
+      <title>speridlabs/idol</title>
+      <link>https://huggingface.co/speridlabs/idol</link>
+      <guid isPermaLink="false">hf-speridlabs/idol</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像转 3D</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
       <title>thinkingmachines/Inkling-2-Small</title>
       <link>https://huggingface.co/thinkingmachines/Inkling-2-Small</link>
       <guid isPermaLink="false">hf-thinkingmachines/Inkling-2-Small</guid>
@@ -269,47 +305,20 @@
       <author>Hugging Face</author>
     </item>
     <item>
+      <title>NousResearch/Arete-27B</title>
+      <link>https://huggingface.co/NousResearch/Arete-27B</link>
+      <guid isPermaLink="false">hf-NousResearch/Arete-27B</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本生成</description>
+      <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
       <title>unsloth/Qwen3.8-27B-GGUF</title>
       <link>https://huggingface.co/unsloth/Qwen3.8-27B-GGUF</link>
       <guid isPermaLink="false">hf-unsloth/Qwen3.8-27B-GGUF</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 6,422,783</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>black-forest-labs/flux-3-image-klein-comfy</title>
-      <link>https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy</link>
-      <guid isPermaLink="false">hf-black-forest-labs/flux-3-image-klein-comfy</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像到图像</description>
-      <category>ai-image</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Edge0/Edge0-145B-NVFP4</title>
-      <link>https://huggingface.co/Edge0/Edge0-145B-NVFP4</link>
-      <guid isPermaLink="false">hf-Edge0/Edge0-145B-NVFP4</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</title>
-      <link>https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</link>
-      <guid isPermaLink="false">hf-mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 116,423</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>tencent/Qwen3.8-27B-DSpine-b16</title>
-      <link>https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16</link>
-      <guid isPermaLink="false">hf-tencent/Qwen3.8-27B-DSpine-b16</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
+      <description>HF 热门模型 · 下载 6,566,295</description>
       <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
@@ -323,12 +332,30 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</title>
-      <link>https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</link>
-      <guid isPermaLink="false">hf-chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</guid>
+      <title>Edge0/Edge0-145B-NVFP4</title>
+      <link>https://huggingface.co/Edge0/Edge0-145B-NVFP4</link>
+      <guid isPermaLink="false">hf-Edge0/Edge0-145B-NVFP4</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本到图像</description>
+      <description>文本生成</description>
+      <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>black-forest-labs/flux-3-image-klein-comfy</title>
+      <link>https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy</link>
+      <guid isPermaLink="false">hf-black-forest-labs/flux-3-image-klein-comfy</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像到图像</description>
       <category>ai-image</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</title>
+      <link>https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</link>
+      <guid isPermaLink="false">hf-mradermacher/gemma-4-31B-it-ARA-heretic-GGUF</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>HF 热门模型 · 下载 149,532</description>
+      <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -341,30 +368,21 @@
       <author>Hugging Face</author>
     </item>
     <item>
+      <title>chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</title>
+      <link>https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</link>
+      <guid isPermaLink="false">hf-chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本到图像</description>
+      <category>ai-image</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
       <title>Cactus-Compute/mirage</title>
       <link>https://huggingface.co/Cactus-Compute/mirage</link>
       <guid isPermaLink="false">hf-Cactus-Compute/mirage</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>deepseek-ai/DeepSeek-V4.1-Flash-1017</title>
-      <link>https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017</link>
-      <guid isPermaLink="false">hf-deepseek-ai/DeepSeek-V4.1-Flash-1017</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</title>
-      <link>https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</link>
-      <guid isPermaLink="false">hf-DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -377,30 +395,30 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>meituan-longcat/LongCat-2.5</title>
-      <link>https://huggingface.co/meituan-longcat/LongCat-2.5</link>
-      <guid isPermaLink="false">hf-meituan-longcat/LongCat-2.5</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-tool</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Qwen/Qwen3.8-Flash-Next</title>
-      <link>https://huggingface.co/Qwen/Qwen3.8-Flash-Next</link>
-      <guid isPermaLink="false">hf-Qwen/Qwen3.8-Flash-Next</guid>
+      <title>DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</title>
+      <link>https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</link>
+      <guid isPermaLink="false">hf-DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>facebook/dinov3-vitl16-pretrain-lvd1689m</title>
-      <link>https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m</link>
-      <guid isPermaLink="false">hf-facebook/dinov3-vitl16-pretrain-lvd1689m</guid>
+      <title>tencent/Qwen3.8-27B-DSpine-b16</title>
+      <link>https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16</link>
+      <guid isPermaLink="false">hf-tencent/Qwen3.8-27B-DSpine-b16</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像特征提取</description>
-      <category>ai-other</category>
+      <description>文本生成</description>
+      <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>deepseek-ai/DeepSeek-V4.1-Flash-1017</title>
+      <link>https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017</link>
+      <guid isPermaLink="false">hf-deepseek-ai/DeepSeek-V4.1-Flash-1017</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像-文本-文本</description>
+      <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -413,12 +431,12 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>Viggle/Viggle-Remake</title>
-      <link>https://huggingface.co/Viggle/Viggle-Remake</link>
-      <guid isPermaLink="false">hf-Viggle/Viggle-Remake</guid>
+      <title>meituan-longcat/LongCat-2.5</title>
+      <link>https://huggingface.co/meituan-longcat/LongCat-2.5</link>
+      <guid isPermaLink="false">hf-meituan-longcat/LongCat-2.5</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>视频到视频</description>
-      <category>ai-other</category>
+      <description>图像-文本-文本</description>
+      <category>ai-tool</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -426,35 +444,17 @@
       <link>https://huggingface.co/ConceptCountry/qwen-concept-27b</link>
       <guid isPermaLink="false">hf-ConceptCountry/qwen-concept-27b</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 63,439</description>
+      <description>HF 热门模型 · 下载 63,964</description>
       <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>VideoRebirthAI/hyperflow-h3-flash</title>
-      <link>https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash</link>
-      <guid isPermaLink="false">hf-VideoRebirthAI/hyperflow-h3-flash</guid>
+      <title>Abiray/MiniMax-H3-Image-GGUF</title>
+      <link>https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF</link>
+      <guid isPermaLink="false">hf-Abiray/MiniMax-H3-Image-GGUF</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图片文本转视频</description>
-      <category>ai-video</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>facebook/sam-3d-body-dinov3</title>
-      <link>https://huggingface.co/facebook/sam-3d-body-dinov3</link>
-      <guid isPermaLink="false">hf-facebook/sam-3d-body-dinov3</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 15,747</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>MiniMaxAI/MiniMax-H3</title>
-      <link>https://huggingface.co/MiniMaxAI/MiniMax-H3</link>
-      <guid isPermaLink="false">hf-MiniMaxAI/MiniMax-H3</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图片文本转视频</description>
-      <category>ai-video</category>
+      <description>文本到图像</description>
+      <category>ai-image</category>
       <author>Hugging Face</author>
     </item>
   </channel>
