@@ -5,8 +5,26 @@
     <link>https://yyds8170-ctrl.github.io/ai-hot-radar/</link>
     <description>洋洋制作的 AI 项目自动追踪订阅源，每 6 小时自动抓取 Hacker News / GitHub / Hugging Face / arXiv / 中文 AI 媒体 / Reddit 热帖，第一时间发现新模型、新工具、新论文。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 15 Nov 2026 13:19:41 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 22:24:41 GMT</lastBuildDate>
     <generator>ai-hot-radar crawler.mjs</generator>
+    <item>
+      <title>Your Agent Will Pick the Hackable One</title>
+      <link>https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/</link>
+      <guid isPermaLink="false">hn-50510799</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>您的代理会选择可破解的</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>All AI-generated code should be Open Source</title>
+      <link>https://jakub.jankiewicz.org/blog/ai-code-open-source/</link>
+      <guid isPermaLink="false">hn-50507303</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>所有人工智能生成的代码都应该是开源的</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
     <item>
       <title>Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP</title>
       <link>https://github.com/Tthanh2k6/turbo-browser-mcp</link>
@@ -14,6 +32,15 @@
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
       <description>显示 HN：Turbo-Browser-MCP – 批量表单、DOM 增量和 MCP 提交防护</description>
       <category>ai-tool</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Parents pay $75k for Alpha&apos;s AI school. Half of its students missed math target</title>
+      <link>https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/</link>
+      <guid isPermaLink="false">hn-50509953</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>家长为 Alpha 的人工智能学校支付 7.5 万美元。一半学生未达到数学目标</description>
+      <category>ai-other</category>
       <author>Hacker News</author>
     </item>
     <item>
@@ -32,6 +59,15 @@
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
       <description>具有原生 AI 功能的公平代码工作流程自动化平台。将可视化构建与自定义代码、自托管或云、400 多个集成相结合。</description>
       <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>yt-dlp/yt-dlp</title>
+      <link>https://github.com/yt-dlp/yt-dlp</link>
+      <guid isPermaLink="false">gh-yt-dlp/yt-dlp</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>功能丰富的命令行音频/视频下载器</description>
+      <category>ai-other</category>
       <author>GitHub</author>
     </item>
     <item>
@@ -179,12 +215,30 @@
       <author>GitHub</author>
     </item>
     <item>
+      <title>ruvnet/ruflo</title>
+      <link>https://github.com/ruvnet/ruflo</link>
+      <guid isPermaLink="false">gh-ruvnet/ruflo</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>🌊 原始特工安全带。部署智能多人群体、协调自主工作流程并构建对话式人工智能系统。具有自适应记忆、自学习智能、联邦、矢量 RAG 集成以及原生 Claude Code / Codex / Hermes 等集成功能</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
       <title>headroomlabs-ai/headroom</title>
       <link>https://github.com/headroomlabs-ai/headroom</link>
       <guid isPermaLink="false">gh-headroomlabs-ai/headroom</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
       <description>在工具输出、日志、文件和 RAG 块到达 LLM 之前对其进行压缩。编码代理的标记减少了 20%，JSON 的标记减少了 60-95%，答案相同。库、代理、MCP 服务器。</description>
       <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>storytold/photocraft</title>
+      <link>https://github.com/storytold/photocraft</link>
+      <guid isPermaLink="false">gh-storytold/photocraft</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>PhotoCraft：一款用纯 Rust 从头开始​​编写的开源照片编辑器</description>
+      <category>ai-image</category>
       <author>GitHub</author>
     </item>
     <item>
@@ -197,12 +251,21 @@
       <author>GitHub</author>
     </item>
     <item>
-      <title>storytold/photocraft</title>
-      <link>https://github.com/storytold/photocraft</link>
-      <guid isPermaLink="false">gh-storytold/photocraft</guid>
+      <title>upstash/context7</title>
+      <link>https://github.com/upstash/context7</link>
+      <guid isPermaLink="false">gh-upstash/context7</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>PhotoCraft：一款用纯 Rust 从头开始​​编写的开源照片编辑器</description>
-      <category>ai-image</category>
+      <description>Context7 Platform——人工智能代理的最新文档</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>sansan0/TrendRadar</title>
+      <link>https://github.com/sansan0/TrendRadar</link>
+      <guid isPermaLink="false">gh-sansan0/TrendRadar</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>⭐AI-driven public opinion &amp; trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。</description>
+      <category>ai-tool</category>
       <author>GitHub</author>
     </item>
     <item>
@@ -220,6 +283,15 @@
       <guid isPermaLink="false">gh-ChromeDevTools/chrome-devtools-mcp</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
       <description>用于编码代理的 Chrome DevTools</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>aaif-goose/goose</title>
+      <link>https://github.com/aaif-goose/goose</link>
+      <guid isPermaLink="false">gh-aaif-goose/goose</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>开源、可扩展的 AI 代理，超越代码建议 - 使用任何 LLM 安装、执行、编辑和测试</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -287,15 +359,6 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>speridlabs/idol</title>
-      <link>https://huggingface.co/speridlabs/idol</link>
-      <guid isPermaLink="false">hf-speridlabs/idol</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像转 3D</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>thinkingmachines/Inkling-2-Small</title>
       <link>https://huggingface.co/thinkingmachines/Inkling-2-Small</link>
       <guid isPermaLink="false">hf-thinkingmachines/Inkling-2-Small</guid>
@@ -305,12 +368,12 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>NousResearch/Arete-27B</title>
-      <link>https://huggingface.co/NousResearch/Arete-27B</link>
-      <guid isPermaLink="false">hf-NousResearch/Arete-27B</guid>
+      <title>speridlabs/idol</title>
+      <link>https://huggingface.co/speridlabs/idol</link>
+      <guid isPermaLink="false">hf-speridlabs/idol</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
-      <category>ai-model</category>
+      <description>图像转 3D</description>
+      <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -319,6 +382,15 @@
       <guid isPermaLink="false">hf-unsloth/Qwen3.8-27B-GGUF</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
       <description>HF 热门模型 · 下载 6,566,295</description>
+      <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>NousResearch/Arete-27B</title>
+      <link>https://huggingface.co/NousResearch/Arete-27B</link>
+      <guid isPermaLink="false">hf-NousResearch/Arete-27B</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本生成</description>
       <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
@@ -359,15 +431,6 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>facebook/sam3</title>
-      <link>https://huggingface.co/facebook/sam3</link>
-      <guid isPermaLink="false">hf-facebook/sam3</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>掩模生成</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</title>
       <link>https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</link>
       <guid isPermaLink="false">hf-chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</guid>
@@ -377,39 +440,12 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>Cactus-Compute/mirage</title>
-      <link>https://huggingface.co/Cactus-Compute/mirage</link>
-      <guid isPermaLink="false">hf-Cactus-Compute/mirage</guid>
+      <title>facebook/sam3</title>
+      <link>https://huggingface.co/facebook/sam3</link>
+      <guid isPermaLink="false">hf-facebook/sam3</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
+      <description>掩模生成</description>
       <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>adventists-ai/Sophon-Realtime-v1</title>
-      <link>https://huggingface.co/adventists-ai/Sophon-Realtime-v1</link>
-      <guid isPermaLink="false">hf-adventists-ai/Sophon-Realtime-v1</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>任意对任意</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</title>
-      <link>https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</link>
-      <guid isPermaLink="false">hf-DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>tencent/Qwen3.8-27B-DSpine-b16</title>
-      <link>https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16</link>
-      <guid isPermaLink="false">hf-tencent/Qwen3.8-27B-DSpine-b16</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
-      <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -419,42 +455,6 @@
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF</title>
-      <link>https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF</link>
-      <guid isPermaLink="false">hf-huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>meituan-longcat/LongCat-2.5</title>
-      <link>https://huggingface.co/meituan-longcat/LongCat-2.5</link>
-      <guid isPermaLink="false">hf-meituan-longcat/LongCat-2.5</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-tool</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>ConceptCountry/qwen-concept-27b</title>
-      <link>https://huggingface.co/ConceptCountry/qwen-concept-27b</link>
-      <guid isPermaLink="false">hf-ConceptCountry/qwen-concept-27b</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 63,964</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Abiray/MiniMax-H3-Image-GGUF</title>
-      <link>https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF</link>
-      <guid isPermaLink="false">hf-Abiray/MiniMax-H3-Image-GGUF</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本到图像</description>
-      <category>ai-image</category>
       <author>Hugging Face</author>
     </item>
   </channel>
