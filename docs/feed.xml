@@ -5,14 +5,41 @@
     <link>https://yyds8170-ctrl.github.io/ai-hot-radar/</link>
     <description>洋洋制作的 AI 项目自动追踪订阅源，每 6 小时自动抓取 Hacker News / GitHub / Hugging Face / arXiv / 中文 AI 媒体 / Reddit 热帖，第一时间发现新模型、新工具、新论文。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Nov 2026 14:58:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 23:49:19 GMT</lastBuildDate>
     <generator>ai-hot-radar crawler.mjs</generator>
     <item>
-      <title>Can Peer Review Survive AI-Generated Text? [pdf]</title>
-      <link>https://www.sas.upenn.edu/~jesusfv/Peer_Review.pdf</link>
-      <guid isPermaLink="false">hn-50546312</guid>
+      <title>Seven new models at scalable price-performance</title>
+      <link>https://microsoft.ai/news/microsoft-ignite-2026/</link>
+      <guid isPermaLink="false">hn-50548021</guid>
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <description>同行评审能在人工智能生成的文本中幸存吗？ [pdf]</description>
+      <description>七种具有可扩展性价比的新型号</description>
+      <category>ai-model</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>AI agents ask better questions than KPMG accountants in audit trial</title>
+      <link>https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/</link>
+      <guid isPermaLink="false">hn-50547777</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>人工智能代理在审计审判中比毕马威会计师提出更好的问题</description>
+      <category>ai-tool</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Gemini 4 Neon</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/</link>
+      <guid isPermaLink="false">hn-50552424</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>双子座 4 霓虹灯</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Advancing chip design with OpenAI models</title>
+      <link>https://openai.com/index/advancing-chip-design-with-our-models/</link>
+      <guid isPermaLink="false">hn-50549493</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>利用 OpenAI 模型推进芯片设计</description>
       <category>ai-other</category>
       <author>Hacker News</author>
     </item>
@@ -26,12 +53,12 @@
       <author>Hacker News</author>
     </item>
     <item>
-      <title>Google&apos;s AI answers reducing search traffic by 40%</title>
-      <link>https://revscope.co/blog/search-seo-geo-2026/</link>
-      <guid isPermaLink="false">hn-50540178</guid>
+      <title>Launch HN: Maritime (YC F26) – A managed cloud for production AI agents</title>
+      <link>https://news.ycombinator.com/item?id=50549188</link>
+      <guid isPermaLink="false">hn-50549188</guid>
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Google 的 AI 答案将搜索流量减少 40%</description>
-      <category>ai-other</category>
+      <description>推出 HN：海事 (YC F26) – 用于生产 AI 代理的托管云</description>
+      <category>ai-tool</category>
       <author>Hacker News</author>
     </item>
     <item>
@@ -40,15 +67,6 @@
       <guid isPermaLink="false">hn-50541790</guid>
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
       <description>为什么 Gemini 4 Carbon 需要这么长时间？</description>
-      <category>ai-other</category>
-      <author>Hacker News</author>
-    </item>
-    <item>
-      <title>AI is killing All About Berlin</title>
-      <link>https://nicolasbouliane.com/blog/death-by-ai</link>
-      <guid isPermaLink="false">hn-50542705</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <description>人工智能正在扼杀柏林的一切</description>
       <category>ai-other</category>
       <author>Hacker News</author>
     </item>
@@ -62,20 +80,38 @@
       <author>Hacker News</author>
     </item>
     <item>
+      <title>Google&apos;s AI answers reducing search traffic by 40%</title>
+      <link>https://revscope.co/blog/search-seo-geo-2026/</link>
+      <guid isPermaLink="false">hn-50540178</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Google 的 AI 答案将搜索流量减少 40%</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>AI is killing All About Berlin</title>
+      <link>https://nicolasbouliane.com/blog/death-by-ai</link>
+      <guid isPermaLink="false">hn-50542705</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>人工智能正在扼杀柏林的一切</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
+      <title>Amazon and Google will together own nearly 30% of Anthropic after its IPO</title>
+      <link>https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/</link>
+      <guid isPermaLink="false">hn-50547901</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Anthropic 首次公开募股后，亚马逊和谷歌将共同持有 Anthropic 近 30% 的股份</description>
+      <category>ai-other</category>
+      <author>Hacker News</author>
+    </item>
+    <item>
       <title>Cerebras Disaggregated Inference</title>
       <link>https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference</link>
       <guid isPermaLink="false">hn-50540472</guid>
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
       <description>Cerebras 分类推理</description>
-      <category>ai-other</category>
-      <author>Hacker News</author>
-    </item>
-    <item>
-      <title>Bank CEOs, NSA Tell Congress That AI-Driven Patches Are Behind Outages</title>
-      <link>https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages</link>
-      <guid isPermaLink="false">hn-50540836</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <description>银行首席执行官和美国国家安全局告诉国会，人工智能驱动的补丁是造成中断的原因</description>
       <category>ai-other</category>
       <author>Hacker News</author>
     </item>
@@ -175,6 +211,15 @@
       <guid isPermaLink="false">gh-browser-use/browser-use</guid>
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
       <description>用于 AI 浏览器代理的开源 Python 库，以及浏览器使用云：隐形浏览器和托管代理 API。</description>
+      <category>ai-tool</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>addyosmani/agent-skills</title>
+      <link>https://github.com/addyosmani/agent-skills</link>
+      <guid isPermaLink="false">gh-addyosmani/agent-skills</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>AI 编码代理的生产级工程技能。</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -377,21 +422,21 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>thinkingmachines/Inkling-2-Small</title>
-      <link>https://huggingface.co/thinkingmachines/Inkling-2-Small</link>
-      <guid isPermaLink="false">hf-thinkingmachines/Inkling-2-Small</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-video</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>harness-hub/Qwen3.8-27B-pi-adapted</title>
       <link>https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted</link>
       <guid isPermaLink="false">hf-harness-hub/Qwen3.8-27B-pi-adapted</guid>
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>thinkingmachines/Inkling-2-Small</title>
+      <link>https://huggingface.co/thinkingmachines/Inkling-2-Small</link>
+      <guid isPermaLink="false">hf-thinkingmachines/Inkling-2-Small</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像-文本-文本</description>
+      <category>ai-video</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -407,51 +452,6 @@
       <title>Qwen/Qwen3.8-27B</title>
       <link>https://huggingface.co/Qwen/Qwen3.8-27B</link>
       <guid isPermaLink="false">hf-Qwen/Qwen3.8-27B</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</title>
-      <link>https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</link>
-      <guid isPermaLink="false">hf-chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本到图像</description>
-      <category>ai-image</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>n4ze3m/tiny-voca</title>
-      <link>https://huggingface.co/n4ze3m/tiny-voca</link>
-      <guid isPermaLink="false">hf-n4ze3m/tiny-voca</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本转语音</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>meituan-longcat/LongCat-Video-Avatar-1.6</title>
-      <link>https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6</link>
-      <guid isPermaLink="false">hf-meituan-longcat/LongCat-Video-Avatar-1.6</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 1,226</description>
-      <category>ai-video</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>maxwell-model/Maxwell-V1-Flash</title>
-      <link>https://huggingface.co/maxwell-model/Maxwell-V1-Flash</link>
-      <guid isPermaLink="false">hf-maxwell-model/Maxwell-V1-Flash</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</title>
-      <link>https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</link>
-      <guid isPermaLink="false">hf-DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</guid>
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-model</category>
