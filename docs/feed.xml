@@ -5,7 +5,7 @@
     <link>https://yyds8170-ctrl.github.io/ai-hot-radar/</link>
     <description>洋洋制作的 AI 项目自动追踪订阅源，每 6 小时自动抓取 Hacker News / GitHub / Hugging Face / arXiv / 中文 AI 媒体 / Reddit 热帖，第一时间发现新模型、新工具、新论文。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 21 Nov 2026 14:02:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 22:41:47 GMT</lastBuildDate>
     <generator>ai-hot-radar crawler.mjs</generator>
     <item>
       <title>ClawDOS – An AI coding agent for DOS</title>
@@ -77,6 +77,15 @@
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
       <description>最强大的模块化扩散模型 GUI、API 和带有图形/节点接口的后端。世界上最快的本地推理引擎。</description>
       <category>ai-image</category>
+      <author>GitHub</author>
+    </item>
+    <item>
+      <title>ripienaar/free-for-dev</title>
+      <link>https://github.com/ripienaar/free-for-dev</link>
+      <guid isPermaLink="false">gh-ripienaar/free-for-dev</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>具有 devops 和 infradev 感兴趣的免费级别的 SaaS、PaaS 和 IaaS 产品列表</description>
+      <category>ai-other</category>
       <author>GitHub</author>
     </item>
     <item>
@@ -242,33 +251,6 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>higurashi-ai/Haru-4B</title>
-      <link>https://huggingface.co/higurashi-ai/Haru-4B</link>
-      <guid isPermaLink="false">hf-higurashi-ai/Haru-4B</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>音频到音频</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>harness-hub/Qwen3.8-27B-pi-adapted</title>
-      <link>https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted</link>
-      <guid isPermaLink="false">hf-harness-hub/Qwen3.8-27B-pi-adapted</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Sentinel7/h3</title>
-      <link>https://huggingface.co/Sentinel7/h3</link>
-      <guid isPermaLink="false">hf-Sentinel7/h3</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 0</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>unsloth/Inkling-2-Mini-GGUF</title>
       <link>https://huggingface.co/unsloth/Inkling-2-Mini-GGUF</link>
       <guid isPermaLink="false">hf-unsloth/Inkling-2-Mini-GGUF</guid>
@@ -284,15 +266,6 @@
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Lightricks/LTX-2.5</title>
-      <link>https://huggingface.co/Lightricks/LTX-2.5</link>
-      <guid isPermaLink="false">hf-Lightricks/LTX-2.5</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像到视频</description>
-      <category>ai-video</category>
       <author>Hugging Face</author>
     </item>
     <item>
@@ -314,20 +287,29 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>meituan-longcat/LongCat-Video-Avatar-1.6</title>
-      <link>https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6</link>
-      <guid isPermaLink="false">hf-meituan-longcat/LongCat-Video-Avatar-1.6</guid>
+      <title>harness-hub/Qwen3.8-27B-pi-adapted</title>
+      <link>https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted</link>
+      <guid isPermaLink="false">hf-harness-hub/Qwen3.8-27B-pi-adapted</guid>
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 3,031</description>
-      <category>ai-video</category>
+      <description>图像-文本-文本</description>
+      <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>n4ze3m/tiny-voca</title>
-      <link>https://huggingface.co/n4ze3m/tiny-voca</link>
-      <guid isPermaLink="false">hf-n4ze3m/tiny-voca</guid>
+      <title>higurashi-ai/Haru-4B</title>
+      <link>https://huggingface.co/higurashi-ai/Haru-4B</link>
+      <guid isPermaLink="false">hf-higurashi-ai/Haru-4B</guid>
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本转语音</description>
+      <description>音频到音频</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>maxwell-model/Maxwell-V1-Flash</title>
+      <link>https://huggingface.co/maxwell-model/Maxwell-V1-Flash</link>
+      <guid isPermaLink="false">hf-maxwell-model/Maxwell-V1-Flash</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本生成</description>
       <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
@@ -341,15 +323,6 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>RadixArk/DaisyRose-27B</title>
-      <link>https://huggingface.co/RadixArk/DaisyRose-27B</link>
-      <guid isPermaLink="false">hf-RadixArk/DaisyRose-27B</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图文转文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
       <title>sensenova/SenseNova-Loop-9B</title>
       <link>https://huggingface.co/sensenova/SenseNova-Loop-9B</link>
       <guid isPermaLink="false">hf-sensenova/SenseNova-Loop-9B</guid>
@@ -359,11 +332,20 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB</title>
-      <link>https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB</link>
-      <guid isPermaLink="false">hf-nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB</guid>
+      <title>Lightricks/LTX-2.5</title>
+      <link>https://huggingface.co/Lightricks/LTX-2.5</link>
+      <guid isPermaLink="false">hf-Lightricks/LTX-2.5</guid>
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
+      <description>图像到视频</description>
+      <category>ai-video</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>apple/DepthPro2</title>
+      <link>https://huggingface.co/apple/DepthPro2</link>
+      <guid isPermaLink="false">hf-apple/DepthPro2</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>深度估计</description>
       <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
@@ -386,29 +368,29 @@
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>apple/DepthPro2</title>
-      <link>https://huggingface.co/apple/DepthPro2</link>
-      <guid isPermaLink="false">hf-apple/DepthPro2</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>深度估计</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>Cloudflare/clairic</title>
-      <link>https://huggingface.co/Cloudflare/clairic</link>
-      <guid isPermaLink="false">hf-Cloudflare/clairic</guid>
+      <title>AtomicChat/Inkling-2-Mini-Uncensored-GGUF</title>
+      <link>https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF</link>
+      <guid isPermaLink="false">hf-AtomicChat/Inkling-2-Mini-Uncensored-GGUF</guid>
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
-      <category>ai-model</category>
+      <category>ai-video</category>
       <author>Hugging Face</author>
     </item>
     <item>
-      <title>maxwell-model/Maxwell-V1-Flash</title>
-      <link>https://huggingface.co/maxwell-model/Maxwell-V1-Flash</link>
-      <guid isPermaLink="false">hf-maxwell-model/Maxwell-V1-Flash</guid>
+      <title>meituan-longcat/LongCat-Video-Avatar-1.6</title>
+      <link>https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6</link>
+      <guid isPermaLink="false">hf-meituan-longcat/LongCat-Video-Avatar-1.6</guid>
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>文本生成</description>
+      <description>HF 热门模型 · 下载 3,031</description>
+      <category>ai-video</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>n4ze3m/tiny-voca</title>
+      <link>https://huggingface.co/n4ze3m/tiny-voca</link>
+      <guid isPermaLink="false">hf-n4ze3m/tiny-voca</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本转语音</description>
       <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
@@ -416,24 +398,6 @@
       <title>DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</title>
       <link>https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</link>
       <guid isPermaLink="false">hf-DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>unsloth/Qwen3.8-27B-GGUF</title>
-      <link>https://huggingface.co/unsloth/Qwen3.8-27B-GGUF</link>
-      <guid isPermaLink="false">hf-unsloth/Qwen3.8-27B-GGUF</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>HF 热门模型 · 下载 7,532,043</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>harness-hub/Qwen3.8-27B-opencode-adapted</title>
-      <link>https://huggingface.co/harness-hub/Qwen3.8-27B-opencode-adapted</link>
-      <guid isPermaLink="false">hf-harness-hub/Qwen3.8-27B-opencode-adapted</guid>
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-model</category>
@@ -449,12 +413,48 @@
       <author>Hugging Face</author>
     </item>
     <item>
+      <title>unsloth/Qwen3.8-27B-GGUF</title>
+      <link>https://huggingface.co/unsloth/Qwen3.8-27B-GGUF</link>
+      <guid isPermaLink="false">hf-unsloth/Qwen3.8-27B-GGUF</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>HF 热门模型 · 下载 7,532,043</description>
+      <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
       <title>facebook/sam3</title>
       <link>https://huggingface.co/facebook/sam3</link>
       <guid isPermaLink="false">hf-facebook/sam3</guid>
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
       <description>掩模生成</description>
       <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>RadixArk/DaisyRose-27B</title>
+      <link>https://huggingface.co/RadixArk/DaisyRose-27B</link>
+      <guid isPermaLink="false">hf-RadixArk/DaisyRose-27B</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图文转文本</description>
+      <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>black-forest-labs/flux-3-image-klein-comfy</title>
+      <link>https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy</link>
+      <guid isPermaLink="false">hf-black-forest-labs/flux-3-image-klein-comfy</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像到图像</description>
+      <category>ai-image</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>thinkingmachines/Inkling-2-Small</title>
+      <link>https://huggingface.co/thinkingmachines/Inkling-2-Small</link>
+      <guid isPermaLink="false">hf-thinkingmachines/Inkling-2-Small</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像-文本-文本</description>
+      <category>ai-video</category>
       <author>Hugging Face</author>
     </item>
   </channel>
