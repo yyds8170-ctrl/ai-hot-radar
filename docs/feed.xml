@@ -5,67 +5,13 @@
     <link>https://yyds8170-ctrl.github.io/ai-hot-radar/</link>
     <description>洋洋制作的 AI 项目自动追踪订阅源，每 6 小时自动抓取 Hacker News / GitHub / Hugging Face / arXiv / 中文 AI 媒体 / Reddit 热帖，第一时间发现新模型、新工具、新论文。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 25 Nov 2026 16:40:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 01:28:02 GMT</lastBuildDate>
     <generator>ai-hot-radar crawler.mjs</generator>
-    <item>
-      <title>Models Can Communicate via Inference Servers Despite Being Sandboxed</title>
-      <link>https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being</link>
-      <guid isPermaLink="false">hn-50637686</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>尽管处于沙盒中，模型仍可以通过推理服务器进行通信</description>
-      <category>ai-other</category>
-      <author>Hacker News</author>
-    </item>
-    <item>
-      <title>PenGPT: A Generative Transformer for Handwriting and Sketches</title>
-      <link>https://greydanus.github.io/2026/11/12/pengpt/</link>
-      <guid isPermaLink="false">hn-50637056</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>PenGPT：手写和草图生成转换器</description>
-      <category>ai-other</category>
-      <author>Hacker News</author>
-    </item>
-    <item>
-      <title>Marginalia Search, Money, C++, Rust, AI, Stuff</title>
-      <link>https://www.marginalia.nu/log/a_141_marginalia_update/</link>
-      <guid isPermaLink="false">hn-50638220</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Marginalia 搜索、Money、C++、Rust、AI、Stuff</description>
-      <category>ai-other</category>
-      <author>Hacker News</author>
-    </item>
-    <item>
-      <title>Top open problems in mathematics ranked by LLM-assessed importance</title>
-      <link>https://www.proofatlas.ai/open-problems/</link>
-      <guid isPermaLink="false">hn-50637871</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>按法学硕士评估的重要性排名的最重要的数学开放问题</description>
-      <category>ai-other</category>
-      <author>Hacker News</author>
-    </item>
-    <item>
-      <title>Serving Qwen via AWS Lambdas for fun and 80x negative profit</title>
-      <link>https://noahbuilt.it/writing/qwen-on-5600-lambdas</link>
-      <guid isPermaLink="false">hn-50638070</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>通过 AWS Lambdas 提供 Qwen 的乐趣和 80 倍的负利润</description>
-      <category>ai-model</category>
-      <author>Hacker News</author>
-    </item>
-    <item>
-      <title>Gemini refused to give me the lyrics to Twinkle Twinkle Little Star</title>
-      <link>https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F</link>
-      <guid isPermaLink="false">hn-50638320</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>双子座拒绝给我《一闪一闪亮晶晶》的歌词</description>
-      <category>ai-other</category>
-      <author>Hacker News</author>
-    </item>
     <item>
       <title>NousResearch/hermes-agent</title>
       <link>https://github.com/NousResearch/hermes-agent</link>
       <guid isPermaLink="false">gh-NousResearch/hermes-agent</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>与您共同成长的代理商</description>
       <category>ai-tool</category>
       <author>GitHub</author>
@@ -74,25 +20,16 @@
       <title>n8n-io/n8n</title>
       <link>https://github.com/n8n-io/n8n</link>
       <guid isPermaLink="false">gh-n8n-io/n8n</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>具有原生 AI 功能的公平代码工作流程自动化平台。将可视化构建与自定义代码、自托管或云、400 多个集成相结合。</description>
       <category>ai-tool</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>avelino/awesome-go</title>
-      <link>https://github.com/avelino/awesome-go</link>
-      <guid isPermaLink="false">gh-avelino/awesome-go</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>精选的精彩 Go 框架、库和软件列表</description>
-      <category>ai-other</category>
       <author>GitHub</author>
     </item>
     <item>
       <title>langgenius/dify</title>
       <link>https://github.com/langgenius/dify</link>
       <guid isPermaLink="false">gh-langgenius/dify</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>在一个协作工作空间上构建 Agentic 工作流程、RAG 管道，并提供丰富的 AI 模型和工具支持。在云、VPC 或自托管上部署，因此团队无需重建堆栈即可从原型转向生产。</description>
       <category>ai-tool</category>
       <author>GitHub</author>
@@ -101,7 +38,7 @@
       <title>langflow-ai/langflow</title>
       <link>https://github.com/langflow-ai/langflow</link>
       <guid isPermaLink="false">gh-langflow-ai/langflow</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>Langflow 是一个强大的工具，用于构建和部署人工智能驱动的代理和工作流程。</description>
       <category>ai-other</category>
       <author>GitHub</author>
@@ -110,25 +47,16 @@
       <title>Comfy-Org/ComfyUI</title>
       <link>https://github.com/Comfy-Org/ComfyUI</link>
       <guid isPermaLink="false">gh-Comfy-Org/ComfyUI</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>最强大的模块化扩散模型 GUI、API 和带有图形/节点接口的后端。世界上最快的本地推理引擎。</description>
       <category>ai-image</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>ripienaar/free-for-dev</title>
-      <link>https://github.com/ripienaar/free-for-dev</link>
-      <guid isPermaLink="false">gh-ripienaar/free-for-dev</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>具有 devops 和 infradev 感兴趣的免费级别的 SaaS、PaaS 和 IaaS 产品列表</description>
-      <category>ai-other</category>
       <author>GitHub</author>
     </item>
     <item>
       <title>garrytan/gstack</title>
       <link>https://github.com/garrytan/gstack</link>
       <guid isPermaLink="false">gh-garrytan/gstack</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>使用 Garry Tan 的精确 Claude Code 设置：23 个固执己见的工具，可充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA</description>
       <category>ai-tool</category>
       <author>GitHub</author>
@@ -137,17 +65,17 @@
       <title>earendil-works/pi</title>
       <link>https://github.com/earendil-works/pi</link>
       <guid isPermaLink="false">gh-earendil-works/pi</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>AI代理工具包：统一LLM API、代理循环、TUI、编码代理CLI</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
     <item>
-      <title>Leonxlnx/taste-skill</title>
-      <link>https://github.com/Leonxlnx/taste-skill</link>
-      <guid isPermaLink="false">gh-Leonxlnx/taste-skill</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>赋予编码代理品味的代理技能：艺术指导、参考图像和浏览器检查，而不是通用的 AI 页面</description>
+      <title>browser-use/browser-use</title>
+      <link>https://github.com/browser-use/browser-use</link>
+      <guid isPermaLink="false">gh-browser-use/browser-use</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>用于 AI 浏览器代理的开源 Python 库，以及浏览器使用云：隐形浏览器和托管代理 API。</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -155,25 +83,16 @@
       <title>thedotmack/claude-mem</title>
       <link>https://github.com/thedotmack/claude-mem</link>
       <guid isPermaLink="false">gh-thedotmack/claude-mem</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等</description>
       <category>ai-tool</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>jaywcjlove/awesome-mac</title>
-      <link>https://github.com/jaywcjlove/awesome-mac</link>
-      <guid isPermaLink="false">gh-jaywcjlove/awesome-mac</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description> 本项目致力于收集优质 macOS 软件，并按不同类别进行系统整理，方便查找和使用。</description>
-      <category>ai-other</category>
       <author>GitHub</author>
     </item>
     <item>
       <title>pbakaus/impeccable</title>
       <link>https://github.com/pbakaus/impeccable</link>
       <guid isPermaLink="false">gh-pbakaus/impeccable</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>编码代理的设计词汇。更加优雅和大胆地进行引导，通过批评和审计进行审查，在人工智能发布之前抓住它。</description>
       <category>ai-tool</category>
       <author>GitHub</author>
@@ -182,7 +101,7 @@
       <title>nexu-io/open-design</title>
       <link>https://github.com/nexu-io/open-design</link>
       <guid isPermaLink="false">gh-nexu-io/open-design</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>第一个协作式人工智能设计代理工作区。本地优先和开源。与您的团队和 AI 代理一起创建动作、原型、网站、应用程序、仪表板、演示文稿、图像和视频。在一个工作区中共享工作、交换反馈并进行迭代。</description>
       <category>ai-tool</category>
       <author>GitHub</author>
@@ -191,7 +110,7 @@
       <title>google-gemini/gemini-cli</title>
       <link>https://github.com/google-gemini/gemini-cli</link>
       <guid isPermaLink="false">gh-google-gemini/gemini-cli</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>一款开源 AI 代理，可将 Gemini 的强大功能直接带入您的终端。</description>
       <category>ai-tool</category>
       <author>GitHub</author>
@@ -200,26 +119,8 @@
       <title>D4Vinci/Scrapling</title>
       <link>https://github.com/D4Vinci/Scrapling</link>
       <guid isPermaLink="false">gh-D4Vinci/Scrapling</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>🕷️ 最好的网页抓取框架，可以处理从单个请求到全面抓取的所有内容！不要害羞，加入这里：https://discord.gg/EMgGbDceNQ 并按照此处获取日常提示和技巧：https://x.com/Scrapling_dev</description>
-      <category>ai-tool</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>punkpeye/awesome-mcp-servers</title>
-      <link>https://github.com/punkpeye/awesome-mcp-servers</link>
-      <guid isPermaLink="false">gh-punkpeye/awesome-mcp-servers</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>MCP 服务器的集合。</description>
-      <category>ai-tool</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>modelcontextprotocol/servers</title>
-      <link>https://github.com/modelcontextprotocol/servers</link>
-      <guid isPermaLink="false">gh-modelcontextprotocol/servers</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>模型上下文协议参考服务器</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -227,7 +128,7 @@
       <title>koala73/worldmonitor</title>
       <link>https://github.com/koala73/worldmonitor</link>
       <guid isPermaLink="false">gh-koala73/worldmonitor</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>实时全球情报仪表板。在统一的态势感知界面中进行人工智能驱动的新闻聚合、地缘政治监控和基础设施跟踪</description>
       <category>ai-model</category>
       <author>GitHub</author>
@@ -236,26 +137,8 @@
       <title>heygen-com/hyperframes</title>
       <link>https://github.com/heygen-com/hyperframes</link>
       <guid isPermaLink="false">gh-heygen-com/hyperframes</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>开源 AI 视频编辑器：编辑您自己的素材，或者使用 Claude Code、Codex 或免费的 Studio 应用程序创建和重新制作任何视频。编写 HTML，渲染 MP4。作者：HeyGen。</description>
-      <category>ai-tool</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>career-ops-hq/career-ops</title>
-      <link>https://github.com/career-ops-hq/career-ops</link>
-      <guid isPermaLink="false">gh-career-ops-hq/career-ops</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>开源人工智能求职代理和求职者：扫描求职板，在申请前根据您的简历对每份工作打分 1-5 分，定制适合 ATS 的简历和求职信，进行面试准备和工作申请跟踪器。它可以帮助您填写每份申请表；您按“提交”。在 AI 编码 CLI（Claude Code、Codex、OpenCode 等）中本地运行。</description>
-      <category>ai-tool</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>ruvnet/ruflo</title>
-      <link>https://github.com/ruvnet/ruflo</link>
-      <guid isPermaLink="false">gh-ruvnet/ruflo</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>🌊 原始特工安全带。部署智能多人群体、协调自主工作流程并构建对话式人工智能系统。具有自适应记忆、自学习智能、联邦、矢量 RAG 集成以及原生 Claude Code / Codex / Hermes 等集成功能</description>
       <category>ai-tool</category>
       <author>GitHub</author>
     </item>
@@ -263,88 +146,34 @@
       <title>storytold/photocraft</title>
       <link>https://github.com/storytold/photocraft</link>
       <guid isPermaLink="false">gh-storytold/photocraft</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>PhotoCraft：一款用纯 Rust 从头开始​​编写的开源照片编辑器</description>
       <category>ai-image</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>headroomlabs-ai/headroom</title>
-      <link>https://github.com/headroomlabs-ai/headroom</link>
-      <guid isPermaLink="false">gh-headroomlabs-ai/headroom</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>在工具输出、日志、文件和 RAG 块到达 LLM 之前对其进行压缩。编码代理的标记减少了 20%，JSON 的标记减少了 60-95%，答案相同。库、代理、MCP 服务器。</description>
-      <category>ai-tool</category>
       <author>GitHub</author>
     </item>
     <item>
       <title>unslothai/unsloth</title>
       <link>https://github.com/unslothai/unsloth</link>
       <guid isPermaLink="false">gh-unslothai/unsloth</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>用于运行和训练法学硕士和扩散模型的本地 UI。支持 GGUF、MLX、Qwen3.8、DeepSeek-V4.1、MiniMax-H3、Gemma 4、FLUX 等。</description>
       <category>ai-image</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>upstash/context7</title>
-      <link>https://github.com/upstash/context7</link>
-      <guid isPermaLink="false">gh-upstash/context7</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Context7 Platform——人工智能代理的最新文档</description>
-      <category>ai-tool</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>crewAIInc/crewAI</title>
-      <link>https://github.com/crewAIInc/crewAI</link>
-      <guid isPermaLink="false">gh-crewAIInc/crewAI</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>用于编排角色扮演、自主人工智能代理的框架。通过促进协作智能，CrewAI 使代理能够无缝协作，处理复杂的任务。</description>
-      <category>ai-tool</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>ChromeDevTools/chrome-devtools-mcp</title>
-      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
-      <guid isPermaLink="false">gh-ChromeDevTools/chrome-devtools-mcp</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>用于编码代理的 Chrome DevTools</description>
-      <category>ai-tool</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>zylon-ai/private-gpt</title>
-      <link>https://github.com/zylon-ai/private-gpt</link>
-      <guid isPermaLink="false">gh-zylon-ai/private-gpt</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>本地模型上的私有 AI 应用程序的完整 API 层：RAG、技能、工具、MCP、文本到 SQL 等。可与任何兼容 OpenAI 的推理服务器配合使用。</description>
-      <category>ai-tool</category>
       <author>GitHub</author>
     </item>
     <item>
       <title>aaif-goose/goose</title>
       <link>https://github.com/aaif-goose/goose</link>
       <guid isPermaLink="false">gh-aaif-goose/goose</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>开源、可扩展的 AI 代理，超越代码建议 - 使用任何 LLM 安装、执行、编辑和测试</description>
       <category>ai-tool</category>
-      <author>GitHub</author>
-    </item>
-    <item>
-      <title>alibaba/open-code-review</title>
-      <link>https://github.com/alibaba/open-code-review</link>
-      <guid isPermaLink="false">gh-alibaba/open-code-review</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>安全、快速、高效，经过阿里巴巴规模的实战考验。混合架构代码审查工具：确定性管道+LLM代理，精确的行级注释，内置多语言规则集（NPE，线程安全，XSS，SQL注入），兼容OpenAI和Anthropic。</description>
-      <category>ai-other</category>
       <author>GitHub</author>
     </item>
     <item>
       <title>thinkingmachines/Inkling-2-Mini</title>
       <link>https://huggingface.co/thinkingmachines/Inkling-2-Mini</link>
       <guid isPermaLink="false">hf-thinkingmachines/Inkling-2-Mini</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-video</category>
       <author>Hugging Face</author>
@@ -353,7 +182,7 @@
       <title>unsloth/Inkling-2-Mini-GGUF</title>
       <link>https://huggingface.co/unsloth/Inkling-2-Mini-GGUF</link>
       <guid isPermaLink="false">hf-unsloth/Inkling-2-Mini-GGUF</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-video</category>
       <author>Hugging Face</author>
@@ -362,7 +191,7 @@
       <title>inworld/voice-isolator</title>
       <link>https://huggingface.co/inworld/voice-isolator</link>
       <guid isPermaLink="false">hf-inworld/voice-isolator</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>音频到音频</description>
       <category>ai-other</category>
       <author>Hugging Face</author>
@@ -371,7 +200,7 @@
       <title>AtomicChat/Inkling-2-Mini-Uncensored-GGUF</title>
       <link>https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF</link>
       <guid isPermaLink="false">hf-AtomicChat/Inkling-2-Mini-Uncensored-GGUF</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-video</category>
       <author>Hugging Face</author>
@@ -380,7 +209,7 @@
       <title>SulphurAI/Sulphur-3</title>
       <link>https://huggingface.co/SulphurAI/Sulphur-3</link>
       <guid isPermaLink="false">hf-SulphurAI/Sulphur-3</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>HF 热门模型 · 下载 189,735</description>
       <category>ai-other</category>
       <author>Hugging Face</author>
@@ -389,17 +218,8 @@
       <title>prism-ml/Ternary-Bonsai-2.5-27B-GGUF</title>
       <link>https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF</link>
       <guid isPermaLink="false">hf-prism-ml/Ternary-Bonsai-2.5-27B-GGUF</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>文本生成</description>
-      <category>ai-model</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>harness-hub/Qwen3.8-27B-pi-adapted</title>
-      <link>https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted</link>
-      <guid isPermaLink="false">hf-harness-hub/Qwen3.8-27B-pi-adapted</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>图像-文本-文本</description>
       <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
@@ -407,17 +227,8 @@
       <title>apple/DepthPro2</title>
       <link>https://huggingface.co/apple/DepthPro2</link>
       <guid isPermaLink="false">hf-apple/DepthPro2</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>深度估计</description>
-      <category>ai-other</category>
-      <author>Hugging Face</author>
-    </item>
-    <item>
-      <title>higurashi-ai/Haru-4B</title>
-      <link>https://huggingface.co/higurashi-ai/Haru-4B</link>
-      <guid isPermaLink="false">hf-higurashi-ai/Haru-4B</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <description>音频到音频</description>
       <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
@@ -425,8 +236,17 @@
       <title>llamaindex/OCRia-nano-1</title>
       <link>https://huggingface.co/llamaindex/OCRia-nano-1</link>
       <guid isPermaLink="false">hf-llamaindex/OCRia-nano-1</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像到文本</description>
+      <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>harness-hub/Qwen3.8-27B-pi-adapted</title>
+      <link>https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted</link>
+      <guid isPermaLink="false">hf-harness-hub/Qwen3.8-27B-pi-adapted</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像-文本-文本</description>
       <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
@@ -434,8 +254,17 @@
       <title>inclusionAI/Ling-3.2-air</title>
       <link>https://huggingface.co/inclusionAI/Ling-3.2-air</link>
       <guid isPermaLink="false">hf-inclusionAI/Ling-3.2-air</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>HF 热门模型 · 下载 1,467</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>higurashi-ai/Haru-4B</title>
+      <link>https://huggingface.co/higurashi-ai/Haru-4B</link>
+      <guid isPermaLink="false">hf-higurashi-ai/Haru-4B</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>音频到音频</description>
       <category>ai-other</category>
       <author>Hugging Face</author>
     </item>
@@ -443,18 +272,189 @@
       <title>Lightricks/LTX-2.5</title>
       <link>https://huggingface.co/Lightricks/LTX-2.5</link>
       <guid isPermaLink="false">hf-Lightricks/LTX-2.5</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像到视频</description>
       <category>ai-video</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>Qwen/Qwen3.8-27B</title>
+      <link>https://huggingface.co/Qwen/Qwen3.8-27B</link>
+      <guid isPermaLink="false">hf-Qwen/Qwen3.8-27B</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像-文本-文本</description>
+      <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>inclusionAI/LingSante-3.1-flash</title>
+      <link>https://huggingface.co/inclusionAI/LingSante-3.1-flash</link>
+      <guid isPermaLink="false">hf-inclusionAI/LingSante-3.1-flash</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本生成</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>nvidia/Nemotron-Labs-Image-30B-A3B</title>
+      <link>https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B</link>
+      <guid isPermaLink="false">hf-nvidia/Nemotron-Labs-Image-30B-A3B</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本到图像</description>
+      <category>ai-image</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>Sentinel7/h3</title>
+      <link>https://huggingface.co/Sentinel7/h3</link>
+      <guid isPermaLink="false">hf-Sentinel7/h3</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>HF 热门模型 · 下载 0</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>nari-labs/Qwen3.8-27B-NariQ-GGUF</title>
+      <link>https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF</link>
+      <guid isPermaLink="false">hf-nari-labs/Qwen3.8-27B-NariQ-GGUF</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像-文本-文本</description>
+      <category>ai-model</category>
       <author>Hugging Face</author>
     </item>
     <item>
       <title>tencent/Hy4-flash</title>
       <link>https://huggingface.co/tencent/Hy4-flash</link>
       <guid isPermaLink="false">hf-tencent/Hy4-flash</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <description>图像-文本-文本</description>
       <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>facebook/sam-3d-body-dinov3</title>
+      <link>https://huggingface.co/facebook/sam-3d-body-dinov3</link>
+      <guid isPermaLink="false">hf-facebook/sam-3d-body-dinov3</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>HF 热门模型 · 下载 20,983</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>strata-engine/Inkling-2-Mini-Strata</title>
+      <link>https://huggingface.co/strata-engine/Inkling-2-Mini-Strata</link>
+      <guid isPermaLink="false">hf-strata-engine/Inkling-2-Mini-Strata</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像-文本-文本</description>
+      <category>ai-video</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>Aleph-Alpha/Kolibri-1.1</title>
+      <link>https://huggingface.co/Aleph-Alpha/Kolibri-1.1</link>
+      <guid isPermaLink="false">hf-Aleph-Alpha/Kolibri-1.1</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本生成</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>orcarouter/Inkling-2-Mini-abliterated-GGUF</title>
+      <link>https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF</link>
+      <guid isPermaLink="false">hf-orcarouter/Inkling-2-Mini-abliterated-GGUF</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本生成</description>
+      <category>ai-video</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>apple/FastFrames-L</title>
+      <link>https://huggingface.co/apple/FastFrames-L</link>
+      <guid isPermaLink="false">hf-apple/FastFrames-L</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本转视频</description>
+      <category>ai-video</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>baidu/ERNIE-5.5-Flash-Preview</title>
+      <link>https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview</link>
+      <guid isPermaLink="false">hf-baidu/ERNIE-5.5-Flash-Preview</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本生成</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>RadixArk/DaisyRose-27B</title>
+      <link>https://huggingface.co/RadixArk/DaisyRose-27B</link>
+      <guid isPermaLink="false">hf-RadixArk/DaisyRose-27B</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图文转文本</description>
+      <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>MemTensor/MemT-1.0-Pro</title>
+      <link>https://huggingface.co/MemTensor/MemT-1.0-Pro</link>
+      <guid isPermaLink="false">hf-MemTensor/MemT-1.0-Pro</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本生成</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>KRAFTON/Raon-1-mini</title>
+      <link>https://huggingface.co/KRAFTON/Raon-1-mini</link>
+      <guid isPermaLink="false">hf-KRAFTON/Raon-1-mini</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本生成</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</title>
+      <link>https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</link>
+      <guid isPermaLink="false">hf-DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像-文本-文本</description>
+      <category>ai-model</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>sensenova/SenseNova-Loop-9B</title>
+      <link>https://huggingface.co/sensenova/SenseNova-Loop-9B</link>
+      <guid isPermaLink="false">hf-sensenova/SenseNova-Loop-9B</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像-文本-文本</description>
+      <category>ai-other</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>Lakonik/pi-H3</title>
+      <link>https://huggingface.co/Lakonik/pi-H3</link>
+      <guid isPermaLink="false">hf-Lakonik/pi-H3</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图片文本转视频</description>
+      <category>ai-video</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</title>
+      <link>https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</link>
+      <guid isPermaLink="false">hf-chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>文本到图像</description>
+      <category>ai-image</category>
+      <author>Hugging Face</author>
+    </item>
+    <item>
+      <title>black-forest-labs/flux-3-image-klein-comfy</title>
+      <link>https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy</link>
+      <guid isPermaLink="false">hf-black-forest-labs/flux-3-image-klein-comfy</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>图像到图像</description>
+      <category>ai-image</category>
       <author>Hugging Face</author>
     </item>
   </channel>
